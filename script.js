@@ -260,37 +260,34 @@ function resetExam() {
     showQuestion(0);
 }
 
-// Function to toggle question panel visibility
+// Function to toggle question panel expansion/collapse
 function toggleQuestionPanel() {
-    const sidebar = document.querySelector('.sidebar');
-    const mainContent = document.querySelector('.main-content');
+    const panel = document.getElementById('questionsPanel');
     const toggleBtn = document.getElementById('togglePanelBtn');
     
-    if (sidebar.classList.contains('hidden')) {
-        // Show the question panel
-        sidebar.classList.remove('hidden');
-        mainContent.classList.remove('full-width');
-        toggleBtn.textContent = 'Hide Panel';
+    if (panel.classList.contains('collapsed')) {
+        // Expand the panel
+        panel.classList.remove('collapsed');
+        toggleBtn.textContent = 'Collapse Panel';
     } else {
-        // Hide the question panel
-        sidebar.classList.add('hidden');
-        mainContent.classList.add('full-width');
-        toggleBtn.textContent = 'Show Panel';
+        // Collapse the panel
+        panel.classList.add('collapsed');
+        toggleBtn.textContent = 'Expand Panel';
     }
 }
 
 // Initialize the exam when the page loads
 document.addEventListener('DOMContentLoaded', function() {
-    // Add toggle button to the header
-    const header = document.querySelector('header');
-    const toggleBtn = document.createElement('button');
-    toggleBtn.id = 'togglePanelBtn';
-    toggleBtn.className = 'btn btn-secondary';
-    toggleBtn.textContent = 'Hide Panel';
-    toggleBtn.onclick = toggleQuestionPanel;
+    // Set up the toggle button event listener
+    document.getElementById('togglePanelBtn').onclick = toggleQuestionPanel;
     
-    const headerContent = document.querySelector('.header-content');
-    headerContent.appendChild(toggleBtn);
+    // Also allow clicking on the entire header to toggle
+    document.getElementById('panelHeader').addEventListener('click', function(e) {
+        // Only toggle if not clicking on the button itself
+        if (e.target !== document.getElementById('togglePanelBtn')) {
+            toggleQuestionPanel();
+        }
+    });
     
     // Start loading questions
     loadQuestions();

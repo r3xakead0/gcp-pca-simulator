@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GCP - Professional Cloud Architect - Exam Simulator</title>
+    <title>Professional Cloud Architect Exam Simulator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="header-content">
-                <h1 class="exam-title">GCP - Professional Cloud Architect - Exam Simulator</h1>
+                <h1 class="exam-title">Professional Cloud Architect Exam Simulator</h1>
                 <div class="progress-indicator" id="progressIndicator">Question 1 of 1</div>
             </div>
         </header>
 
         <div class="main-content">
-            <div class="sidebar">
-                <h3>Questions</h3>
+            <div class="sidebar" id="questionsPanel">
+                <div class="sidebar-header" id="panelHeader">
+                    <h3>Questions</h3>
+                    <button id="togglePanelBtn" class="btn btn-secondary">Collapse Panel</button>
+                </div>
                 <div class="question-list" id="questionList"></div>
             </div>
 
