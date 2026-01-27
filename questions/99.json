@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7261-exam-professional-cloud-architect-topic-11-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "Dress4Win has asked you to recommend machine types they should deploy their application servers to. How should you proceed?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Perform a mapping of the on-premises physical hardware cores and RAM to the nearest machine types in the cloud."
+    },
+    {
+      "key": "B",
+      "text": "Recommend that Dress4Win deploy application servers to machine types that offer the highest RAM to CPU ratio available."
+    },
+    {
+      "key": "C",
+      "text": "Recommend that Dress4Win deploy into production with the smallest instances available, monitor them over time, and scale the machine type up until the desired performance is reached."
+    },
+    {
+      "key": "D",
+      "text": "Identify the number of virtual cores and RAM associated with the application server virtual machines align them to a custom machine type in the cloud, monitor performance, and scale the machine types up until the desired performance is reached."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

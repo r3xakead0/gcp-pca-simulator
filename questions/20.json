@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7202-exam-professional-cloud-architect-topic-1-question-32/",
+  "published_iso": null,
+  "number": 32,
+  "question": "You have created several pre-emptible Linux virtual machine instances using Google Compute Engine. You want to properly shut down your application before the virtual machines are preempted. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a shutdown script named k99.shutdown in the /etc/rc.6.d/ directory"
+    },
+    {
+      "key": "B",
+      "text": "Create a shutdown script registered as a xinetd service in Linux and configure a Stackdriver endpoint check to call the service"
+    },
+    {
+      "key": "C",
+      "text": "Create a shutdown script and use it as the value for a new metadata entry with the key shutdown-script in the Cloud Platform Console when you create the new virtual machine instance"
+    },
+    {
+      "key": "D",
+      "text": "Create a shutdown script, registered as a xinetd service in Linux, and use the gcloud compute instances add-metadata command to specify the service URL as the value for a new metadata entry with the key shutdown-script-url"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

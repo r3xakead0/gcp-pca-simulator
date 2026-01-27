@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56576-exam-professional-cloud-architect-topic-1-question-113/",
+  "published_iso": null,
+  "number": 113,
+  "question": "Your organization has decided to restrict the use of external IP addresses on instances to only approved instances. You want to enforce this requirement across all of your Virtual Private Clouds (VPCs). What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Remove the default route on all VPCs. Move all approved instances into a new subnet that has a default route to an internet gateway."
+    },
+    {
+      "key": "B",
+      "text": "Create a new VPC in custom mode. Create a new subnet for the approved instances, and set a default route to the internet gateway on this new subnet."
+    },
+    {
+      "key": "C",
+      "text": "Implement a Cloud NAT solution to remove the need for external IP addresses entirely."
+    },
+    {
+      "key": "D",
+      "text": "Set an Organization Policy with a constraint on constraints/compute.vmExternalIpAccess. List the approved instances in the allowedValues list."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

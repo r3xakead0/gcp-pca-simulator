@@ -1,0 +1,38 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54406-exam-professional-cloud-architect-topic-1-question-22/",
+  "published_iso": null,
+  "number": 22,
+  "question": "One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long. [Imagen]: /assets/media/exam-media/04339/0008300001.png You want to optimize this Dockerfile for faster deployment times without adversely affecting the app's functionality. Which two actions should you take? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Remove Python after running pip"
+    },
+    {
+      "key": "B",
+      "text": "Remove dependencies from requirements.txt"
+    },
+    {
+      "key": "C",
+      "text": "Use a slimmed-down base image like Alpine Linux"
+    },
+    {
+      "key": "D",
+      "text": "Use larger machine types for your Google Container Engine node pools"
+    },
+    {
+      "key": "E",
+      "text": "Copy the source after he package dependencies (Python and pip) are installed"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "E"
+    ],
+    "community": [
+      "C",
+      "E"
+    ]
+  }
+}

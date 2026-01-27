@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/68714-exam-professional-cloud-architect-topic-1-question-63/",
+  "published_iso": null,
+  "number": 63,
+  "question": "You are designing an application for use only during business hours. For the minimum viable product release, you'd like to use a managed product that automatically `scales to zero` so you don't incur costs when there is no activity. Which primary compute resource should you choose?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cloud Functions"
+    },
+    {
+      "key": "B",
+      "text": "Compute Engine"
+    },
+    {
+      "key": "C",
+      "text": "Google Kubernetes Engine"
+    },
+    {
+      "key": "D",
+      "text": "AppEngine flexible environment"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

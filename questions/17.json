@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/8378-exam-professional-cloud-architect-topic-1-question-83/",
+  "published_iso": null,
+  "number": 83,
+  "question": "Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Connect Google Data Studio to BigQuery. Create a dimension for the users and a metric for the amount of queries per user."
+    },
+    {
+      "key": "B",
+      "text": "In the BigQuery interface, execute a query on the JOBS table to get the required information."
+    },
+    {
+      "key": "C",
+      "text": "Use 'bq show' to list all jobs. Per job, use 'bq ls' to list job information and get the required information."
+    },
+    {
+      "key": "D",
+      "text": "Use Cloud Audit Logging to view Cloud Audit Logs, and create a filter on the query operation to get the required information."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

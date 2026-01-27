@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7260-exam-professional-cloud-architect-topic-9-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "For this question, refer to the TerramEarth case study. You need to implement a reliable, scalable GCP solution for the data warehouse for your company, TerramEarth. Considering the TerramEarth business and technical requirements, what should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Replace the existing data warehouse with BigQuery. Use table partitioning."
+    },
+    {
+      "key": "B",
+      "text": "Replace the existing data warehouse with a Compute Engine instance with 96 CPUs."
+    },
+    {
+      "key": "C",
+      "text": "Replace the existing data warehouse with BigQuery. Use federated data sources."
+    },
+    {
+      "key": "D",
+      "text": "Replace the existing data warehouse with a Compute Engine instance with 96 CPUs. Add an additional Compute Engine preemptible instance with 32 CPUs."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

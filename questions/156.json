@@ -1,0 +1,38 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54534-exam-professional-cloud-architect-topic-1-question-35/",
+  "published_iso": null,
+  "number": 35,
+  "question": "Your company wants to try out the cloud with low risk. They want to archive approximately 100 TB of their log data to the cloud and test the analytics features available to them there, while also retaining that data as a long-term disaster recovery backup. Which two steps should you take? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Load logs into Google BigQuery"
+    },
+    {
+      "key": "B",
+      "text": "Load logs into Google Cloud SQL"
+    },
+    {
+      "key": "C",
+      "text": "Import logs into Google Stackdriver"
+    },
+    {
+      "key": "D",
+      "text": "Insert logs into Google Cloud Bigtable"
+    },
+    {
+      "key": "E",
+      "text": "Upload log files into Google Cloud Storage"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "E"
+    ],
+    "community": [
+      "A",
+      "E"
+    ]
+  }
+}

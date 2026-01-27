@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/68693-exam-professional-cloud-architect-topic-1-question-180/",
+  "published_iso": null,
+  "number": 180,
+  "question": "Your operations team currently stores 10 TB of data in an object storage service from a third-party provider. They want to move this data to a Cloud Storage bucket as quickly as possible, following Google-recommended practices. They want to minimize the cost of this data migration. Which approach should they use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use the gsutil mv command to move the data."
+    },
+    {
+      "key": "B",
+      "text": "Use the Storage Transfer Service to move the data."
+    },
+    {
+      "key": "C",
+      "text": "Download the data to a Transfer Appliance, and ship it to Google."
+    },
+    {
+      "key": "D",
+      "text": "Download the data to the on-premises data center, and upload it to the Cloud Storage bucket."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

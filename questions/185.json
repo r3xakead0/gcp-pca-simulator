@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11803-exam-professional-cloud-architect-topic-1-question-41/",
+  "published_iso": null,
+  "number": 41,
+  "question": "Your customer support tool logs all email and chat conversations to Cloud Bigtable for retention and analysis. What is the recommended approach for sanitizing this data of personally identifiable information or payment card information before initial storage?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Hash all data using SHA256"
+    },
+    {
+      "key": "B",
+      "text": "Encrypt all data using elliptic curve cryptography"
+    },
+    {
+      "key": "C",
+      "text": "De-identify the data with the Cloud Data Loss Prevention API"
+    },
+    {
+      "key": "D",
+      "text": "Use regular expressions to find and redact phone numbers, email addresses, and credit card numbers"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

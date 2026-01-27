@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/14731-exam-professional-cloud-architect-topic-11-question-2/",
+  "published_iso": null,
+  "number": 2,
+  "question": "At Dress4Win, an operations engineer wants to create a tow-cost solution to remotely archive copies of database backup files. The database files are compressed tar files stored in their current data center. How should he proceed?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a cron script using gsutil to copy the files to a Coldline Storage bucket."
+    },
+    {
+      "key": "B",
+      "text": "Create a cron script using gsutil to copy the files to a Regional Storage bucket."
+    },
+    {
+      "key": "C",
+      "text": "Create a Cloud Storage Transfer Service Job to copy the files to a Coldline Storage bucket."
+    },
+    {
+      "key": "D",
+      "text": "Create a Cloud Storage Transfer Service job to copy the files to a Regional Storage bucket."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

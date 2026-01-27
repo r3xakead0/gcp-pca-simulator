@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/8340-exam-professional-cloud-architect-topic-1-question-158/",
+  "published_iso": null,
+  "number": 158,
+  "question": "Your company's test suite is a custom C++ application that runs tests throughout each day on Linux virtual machines. The full test suite takes several hours to complete, running on a limited number of on-premises servers reserved for testing. Your company wants to move the testing infrastructure to the cloud, to reduce the amount of time it takes to fully test a change to the system, while changing the tests as little as possible. Which cloud infrastructure should you recommend?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google Compute Engine unmanaged instance groups and Network Load Balancer"
+    },
+    {
+      "key": "B",
+      "text": "Google Compute Engine managed instance groups with auto-scaling"
+    },
+    {
+      "key": "C",
+      "text": "Google Cloud Dataproc to run Apache Hadoop jobs to process each test"
+    },
+    {
+      "key": "D",
+      "text": "Google App Engine with Google StackDriver for logging"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/8249-exam-professional-cloud-architect-topic-8-question-9/",
+  "published_iso": null,
+  "number": 9,
+  "question": "TerramEarth has equipped all connected trucks with servers and sensors to collect telemetry data. Next year they want to use the data to train machine learning models. They want to store this data in the cloud while reducing costs. What should they do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Have the vehicle's computer compress the data in hourly snapshots, and store it in a Google Cloud Storage (GCS) Nearline bucket"
+    },
+    {
+      "key": "B",
+      "text": "Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Google BigQuery"
+    },
+    {
+      "key": "C",
+      "text": "Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Cloud Bigtable"
+    },
+    {
+      "key": "D",
+      "text": "Have the vehicle's computer compress the data in hourly snapshots, and store it in a GCS Coldline bucket"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

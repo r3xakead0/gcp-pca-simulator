@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/10722-exam-professional-cloud-architect-topic-5-question-1/",
+  "published_iso": null,
+  "number": 1,
+  "question": "Mountkirk Games wants you to design their new testing strategy. How should the test coverage differ from their existing backends on the other platforms?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Tests should scale well beyond the prior approaches"
+    },
+    {
+      "key": "B",
+      "text": "Unit tests are no longer required, only end-to-end tests"
+    },
+    {
+      "key": "C",
+      "text": "Tests should be applied after the release is in the production environment"
+    },
+    {
+      "key": "D",
+      "text": "Tests should include directly testing the Google Cloud Platform (GCP) infrastructure"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

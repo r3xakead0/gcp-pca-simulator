@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/169213-exam-professional-cloud-architect-topic-1-question-200/",
+  "published_iso": null,
+  "number": 200,
+  "question": "Your company has a Google Cloud project that uses BigOuery for data warehousing. The VPN tunnel between the on-premises environment and Google Cloud is configured with Cloud VPN. Your security team wants to avoid data exfiltration by malicious insiders, compromised code, and accidental oversharing. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure Private Service Connect."
+    },
+    {
+      "key": "B",
+      "text": "Configure VPC Service Controls and configure Private Google Access for on-promises hosts."
+    },
+    {
+      "key": "C",
+      "text": "Create a service account, grant the BigQuery JobUser role and Storage Object Viewer role to the service account, and remove all other Identity and Access Management (IAM) access from the project."
+    },
+    {
+      "key": "D",
+      "text": "Configure Private Google Access."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

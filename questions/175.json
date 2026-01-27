@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56754-exam-professional-cloud-architect-topic-1-question-136/",
+  "published_iso": null,
+  "number": 136,
+  "question": "Your company is developing a new application that will allow globally distributed users to upload pictures and share them with other selected users. The application will support millions of concurrent users. You want to allow developers to focus on just building code without having to create and maintain the underlying infrastructure. Which service should you use to deploy the application?",
+  "options": [
+    {
+      "key": "A",
+      "text": "App Engine"
+    },
+    {
+      "key": "B",
+      "text": "Cloud Endpoints"
+    },
+    {
+      "key": "C",
+      "text": "Compute Engine"
+    },
+    {
+      "key": "D",
+      "text": "Google Kubernetes Engine"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

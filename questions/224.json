@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56399-exam-professional-cloud-architect-topic-1-question-116/",
+  "published_iso": null,
+  "number": 116,
+  "question": "You have developed a non-critical update to your application that is running in a managed instance group, and have created a new instance template with the update that you want to release. To prevent any possible impact to the application, you don't want to update any running instances. You want any new instances that are created by the managed instance group to contain the new update. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Start a new rolling restart operation."
+    },
+    {
+      "key": "B",
+      "text": "Start a new rolling replace operation."
+    },
+    {
+      "key": "C",
+      "text": "Start a new rolling update. Select the Proactive update mode."
+    },
+    {
+      "key": "D",
+      "text": "Start a new rolling update. Select the Opportunistic update mode."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

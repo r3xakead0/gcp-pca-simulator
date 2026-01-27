@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7134-exam-professional-cloud-architect-topic-1-question-12/",
+  "published_iso": null,
+  "number": 12,
+  "question": "Your company has successfully migrated to the cloud and wants to analyze their data stream to optimize operations. They do not have any existing code for this analysis, so they are exploring all their options. These options include a mix of batch and stream processing, as they are running some hourly jobs and live- processing some data as it comes in. Which technology should they use for this?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google Cloud Dataproc"
+    },
+    {
+      "key": "B",
+      "text": "Google Cloud Dataflow"
+    },
+    {
+      "key": "C",
+      "text": "Google Container Engine with Bigtable"
+    },
+    {
+      "key": "D",
+      "text": "Google Compute Engine with Google BigQuery"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

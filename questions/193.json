@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7154-exam-professional-cloud-architect-topic-1-question-18/",
+  "published_iso": null,
+  "number": 18,
+  "question": "Your company is forecasting a sharp increase in the number and size of Apache Spark and Hadoop jobs being run on your local datacenter. You want to utilize the cloud to help you scale this upcoming demand with the least amount of operations work and code change. Which product should you use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google Cloud Dataflow"
+    },
+    {
+      "key": "B",
+      "text": "Google Cloud Dataproc"
+    },
+    {
+      "key": "C",
+      "text": "Google Compute Engine"
+    },
+    {
+      "key": "D",
+      "text": "Google Kubernetes Engine"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/12751-exam-professional-cloud-architect-topic-8-question-10/",
+  "published_iso": null,
+  "number": 10,
+  "question": "Your agricultural division is experimenting with fully autonomous vehicles. You want your architecture to promote strong security during vehicle operation. Which two architectures should you consider? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Treat every micro service call between modules on the vehicle as untrusted."
+    },
+    {
+      "key": "B",
+      "text": "Require IPv6 for connectivity to ensure a secure address space."
+    },
+    {
+      "key": "C",
+      "text": "Use a trusted platform module (TPM) and verify firmware and binaries on boot."
+    },
+    {
+      "key": "D",
+      "text": "Use a functional programming language to isolate code execution cycles."
+    },
+    {
+      "key": "E",
+      "text": "Use multiple connectivity subsystems for redundancy."
+    },
+    {
+      "key": "F",
+      "text": "Enclose the vehicle's drive electronics in a Faraday cage to isolate chips."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ],
+    "community": [
+      "A",
+      "C"
+    ]
+  }
+}

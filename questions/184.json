@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11804-exam-professional-cloud-architect-topic-1-question-43/",
+  "published_iso": null,
+  "number": 43,
+  "question": "You want to create a private connection between your instances on Compute Engine and your on-premises data center. You require a connection of at least 20 Gbps. You want to follow Google-recommended practices. How should you set up the connection?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a VPC and connect it to your on-premises data center using Dedicated Interconnect."
+    },
+    {
+      "key": "B",
+      "text": "Create a VPC and connect it to your on-premises data center using a single Cloud VPN."
+    },
+    {
+      "key": "C",
+      "text": "Create a Cloud Content Delivery Network (Cloud CDN) and connect it to your on-premises data center using Dedicated Interconnect."
+    },
+    {
+      "key": "D",
+      "text": "Create a Cloud Content Delivery Network (Cloud CDN) and connect it to your on-premises datacenter using a single Cloud VPN."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

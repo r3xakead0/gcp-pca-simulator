@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7962-exam-professional-cloud-architect-topic-1-question-95/",
+  "published_iso": null,
+  "number": 95,
+  "question": "You have an application that makes HTTP requests to Cloud Storage. Occasionally the requests fail with HTTP status codes of 5xx and 429. How should you handle these types of errors?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use gRPC instead of HTTP for better performance."
+    },
+    {
+      "key": "B",
+      "text": "Implement retry logic using a truncated exponential backoff strategy."
+    },
+    {
+      "key": "C",
+      "text": "Make sure the Cloud Storage bucket is multi-regional for geo-redundancy."
+    },
+    {
+      "key": "D",
+      "text": "Monitor https://status.cloud.google.com/feed.atom and only make requests if Cloud Storage is not reporting an incident."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

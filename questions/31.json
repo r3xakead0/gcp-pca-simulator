@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60483-exam-professional-cloud-architect-topic-10-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "For this question, refer to the TerramEarth case study. TerramEarth has about 1 petabyte (PB) of vehicle testing data in a private data center. You want to move the data to Cloud Storage for your machine learning team. Currently, a 1-Gbps interconnect link is available for you. The machine learning team wants to start using the data in a month. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Request Transfer Appliances from Google Cloud, export the data to appliances, and return the appliances to Google Cloud."
+    },
+    {
+      "key": "B",
+      "text": "Configure the Storage Transfer service from Google Cloud to send the data from your data center to Cloud Storage."
+    },
+    {
+      "key": "C",
+      "text": "Make sure there are no other users consuming the 1Gbps link, and use multi-thread transfer to upload the data to Cloud Storage."
+    },
+    {
+      "key": "D",
+      "text": "Export files to an encrypted USB device, send the device to Google Cloud, and request an import of the data to Cloud Storage."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

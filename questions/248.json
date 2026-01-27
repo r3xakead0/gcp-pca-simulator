@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7266-exam-professional-cloud-architect-topic-12-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "For this question, refer to the Dress4Win case study. Which of the compute services should be migrated as-is and would still be an optimized architecture for performance in the cloud?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Web applications deployed using App Engine standard environment"
+    },
+    {
+      "key": "B",
+      "text": "RabbitMQ deployed using an unmanaged instance group"
+    },
+    {
+      "key": "C",
+      "text": "Hadoop/Spark deployed using Cloud Dataproc Regional in High Availability mode"
+    },
+    {
+      "key": "D",
+      "text": "Jenkins, monitoring, bastion hosts, security scanners services deployed on custom machine types"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

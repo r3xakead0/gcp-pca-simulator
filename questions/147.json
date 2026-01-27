@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/79697-exam-professional-cloud-architect-topic-1-question-184/",
+  "published_iso": null,
+  "number": 184,
+  "question": "You are managing several internal applications that are deployed on Compute Engine. Business users inform you that an application has become very slow over the past few days. You want to find the underlying cause in order to solve the problem. What should you do first?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Inspect the logs and metrics from the instances in Cloud Logging and Cloud Monitoring."
+    },
+    {
+      "key": "B",
+      "text": "Change the Compute Engine Instances behind the application to a machine type with more CPU and memory."
+    },
+    {
+      "key": "C",
+      "text": "Restore a backup of the application database from a time before the application became slow."
+    },
+    {
+      "key": "D",
+      "text": "Deploy the applications on a managed instance group with autoscaling enabled. Add a load balancer in front of the managed instance group, and have the users connect to the IP of the load balancer."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

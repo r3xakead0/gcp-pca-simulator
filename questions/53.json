@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11781-exam-professional-cloud-architect-topic-1-question-27/",
+  "published_iso": null,
+  "number": 27,
+  "question": "Your company has decided to build a backup replica of their on-premises user authentication PostgreSQL database on Google Cloud Platform. The database is 4 TB, and large updates are frequent. Replication requires private address space communication. Which networking approach should you use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google Cloud Dedicated Interconnect"
+    },
+    {
+      "key": "B",
+      "text": "Google Cloud VPN connected to the data center network"
+    },
+    {
+      "key": "C",
+      "text": "A NAT and TLS translation gateway installed on-premises"
+    },
+    {
+      "key": "D",
+      "text": "A Google Compute Engine instance with a VPN server installed connected to the data center network"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

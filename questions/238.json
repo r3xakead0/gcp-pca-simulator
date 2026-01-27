@@ -1,0 +1,36 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11831-exam-professional-cloud-architect-topic-5-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "Mountkirk Games wants to set up a real-time analytics platform for their new game. The new platform must meet their technical requirements. Which combination of Google technologies will meet all of their requirements?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Kubernetes Engine, Cloud Pub/Sub, and Cloud SQL"
+    },
+    {
+      "key": "B",
+      "text": "Cloud Dataflow, Cloud Storage, Cloud Pub/Sub, and BigQuery"
+    },
+    {
+      "key": "C",
+      "text": "Cloud SQL, Cloud Storage, Cloud Pub/Sub, and Cloud Dataflow"
+    },
+    {
+      "key": "D",
+      "text": "Cloud Dataproc, Cloud Pub/Sub, Cloud SQL, and Cloud Dataflow"
+    },
+    {
+      "key": "E",
+      "text": "Cloud Pub/Sub, Compute Engine, Cloud Storage, and Cloud Dataproc"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11817-exam-professional-cloud-architect-topic-1-question-74/",
+  "published_iso": null,
+  "number": 74,
+  "question": "You are tasked with building an online analytical processing (OLAP) marketing analytics and reporting tool. This requires a relational database that can operate on hundreds of terabytes of data. What is the Google-recommended tool for such applications?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cloud Spanner, because it is globally distributed"
+    },
+    {
+      "key": "B",
+      "text": "Cloud SQL, because it is a fully managed relational database"
+    },
+    {
+      "key": "C",
+      "text": "Cloud Firestore, because it offers real-time synchronization across devices"
+    },
+    {
+      "key": "D",
+      "text": "BigQuery, because it is designed for large-scale processing of tabular data"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

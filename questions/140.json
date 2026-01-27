@@ -1,0 +1,38 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56369-exam-professional-cloud-architect-topic-1-question-108/",
+  "published_iso": null,
+  "number": 108,
+  "question": "You are implementing a single Cloud SQL MySQL second-generation database that contains business-critical transaction data. You want to ensure that the minimum amount of data is lost in case of catastrophic failure. Which two features should you implement? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Sharding"
+    },
+    {
+      "key": "B",
+      "text": "Read replicas"
+    },
+    {
+      "key": "C",
+      "text": "Binary logging"
+    },
+    {
+      "key": "D",
+      "text": "Automated backups"
+    },
+    {
+      "key": "E",
+      "text": "Semisynchronous replication"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D"
+    ],
+    "community": [
+      "C",
+      "D"
+    ]
+  }
+}

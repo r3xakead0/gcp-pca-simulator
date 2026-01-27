@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56375-exam-professional-cloud-architect-topic-1-question-114/",
+  "published_iso": null,
+  "number": 114,
+  "question": "Your company uses the Firewall Insights feature in the Google Network Intelligence Center. You have several firewall rules applied to Compute Engine instances. You need to evaluate the efficiency of the applied firewall ruleset. When you bring up the Firewall Insights page in the Google Cloud Console, you notice that there are no log rows to display. What should you do to troubleshoot the issue?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Enable Virtual Private Cloud (VPC) flow logging."
+    },
+    {
+      "key": "B",
+      "text": "Enable Firewall Rules Logging for the firewall rules you want to monitor."
+    },
+    {
+      "key": "C",
+      "text": "Verify that your user account is assigned the compute.networkAdmin Identity and Access Management (IAM) role."
+    },
+    {
+      "key": "D",
+      "text": "Install the Google Cloud SDK, and verify that there are no Firewall logs in the command line output."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

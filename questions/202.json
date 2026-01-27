@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56732-exam-professional-cloud-architect-topic-7-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "Mountkirk Games wants to limit the physical location of resources to their operating Google Cloud regions. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure an organizational policy which constrains where resources can be deployed."
+    },
+    {
+      "key": "B",
+      "text": "Configure IAM conditions to limit what resources can be configured."
+    },
+    {
+      "key": "C",
+      "text": "Configure the quotas for resources in the regions not being used to 0."
+    },
+    {
+      "key": "D",
+      "text": "Configure a custom alert in Cloud Monitoring so you can disable resources as they are created in other regions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

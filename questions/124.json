@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60440-exam-professional-cloud-architect-topic-1-question-149/",
+  "published_iso": null,
+  "number": 149,
+  "question": "Your organization has stored sensitive data in a Cloud Storage bucket. For regulatory reasons, your company must be able to rotate the encryption key used to encrypt the data in the bucket. The data will be processed in Dataproc. You want to follow Google-recommended practices for security. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a key with Cloud Key Management Service (KMS). Encrypt the data using the encrypt method of Cloud KMS."
+    },
+    {
+      "key": "B",
+      "text": "Create a key with Cloud Key Management Service (KMS). Set the encryption key on the bucket to the Cloud KMS key."
+    },
+    {
+      "key": "C",
+      "text": "Generate a GPG key pair. Encrypt the data using the GPG key. Upload the encrypted data to the bucket."
+    },
+    {
+      "key": "D",
+      "text": "Generate an AES-256 encryption key. Encrypt the data in the bucket using the customer-supplied encryption keys feature."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7200-exam-professional-cloud-architect-topic-1-question-29/",
+  "published_iso": null,
+  "number": 29,
+  "question": "You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely. Where should you store the credentials?",
+  "options": [
+    {
+      "key": "A",
+      "text": "In the source code"
+    },
+    {
+      "key": "B",
+      "text": "In an environment variable"
+    },
+    {
+      "key": "C",
+      "text": "In a secret management system"
+    },
+    {
+      "key": "D",
+      "text": "In a config file that has restricted access through ACLs"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

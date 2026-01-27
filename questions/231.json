@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6968-exam-professional-cloud-architect-topic-11-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "Dress4Win would like to become familiar with deploying applications to the cloud by successfully deploying some applications quickly, as is. They have asked for your recommendation. What should you advise?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Identify self-contained applications with external dependencies as a first move to the cloud."
+    },
+    {
+      "key": "B",
+      "text": "Identify enterprise applications with internal dependencies and recommend these as a first move to the cloud."
+    },
+    {
+      "key": "C",
+      "text": "Suggest moving their in-house databases to the cloud and continue serving requests to on-premise applications."
+    },
+    {
+      "key": "D",
+      "text": "Recommend moving their message queuing servers to the cloud and continue handling requests to on-premise applications."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

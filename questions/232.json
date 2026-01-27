@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6617-exam-professional-cloud-architect-topic-11-question-4/",
+  "published_iso": null,
+  "number": 4,
+  "question": "As part of Dress4Win's plans to migrate to the cloud, they want to be able to set up a managed logging and monitoring system so they can handle spikes in their traffic load. They want to ensure that: * The infrastructure can be notified when it needs to scale up and down to handle the ebb and flow of usage throughout the day * Their administrators are notified automatically when their application reports errors. * They can filter their aggregated logs down in order to debug one piece of the application across many hosts Which Google StackDriver features should they use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Logging, Alerts, Insights, Debug"
+    },
+    {
+      "key": "B",
+      "text": "Monitoring, Trace, Debug, Logging"
+    },
+    {
+      "key": "C",
+      "text": "Monitoring, Logging, Alerts, Error Reporting"
+    },
+    {
+      "key": "D",
+      "text": "Monitoring, Logging, Debug, Error Report"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

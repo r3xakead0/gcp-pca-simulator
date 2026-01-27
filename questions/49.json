@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/8341-exam-professional-cloud-architect-topic-1-question-159/",
+  "published_iso": null,
+  "number": 159,
+  "question": "A lead software engineer tells you that his new application design uses websockets and HTTP sessions that are not distributed across the web servers. You want to help him ensure his application will run properly on Google Cloud Platform. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Help the engineer to convert his websocket code to use HTTP streaming"
+    },
+    {
+      "key": "B",
+      "text": "Review the encryption requirements for websocket connections with the security team"
+    },
+    {
+      "key": "C",
+      "text": "Meet with the cloud operations team and the engineer to discuss load balancer options"
+    },
+    {
+      "key": "D",
+      "text": "Help the engineer redesign the application to use a distributed user session service that does not rely on websockets and HTTP sessions."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

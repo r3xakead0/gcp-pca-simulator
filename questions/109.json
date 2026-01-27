@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/121240-exam-professional-cloud-architect-topic-1-question-192/",
+  "published_iso": null,
+  "number": 192,
+  "question": "Your company has an application running on App Engine that allows users to upload music files and share them with other people. You want to allow users to upload files directly into Cloud Storage from their browser session. The payload should not be passed through the backend. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin. 2. Use the Cloud Storage Signed URL feature to generate a POST URL."
+    },
+    {
+      "key": "B",
+      "text": "1. Set a CORS configuration in the target Cloud Storage bucket where the base URL of the App Engine application is an allowed origin. 2. Assign the Cloud Storage WRITER role to users who upload files."
+    },
+    {
+      "key": "C",
+      "text": "1. Use the Cloud Storage Signed URL feature to generate a POST URL. 2. Use App Engine default credentials to sign requests against Cloud Storage."
+    },
+    {
+      "key": "D",
+      "text": "1. Assign the Cloud Storage WRITER role to users who upload files. 2. Use App Engine default credentials to sign requests against Cloud Storage."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

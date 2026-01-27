@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/10396-exam-professional-cloud-architect-topic-2-question-1/",
+  "published_iso": null,
+  "number": 1,
+  "question": "The JencoMart security team requires that all Google Cloud Platform infrastructure is deployed using a least privilege model with separation of duties for administration between production and development resources. What Google domain and project structure should you recommend?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create two G Suite accounts to manage users: one for development/test/staging and one for production. Each account should contain one project for every application"
+    },
+    {
+      "key": "B",
+      "text": "Create two G Suite accounts to manage users: one with a single project for all development applications and one with a single project for all production applications"
+    },
+    {
+      "key": "C",
+      "text": "Create a single G Suite account to manage users with each stage of each application in its own project"
+    },
+    {
+      "key": "D",
+      "text": "Create a single G Suite account to manage users with one project for the development/test/staging environment and one project for the production environment"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

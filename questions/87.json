@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7042-exam-professional-cloud-architect-topic-1-question-50/",
+  "published_iso": null,
+  "number": 50,
+  "question": "You are migrating your on-premises solution to Google Cloud in several phases. You will use Cloud VPN to maintain a connection between your on-premises systems and Google Cloud until the migration is completed. You want to make sure all your on-premise systems remain reachable during this period. How should you organize your networking in Google Cloud?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use the same IP range on Google Cloud as you use on-premises"
+    },
+    {
+      "key": "B",
+      "text": "Use the same IP range on Google Cloud as you use on-premises for your primary IP range and use a secondary range that does not overlap with the range you use on-premises"
+    },
+    {
+      "key": "C",
+      "text": "Use an IP range on Google Cloud that does not overlap with the range you use on-premises"
+    },
+    {
+      "key": "D",
+      "text": "Use an IP range on Google Cloud that does not overlap with the range you use on-premises for your primary IP range and use a secondary range with the same IP range as you use on-premises"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

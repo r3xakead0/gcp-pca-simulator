@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60409-exam-professional-cloud-architect-topic-4-question-7/",
+  "published_iso": null,
+  "number": 7,
+  "question": "For this question, refer to the EHR Healthcare case study. You are responsible for designing the Google Cloud network architecture for Google Kubernetes Engine. You want to follow Google best practices. Considering the EHR Healthcare business and technical requirements, what should you do to reduce the attack surface?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a private cluster with a private endpoint with master authorized networks configured."
+    },
+    {
+      "key": "B",
+      "text": "Use a public cluster with firewall rules and Virtual Private Cloud (VPC) routes."
+    },
+    {
+      "key": "C",
+      "text": "Use a private cluster with a public endpoint with master authorized networks configured."
+    },
+    {
+      "key": "D",
+      "text": "Use a public cluster with master authorized networks enabled and firewall rules."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

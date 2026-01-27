@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7263-exam-professional-cloud-architect-topic-11-question-7/",
+  "published_iso": null,
+  "number": 7,
+  "question": "Dress4Win has configured a new uptime check with Google Stackdriver for several of their legacy services. The Stackdriver dashboard is not reporting the services as healthy. What should they do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Install the Stackdriver agent on all of the legacy web servers."
+    },
+    {
+      "key": "B",
+      "text": "In the Cloud Platform Console download the list of the uptime servers' IP addresses and create an inbound firewall rule"
+    },
+    {
+      "key": "C",
+      "text": "Configure their load balancer to pass through the User-Agent HTTP header when the value matches GoogleStackdriverMonitoring-UptimeChecks (https:// cloud.google.com/monitoring)"
+    },
+    {
+      "key": "D",
+      "text": "Configure their legacy web servers to allow requests that contain user-Agent HTTP header when the value matches GoogleStackdriverMonitoring- UptimeChecks (https://cloud.google.com/monitoring)"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

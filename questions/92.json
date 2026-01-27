@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/9191-exam-professional-cloud-architect-topic-5-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "Mountkirk Games needs to create a repeatable and configurable mechanism for deploying isolated application environments. Developers and testers can access each other's environments and resources, but they cannot access staging or production resources. The staging environment needs access to some services from production. What should you do to isolate development environments from staging and production?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a project for development and test and another for staging and production"
+    },
+    {
+      "key": "B",
+      "text": "Create a network for development and test and another for staging and production"
+    },
+    {
+      "key": "C",
+      "text": "Create one subnetwork for development and another for staging and production"
+    },
+    {
+      "key": "D",
+      "text": "Create one project for development, a second for staging and a third for production"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

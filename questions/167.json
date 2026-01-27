@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/12793-exam-professional-cloud-architect-topic-2-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "JencoMart has decided to migrate user profile storage to Google Cloud Datastore and the application servers to Google Compute Engine (GCE). During the migration, the existing infrastructure will need access to Datastore to upload the data. What service account key-management strategy should you recommend?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Provision service account keys for the on-premises infrastructure and for the GCE virtual machines (VMs)"
+    },
+    {
+      "key": "B",
+      "text": "Authenticate the on-premises infrastructure with a user account and provision service account keys for the VMs"
+    },
+    {
+      "key": "C",
+      "text": "Provision service account keys for the on-premises infrastructure and use Google Cloud Platform (GCP) managed keys for the VMs"
+    },
+    {
+      "key": "D",
+      "text": "Deploy a custom authentication service on GCE/Google Kubernetes Engine (GKE) for the on-premises infrastructure and use GCP managed keys for the VMs"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

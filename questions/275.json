@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6330-exam-professional-cloud-architect-topic-1-question-61/",
+  "published_iso": null,
+  "number": 61,
+  "question": "The development team has provided you with a Kubernetes Deployment file. You have no infrastructure yet and need to deploy the application. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use gcloud to create a Kubernetes cluster. Use Deployment Manager to create the deployment."
+    },
+    {
+      "key": "B",
+      "text": "Use gcloud to create a Kubernetes cluster. Use kubectl to create the deployment."
+    },
+    {
+      "key": "C",
+      "text": "Use kubectl to create a Kubernetes cluster. Use Deployment Manager to create the deployment."
+    },
+    {
+      "key": "D",
+      "text": "Use kubectl to create a Kubernetes cluster. Use kubectl to create the deployment."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

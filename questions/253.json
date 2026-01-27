@@ -1,0 +1,36 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/14318-exam-professional-cloud-architect-topic-2-question-4/",
+  "published_iso": null,
+  "number": 4,
+  "question": "JencoMart has built a version of their application on Google Cloud Platform that serves traffic to Asia. You want to measure success against their business and technical goals. Which metrics should you track?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Error rates for requests from Asia"
+    },
+    {
+      "key": "B",
+      "text": "Latency difference between US and Asia"
+    },
+    {
+      "key": "C",
+      "text": "Total visits, error rates, and latency from Asia"
+    },
+    {
+      "key": "D",
+      "text": "Total visits and average latency for users from Asia"
+    },
+    {
+      "key": "E",
+      "text": "The number of character sets present in the database"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

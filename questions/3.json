@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56734-exam-professional-cloud-architect-topic-7-question-4/",
+  "published_iso": null,
+  "number": 4,
+  "question": "You need to implement a network ingress for a new game that meets the defined business and technical requirements. Mountkirk Games wants each regional game instance to be located in multiple Google Cloud regions. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure a global load balancer connected to a managed instance group running Compute Engine instances."
+    },
+    {
+      "key": "B",
+      "text": "Configure kubemci with a global load balancer and Google Kubernetes Engine."
+    },
+    {
+      "key": "C",
+      "text": "Configure a global load balancer with Google Kubernetes Engine."
+    },
+    {
+      "key": "D",
+      "text": "Configure Ingress for Anthos with a global load balancer and Google Kubernetes Engine."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

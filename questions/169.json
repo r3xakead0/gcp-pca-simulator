@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60405-exam-professional-cloud-architect-topic-4-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "For this question, refer to the EHR Healthcare case study. You are a developer on the EHR customer portal team. Your team recently migrated the customer portal application to Google Cloud. The load has increased on the application servers, and now the application is logging many timeout errors. You recently incorporated Pub/Sub into the application architecture, and the application is not logging any Pub/Sub publishing errors. You want to improve publishing latency. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Increase the Pub/Sub Total Timeout retry value."
+    },
+    {
+      "key": "B",
+      "text": "Move from a Pub/Sub subscriber pull model to a push model."
+    },
+    {
+      "key": "C",
+      "text": "Turn off Pub/Sub message batching."
+    },
+    {
+      "key": "D",
+      "text": "Create a backup Pub/Sub message queue."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

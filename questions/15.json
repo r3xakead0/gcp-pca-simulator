@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/8497-exam-professional-cloud-architect-topic-2-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "JencoMart wants to move their User Profiles database to Google Cloud Platform. Which Google Database should they use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cloud Spanner"
+    },
+    {
+      "key": "B",
+      "text": "Google BigQuery"
+    },
+    {
+      "key": "C",
+      "text": "Google Cloud SQL"
+    },
+    {
+      "key": "D",
+      "text": "Google Cloud Datastore"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

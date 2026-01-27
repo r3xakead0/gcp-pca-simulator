@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7328-exam-professional-cloud-architect-topic-1-question-87/",
+  "published_iso": null,
+  "number": 87,
+  "question": "Your web application uses Google Kubernetes Engine to manage several workloads. One workload requires a consistent set of hostnames even after pod scaling and relaunches. Which feature of Kubernetes should you use to accomplish this?",
+  "options": [
+    {
+      "key": "A",
+      "text": "StatefulSets"
+    },
+    {
+      "key": "B",
+      "text": "Role-based access control"
+    },
+    {
+      "key": "C",
+      "text": "Container environment variables"
+    },
+    {
+      "key": "D",
+      "text": "Persistent Volumes"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

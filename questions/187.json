@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/9033-exam-professional-cloud-architect-topic-1-question-33/",
+  "published_iso": null,
+  "number": 33,
+  "question": "Your organization has a 3-tier web application deployed in the same network on Google Cloud Platform. Each tier (web, API, and database) scales independently of the others. Network traffic should flow through the web to the API tier and then on to the database tier. Traffic should not flow between the web and the database tier. How should you configure the network?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Add each tier to a different subnetwork"
+    },
+    {
+      "key": "B",
+      "text": "Set up software based firewalls on individual VMs"
+    },
+    {
+      "key": "C",
+      "text": "Add tags to each tier and set up routes to allow the desired traffic flow"
+    },
+    {
+      "key": "D",
+      "text": "Add tags to each tier and set up firewall rules to allow the desired traffic flow"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

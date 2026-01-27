@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/8500-exam-professional-cloud-architect-topic-6-question-2/",
+  "published_iso": null,
+  "number": 2,
+  "question": "For this question, refer to the Mountkirk Games case study. You need to analyze and define the technical architecture for the compute workloads for your company, Mountkirk Games. Considering the Mountkirk Games business and technical requirements, what should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create network load balancers. Use preemptible Compute Engine instances."
+    },
+    {
+      "key": "B",
+      "text": "Create network load balancers. Use non-preemptible Compute Engine instances."
+    },
+    {
+      "key": "C",
+      "text": "Create a global load balancer with managed instance groups and autoscaling policies. Use preemptible Compute Engine instances."
+    },
+    {
+      "key": "D",
+      "text": "Create a global load balancer with managed instance groups and autoscaling policies. Use non-preemptible Compute Engine instances."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

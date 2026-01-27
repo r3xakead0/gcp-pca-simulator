@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56365-exam-professional-cloud-architect-topic-1-question-107/",
+  "published_iso": null,
+  "number": 107,
+  "question": "You are monitoring Google Kubernetes Engine (GKE) clusters in a Cloud Monitoring workspace. As a Site Reliability Engineer (SRE), you need to triage incidents quickly. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Navigate the predefined dashboards in the Cloud Monitoring workspace, and then add metrics and create alert policies."
+    },
+    {
+      "key": "B",
+      "text": "Navigate the predefined dashboards in the Cloud Monitoring workspace, create custom metrics, and install alerting software on a Compute Engine instance."
+    },
+    {
+      "key": "C",
+      "text": "Write a shell script that gathers metrics from GKE nodes, publish these metrics to a Pub/Sub topic, export the data to BigQuery, and make a Data Studio dashboard."
+    },
+    {
+      "key": "D",
+      "text": "Create a custom dashboard in the Cloud Monitoring workspace for each incident, and then add metrics and create alert policies."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

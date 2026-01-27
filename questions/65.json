@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6443-exam-professional-cloud-architect-topic-1-question-60/",
+  "published_iso": null,
+  "number": 60,
+  "question": "You need to set up Microsoft SQL Server on GCP. Management requires that there's no downtime in case of a data center outage in any of the zones within a GCP region. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure a Cloud SQL instance with high availability enabled."
+    },
+    {
+      "key": "B",
+      "text": "Configure a Cloud Spanner instance with a regional instance configuration."
+    },
+    {
+      "key": "C",
+      "text": "Set up SQL Server on Compute Engine, using Always On Availability Groups using Windows Failover Clustering. Place nodes in different subnets."
+    },
+    {
+      "key": "D",
+      "text": "Set up SQL Server Always On Availability Groups using Windows Failover Clustering. Place nodes in different zones."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

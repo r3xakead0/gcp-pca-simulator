@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56706-exam-professional-cloud-architect-topic-1-question-139/",
+  "published_iso": null,
+  "number": 139,
+  "question": "Your team is developing a web application that will be deployed on Google Kubernetes Engine (GKE). Your CTO expects a successful launch and you need to ensure your application can handle the expected load of tens of thousands of users. You want to test the current deployment to ensure the latency of your application stays below a certain threshold. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a load testing tool to simulate the expected number of concurrent users and total requests to your application, and inspect the results."
+    },
+    {
+      "key": "B",
+      "text": "Enable autoscaling on the GKE cluster and enable horizontal pod autoscaling on your application deployments. Send curl requests to your application, and validate if the auto scaling works."
+    },
+    {
+      "key": "C",
+      "text": "Replicate the application over multiple GKE clusters in every Google Cloud region. Configure a global HTTP(S) load balancer to expose the different clusters over a single global IP address."
+    },
+    {
+      "key": "D",
+      "text": "Use Cloud Debugger in the development environment to understand the latency between the different microservices."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56735-exam-professional-cloud-architect-topic-7-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "Your development teams release new versions of games running on Google Kubernetes Engine (GKE) daily. You want to create service level indicators (SLIs) to evaluate the quality of the new versions from the user's perspective. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create CPU Utilization and Request Latency as service level indicators."
+    },
+    {
+      "key": "B",
+      "text": "Create GKE CPU Utilization and Memory Utilization as service level indicators."
+    },
+    {
+      "key": "C",
+      "text": "Create Request Latency and Error Rate as service level indicators."
+    },
+    {
+      "key": "D",
+      "text": "Create Server Uptime and Error Rate as service level indicators."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

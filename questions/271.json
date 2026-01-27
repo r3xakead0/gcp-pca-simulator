@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6873-exam-professional-cloud-architect-topic-1-question-84/",
+  "published_iso": null,
+  "number": 84,
+  "question": "You want to automate the creation of a managed instance group. The VMs have many OS package dependencies. You want to minimize the startup time for new VMs in the instance group. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Terraform to create the managed instance group and a startup script to install the OS package dependencies."
+    },
+    {
+      "key": "B",
+      "text": "Create a custom VM image with all OS package dependencies. Use Deployment Manager to create the managed instance group with the VM image."
+    },
+    {
+      "key": "C",
+      "text": "Use Puppet to create the managed instance group and install the OS package dependencies."
+    },
+    {
+      "key": "D",
+      "text": "Use Deployment Manager to create the managed instance group and Ansible to install the OS package dependencies."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

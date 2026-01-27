@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/12205-exam-professional-cloud-architect-topic-8-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "Which of TerramEarth's legacy enterprise processes will experience significant change as a result of increased Google Cloud Platform adoption?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Opex/capex allocation, LAN changes, capacity planning"
+    },
+    {
+      "key": "B",
+      "text": "Capacity planning, TCO calculations, opex/capex allocation"
+    },
+    {
+      "key": "C",
+      "text": "Capacity planning, utilization measurement, data center expansion"
+    },
+    {
+      "key": "D",
+      "text": "Data Center expansion, TCO calculations, utilization measurement"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56977-exam-professional-cloud-architect-topic-7-question-1/",
+  "published_iso": null,
+  "number": 1,
+  "question": "You need to optimize batch file transfers into Cloud Storage for Mountkirk Games' new Google Cloud solution. The batch files contain game statistics that need to be staged in Cloud Storage and be processed by an extract transform load (ETL) tool. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use gsutil to batch move files in sequence."
+    },
+    {
+      "key": "B",
+      "text": "Use gsutil to batch copy the files in parallel."
+    },
+    {
+      "key": "C",
+      "text": "Use gsutil to extract the files as the first part of ETL."
+    },
+    {
+      "key": "D",
+      "text": "Use gsutil to load the files as the last part of ETL."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

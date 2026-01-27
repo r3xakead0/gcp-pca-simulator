@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6466-exam-professional-cloud-architect-topic-1-question-97/",
+  "published_iso": null,
+  "number": 97,
+  "question": "Your company creates rendering software which users can download from the company website. Your company has customers all over the world. You want to minimize latency for all your customers. You want to follow Google-recommended practices. How should you store the files?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Save the files in a Multi-Regional Cloud Storage bucket."
+    },
+    {
+      "key": "B",
+      "text": "Save the files in a Regional Cloud Storage bucket, one bucket per zone of the region."
+    },
+    {
+      "key": "C",
+      "text": "Save the files in multiple Regional Cloud Storage buckets, one bucket per zone per region."
+    },
+    {
+      "key": "D",
+      "text": "Save the files in multiple Multi-Regional Cloud Storage buckets, one bucket per multi-region."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/9222-exam-professional-cloud-architect-topic-1-question-66/",
+  "published_iso": null,
+  "number": 66,
+  "question": "Your customer wants to capture multiple GBs of aggregate real-time key performance indicators (KPIs) from their game servers running on Google Cloud Platform and monitor the KPIs with low latency. How should they capture the KPIs?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Store time-series data from the game servers in Google Bigtable, and view it using Google Data Studio."
+    },
+    {
+      "key": "B",
+      "text": "Output custom metrics to Stackdriver from the game servers, and create a Dashboard in Stackdriver Monitoring Console to view them."
+    },
+    {
+      "key": "C",
+      "text": "Schedule BigQuery load jobs to ingest analytics files uploaded to Cloud Storage every ten minutes, and visualize the results in Google Data Studio."
+    },
+    {
+      "key": "D",
+      "text": "Insert the KPIs into Cloud Datastore entities, and run ad hoc analysis and visualizations of them in Cloud Datalab."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

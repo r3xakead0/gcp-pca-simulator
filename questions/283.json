@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60435-exam-professional-cloud-architect-topic-4-question-4/",
+  "published_iso": "2021-08-24T04:17:00",
+  "number": 4,
+  "question": "For this question, refer to the EHR Healthcare case study. You need to define the technical architecture for hybrid connectivity between EHR's on-premises systems and Google Cloud. You want to follow Google's recommended practices for production-level applications. Considering the EHR Healthcare business and technical requirements, what should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure two Partner Interconnect connections in one metro (City), and make sure the Interconnect connections are placed in different metro zones."
+    },
+    {
+      "key": "B",
+      "text": "Configure two VPN connections from on-premises to Google Cloud, and make sure the VPN devices on-premises are in separate racks."
+    },
+    {
+      "key": "C",
+      "text": "Configure Direct Peering between EHR Healthcare and Google Cloud, and make sure you are peering at least two Google locations."
+    },
+    {
+      "key": "D",
+      "text": "Configure two Dedicated Interconnect connections in one metro (City) and two connections in another metro, and make sure the Interconnect connections are placed in different metro zones."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

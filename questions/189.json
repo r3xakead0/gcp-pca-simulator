@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/14735-exam-professional-cloud-architect-topic-11-question-9/",
+  "published_iso": null,
+  "number": 9,
+  "question": "Dress4Win has end-to-end tests covering 100% of their endpoints. They want to ensure that the move to the cloud does not introduce any new bugs. Which additional testing methods should the developers employ to prevent an outage?",
+  "options": [
+    {
+      "key": "A",
+      "text": "They should enable Google Stackdriver Debugger on the application code to show errors in the code."
+    },
+    {
+      "key": "B",
+      "text": "They should add additional unit tests and production scale load tests on their cloud staging environment."
+    },
+    {
+      "key": "C",
+      "text": "They should run the end-to-end tests in the cloud staging environment to determine if the code is working as intended."
+    },
+    {
+      "key": "D",
+      "text": "They should add canary tests so developers can measure how much of an impact the new release causes to latency."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

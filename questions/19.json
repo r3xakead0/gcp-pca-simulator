@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/10522-exam-professional-cloud-architect-topic-1-question-36/",
+  "published_iso": null,
+  "number": 36,
+  "question": "You created a pipeline that can deploy your source code changes to your infrastructure in instance groups for self-healing. One of the changes negatively affects your key performance indicator. You are not sure how to fix it, and investigation could take up to a week. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Log in to a server, and iterate on the fox locally"
+    },
+    {
+      "key": "B",
+      "text": "Revert the source code change, and rerun the deployment pipeline"
+    },
+    {
+      "key": "C",
+      "text": "Log into the servers with the bad code change, and swap in the previous code"
+    },
+    {
+      "key": "D",
+      "text": "Change the instance group template to the previous one, and delete all instances"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/22386-exam-professional-cloud-architect-topic-1-question-20/",
+  "published_iso": null,
+  "number": 20,
+  "question": "You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading. Where should you store the data?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google BigQuery"
+    },
+    {
+      "key": "B",
+      "text": "Google Cloud SQL"
+    },
+    {
+      "key": "C",
+      "text": "Google Cloud Bigtable"
+    },
+    {
+      "key": "D",
+      "text": "Google Cloud Storage"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

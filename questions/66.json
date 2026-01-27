@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56645-exam-professional-cloud-architect-topic-7-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "Mountkirk Games wants you to secure the connectivity from the new gaming application platform to Google Cloud. You want to streamline the process and follow Google-recommended practices. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure Workload Identity and service accounts to be used by the application platform."
+    },
+    {
+      "key": "B",
+      "text": "Use Kubernetes Secrets, which are obfuscated by default. Configure these Secrets to be used by the application platform."
+    },
+    {
+      "key": "C",
+      "text": "Configure Kubernetes Secrets to store the secret, enable Application-Layer Secrets Encryption, and use Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform."
+    },
+    {
+      "key": "D",
+      "text": "Configure HashiCorp Vault on Compute Engine, and use customer managed encryption keys and Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/80304-exam-professional-cloud-architect-topic-1-question-189/",
+  "published_iso": null,
+  "number": 189,
+  "question": "You want to store critical business information in Cloud Storage buckets. The information is regularly changed, but previous versions need to be referenced on a regular basis. You want to ensure that there is a record of all changes to any information in these buckets. You want to ensure that accidental edits or deletions can be easily rolled back. Which feature should you enable?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Bucket Lock"
+    },
+    {
+      "key": "B",
+      "text": "Object Versioning"
+    },
+    {
+      "key": "C",
+      "text": "Object change notification"
+    },
+    {
+      "key": "D",
+      "text": "Object Lifecycle Management"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

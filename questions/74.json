@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56368-exam-professional-cloud-architect-topic-1-question-105/",
+  "published_iso": null,
+  "number": 105,
+  "question": "Your company has an application running on multiple Compute Engine instances. You need to ensure that the application can communicate with an on-premises service that requires high throughput via internal IPs, while minimizing latency. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use OpenVPN to configure a VPN tunnel between the on-premises environment and Google Cloud."
+    },
+    {
+      "key": "B",
+      "text": "Configure a direct peering connection between the on-premises environment and Google Cloud."
+    },
+    {
+      "key": "C",
+      "text": "Use Cloud VPN to configure a VPN tunnel between the on-premises environment and Google Cloud."
+    },
+    {
+      "key": "D",
+      "text": "Configure a Cloud Dedicated Interconnect connection between the on-premises environment and Google Cloud."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

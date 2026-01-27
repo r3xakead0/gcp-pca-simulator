@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11815-exam-professional-cloud-architect-topic-1-question-70/",
+  "published_iso": null,
+  "number": 70,
+  "question": "You are using a single Cloud SQL instance to serve your application from a specific zone. You want to introduce high availability. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a read replica instance in a different region"
+    },
+    {
+      "key": "B",
+      "text": "Create a failover replica instance in a different region"
+    },
+    {
+      "key": "C",
+      "text": "Create a read replica instance in the same region, but in a different zone"
+    },
+    {
+      "key": "D",
+      "text": "Create a failover replica instance in the same region, but in a different zone"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

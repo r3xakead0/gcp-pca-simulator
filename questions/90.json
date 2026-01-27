@@ -1,0 +1,38 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54374-exam-professional-cloud-architect-topic-1-question-169/",
+  "published_iso": null,
+  "number": 169,
+  "question": "Your company just finished a rapid lift and shift to Google Compute Engine for your compute needs. You have another 9 months to design and deploy a more cloud-native solution. Specifically, you want a system that is no-ops and auto-scaling. Which two compute products should you choose? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Compute Engine with containers"
+    },
+    {
+      "key": "B",
+      "text": "Google Kubernetes Engine with containers"
+    },
+    {
+      "key": "C",
+      "text": "Google App Engine Standard Environment"
+    },
+    {
+      "key": "D",
+      "text": "Compute Engine with custom instance types"
+    },
+    {
+      "key": "E",
+      "text": "Compute Engine with managed instance groups"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B",
+      "C"
+    ],
+    "community": [
+      "B",
+      "C"
+    ]
+  }
+}

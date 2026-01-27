@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/80035-exam-professional-cloud-architect-topic-1-question-182/",
+  "published_iso": null,
+  "number": 182,
+  "question": "You are managing several projects on Google Cloud and need to interact on a daily basis with BigQuery, Bigtable, and Kubernetes Engine using the gcloud CL tool. You are travelling a lot and work on different workstations during the week. You want to avoid having to manage the gcloud CLI manually. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Google Cloud Shell in the Google Cloud Console to interact with Google Cloud."
+    },
+    {
+      "key": "B",
+      "text": "Create a Compute Engine instance and install gcloud on the instance. Connect to this instance via SSH to always use the same gcloud installation when interacting with Google Cloud."
+    },
+    {
+      "key": "C",
+      "text": "Install gcloud on all of your workstations. Run the command gcloud components auto-update on each workstation"
+    },
+    {
+      "key": "D",
+      "text": "Use a package manager to install gcloud on your workstations instead of installing it manually."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

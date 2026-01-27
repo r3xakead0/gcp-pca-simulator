@@ -1,0 +1,28 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7209-exam-professional-cloud-architect-topic-1-question-38/",
+  "published_iso": null,
+  "number": 38,
+  "question": "You deploy your custom Java application to Google App Engine. It fails to deploy and gives you the following stack trace. What should you do? [Imagen]: /assets/media/exam-media/04339/0009300001.png",
+  "options": [
+    {
+      "key": "A",
+      "text": "Upload missing JAR files and redeploy your application."
+    },
+    {
+      "key": "B",
+      "text": "Digitally sign all of your JAR files and redeploy your application"
+    },
+    {
+      "key": "C",
+      "text": "Recompile the CLoakedServlet class using and MD5 hash instead of SHA1"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60403-exam-professional-cloud-architect-topic-4-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "You need to upgrade the EHR connection to comply with their requirements. The new connection design must support business-critical needs and meet the same network and security policy requirements. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Add a new Dedicated Interconnect connection."
+    },
+    {
+      "key": "B",
+      "text": "Upgrade the bandwidth on the Dedicated Interconnect connection to 100 G."
+    },
+    {
+      "key": "C",
+      "text": "Add three new Cloud VPN connections."
+    },
+    {
+      "key": "D",
+      "text": "Add a new Carrier Peering connection."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

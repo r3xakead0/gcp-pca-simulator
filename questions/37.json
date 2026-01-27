@@ -1,0 +1,44 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54371-exam-professional-cloud-architect-topic-1-question-164/",
+  "published_iso": null,
+  "number": 164,
+  "question": "You are helping the QA team to roll out a new load-testing tool to test the scalability of your primary cloud services that run on Google Compute Engine with Cloud Bigtable. Which three requirements should they include? (Choose three.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ensure that the load tests validate the performance of Cloud Bigtable"
+    },
+    {
+      "key": "B",
+      "text": "Create a separate Google Cloud project to use for the load-testing environment"
+    },
+    {
+      "key": "C",
+      "text": "Schedule the load-testing tool to regularly run against the production environment"
+    },
+    {
+      "key": "D",
+      "text": "Ensure all third-party systems your services use is capable of handling high load"
+    },
+    {
+      "key": "E",
+      "text": "Instrument the production services to record every transaction for replay by the load-testing tool"
+    },
+    {
+      "key": "F",
+      "text": "Instrument the load-testing tool and the target services with detailed logging and metrics collection"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B",
+      "F"
+    ],
+    "community": [
+      "A",
+      "B",
+      "F"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56322-exam-professional-cloud-architect-topic-3-question-4/",
+  "published_iso": null,
+  "number": 4,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. HRL wants better prediction accuracy from their ML prediction models. They want you to use Google's AI Platform so HRL can understand and interpret the predictions. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Explainable AI."
+    },
+    {
+      "key": "B",
+      "text": "Use Vision AI."
+    },
+    {
+      "key": "C",
+      "text": "Use Google Cloud's operations suite."
+    },
+    {
+      "key": "D",
+      "text": "Use Jupyter Notebooks."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

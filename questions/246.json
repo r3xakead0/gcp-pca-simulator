@@ -1,0 +1,44 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6708-exam-professional-cloud-architect-topic-2-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "[Imagen]: /assets/media/exam-media/04339/0000700001.png The migration of JencoMart's application to Google Cloud Platform (GCP) is progressing too slowly. The infrastructure is shown in the diagram. You want to maximize throughput. What are three potential bottlenecks? (Choose three.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "A single VPN tunnel, which limits throughput"
+    },
+    {
+      "key": "B",
+      "text": "A tier of Google Cloud Storage that is not suited for this task"
+    },
+    {
+      "key": "C",
+      "text": "A copy command that is not suited to operate over long distances"
+    },
+    {
+      "key": "D",
+      "text": "Fewer virtual machines (VMs) in GCP than on-premises machines"
+    },
+    {
+      "key": "E",
+      "text": "A separate storage layer outside the VMs, which is not suited for this task"
+    },
+    {
+      "key": "F",
+      "text": "Complicated internet connectivity between the on-premises infrastructure and GCP"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C",
+      "F"
+    ],
+    "community": [
+      "A",
+      "C",
+      "F"
+    ]
+  }
+}

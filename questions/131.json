@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56640-exam-professional-cloud-architect-topic-1-question-135/",
+  "published_iso": null,
+  "number": 135,
+  "question": "You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Add a taint to one of the nodes of the Kubernetes cluster. For the specific microservice, configure a pod anti-affinity label that has the name of the tainted node as a value."
+    },
+    {
+      "key": "B",
+      "text": "Use Istio's fault injection on the particular microservice whose faulty behavior you want to simulate."
+    },
+    {
+      "key": "C",
+      "text": "Destroy one of the nodes of the Kubernetes cluster to observe the behavior."
+    },
+    {
+      "key": "D",
+      "text": "Configure Istio's traffic management features to steer the traffic away from a crashing microservice."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

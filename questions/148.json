@@ -1,0 +1,34 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54373-exam-professional-cloud-architect-topic-1-question-168/",
+  "published_iso": null,
+  "number": 168,
+  "question": "Your marketing department wants to send out a promotional email campaign. The development team wants to minimize direct operation management. They project a wide range of possible customer responses, from 100 to 500,000 click-through per day. The link leads to a simple website that explains the promotion and collects user information and preferences. Which infrastructure should you recommend? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Google App Engine to serve the website and Google Cloud Datastore to store user data."
+    },
+    {
+      "key": "B",
+      "text": "Use a Google Container Engine cluster to serve the website and store data to persistent disk."
+    },
+    {
+      "key": "C",
+      "text": "Use a managed instance group to serve the website and Google Cloud Bigtable to store user data."
+    },
+    {
+      "key": "D",
+      "text": "Use a single Compute Engine virtual machine (VM) to host a web server, backend by Google Cloud SQL."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ],
+    "community": [
+      "A",
+      "C"
+    ]
+  }
+}

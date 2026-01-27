@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6452-exam-professional-cloud-architect-topic-1-question-75/",
+  "published_iso": null,
+  "number": 75,
+  "question": "You have deployed an application to Google Kubernetes Engine (GKE), and are using the Cloud SQL proxy container to make the Cloud SQL database available to the services running on Kubernetes. You are notified that the application is reporting database connection issues. Your company policies require a post- mortem. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use gcloud sql instances restart."
+    },
+    {
+      "key": "B",
+      "text": "Validate that the Service Account used by the Cloud SQL proxy container still has the Cloud Build Editor role."
+    },
+    {
+      "key": "C",
+      "text": "In the GCP Console, navigate to Stackdriver Logging. Consult logs for (GKE) and Cloud SQL."
+    },
+    {
+      "key": "D",
+      "text": "In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kubectl to restart all pods."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

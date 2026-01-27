@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7133-exam-professional-cloud-architect-topic-1-question-11/",
+  "published_iso": null,
+  "number": 11,
+  "question": "Your customer is moving an existing corporate application to Google Cloud Platform from an on-premises data center. The business owners require minimal user disruption. There are strict security team requirements for storing passwords. What authentication strategy should they use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use G Suite Password Sync to replicate passwords into Google"
+    },
+    {
+      "key": "B",
+      "text": "Federate authentication via SAML 2.0 to the existing Identity Provider"
+    },
+    {
+      "key": "C",
+      "text": "Provision users in Google using the Google Cloud Directory Sync tool"
+    },
+    {
+      "key": "D",
+      "text": "Ask users to set their Google password to match their corporate password"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

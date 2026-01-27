@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56384-exam-professional-cloud-architect-topic-1-question-123/",
+  "published_iso": null,
+  "number": 123,
+  "question": "You need to deploy a stateful workload on Google Cloud. The workload can scale horizontally, but each instance needs to read and write to the same POSIX filesystem. At high load, the stateful workload needs to support up to 100 MB/s of writes. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a persistent disk for each instance."
+    },
+    {
+      "key": "B",
+      "text": "Use a regional persistent disk for each instance."
+    },
+    {
+      "key": "C",
+      "text": "Create a Cloud Filestore instance and mount it in each instance."
+    },
+    {
+      "key": "D",
+      "text": "Create a Cloud Storage bucket and mount it in each instance using gcsfuse."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

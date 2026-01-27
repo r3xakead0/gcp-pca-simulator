@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6657-exam-professional-cloud-architect-topic-8-question-4/",
+  "published_iso": null,
+  "number": 4,
+  "question": "TerramEarth plans to connect all 20 million vehicles in the field to the cloud. This increases the volume to 20 million 600 byte records a second for 40 TB an hour. How should you design the data ingestion?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Vehicles write data directly to GCS"
+    },
+    {
+      "key": "B",
+      "text": "Vehicles write data directly to Google Cloud Pub/Sub"
+    },
+    {
+      "key": "C",
+      "text": "Vehicles stream data directly to Google BigQuery"
+    },
+    {
+      "key": "D",
+      "text": "Vehicles continue to write data using the existing system (FTP)"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60436-exam-professional-cloud-architect-topic-1-question-151/",
+  "published_iso": null,
+  "number": 151,
+  "question": "Your company has a support ticketing solution that uses App Engine Standard. The project that contains the App Engine application already has a Virtual Private Cloud (VPC) network fully connected to the company's on-premises environment through a Cloud VPN tunnel. You want to enable the App Engine application to communicate with a database that is running in the company's on-premises environment. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure private Google access for on-premises hosts only."
+    },
+    {
+      "key": "B",
+      "text": "Configure private Google access."
+    },
+    {
+      "key": "C",
+      "text": "Configure private services access."
+    },
+    {
+      "key": "D",
+      "text": "Configure serverless VPC access."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

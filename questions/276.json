@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56840-exam-professional-cloud-architect-topic-1-question-110/",
+  "published_iso": null,
+  "number": 110,
+  "question": "Your company has announced that they will be outsourcing operations functions. You want to allow developers to easily stage new versions of a cloud-based application in the production environment and allow the outsourced operations team to autonomously promote staged versions to production. You want to minimize the operational overhead of the solution. Which Google Cloud product should you migrate to?",
+  "options": [
+    {
+      "key": "A",
+      "text": "App Engine"
+    },
+    {
+      "key": "B",
+      "text": "GKE On-Prem"
+    },
+    {
+      "key": "C",
+      "text": "Compute Engine"
+    },
+    {
+      "key": "D",
+      "text": "Google Kubernetes Engine"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

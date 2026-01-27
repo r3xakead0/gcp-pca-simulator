@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7080-exam-professional-cloud-architect-topic-1-question-2/",
+  "published_iso": null,
+  "number": 2,
+  "question": "Your company plans to migrate a multi-petabyte data set to the cloud. The data set must be available 24hrs a day. Your business analysts have experience only with using a SQL interface. How should you store the data to optimize it for ease of analysis?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Load data into Google BigQuery"
+    },
+    {
+      "key": "B",
+      "text": "Insert data into Google Cloud SQL"
+    },
+    {
+      "key": "C",
+      "text": "Put flat files into Google Cloud Storage"
+    },
+    {
+      "key": "D",
+      "text": "Stream data into Google Cloud Datastore"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

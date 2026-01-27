@@ -1,0 +1,38 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54383-exam-professional-cloud-architect-topic-1-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "You need to reduce the number of unplanned rollbacks of erroneous production deployments in your company's web hosting platform. Improvement to the QA/ Test processes accomplished an 80% reduction. Which additional two approaches can you take to further reduce the rollbacks? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Introduce a green-blue deployment model"
+    },
+    {
+      "key": "B",
+      "text": "Replace the QA environment with canary releases"
+    },
+    {
+      "key": "C",
+      "text": "Fragment the monolithic platform into microservices"
+    },
+    {
+      "key": "D",
+      "text": "Reduce the platform's dependency on relational database systems"
+    },
+    {
+      "key": "E",
+      "text": "Replace the platform's relational database systems with a NoSQL database"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "C"
+    ],
+    "community": [
+      "A",
+      "C"
+    ]
+  }
+}

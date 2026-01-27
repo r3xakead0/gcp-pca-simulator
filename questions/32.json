@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6314-exam-professional-cloud-architect-topic-1-question-53/",
+  "published_iso": null,
+  "number": 53,
+  "question": "You are deploying an application on App Engine that needs to integrate with an on-premises database. For security purposes, your on-premises database must not be accessible through the public internet. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy your application on App Engine standard environment and use App Engine firewall rules to limit access to the open on-premises database."
+    },
+    {
+      "key": "B",
+      "text": "Deploy your application on App Engine standard environment and use Cloud VPN to limit access to the on-premises database."
+    },
+    {
+      "key": "C",
+      "text": "Deploy your application on App Engine flexible environment and use App Engine firewall rules to limit access to the on-premises database."
+    },
+    {
+      "key": "D",
+      "text": "Deploy your application on App Engine flexible environment and use Cloud VPN to limit access to the on-premises database."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

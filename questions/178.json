@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/9188-exam-professional-cloud-architect-topic-1-question-88/",
+  "published_iso": null,
+  "number": 88,
+  "question": "You are using Cloud CDN to deliver static HTTP(S) website content hosted on a Compute Engine instance group. You want to improve the cache hit ratio. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Customize the cache keys to omit the protocol from the key."
+    },
+    {
+      "key": "B",
+      "text": "Shorten the expiration time of the cached objects."
+    },
+    {
+      "key": "C",
+      "text": "Make sure the HTTP(S) header ג€Cache-Regionג€ points to the closest region of your users."
+    },
+    {
+      "key": "D",
+      "text": "Replicate the static content in a Cloud Storage bucket. Point CloudCDN toward a load balancer on that bucket."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

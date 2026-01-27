@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7172-exam-professional-cloud-architect-topic-1-question-26/",
+  "published_iso": null,
+  "number": 26,
+  "question": "Your organization requires that metrics from all applications be retained for 5 years for future analysis in possible legal proceedings. Which approach should you use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Grant the security team access to the logs in each Project"
+    },
+    {
+      "key": "B",
+      "text": "Configure Stackdriver Monitoring for all Projects, and export to BigQuery"
+    },
+    {
+      "key": "C",
+      "text": "Configure Stackdriver Monitoring for all Projects with the default retention policies"
+    },
+    {
+      "key": "D",
+      "text": "Configure Stackdriver Monitoring for all Projects, and export to Google Cloud Storage"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

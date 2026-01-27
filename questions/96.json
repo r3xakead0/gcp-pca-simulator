@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6844-exam-professional-cloud-architect-topic-1-question-39/",
+  "published_iso": null,
+  "number": 39,
+  "question": "You are designing a mobile chat application. You want to ensure people cannot spoof chat messages, by providing a message were sent by a specific user. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Tag messages client side with the originating user identifier and the destination user."
+    },
+    {
+      "key": "B",
+      "text": "Encrypt the message client side using block-based encryption with a shared key."
+    },
+    {
+      "key": "C",
+      "text": "Use public key infrastructure (PKI) to encrypt the message client side using the originating user's private key."
+    },
+    {
+      "key": "D",
+      "text": "Use a trusted certificate authority to enable SSL connectivity between the client application and the server."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

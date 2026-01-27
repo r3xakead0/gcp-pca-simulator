@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7237-exam-professional-cloud-architect-topic-6-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "For this question, refer to the Mountkirk Games case study. Which managed storage option meets Mountkirk's technical requirement for storing game activity in a time series database service?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cloud Bigtable"
+    },
+    {
+      "key": "B",
+      "text": "Cloud Spanner"
+    },
+    {
+      "key": "C",
+      "text": "BigQuery"
+    },
+    {
+      "key": "D",
+      "text": "Cloud Datastore"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

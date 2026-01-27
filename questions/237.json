@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7323-exam-professional-cloud-architect-topic-1-question-79/",
+  "published_iso": null,
+  "number": 79,
+  "question": "You want your Google Kubernetes Engine cluster to automatically add or remove nodes based on CPU load. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure a HorizontalPodAutoscaler with a target CPU usage. Enable the Cluster Autoscaler from the GCP Console."
+    },
+    {
+      "key": "B",
+      "text": "Configure a HorizontalPodAutoscaler with a target CPU usage. Enable autoscaling on the managed instance group for the cluster using the gcloud command."
+    },
+    {
+      "key": "C",
+      "text": "Create a deployment and set the maxUnavailable and maxSurge properties. Enable the Cluster Autoscaler using the gcloud command."
+    },
+    {
+      "key": "D",
+      "text": "Create a deployment and set the maxUnavailable and maxSurge properties. Enable autoscaling on the cluster managed instance group from the GCP Console."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

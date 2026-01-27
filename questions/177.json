@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7208-exam-professional-cloud-architect-topic-1-question-37/",
+  "published_iso": null,
+  "number": 37,
+  "question": "Your organization wants to control IAM policies for different departments independently, but centrally. Which approach should you take?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Multiple Organizations with multiple Folders"
+    },
+    {
+      "key": "B",
+      "text": "Multiple Organizations, one for each department"
+    },
+    {
+      "key": "C",
+      "text": "A single Organization with Folders for each department"
+    },
+    {
+      "key": "D",
+      "text": "A single Organization with multiple projects, each with a central owner"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

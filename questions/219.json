@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7238-exam-professional-cloud-architect-topic-6-question-7/",
+  "published_iso": null,
+  "number": 7,
+  "question": "For this question, refer to the Mountkirk Games case study. You are in charge of the new Game Backend Platform architecture. The game communicates with the backend over a REST API. You want to follow Google-recommended practices. How should you design the backend?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L4 load balancer."
+    },
+    {
+      "key": "B",
+      "text": "Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L4 load balancer."
+    },
+    {
+      "key": "C",
+      "text": "Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L7 load balancer."
+    },
+    {
+      "key": "D",
+      "text": "Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L7 load balancer."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

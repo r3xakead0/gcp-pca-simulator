@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/20238-exam-professional-cloud-architect-topic-1-question-16/",
+  "published_iso": null,
+  "number": 16,
+  "question": "You have been asked to select the storage system for the click-data of your company's large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams. Which storage infrastructure should you choose?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google Cloud SQL"
+    },
+    {
+      "key": "B",
+      "text": "Google Cloud Bigtable"
+    },
+    {
+      "key": "C",
+      "text": "Google Cloud Storage"
+    },
+    {
+      "key": "D",
+      "text": "Google Cloud Datastore"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

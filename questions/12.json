@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7118-exam-professional-cloud-architect-topic-1-question-25/",
+  "published_iso": null,
+  "number": 25,
+  "question": "During a high traffic portion of the day, one of your relational databases crashes, but the replica is never promoted to a master. You want to avoid this in the future. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use a different database"
+    },
+    {
+      "key": "B",
+      "text": "Choose larger instances for your database"
+    },
+    {
+      "key": "C",
+      "text": "Create snapshots of your database more regularly"
+    },
+    {
+      "key": "D",
+      "text": "Implement routinely scheduled failovers of your databases"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

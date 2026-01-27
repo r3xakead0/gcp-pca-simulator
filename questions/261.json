@@ -1,0 +1,36 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11085-exam-professional-cloud-architect-topic-8-question-2/",
+  "published_iso": null,
+  "number": 2,
+  "question": "The TerramEarth development team wants to create an API to meet the company's business requirements. You want the development team to focus their development effort on business value versus creating a custom framework. Which method should they use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Google App Engine with Google Cloud Endpoints. Focus on an API for dealers and partners"
+    },
+    {
+      "key": "B",
+      "text": "Use Google App Engine with a JAX-RS Jersey Java-based framework. Focus on an API for the public"
+    },
+    {
+      "key": "C",
+      "text": "Use Google App Engine with the Swagger (Open API Specification) framework. Focus on an API for the public"
+    },
+    {
+      "key": "D",
+      "text": "Use Google Container Engine with a Django Python container. Focus on an API for the public"
+    },
+    {
+      "key": "E",
+      "text": "Use Google Container Engine with a Tomcat container with the Swagger (Open API Specification) framework. Focus on an API for dealers and partners"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

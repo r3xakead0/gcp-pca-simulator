@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/79736-exam-professional-cloud-architect-topic-1-question-186/",
+  "published_iso": null,
+  "number": 186,
+  "question": "Your company uses Google Kubernetes Engine (GKE) as a platform for all workloads. Your company has a single large GKE cluster that contains batch, stateful, and stateless workloads. The GKE cluster is configured with a single node pool with 200 nodes. Your company needs to reduce the cost of this cluster but does not want to compromise availability. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a second GKE cluster for the batch workloads only. Allocate the 200 original nodes across both clusters."
+    },
+    {
+      "key": "B",
+      "text": "Configure CPU and memory limits on the namespaces in the cluster. Configure all Pods to have a CPU and memory limits."
+    },
+    {
+      "key": "C",
+      "text": "Configure a HorizontalPodAutoscaler for all stateless workloads and for all compatible stateful workloads. Configure the cluster to use node auto scaling."
+    },
+    {
+      "key": "D",
+      "text": "Change the node pool to use preemptible VMs."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

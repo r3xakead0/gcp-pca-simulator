@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60698-exam-professional-cloud-architect-topic-1-question-141/",
+  "published_iso": null,
+  "number": 141,
+  "question": "Your company is developing a web-based application. You need to make sure that production deployments are linked to source code commits and are fully auditable. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Make sure a developer is tagging the code commit with the date and time of commit."
+    },
+    {
+      "key": "B",
+      "text": "Make sure a developer is adding a comment to the commit that links to the deployment."
+    },
+    {
+      "key": "C",
+      "text": "Make the container tag match the source code commit hash."
+    },
+    {
+      "key": "D",
+      "text": "Make sure the developer is tagging the commits with latest."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

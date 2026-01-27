@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7150-exam-professional-cloud-architect-topic-1-question-17/",
+  "published_iso": null,
+  "number": 17,
+  "question": "You are creating a solution to remove backup files older than 90 days from your backup Cloud Storage bucket. You want to optimize ongoing Cloud Storage spend. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Write a lifecycle management rule in XML and push it to the bucket with gsutil"
+    },
+    {
+      "key": "B",
+      "text": "Write a lifecycle management rule in JSON and push it to the bucket with gsutil"
+    },
+    {
+      "key": "C",
+      "text": "Schedule a cron script using gsutil ls ג€\"lr gs://backups/** to find and remove items older than 90 days"
+    },
+    {
+      "key": "D",
+      "text": "Schedule a cron script using gsutil ls ג€\"l gs://backups/** to find and remove items older than 90 days and schedule it with cron"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

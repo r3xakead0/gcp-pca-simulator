@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7377-exam-professional-cloud-architect-topic-1-question-99/",
+  "published_iso": null,
+  "number": 99,
+  "question": "You are deploying a PHP App Engine Standard service with Cloud SQL as the backend. You want to minimize the number of queries to the database. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Set the memcache service level to dedicated. Create a key from the hash of the query, and return database values from memcache before issuing a query to Cloud SQL."
+    },
+    {
+      "key": "B",
+      "text": "Set the memcache service level to dedicated. Create a cron task that runs every minute to populate the cache with keys containing query results."
+    },
+    {
+      "key": "C",
+      "text": "Set the memcache service level to shared. Create a cron task that runs every minute to save all expected queries to a key called ג€cached_queriesג€."
+    },
+    {
+      "key": "D",
+      "text": "Set the memcache service level to shared. Create a key called ג€cached_queriesג€, and return database values from the key before using a query to Cloud SQL."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

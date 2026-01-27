@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7236-exam-professional-cloud-architect-topic-6-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "For this question, refer to the Mountkirk Games case study. You need to analyze and define the technical architecture for the database workloads for your company, Mountkirk Games. Considering the business and technical requirements, what should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Cloud SQL for time series data, and use Cloud Bigtable for historical data queries."
+    },
+    {
+      "key": "B",
+      "text": "Use Cloud SQL to replace MySQL, and use Cloud Spanner for historical data queries."
+    },
+    {
+      "key": "C",
+      "text": "Use Cloud Bigtable to replace MySQL, and use BigQuery for historical data queries."
+    },
+    {
+      "key": "D",
+      "text": "Use Cloud Bigtable for time series data, use Cloud Spanner for transactional data, and use BigQuery for historical data queries."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "D"
+    ],
+    "community": [
+      "D"
+    ]
+  }
+}

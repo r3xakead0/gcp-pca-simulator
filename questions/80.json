@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56684-exam-professional-cloud-architect-topic-1-question-119/",
+  "published_iso": null,
+  "number": 119,
+  "question": "You need to migrate Hadoop jobs for your company's Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create a Dataproc cluster using standard worker instances."
+    },
+    {
+      "key": "B",
+      "text": "Create a Dataproc cluster using preemptible worker instances."
+    },
+    {
+      "key": "C",
+      "text": "Manually deploy a Hadoop cluster on Compute Engine using standard instances."
+    },
+    {
+      "key": "D",
+      "text": "Manually deploy a Hadoop cluster on Compute Engine using preemptible instances."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

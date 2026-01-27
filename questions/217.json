@@ -1,0 +1,38 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60388-exam-professional-cloud-architect-topic-4-question-1/",
+  "published_iso": null,
+  "number": 1,
+  "question": "For this question, refer to the EHR Healthcare case study. You are responsible for ensuring that EHR's use of Google Cloud will pass an upcoming privacy compliance audit. What should you do? (Choose two.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Verify EHR's product usage against the list of compliant products on the Google Cloud compliance page."
+    },
+    {
+      "key": "B",
+      "text": "Advise EHR to execute a Business Associate Agreement (BAA) with Google Cloud."
+    },
+    {
+      "key": "C",
+      "text": "Use Firebase Authentication for EHR's user facing applications."
+    },
+    {
+      "key": "D",
+      "text": "Implement Prometheus to detect and prevent security breaches on EHR's web-based applications."
+    },
+    {
+      "key": "E",
+      "text": "Use GKE private clusters for all Kubernetes workloads."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A",
+      "B"
+    ],
+    "community": [
+      "A",
+      "B"
+    ]
+  }
+}

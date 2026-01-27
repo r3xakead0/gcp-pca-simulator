@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/56326-exam-professional-cloud-architect-topic-3-question-5/",
+  "published_iso": null,
+  "number": 5,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. HRL is looking for a cost-effective approach for storing their race data such as telemetry. They want to keep all historical records, train models using only the previous season's data, and plan for data growth in terms of volume and information collected. You need to propose a data solution. Considering HRL business requirements and the goals expressed by CEO S. Hawke, what should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use Firestore for its scalable and flexible document-based database. Use collections to aggregate race data by season and event."
+    },
+    {
+      "key": "B",
+      "text": "Use Cloud Spanner for its scalability and ability to version schemas with zero downtime. Split race data using season as a primary key."
+    },
+    {
+      "key": "C",
+      "text": "Use BigQuery for its scalability and ability to add columns to a schema. Partition race data based on season."
+    },
+    {
+      "key": "D",
+      "text": "Use Cloud SQL for its ability to automatically manage storage increases and compatibility with MySQL. Use separate database instances for each season."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

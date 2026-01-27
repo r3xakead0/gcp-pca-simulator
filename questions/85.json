@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7043-exam-professional-cloud-architect-topic-1-question-55/",
+  "published_iso": null,
+  "number": 55,
+  "question": "Your company is moving 75 TB of data into Google Cloud. You want to use Cloud Storage and follow Google-recommended practices. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Move your data onto a Transfer Appliance. Use a Transfer Appliance Rehydrator to decrypt the data into Cloud Storage."
+    },
+    {
+      "key": "B",
+      "text": "Move your data onto a Transfer Appliance. Use Cloud Dataprep to decrypt the data into Cloud Storage."
+    },
+    {
+      "key": "C",
+      "text": "Install gsutil on each server that contains data. Use resumable transfers to upload the data into Cloud Storage."
+    },
+    {
+      "key": "D",
+      "text": "Install gsutil on each server containing data. Use streaming transfers to upload the data into Cloud Storage."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

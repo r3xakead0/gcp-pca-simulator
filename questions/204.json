@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60407-exam-professional-cloud-architect-topic-4-question-6/",
+  "published_iso": null,
+  "number": 6,
+  "question": "For this question, refer to the EHR Healthcare case study. In the past, configuration errors put public IP addresses on backend servers that should not have been accessible from the Internet. You need to ensure that no one can put external IP addresses on backend Compute Engine instances and that external IP addresses can only be configured on frontend Compute Engine instances. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Create an Organizational Policy with a constraint to allow external IP addresses only on the frontend Compute Engine instances."
+    },
+    {
+      "key": "B",
+      "text": "Revoke the compute.networkAdmin role from all users in the project with front end instances."
+    },
+    {
+      "key": "C",
+      "text": "Create an Identity and Access Management (IAM) policy that maps the IT staff to the compute.networkAdmin role for the organization."
+    },
+    {
+      "key": "D",
+      "text": "Create a custom Identity and Access Management (IAM) role named GCE_FRONTEND with the compute.addresses.create permission."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

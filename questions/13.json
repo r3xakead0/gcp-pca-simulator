@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7167-exam-professional-cloud-architect-topic-1-question-23/",
+  "published_iso": null,
+  "number": 23,
+  "question": "Your solution is producing performance bugs in production that you did not see in staging and test environments. You want to adjust your test and deployment procedures to avoid this problem in the future. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy fewer changes to production"
+    },
+    {
+      "key": "B",
+      "text": "Deploy smaller changes to production"
+    },
+    {
+      "key": "C",
+      "text": "Increase the load on your test and staging environments"
+    },
+    {
+      "key": "D",
+      "text": "Deploy changes to a small subset of users before rolling out to production"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

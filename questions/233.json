@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6660-exam-professional-cloud-architect-topic-11-question-1/",
+  "published_iso": null,
+  "number": 1,
+  "question": "The Dress4Win security team has disabled external SSH access into production virtual machines (VMs) on Google Cloud Platform (GCP). The operations team needs to remotely manage the VMs, build and push Docker containers, and manage Google Cloud Storage objects. What can they do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Grant the operations engineer access to use Google Cloud Shell."
+    },
+    {
+      "key": "B",
+      "text": "Configure a VPN connection to GCP to allow SSH access to the cloud VMs."
+    },
+    {
+      "key": "C",
+      "text": "Develop a new access request process that grants temporary SSH access to cloud VMs when an operations engineer needs to perform a task."
+    },
+    {
+      "key": "D",
+      "text": "Have the development team build an API service that allows the operations team to execute specific remote procedure calls to accomplish their tasks."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

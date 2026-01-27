@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6747-exam-professional-cloud-architect-topic-1-question-102/",
+  "published_iso": null,
+  "number": 102,
+  "question": "You are developing a globally scaled frontend for a legacy streaming backend data API. This API expects events in strict chronological order with no repeat data for proper processing. Which products should you deploy to ensure guaranteed-once FIFO (first-in, first-out) delivery of data?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Cloud Pub/Sub alone"
+    },
+    {
+      "key": "B",
+      "text": "Cloud Pub/Sub to Cloud Dataflow"
+    },
+    {
+      "key": "C",
+      "text": "Cloud Pub/Sub to Stackdriver"
+    },
+    {
+      "key": "D",
+      "text": "Cloud Pub/Sub to Cloud SQL"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

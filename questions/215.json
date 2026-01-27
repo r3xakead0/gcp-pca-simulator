@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/11816-exam-professional-cloud-architect-topic-1-question-72/",
+  "published_iso": null,
+  "number": 72,
+  "question": "Your web application has several VM instances running within a VPC. You want to restrict communications between instances to only the paths and ports you authorize, but you don't want to rely on static IP addresses or subnets because the app can autoscale. How should you restrict communications?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Use separate VPCs to restrict traffic"
+    },
+    {
+      "key": "B",
+      "text": "Use firewall rules based on network tags attached to the compute instances"
+    },
+    {
+      "key": "C",
+      "text": "Use Cloud DNS and only allow connections from authorized hostnames"
+    },
+    {
+      "key": "D",
+      "text": "Use service accounts and configure the web application to authorize particular service accounts to have access"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

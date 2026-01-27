@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/80040-exam-professional-cloud-architect-topic-1-question-190/",
+  "published_iso": null,
+  "number": 190,
+  "question": "You have a Compute Engine application that you want to autoscale when total memory usage exceeds 80%. You have installed the Cloud Monitoring agent and configured the autoscaling policy as follows: ✑ Metric identifier: agent.googleapis.com/memory/percent_used ✑ Filter: metric.label.state = 'used' ✑ Target utilization level: 80 ✑ Target type: GAUGE You observe that the application does not scale under high load. You want to resolve this. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Change the Target type to DELTA_PER_MINUTE."
+    },
+    {
+      "key": "B",
+      "text": "Change the Metric identifier to agent.googleapis.com/memory/bytes_used."
+    },
+    {
+      "key": "C",
+      "text": "Change the filter to metric.label.state = 'used' AND metric.label.state = 'buffered' AND metric.label.state = 'cached' AND metric.label.state = 'slab'."
+    },
+    {
+      "key": "D",
+      "text": "Change the filter to metric.label.state = 'free' and the Target utilization to 20."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

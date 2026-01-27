@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/60525-exam-professional-cloud-architect-topic-10-question-2/",
+  "published_iso": null,
+  "number": 2,
+  "question": "For this question, refer to the TerramEarth case study. You have broken down a legacy monolithic application into a few containerized RESTful microservices. You want to run those microservices on Cloud Run. You also want to make sure the services are highly available with low latency to your customers. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Deploy Cloud Run services to multiple availability zones. Create Cloud Endpoints that point to the services. Create a global HTTP(S) Load Balancing instance and attach the Cloud Endpoints to its backend."
+    },
+    {
+      "key": "B",
+      "text": "Deploy Cloud Run services to multiple regions. Create serverless network endpoint groups pointing to the services. Add the serverless NEGs to a backend service that is used by a global HTTP(S) Load Balancing instance."
+    },
+    {
+      "key": "C",
+      "text": "Deploy Cloud Run services to multiple regions. In Cloud DNS, create a latency-based DNS name that points to the services."
+    },
+    {
+      "key": "D",
+      "text": "Deploy Cloud Run services to multiple availability zones. Create a TCP/IP global load balancer. Add the Cloud Run Endpoints to its backend service."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/7020-exam-professional-cloud-architect-topic-1-question-163/",
+  "published_iso": null,
+  "number": 163,
+  "question": "Your company runs several databases on a single MySQL instance. They need to take backups of a specific database at regular intervals. The backup activity needs to complete as quickly as possible and cannot be allowed to impact disk performance. How should you configure the storage?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Configure a cron job to use the gcloud tool to take regular backups using persistent disk snapshots."
+    },
+    {
+      "key": "B",
+      "text": "Mount a Local SSD volume as the backup location. After the backup is complete, use gsutil to move the backup to Google Cloud Storage."
+    },
+    {
+      "key": "C",
+      "text": "Use gcsfise to mount a Google Cloud Storage bucket as a volume directly on the instance and write backups to the mounted location using mysqldump."
+    },
+    {
+      "key": "D",
+      "text": "Mount additional persistent disk volumes onto each virtual machine (VM) instance in a RAID10 array and use LVM to create snapshots to send to Cloud Storage"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "B"
+    ],
+    "community": [
+      "B"
+    ]
+  }
+}

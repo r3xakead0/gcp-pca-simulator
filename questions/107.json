@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/6549-exam-professional-cloud-architect-topic-5-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "Mountkirk Games wants to set up a continuous delivery pipeline. Their architecture includes many small services that they want to be able to update and roll back quickly. Mountkirk Games has the following requirements: ✑ Services are deployed redundantly across multiple regions in the US and Europe ✑ Only frontend services are exposed on the public internet ✑ They can provide a single frontend IP for their fleet of services ✑ Deployment artifacts are immutable Which set of products should they use?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Google Cloud Storage, Google Cloud Dataflow, Google Compute Engine"
+    },
+    {
+      "key": "B",
+      "text": "Google Cloud Storage, Google App Engine, Google Network Load Balancer"
+    },
+    {
+      "key": "C",
+      "text": "Google Kubernetes Registry, Google Container Engine, Google HTTP(S) Load Balancer"
+    },
+    {
+      "key": "D",
+      "text": "Google Cloud Functions, Google Cloud Pub/Sub, Google Cloud Deployment Manager"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C"
+    ],
+    "community": [
+      "C"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/9449-exam-professional-cloud-architect-topic-8-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "Your development team has created a structured API to retrieve vehicle data. They want to allow third parties to develop tools for dealerships that use this vehicle event data. You want to support delegated authorization against this data. What should you do?",
+  "options": [
+    {
+      "key": "A",
+      "text": "Build or leverage an OAuth-compatible access control system"
+    },
+    {
+      "key": "B",
+      "text": "Build SAML 2.0 SSO compatibility into your authentication system"
+    },
+    {
+      "key": "C",
+      "text": "Restrict data access based on the source IP address of the partner systems"
+    },
+    {
+      "key": "D",
+      "text": "Create secondary credentials for each dealer that can be given to the trusted third party"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}

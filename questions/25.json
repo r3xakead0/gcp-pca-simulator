@@ -1,0 +1,44 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/54378-exam-professional-cloud-architect-topic-1-question-3/",
+  "published_iso": null,
+  "number": 3,
+  "question": "The operations manager asks you for a list of recommended practices that she should consider when migrating a J2EE application to the cloud. Which three practices should you recommend? (Choose three.)",
+  "options": [
+    {
+      "key": "A",
+      "text": "Port the application code to run on Google App Engine"
+    },
+    {
+      "key": "B",
+      "text": "Integrate Cloud Dataflow into the application to capture real-time metrics"
+    },
+    {
+      "key": "C",
+      "text": "Instrument the application with a monitoring tool like Stackdriver Debugger"
+    },
+    {
+      "key": "D",
+      "text": "Select an automation framework to reliably provision the cloud infrastructure"
+    },
+    {
+      "key": "E",
+      "text": "Deploy a continuous integration tool with automated testing in a staging environment"
+    },
+    {
+      "key": "F",
+      "text": "Migrate from MySQL to a managed NoSQL database like Google Cloud Datastore or Bigtable"
+    }
+  ],
+  "answers": {
+    "platform": [
+      "C",
+      "D",
+      "E"
+    ],
+    "community": [
+      "C",
+      "D",
+      "E"
+    ]
+  }
+}

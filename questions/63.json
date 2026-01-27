@@ -1,0 +1,32 @@
+{
+  "url": "https://www.examtopics.com/discussions/google/view/121313-exam-professional-cloud-architect-topic-1-question-195/",
+  "published_iso": null,
+  "number": 195,
+  "question": "You are deploying an application to Google Cloud. The application is part of a system. The application in Google Cloud must communicate over a private network with applications in a non-Google Cloud environment. The expected average throughput is 200 kbps. The business requires: •\t99.99% system availability •\tcost optimization You need to design the connectivity between the locations to meet the business requirements. What should you provision?",
+  "options": [
+    {
+      "key": "A",
+      "text": "An HA Cloud VPN gateway connected with two tunnels to an on-premises VPN gateway."
+    },
+    {
+      "key": "B",
+      "text": "A Classic Cloud VPN gateway connected with two tunnels to an on-premises VPN gateway."
+    },
+    {
+      "key": "C",
+      "text": "Two HA Cloud VPN gateways connected to two on-premises VPN gateways. Configure each HA Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways."
+    },
+    {
+      "key": "D",
+      "text": "A Classic Cloud VPN gateway connected with one tunnel to an on-premises VPN gateway."
+    }
+  ],
+  "answers": {
+    "platform": [
+      "A"
+    ],
+    "community": [
+      "A"
+    ]
+  }
+}
