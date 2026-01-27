@@ -246,44 +246,6 @@ function showResults() {
     
     document.getElementById('questionDisplay').style.display = 'none';
     document.getElementById('results').style.display = 'block';
-    
-    document.getElementById('finalScore').textContent = `${scorePercentage}%`;
-    
-    let resultMessage = '';
-    if (scorePercentage >= 80) {
-        resultMessage = 'Excellent! You passed the exam!';
-    } else if (scorePercentage >= 70) {
-        resultMessage = 'Good job! You passed, but there\'s room for improvement.';
-    } else {
-        resultMessage = 'Keep studying! You need more practice.';
-    }
-    document.getElementById('resultMessage').textContent = resultMessage;
-    
-    // Create detailed breakdown
-    const breakdownList = document.getElementById('breakdownList');
-    breakdownList.innerHTML = '';
-    
-    questions.forEach((question, index) => {
-        const userAnswer = userAnswers[index] || [];
-        const correctAnswer = question.answers.platform;
-        const isCorrect = arraysEqual(userAnswer.sort(), correctAnswer.sort());
-        
-        const item = document.createElement('div');
-        item.className = 'breakdown-item';
-        
-        item.innerHTML = `
-            <div class="question-result">
-                <div class="result-indicator ${isCorrect ? 'result-correct' : 'result-incorrect'}"></div>
-                <span>Question ${index + 1}</span>
-            </div>
-            <div>
-                <span>Your answer: ${userAnswer.join(', ') || 'Not answered'}</span>
-                <span style="margin-left: 15px;">Correct: ${correctAnswer.join(', ')}</span>
-            </div>
-        `;
-        
-        breakdownList.appendChild(item);
-    });
 }
 
 function resetExam() {
@@ -298,5 +260,38 @@ function resetExam() {
     showQuestion(0);
 }
 
+// Function to toggle question panel visibility
+function toggleQuestionPanel() {
+    const sidebar = document.querySelector('.sidebar');
+    const mainContent = document.querySelector('.main-content');
+    const toggleBtn = document.getElementById('togglePanelBtn');
+    
+    if (sidebar.classList.contains('hidden')) {
+        // Show the question panel
+        sidebar.classList.remove('hidden');
+        mainContent.classList.remove('full-width');
+        toggleBtn.textContent = 'Hide Panel';
+    } else {
+        // Hide the question panel
+        sidebar.classList.add('hidden');
+        mainContent.classList.add('full-width');
+        toggleBtn.textContent = 'Show Panel';
+    }
+}
+
 // Initialize the exam when the page loads
-document.addEventListener('DOMContentLoaded', loadQuestions);
+document.addEventListener('DOMContentLoaded', function() {
+    // Add toggle button to the header
+    const header = document.querySelector('header');
+    const toggleBtn = document.createElement('button');
+    toggleBtn.id = 'togglePanelBtn';
+    toggleBtn.className = 'btn btn-secondary';
+    toggleBtn.textContent = 'Hide Panel';
+    toggleBtn.onclick = toggleQuestionPanel;
+    
+    const headerContent = document.querySelector('.header-content');
+    headerContent.appendChild(toggleBtn);
+    
+    // Start loading questions
+    loadQuestions();
+});
