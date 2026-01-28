@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/12205-exam-professional-cloud-architect-topic-8-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "Which of TerramEarth's legacy enterprise processes will experience significant change as a result of increased Google Cloud Platform adoption?",
+  "url": "https://www.examtopics.com/discussions/google/view/6817-exam-professional-cloud-architect-topic-1-question-91/",
+  "published_iso": "2019-10-20T04:52:00",
+  "number": 91,
+  "question": "All Compute Engine instances in your VPC should be able to connect to an Active Directory server on specific ports. Any other traffic emerging from your instances is not allowed. You want to enforce this using VPC firewall rules. How should you configure the firewall rules?",
   "options": [
     {
       "key": "A",
-      "text": "Opex/capex allocation, LAN changes, capacity planning"
+      "text": "Create an egress rule with priority 1000 to deny all traffic for all instances. Create another egress rule with priority 100 to allow the Active Directory traffic for all instances."
     },
     {
       "key": "B",
-      "text": "Capacity planning, TCO calculations, opex/capex allocation"
+      "text": "Create an egress rule with priority 100 to deny all traffic for all instances. Create another egress rule with priority 1000 to allow the Active Directory traffic for all instances."
     },
     {
       "key": "C",
-      "text": "Capacity planning, utilization measurement, data center expansion"
+      "text": "Create an egress rule with priority 1000 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 100 to block all traffic for all instances."
     },
     {
       "key": "D",
-      "text": "Data Center expansion, TCO calculations, utilization measurement"
+      "text": "Create an egress rule with priority 100 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 1000 to block all traffic for all instances."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

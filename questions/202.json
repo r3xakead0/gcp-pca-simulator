@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56732-exam-professional-cloud-architect-topic-7-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "Mountkirk Games wants to limit the physical location of resources to their operating Google Cloud regions. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6805-exam-professional-cloud-architect-topic-12-question-4/",
+  "published_iso": "2019-10-19T19:13:00",
+  "number": 4,
+  "question": "For this question, refer to the Dress4Win case study. To be legally compliant during an audit, Dress4Win must be able to give insights in all administrative actions that modify the configuration or metadata of resources on Google Cloud. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Configure an organizational policy which constrains where resources can be deployed."
+      "text": "Use Stackdriver Trace to create a Trace list analysis."
     },
     {
       "key": "B",
-      "text": "Configure IAM conditions to limit what resources can be configured."
+      "text": "Use Stackdriver Monitoring to create a dashboard on the project's activity."
     },
     {
       "key": "C",
-      "text": "Configure the quotas for resources in the regions not being used to 0."
+      "text": "Enable Cloud Identity-Aware Proxy in all projects, and add the group of Administrators as a member."
     },
     {
       "key": "D",
-      "text": "Configure a custom alert in Cloud Monitoring so you can disable resources as they are created in other regions."
+      "text": "Use the Activity page in the GCP Console and Stackdriver Logging to provide the required insight."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "D"
     ],
     "community": [
-      "A"
+      "D"
     ]
   }
 }

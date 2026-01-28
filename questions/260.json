@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11817-exam-professional-cloud-architect-topic-1-question-74/",
-  "published_iso": null,
-  "number": 74,
-  "question": "You are tasked with building an online analytical processing (OLAP) marketing analytics and reporting tool. This requires a relational database that can operate on hundreds of terabytes of data. What is the Google-recommended tool for such applications?",
+  "url": "https://www.examtopics.com/discussions/google/view/7260-exam-professional-cloud-architect-topic-9-question-3/",
+  "published_iso": "2019-10-26T13:25:00",
+  "number": 3,
+  "question": "For this question, refer to the TerramEarth case study. You need to implement a reliable, scalable GCP solution for the data warehouse for your company, TerramEarth. Considering the TerramEarth business and technical requirements, what should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Cloud Spanner, because it is globally distributed"
+      "text": "Replace the existing data warehouse with BigQuery. Use table partitioning."
     },
     {
       "key": "B",
-      "text": "Cloud SQL, because it is a fully managed relational database"
+      "text": "Replace the existing data warehouse with a Compute Engine instance with 96 CPUs."
     },
     {
       "key": "C",
-      "text": "Cloud Firestore, because it offers real-time synchronization across devices"
+      "text": "Replace the existing data warehouse with BigQuery. Use federated data sources."
     },
     {
       "key": "D",
-      "text": "BigQuery, because it is designed for large-scale processing of tabular data"
+      "text": "Replace the existing data warehouse with a Compute Engine instance with 96 CPUs. Add an additional Compute Engine preemptible instance with 32 CPUs."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

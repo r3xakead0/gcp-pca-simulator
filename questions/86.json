@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7123-exam-professional-cloud-architect-topic-1-question-93/",
-  "published_iso": null,
-  "number": 93,
-  "question": "A development team at your company has created a dockerized HTTPS web application. You need to deploy the application on Google Kubernetes Engine (GKE) and make sure that the application scales automatically. How should you deploy to GKE?",
+  "url": "https://www.examtopics.com/discussions/google/view/10522-exam-professional-cloud-architect-topic-1-question-36/",
+  "published_iso": "2019-12-17T22:17:00",
+  "number": 36,
+  "question": "You created a pipeline that can deploy your source code changes to your infrastructure in instance groups for self-healing. One of the changes negatively affects your key performance indicator. You are not sure how to fix it, and investigation could take up to a week. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use the Horizontal Pod Autoscaler and enable cluster autoscaling. Use an Ingress resource to load-balance the HTTPS traffic."
+      "text": "Log in to a server, and iterate on the fox locally"
     },
     {
       "key": "B",
-      "text": "Use the Horizontal Pod Autoscaler and enable cluster autoscaling on the Kubernetes cluster. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic."
+      "text": "Revert the source code change, and rerun the deployment pipeline"
     },
     {
       "key": "C",
-      "text": "Enable autoscaling on the Compute Engine instance group. Use an Ingress resource to load-balance the HTTPS traffic."
+      "text": "Log into the servers with the bad code change, and swap in the previous code"
     },
     {
       "key": "D",
-      "text": "Enable autoscaling on the Compute Engine instance group. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic."
+      "text": "Change the instance group template to the previous one, and delete all instances"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

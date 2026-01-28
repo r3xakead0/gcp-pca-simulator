@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6892-exam-professional-cloud-architect-topic-1-question-69/",
-  "published_iso": null,
-  "number": 69,
-  "question": "You are running a cluster on Kubernetes Engine (GKE) to serve a web application. Users are reporting that a specific part of the application is not responding anymore. You notice that all pods of your deployment keep restarting after 2 seconds. The application writes logs to standard output. You want to inspect the logs to find the cause of the issue. Which approach can you take?",
+  "url": "https://www.examtopics.com/discussions/google/view/7154-exam-professional-cloud-architect-topic-1-question-18/",
+  "published_iso": "2019-10-24T19:01:00",
+  "number": 18,
+  "question": "Your company is forecasting a sharp increase in the number and size of Apache Spark and Hadoop jobs being run on your local datacenter. You want to utilize the cloud to help you scale this upcoming demand with the least amount of operations work and code change. Which product should you use?",
   "options": [
     {
       "key": "A",
-      "text": "Review the Stackdriver logs for each Compute Engine instance that is serving as a node in the cluster."
+      "text": "Google Cloud Dataflow"
     },
     {
       "key": "B",
-      "text": "Review the Stackdriver logs for the specific GKE  container that is serving the unresponsive part of the application."
+      "text": "Google Cloud Dataproc"
     },
     {
       "key": "C",
-      "text": "Connect to the cluster using gcloud credentials and connect to a container in one of the pods to read the logs."
+      "text": "Google Compute Engine"
     },
     {
       "key": "D",
-      "text": "Review the Serial Port logs for each Compute Engine instance that is serving as a node in the cluster."
+      "text": "Google Kubernetes Engine"
     }
   ],
   "answers": {

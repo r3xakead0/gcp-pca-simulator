@@ -1,38 +1,34 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54406-exam-professional-cloud-architect-topic-1-question-22/",
-  "published_iso": null,
-  "number": 22,
-  "question": "One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long. [Imagen]: /assets/media/exam-media/04339/0008300001.png You want to optimize this Dockerfile for faster deployment times without adversely affecting the app's functionality. Which two actions should you take? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/60423-exam-professional-cloud-architect-topic-4-question-2/",
+  "published_iso": "2021-08-23T21:35:00",
+  "number": 2,
+  "question": "For this question, refer to the EHR Healthcare case study. You need to define the technical architecture for securely deploying workloads to Google Cloud. You also need to ensure that only verified containers are deployed using Google Cloud services. What should you do? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Remove Python after running pip"
+      "text": "Enable Binary Authorization on GKE, and sign containers as part of a CI/CD pipeline."
     },
     {
       "key": "B",
-      "text": "Remove dependencies from requirements.txt"
+      "text": "Configure Jenkins to utilize Kritis to cryptographically sign a container as part of a CI/CD pipeline."
     },
     {
       "key": "C",
-      "text": "Use a slimmed-down base image like Alpine Linux"
+      "text": "Configure Container Registry to only allow trusted service accounts to create and deploy containers from the registry."
     },
     {
       "key": "D",
-      "text": "Use larger machine types for your Google Container Engine node pools"
-    },
-    {
-      "key": "E",
-      "text": "Copy the source after he package dependencies (Python and pip) are installed"
+      "text": "Configure Container Registry to use vulnerability scanning to confirm that there are no vulnerabilities before deploying the workload."
     }
   ],
   "answers": {
     "platform": [
-      "C",
-      "E"
+      "A",
+      "D"
     ],
     "community": [
-      "C",
-      "E"
+      "A",
+      "D"
     ]
   }
 }

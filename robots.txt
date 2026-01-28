@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block access to private files
+Disallow: /questions/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# Crawl-delay: 1 second between requests
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml

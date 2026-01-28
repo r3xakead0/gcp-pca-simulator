@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7016-exam-professional-cloud-architect-topic-1-question-161/",
-  "published_iso": null,
-  "number": 161,
-  "question": "A recent audit revealed that a new network was created in your GCP project. In this network, a GCE instance has an SSH port open to the world. You want to discover this network's origin. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/10722-exam-professional-cloud-architect-topic-5-question-1/",
+  "published_iso": "2019-12-20T16:44:00",
+  "number": 1,
+  "question": "Mountkirk Games wants you to design their new testing strategy. How should the test coverage differ from their existing backends on the other platforms?",
   "options": [
     {
       "key": "A",
-      "text": "Search for Create VM entry in the Stackdriver alerting console"
+      "text": "Tests should scale well beyond the prior approaches"
     },
     {
       "key": "B",
-      "text": "Navigate to the Activity page in the Home section. Set category to Data Access and search for Create VM entry"
+      "text": "Unit tests are no longer required, only end-to-end tests"
     },
     {
       "key": "C",
-      "text": "In the Logging section of the console, specify GCE Network as the logging section. Search for the Create Insert entry"
+      "text": "Tests should be applied after the release is in the production environment"
     },
     {
       "key": "D",
-      "text": "Connect to the GCE instance using project SSH keys. Identify previous logins in system logs, and match these with the project owners list"
+      "text": "Tests should include directly testing the Google Cloud Platform (GCP) infrastructure"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

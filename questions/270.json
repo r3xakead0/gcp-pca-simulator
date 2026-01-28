@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6462-exam-professional-cloud-architect-topic-1-question-90/",
-  "published_iso": null,
-  "number": 90,
-  "question": "You have an App Engine application that needs to be updated. You want to test the update with production traffic before replacing the current application version. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/60557-exam-professional-cloud-architect-topic-10-question-3/",
+  "published_iso": "2021-08-25T01:25:00",
+  "number": 3,
+  "question": "For this question, refer to the TerramEarth case study. You are migrating a Linux-based application from your private data center to Google Cloud. The TerramEarth security team sent you several recent Linux vulnerabilities published by Common Vulnerabilities and Exposures (CVE). You need assistance in understanding how these vulnerabilities could impact your migration. What should you do? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Deploy the update using the Instance Group Updater to create a partial rollout, which allows for canary testing."
+      "text": "Open a support case regarding the CVE and chat with the support engineer."
     },
     {
       "key": "B",
-      "text": "Deploy the update as a new version in the App Engine application, and split traffic between the new and current versions."
+      "text": "Read the CVEs from the Google Cloud Status Dashboard to understand the impact."
     },
     {
       "key": "C",
-      "text": "Deploy the update in a new VPC, and use Google's global HTTP load balancing to split traffic between the update and current applications."
+      "text": "Read the CVEs from the Google Cloud Platform Security Bulletins to understand the impact."
     },
     {
       "key": "D",
-      "text": "Deploy the update as a new App Engine application, and use Google's global HTTP load balancing to split traffic between the new and current applications."
+      "text": "Post a question regarding the CVE in Stack Overflow to get an explanation."
+    },
+    {
+      "key": "E",
+      "text": "Post a question regarding the CVE in a Google Cloud discussion group to get an explanation."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A",
+      "C"
     ],
     "community": [
-      "B"
+      "A",
+      "C"
     ]
   }
 }

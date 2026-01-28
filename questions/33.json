@@ -1,42 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54125-exam-professional-cloud-architect-topic-1-question-30/",
-  "published_iso": null,
-  "number": 30,
-  "question": "A lead engineer wrote a custom tool that deploys virtual machines in the legacy data center. He wants to migrate the custom tool to the new cloud environment. You want to advocate for the adoption of Google Cloud Deployment Manager. What are two business risks of migrating to Cloud Deployment Manager? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/146572-exam-professional-cloud-architect-topic-1-question-199/",
+  "published_iso": "2024-08-27T19:09:00",
+  "number": 199,
+  "question": "You have a Compute Engine application that you want to autoscale when total memory usage exceeds 80%. You have installed the Cloud Monitoring agent and configured the autoscaling policy as follows: [Imagen]: https://img.examtopics.com/professional-cloud-architect/image1.png You observe that the application does not scale under high load. You want to resolve this. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Cloud Deployment Manager uses Python"
+      "text": "Change the Target type to DELTA_PER_MINUTE."
     },
     {
       "key": "B",
-      "text": "Cloud Deployment Manager APIs could be deprecated in the future"
+      "text": "Change the Metric identifier to agent.googleapis.com/memory/bytes_used."
     },
     {
       "key": "C",
-      "text": "Cloud Deployment Manager is unfamiliar to the company's engineers"
+      "text": "Change the filter to metric.label.state = ‘used’."
     },
     {
       "key": "D",
-      "text": "Cloud Deployment Manager requires a Google APIs service account to run"
-    },
-    {
-      "key": "E",
-      "text": "Cloud Deployment Manager can be used to permanently delete cloud resources"
-    },
-    {
-      "key": "F",
-      "text": "Cloud Deployment Manager only supports automation of Google Cloud resources"
+      "text": "Change the filter to metric.label.state = ‘free’ and the Target utilization to 20."
     }
   ],
   "answers": {
     "platform": [
-      "C",
-      "F"
+      "C"
     ],
     "community": [
-      "C",
-      "F"
+      "C"
     ]
   }
 }

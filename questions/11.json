@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6837-exam-professional-cloud-architect-topic-1-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "An application development team believes their current logging tool will not meet their needs for their new cloud-based product. They want a better tool to capture errors and help them analyze their historical log data. You want to help them find a solution that meets their needs. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/11815-exam-professional-cloud-architect-topic-1-question-70/",
+  "published_iso": "2020-01-12T14:36:00",
+  "number": 70,
+  "question": "You are using a single Cloud SQL instance to serve your application from a specific zone. You want to introduce high availability. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Direct them to download and install the Google StackDriver logging agent"
+      "text": "Create a read replica instance in a different region"
     },
     {
       "key": "B",
-      "text": "Send them a list of online resources about logging best practices"
+      "text": "Create a failover replica instance in a different region"
     },
     {
       "key": "C",
-      "text": "Help them define their requirements and assess viable logging tools"
+      "text": "Create a read replica instance in the same region, but in a different zone"
     },
     {
       "key": "D",
-      "text": "Help them upgrade their current tool to take advantage of any new features"
+      "text": "Create a failover replica instance in the same region, but in a different zone"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "D"
     ],
     "community": [
-      "A"
+      "D"
     ]
   }
 }

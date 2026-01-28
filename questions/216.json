@@ -1,44 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11917-exam-professional-cloud-architect-topic-2-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "A few days after JencoMart migrates the user credentials database to Google Cloud Platform and shuts down the old server, the new database server stops responding to SSH connections. It is still serving database requests to the application servers correctly. What three steps should you take to diagnose the problem? (Choose three.)",
+  "url": "https://www.examtopics.com/discussions/google/view/14735-exam-professional-cloud-architect-topic-11-question-9/",
+  "published_iso": "2020-02-23T17:12:00",
+  "number": 9,
+  "question": "Dress4Win has end-to-end tests covering 100% of their endpoints. They want to ensure that the move to the cloud does not introduce any new bugs. Which additional testing methods should the developers employ to prevent an outage?",
   "options": [
     {
       "key": "A",
-      "text": "Delete the virtual machine (VM) and disks and create a new one"
+      "text": "They should enable Google Stackdriver Debugger on the application code to show errors in the code."
     },
     {
       "key": "B",
-      "text": "Delete the instance, attach the disk to a new VM, and investigate"
+      "text": "They should add additional unit tests and production scale load tests on their cloud staging environment."
     },
     {
       "key": "C",
-      "text": "Take a snapshot of the disk and connect to a new machine to investigate"
+      "text": "They should run the end-to-end tests in the cloud staging environment to determine if the code is working as intended."
     },
     {
       "key": "D",
-      "text": "Check inbound firewall rules for the network the machine is connected to"
-    },
-    {
-      "key": "E",
-      "text": "Connect the machine to another network with very simple firewall rules and investigate"
-    },
-    {
-      "key": "F",
-      "text": "Print the Serial Console output for the instance for troubleshooting, activate the interactive console, and investigate"
+      "text": "They should add canary tests so developers can measure how much of an impact the new release causes to latency."
     }
   ],
   "answers": {
     "platform": [
-      "C",
-      "D",
-      "F"
+      "B"
     ],
     "community": [
-      "C",
-      "D",
-      "F"
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/169213-exam-professional-cloud-architect-topic-1-question-200/",
-  "published_iso": null,
-  "number": 200,
-  "question": "Your company has a Google Cloud project that uses BigOuery for data warehousing. The VPN tunnel between the on-premises environment and Google Cloud is configured with Cloud VPN. Your security team wants to avoid data exfiltration by malicious insiders, compromised code, and accidental oversharing. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/8378-exam-professional-cloud-architect-topic-1-question-83/",
+  "published_iso": "2019-11-17T03:01:00",
+  "number": 83,
+  "question": "Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Configure Private Service Connect."
+      "text": "Connect Google Data Studio to BigQuery. Create a dimension for the users and a metric for the amount of queries per user."
     },
     {
       "key": "B",
-      "text": "Configure VPC Service Controls and configure Private Google Access for on-promises hosts."
+      "text": "In the BigQuery interface, execute a query on the JOBS table to get the required information."
     },
     {
       "key": "C",
-      "text": "Create a service account, grant the BigQuery JobUser role and Storage Object Viewer role to the service account, and remove all other Identity and Access Management (IAM) access from the project."
+      "text": "Use 'bq show' to list all jobs. Per job, use 'bq ls' to list job information and get the required information."
     },
     {
       "key": "D",
-      "text": "Configure Private Google Access."
+      "text": "Use Cloud Audit Logging to view Cloud Audit Logs, and create a filter on the query operation to get the required information."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

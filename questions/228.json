@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80304-exam-professional-cloud-architect-topic-1-question-189/",
-  "published_iso": null,
-  "number": 189,
-  "question": "You want to store critical business information in Cloud Storage buckets. The information is regularly changed, but previous versions need to be referenced on a regular basis. You want to ensure that there is a record of all changes to any information in these buckets. You want to ensure that accidental edits or deletions can be easily rolled back. Which feature should you enable?",
+  "url": "https://www.examtopics.com/discussions/google/view/56732-exam-professional-cloud-architect-topic-7-question-3/",
+  "published_iso": "2021-07-01T11:33:00",
+  "number": 3,
+  "question": "Mountkirk Games wants to limit the physical location of resources to their operating Google Cloud regions. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Bucket Lock"
+      "text": "Configure an organizational policy which constrains where resources can be deployed."
     },
     {
       "key": "B",
-      "text": "Object Versioning"
+      "text": "Configure IAM conditions to limit what resources can be configured."
     },
     {
       "key": "C",
-      "text": "Object change notification"
+      "text": "Configure the quotas for resources in the regions not being used to 0."
     },
     {
       "key": "D",
-      "text": "Object Lifecycle Management"
+      "text": "Configure a custom alert in Cloud Monitoring so you can disable resources as they are created in other regions."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

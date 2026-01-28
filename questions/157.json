@@ -1,28 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7161-exam-professional-cloud-architect-topic-1-question-19/",
-  "published_iso": null,
-  "number": 19,
-  "question": "The database administration team has asked you to help them improve the performance of their new database server running on Google Compute Engine. The database is for importing and normalizing their performance statistics and is built with MySQL running on Debian Linux. They have an n1-standard-8 virtual machine with 80 GB of SSD persistent disk. What should they change to get better performance from this system?",
+  "url": "https://www.examtopics.com/discussions/google/view/68692-exam-professional-cloud-architect-topic-1-question-179/",
+  "published_iso": "2021-12-28T03:49:00",
+  "number": 179,
+  "question": "Your company has a Google Cloud project that uses BigQuery for data warehousing. There are some tables that contain personally identifiable information (PII). Only the compliance team may access the PII. The other information in the tables must be available to the data science team. You want to minimize cost and the time it takes to assign appropriate access to the tables. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Increase the virtual machine's memory to 64 GB"
+      "text": "1. From the dataset where you have the source data, create views of tables that you want to share, excluding PII. 2. Assign an appropriate project-level IAM role to the members of the data science team. 3. Assign access controls to the dataset that contains the view."
     },
     {
       "key": "B",
-      "text": "Create a new virtual machine running PostgreSQL"
+      "text": "1. From the dataset where you have the source data, create materialized views of tables that you want to share, excluding PII. 2. Assign an appropriate project-level IAM role to the members of the data science team. 3. Assign access controls to the dataset that contains the view."
     },
     {
       "key": "C",
-      "text": "Dynamically resize the SSD persistent disk to 500 GB"
+      "text": "1. Create a dataset for the data science team. 2. Create views of tables that you want to share, excluding PII. 3. Assign an appropriate project-level IAM role to the members of the data science team. 4. Assign access controls to the dataset that contains the view. 5. Authorize the view to access the source dataset."
     },
     {
       "key": "D",
-      "text": "Migrate their performance metrics warehouse to BigQuery"
-    },
-    {
-      "key": "E",
-      "text": "Modify all of their batch jobs to use bulk inserts into the database"
+      "text": "1. Create a dataset for the data science team. 2. Create materialized views of tables that you want to share, excluding PII. 3. Assign an appropriate project-level IAM role to the members of the data science team. 4. Assign access controls to the dataset that contains the view. 5. Authorize the view to access the source dataset."
     }
   ],
   "answers": {

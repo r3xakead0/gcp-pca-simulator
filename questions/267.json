@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60494-exam-professional-cloud-architect-topic-1-question-155/",
-  "published_iso": null,
-  "number": 155,
-  "question": "You are migrating third-party applications from optimized on-premises virtual machines to Google Cloud. You are unsure about the optimum CPU and memory options. The applications have a consistent usage pattern across multiple weeks. You want to optimize resource usage for the lowest cost. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7266-exam-professional-cloud-architect-topic-12-question-3/",
+  "published_iso": "2019-10-26T14:31:00",
+  "number": 3,
+  "question": "For this question, refer to the Dress4Win case study. Which of the compute services should be migrated as-is and would still be an optimized architecture for performance in the cloud?",
   "options": [
     {
       "key": "A",
-      "text": "Create an instance template with the smallest available machine type, and use an image of the third-party application taken from a current on-premises virtual machine. Create a managed instance group that uses average CPU utilization to autoscale the number of instances in the group. Modify the average CPU utilization threshold to optimize the number of instances running."
+      "text": "Web applications deployed using App Engine standard environment"
     },
     {
       "key": "B",
-      "text": "Create an App Engine flexible environment, and deploy the third-party application using a Dockerfile and a custom runtime. Set CPU and memory options similar to your application's current on-premises virtual machine in the app.yaml file."
+      "text": "RabbitMQ deployed using an unmanaged instance group"
     },
     {
       "key": "C",
-      "text": "Create multiple Compute Engine instances with varying CPU and memory options. Install the Cloud Monitoring agent, and deploy the third-party application on each of them. Run a load test with high traffic levels on the application, and use the results to determine the optimal settings."
+      "text": "Hadoop/Spark deployed using Cloud Dataproc Regional in High Availability mode"
     },
     {
       "key": "D",
-      "text": "Create a Compute Engine instance with CPU and memory options similar to your application's current on-premises virtual machine. Install the Cloud Monitoring agent, and deploy the third-party application. Run a load test with normal traffic levels on the application, and follow the Rightsizing Recommendations in the Cloud Console."
+      "text": "Jenkins, monitoring, bastion hosts, security scanners services deployed on custom machine types"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

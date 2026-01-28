@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/121322-exam-professional-cloud-architect-topic-1-question-193/",
-  "published_iso": null,
-  "number": 193,
-  "question": "You are configuring the cloud network architecture for a newly created project in Google Cloud that will host applications in Compute Engine. Compute Engine virtual machine instances will be created in two different subnets (sub-a and sub-b) within a single region: •\tInstances in sub-a will have public IP addresses. •\tInstances in sub-b will have only private IP addresses. To download updated packages, instances must connect to a public repository outside the boundaries of Google Cloud. You need to allow sub-b to access the external repository. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/9191-exam-professional-cloud-architect-topic-5-question-5/",
+  "published_iso": "2019-11-27T02:13:00",
+  "number": 5,
+  "question": "Mountkirk Games needs to create a repeatable and configurable mechanism for deploying isolated application environments. Developers and testers can access each other's environments and resources, but they cannot access staging or production resources. The staging environment needs access to some services from production. What should you do to isolate development environments from staging and production?",
   "options": [
     {
       "key": "A",
-      "text": "Enable Private Google Access on sub-b."
+      "text": "Create a project for development and test and another for staging and production"
     },
     {
       "key": "B",
-      "text": "Configure Cloud NAT and select sub-b in the NAT mapping section."
+      "text": "Create a network for development and test and another for staging and production"
     },
     {
       "key": "C",
-      "text": "Configure a bastion host instance in sub-a to connect to instances in sub-b."
+      "text": "Create one subnetwork for development and another for staging and production"
     },
     {
       "key": "D",
-      "text": "Enable Identity-Aware Proxy for TCP forwarding for instances in sub-b."
+      "text": "Create one project for development, a second for staging and a third for production"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

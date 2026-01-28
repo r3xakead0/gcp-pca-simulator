@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/22386-exam-professional-cloud-architect-topic-1-question-20/",
-  "published_iso": null,
-  "number": 20,
-  "question": "You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading. Where should you store the data?",
+  "url": "https://www.examtopics.com/discussions/google/view/8249-exam-professional-cloud-architect-topic-8-question-9/",
+  "published_iso": "2019-11-15T10:30:00",
+  "number": 9,
+  "question": "TerramEarth has equipped all connected trucks with servers and sensors to collect telemetry data. Next year they want to use the data to train machine learning models. They want to store this data in the cloud while reducing costs. What should they do?",
   "options": [
     {
       "key": "A",
-      "text": "Google BigQuery"
+      "text": "Have the vehicle's computer compress the data in hourly snapshots, and store it in a Google Cloud Storage (GCS) Nearline bucket"
     },
     {
       "key": "B",
-      "text": "Google Cloud SQL"
+      "text": "Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Google BigQuery"
     },
     {
       "key": "C",
-      "text": "Google Cloud Bigtable"
+      "text": "Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Cloud Bigtable"
     },
     {
       "key": "D",
-      "text": "Google Cloud Storage"
+      "text": "Have the vehicle's computer compress the data in hourly snapshots, and store it in a GCS Coldline bucket"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "D"
     ],
     "community": [
-      "C"
+      "D"
     ]
   }
 }

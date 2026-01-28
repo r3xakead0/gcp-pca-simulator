@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54369-exam-professional-cloud-architect-topic-1-question-160/",
-  "published_iso": null,
-  "number": 160,
-  "question": "The application reliability team at your company this added a debug feature to their backend service to send all server events to Google Cloud Storage for eventual analysis. The event records are at least 50 KB and at most 15 MB and are expected to peak at 3,000 events per second. You want to minimize data loss. Which process should you implement?",
+  "url": "https://www.examtopics.com/discussions/google/view/169213-exam-professional-cloud-architect-topic-1-question-200/",
+  "published_iso": "2025-03-17T06:55:00",
+  "number": 200,
+  "question": "Your company has a Google Cloud project that uses BigOuery for data warehousing. The VPN tunnel between the on-premises environment and Google Cloud is configured with Cloud VPN. Your security team wants to avoid data exfiltration by malicious insiders, compromised code, and accidental oversharing. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "ג€¢ Append metadata to file body ג€¢ Compress individual files ג€¢ Name files with serverName ג€\" Timestamp ג€¢ Create a new bucket if bucket is older than 1 hour and save individual files to the new bucket. Otherwise, save files to existing bucket."
+      "text": "Configure Private Service Connect."
     },
     {
       "key": "B",
-      "text": "ג€¢ Batch every 10,000 events with a single manifest file for metadata ג€¢ Compress event files and manifest file into a single archive file ג€¢ Name files using serverName ג€\" EventSequence ג€¢ Create a new bucket if bucket is older than 1 day and save the single archive file to the new bucket. Otherwise, save the single archive file to existing bucket."
+      "text": "Configure VPC Service Controls and configure Private Google Access for on-promises hosts."
     },
     {
       "key": "C",
-      "text": "ג€¢ Compress individual files ג€¢ Name files with serverName ג€\" EventSequence ג€¢ Save files to one bucket ג€¢ Set custom metadata headers for each object after saving"
+      "text": "Create a service account, grant the BigQuery JobUser role and Storage Object Viewer role to the service account, and remove all other Identity and Access Management (IAM) access from the project."
     },
     {
       "key": "D",
-      "text": "ג€¢ Append metadata to file body ג€¢ Compress individual files ג€¢ Name files with a random prefix pattern ג€¢ Save files to one bucket"
+      "text": "Configure Private Google Access."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

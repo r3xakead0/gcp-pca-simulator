@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8341-exam-professional-cloud-architect-topic-1-question-159/",
-  "published_iso": null,
-  "number": 159,
-  "question": "A lead software engineer tells you that his new application design uses websockets and HTTP sessions that are not distributed across the web servers. You want to help him ensure his application will run properly on Google Cloud Platform. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7130-exam-professional-cloud-architect-topic-1-question-9/",
+  "published_iso": "2019-10-24T14:12:00",
+  "number": 9,
+  "question": "You set up an autoscaling instance group to serve web traffic for an upcoming launch. After configuring the instance group as a backend service to an HTTP(S) load balancer, you notice that virtual machine (VM) instances are being terminated and re-launched every minute. The instances do not have a public IP address. You have verified the appropriate web response is coming from each instance using the curl command. You want to ensure the backend is configured correctly. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Help the engineer to convert his websocket code to use HTTP streaming"
+      "text": "Ensure that a firewall rules exists to allow source traffic on HTTP/HTTPS to reach the load balancer."
     },
     {
       "key": "B",
-      "text": "Review the encryption requirements for websocket connections with the security team"
+      "text": "Assign a public IP to each instance and configure a firewall rule to allow the load balancer to reach the instance public IP."
     },
     {
       "key": "C",
-      "text": "Meet with the cloud operations team and the engineer to discuss load balancer options"
+      "text": "Ensure that a firewall rule exists to allow load balancer health checks to reach the instances in the instance group."
     },
     {
       "key": "D",
-      "text": "Help the engineer redesign the application to use a distributed user session service that does not rely on websockets and HTTP sessions."
+      "text": "Create a tag on each instance with the name of the load balancer. Configure a firewall rule with the name of the load balancer as the source and the instance tag as the destination."
     }
   ],
   "answers": {

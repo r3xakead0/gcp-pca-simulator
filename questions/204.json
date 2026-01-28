@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60407-exam-professional-cloud-architect-topic-4-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "For this question, refer to the EHR Healthcare case study. In the past, configuration errors put public IP addresses on backend servers that should not have been accessible from the Internet. You need to ensure that no one can put external IP addresses on backend Compute Engine instances and that external IP addresses can only be configured on frontend Compute Engine instances. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6399-exam-professional-cloud-architect-topic-1-question-80/",
+  "published_iso": "2019-10-10T11:42:00",
+  "number": 80,
+  "question": "You need to develop procedures to verify resilience of disaster recovery for remote recovery using GCP. Your production environment is hosted on-premises. You need to establish a secure, redundant connection between your on-premises network and the GCP network. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create an Organizational Policy with a constraint to allow external IP addresses only on the frontend Compute Engine instances."
+      "text": "Verify that Dedicated Interconnect can replicate files to GCP. Verify that direct peering can establish a secure connection between your networks if Dedicated Interconnect fails."
     },
     {
       "key": "B",
-      "text": "Revoke the compute.networkAdmin role from all users in the project with front end instances."
+      "text": "Verify that Dedicated Interconnect can replicate files to GCP. Verify that Cloud VPN can establish a secure connection between your networks if Dedicated Interconnect fails."
     },
     {
       "key": "C",
-      "text": "Create an Identity and Access Management (IAM) policy that maps the IT staff to the compute.networkAdmin role for the organization."
+      "text": "Verify that the Transfer Appliance can replicate files to GCP. Verify that direct peering can establish a secure connection between your networks if the Transfer Appliance fails."
     },
     {
       "key": "D",
-      "text": "Create a custom Identity and Access Management (IAM) role named GCE_FRONTEND with the compute.addresses.create permission."
+      "text": "Verify that the Transfer Appliance can replicate files to GCP. Verify that Cloud VPN can establish a secure connection between your networks if the Transfer Appliance fails."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

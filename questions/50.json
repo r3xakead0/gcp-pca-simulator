@@ -1,32 +1,42 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7184-exam-professional-cloud-architect-topic-1-question-56/",
-  "published_iso": null,
-  "number": 56,
-  "question": "You have an application deployed on Google Kubernetes Engine using a Deployment named echo-deployment. The deployment is exposed using a Service called echo-service. You need to perform an update to the application with minimal downtime to the application. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/54304-exam-professional-cloud-architect-topic-1-question-7/",
+  "published_iso": "2021-06-02T22:18:00",
+  "number": 7,
+  "question": "To reduce costs, the Director of Engineering has required all developers to move their development infrastructure resources from on-premises virtual machines (VMs) to Google Cloud Platform. These resources go through multiple start/stop events during the day and require state to persist. You have been asked to design the process of running a development environment in Google Cloud while providing cost visibility to the finance department. Which two steps should you take? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Use kubectl set image deployment/echo-deployment <new-image>"
+      "text": "Use the - -no-auto-delete flag on all persistent disks and stop the VM"
     },
     {
       "key": "B",
-      "text": "Use the rolling update functionality of the Instance Group behind the Kubernetes cluster"
+      "text": "Use the - -auto-delete flag on all persistent disks and terminate the VM"
     },
     {
       "key": "C",
-      "text": "Update the deployment yaml file with the new container image. Use kubectl delete deployment/echo-deployment and kubectl create ג€\"f <yaml-file>"
+      "text": "Apply VM CPU utilization label and include it in the BigQuery billing export"
     },
     {
       "key": "D",
-      "text": "Update the service yaml file which the new container image. Use kubectl delete service/echo-service and kubectl create ג€\"f <yaml-file>"
+      "text": "Use Google BigQuery billing export and labels to associate cost to groups"
+    },
+    {
+      "key": "E",
+      "text": "Store all state into local SSD, snapshot the persistent disks, and terminate the VM"
+    },
+    {
+      "key": "F",
+      "text": "Store all state in Google Cloud Storage, snapshot the persistent disks, and terminate the VM"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "A",
+      "D"
     ],
     "community": [
-      "A"
+      "A",
+      "D"
     ]
   }
 }

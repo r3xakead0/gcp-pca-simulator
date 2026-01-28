@@ -1,32 +1,44 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6466-exam-professional-cloud-architect-topic-1-question-97/",
-  "published_iso": null,
-  "number": 97,
-  "question": "Your company creates rendering software which users can download from the company website. Your company has customers all over the world. You want to minimize latency for all your customers. You want to follow Google-recommended practices. How should you store the files?",
+  "url": "https://www.examtopics.com/discussions/google/view/6708-exam-professional-cloud-architect-topic-2-question-5/",
+  "published_iso": "2019-10-17T11:45:00",
+  "number": 5,
+  "question": "[Imagen]: /assets/media/exam-media/04339/0000700001.png The migration of JencoMart's application to Google Cloud Platform (GCP) is progressing too slowly. The infrastructure is shown in the diagram. You want to maximize throughput. What are three potential bottlenecks? (Choose three.)",
   "options": [
     {
       "key": "A",
-      "text": "Save the files in a Multi-Regional Cloud Storage bucket."
+      "text": "A single VPN tunnel, which limits throughput"
     },
     {
       "key": "B",
-      "text": "Save the files in a Regional Cloud Storage bucket, one bucket per zone of the region."
+      "text": "A tier of Google Cloud Storage that is not suited for this task"
     },
     {
       "key": "C",
-      "text": "Save the files in multiple Regional Cloud Storage buckets, one bucket per zone per region."
+      "text": "A copy command that is not suited to operate over long distances"
     },
     {
       "key": "D",
-      "text": "Save the files in multiple Multi-Regional Cloud Storage buckets, one bucket per multi-region."
+      "text": "Fewer virtual machines (VMs) in GCP than on-premises machines"
+    },
+    {
+      "key": "E",
+      "text": "A separate storage layer outside the VMs, which is not suited for this task"
+    },
+    {
+      "key": "F",
+      "text": "Complicated internet connectivity between the on-premises infrastructure and GCP"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A",
+      "C",
+      "F"
     ],
     "community": [
-      "D"
+      "A",
+      "C",
+      "F"
     ]
   }
 }

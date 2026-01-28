@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/20238-exam-professional-cloud-architect-topic-1-question-16/",
-  "published_iso": null,
-  "number": 16,
-  "question": "You have been asked to select the storage system for the click-data of your company's large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams. Which storage infrastructure should you choose?",
+  "url": "https://www.examtopics.com/discussions/google/view/9190-exam-professional-cloud-architect-topic-5-question-2/",
+  "published_iso": "2019-11-27T01:56:00",
+  "number": 2,
+  "question": "Mountkirk Games has deployed their new backend on Google Cloud Platform (GCP). You want to create a through testing process for new versions of the backend before they are released to the public. You want the testing environment to scale in an economical way. How should you design the process?",
   "options": [
     {
       "key": "A",
-      "text": "Google Cloud SQL"
+      "text": "Create a scalable environment in GCP for simulating production load"
     },
     {
       "key": "B",
-      "text": "Google Cloud Bigtable"
+      "text": "Use the existing infrastructure to test the GCP-based backend at scale"
     },
     {
       "key": "C",
-      "text": "Google Cloud Storage"
+      "text": "Build stress tests into each component of your application using resources internal to GCP to simulate load"
     },
     {
       "key": "D",
-      "text": "Google Cloud Datastore"
+      "text": "Create a set of static environments in GCP to test different levels of load ג€\" for example, high, medium, and low"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

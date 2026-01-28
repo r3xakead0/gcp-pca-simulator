@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7265-exam-professional-cloud-architect-topic-12-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "For this question, refer to the Dress4Win case study. Considering the given business requirements, how would you automate the deployment of web and transactional data layers?",
+  "url": "https://www.examtopics.com/discussions/google/view/381830-exam-professional-cloud-architect-topic-1-question-212/",
+  "published_iso": "2025-12-22T03:07:00",
+  "number": 212,
+  "question": "You are migrating a critical on-premises inventory management application to Google Cloud. The application is a monolith with a traditional relational database, and the immediate business goal is a rapid data center exit. The monolith is exposing an API to other business critical applications. The long-term vision is to modernize the application into globally distributed, cloud-native services to support the company’s expansion. You need to design the initial cloud architecture to ensure that future modernization causes the least possible disruption to other applications that depend on inventory data. The future modernization might require the API to change structure. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Deploy Nginx and Tomcat using Cloud Deployment Manager to Compute Engine. Deploy a Cloud SQL server to replace MySQL. Deploy Jenkins using Cloud Deployment Manager."
+      "text": "Use Service Directory to register the monolith's endpoint, allowing dependent applications to look up its address and connect directly."
     },
     {
       "key": "B",
-      "text": "Deploy Nginx and Tomcat using Cloud Launcher. Deploy a MySQL server using Cloud Launcher. Deploy Jenkins to Compute Engine using Cloud Deployment Manager scripts."
+      "text": "Implement a managed API facade with Apigee to handle all requests from dependent applications on behalf of the monolith’s backend."
     },
     {
       "key": "C",
-      "text": "Migrate Nginx and Tomcat to App Engine. Deploy a Cloud Datastore server to replace the MySQL server in a high-availability configuration. Deploy Jenkins to Compute Engine using Cloud Launcher."
+      "text": "Use an internal load balancer to provide a stable IP for dependent applications to connect directly to the monolith's native API."
     },
     {
       "key": "D",
-      "text": "Migrate Nginx and Tomcat to App Engine. Deploy a MySQL server using Cloud Launcher. Deploy Jenkins to Compute Engine using Cloud Launcher."
+      "text": "Provide dependent applications with direct database access by creating secured SQL VIEWs on Cloud SQL for them to query."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

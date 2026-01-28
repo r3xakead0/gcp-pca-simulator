@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56656-exam-professional-cloud-architect-topic-1-question-137/",
-  "published_iso": null,
-  "number": 137,
-  "question": "Your company provides a recommendation engine for retail customers. You are providing retail customers with an API where they can submit a user ID and the API returns a list of recommendations for that user. You are responsible for the API lifecycle and want to ensure stability for your customers in case the API makes backward-incompatible changes. You want to follow Google-recommended practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7020-exam-professional-cloud-architect-topic-1-question-163/",
+  "published_iso": "2019-10-22T19:28:00",
+  "number": 163,
+  "question": "Your company runs several databases on a single MySQL instance. They need to take backups of a specific database at regular intervals. The backup activity needs to complete as quickly as possible and cannot be allowed to impact disk performance. How should you configure the storage?",
   "options": [
     {
       "key": "A",
-      "text": "Create a distribution list of all customers to inform them of an upcoming backward-incompatible change at least one month before replacing the old API with the new API."
+      "text": "Configure a cron job to use the gcloud tool to take regular backups using persistent disk snapshots."
     },
     {
       "key": "B",
-      "text": "Create an automated process to generate API documentation, and update the public API documentation as part of the CI/CD process when deploying an update to the API."
+      "text": "Mount a Local SSD volume as the backup location. After the backup is complete, use gsutil to move the backup to Google Cloud Storage."
     },
     {
       "key": "C",
-      "text": "Use a versioning strategy for the APIs that increases the version number on every backward-incompatible change."
+      "text": "Use gcsfise to mount a Google Cloud Storage bucket as a volume directly on the instance and write backups to the mounted location using mysqldump."
     },
     {
       "key": "D",
-      "text": "Use a versioning strategy for the APIs that adds the suffix ג€DEPRECATEDג€ to the current API version number on every backward-incompatible change. Use the current version number for the new API."
+      "text": "Mount additional persistent disk volumes onto each virtual machine (VM) instance in a RAID10 array and use LVM to create snapshots to send to Cloud Storage"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60583-exam-professional-cloud-architect-topic-1-question-147/",
-  "published_iso": null,
-  "number": 147,
-  "question": "Your company has an enterprise application running on Compute Engine that requires high availability and high performance. The application has been deployed on two instances in two zones in the same region in active-passive mode. The application writes data to a persistent disk. In the case of a single zone outage, that data should be immediately made available to the other instance in the other zone. You want to maximize performance while minimizing downtime and data loss. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/121314-exam-professional-cloud-architect-topic-1-question-194/",
+  "published_iso": "2023-09-24T13:25:00",
+  "number": 194,
+  "question": "Your company is planning to migrate their Windows Server 2022 from their on-premises data center to Google Cloud. You need to bring the licenses that are currently in use in on-premises virtual machines into the target cloud environment. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "1. Attach a persistent SSD disk to the first instance. 2. Create a snapshot every hour. 3. In case of a zone outage, recreate a persistent SSD disk in the second instance where data is coming from the created snapshot."
+      "text": "1. Create an image of the on-premises virtual machines and upload into Cloud Storage. 2. Import the image as a virtual disk on Compute Engine."
     },
     {
       "key": "B",
-      "text": "1. Create a Cloud Storage bucket. 2. Mount the bucket into the first instance with gcs-fuse. 3. In case of a zone outage, mount the Cloud Storage bucket to the second instance with gcs-fuse."
+      "text": "1. Create standard instances on Compute Engine. 2. Select as the OS the same Microsoft Windows version that is currently in use in the on-premises environment."
     },
     {
       "key": "C",
-      "text": "1. Attach a regional SSD persistent disk to the first instance. 2. In case of a zone outage, force-attach the disk to the other instance."
+      "text": "1. Create an image of the on-premises virtual machine. 2. Import the image as a virtual disk on Compute Engine. 3. Create a standard instance on Compute Engine, selecting as the OS the same Microsoft Windows version that is currently in use in the on-premises environment. 4. Attach a data disk that includes data that matches the created image."
     },
     {
       "key": "D",
-      "text": "1. Attach a local SSD to the first instance disk. 2. Execute an rsync command every hour where the target is a persistent SSD disk attached to the second instance. 3. In case of a zone outage, use the second instance."
+      "text": "1. Create an image of the on-premises virtual machines. 2. Import the image as a virtual disk on Compute Engine using --os=windows-2022-dc-v . 3. Create a sole-tenancy instance on Compute Engine that uses the imported disk as a boot disk."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "D"
     ],
     "community": [
-      "C"
+      "D"
     ]
   }
 }

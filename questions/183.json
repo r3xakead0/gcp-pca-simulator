@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7190-exam-professional-cloud-architect-topic-1-question-44/",
-  "published_iso": null,
-  "number": 44,
-  "question": "You are analyzing and defining business processes to support your startup's trial usage of GCP, and you don't yet know what consumer demand for your product will be. Your manager requires you to minimize GCP service costs and adhere to Google best practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7180-exam-professional-cloud-architect-topic-1-question-54/",
+  "published_iso": "2019-10-25T02:57:00",
+  "number": 54,
+  "question": "You are working in a highly secured environment where public Internet access from the Compute Engine VMs is not allowed. You do not yet have a VPN connection to access an on-premises file server. You need to install specific software on a Compute Engine instance. How should you install the software?",
   "options": [
     {
       "key": "A",
-      "text": "Utilize free tier and sustained use discounts. Provision a staff position for service cost management."
+      "text": "Upload the required installation files to Cloud Storage. Configure the VM on a subnet with a Private Google Access subnet. Assign only an internal IP address to the VM. Download the installation files to the VM using gsutil."
     },
     {
       "key": "B",
-      "text": "Utilize free tier and sustained use discounts. Provide training to the team about service cost management."
+      "text": "Upload the required installation files to Cloud Storage and use firewall rules to block all traffic except the IP address range for Cloud Storage. Download the files to the VM using gsutil."
     },
     {
       "key": "C",
-      "text": "Utilize free tier and committed use discounts. Provision a staff position for service cost management."
+      "text": "Upload the required installation files to Cloud Source Repositories. Configure the VM on a subnet with a Private Google Access subnet. Assign only an internal IP address to the VM. Download the installation files to the VM using gcloud."
     },
     {
       "key": "D",
-      "text": "Utilize free tier and committed use discounts. Provide training to the team about service cost management."
+      "text": "Upload the required installation files to Cloud Source Repositories and use firewall rules to block all traffic except the IP address range for Cloud Source Repositories. Download the files to the VM using gsutil."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

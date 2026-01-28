@@ -1,38 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54372-exam-professional-cloud-architect-topic-1-question-166/",
-  "published_iso": null,
-  "number": 166,
-  "question": "Your company places a high value on being responsive and meeting customer needs quickly. Their primary business objectives are release speed and agility. You want to reduce the chance of security errors being accidentally introduced. Which two actions can you take? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/68685-exam-professional-cloud-architect-topic-1-question-174/",
+  "published_iso": "2021-12-28T03:27:00",
+  "number": 174,
+  "question": "You are working with a data warehousing team that performs data analysis. The team needs to process data from external partners, but the data contains personally identifiable information (PII). You need to process and store the data without storing any of the PIIE data. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Ensure every code check-in is peer reviewed by a security SME"
+      "text": "Create a Dataflow pipeline to retrieve the data from the external sources. As part of the pipeline, use the Cloud Data Loss Prevention (Cloud DLP) API to remove any PII data. Store the result in BigQuery."
     },
     {
       "key": "B",
-      "text": "Use source code security analyzers as part of the CI/CD pipeline"
+      "text": "Create a Dataflow pipeline to retrieve the data from the external sources. As part of the pipeline, store all non-PII data in BigQuery and store all PII data in a Cloud Storage bucket that has a retention policy set."
     },
     {
       "key": "C",
-      "text": "Ensure you have stubs to unit test all interfaces between components"
+      "text": "Ask the external partners to upload all data on Cloud Storage. Configure Bucket Lock for the bucket. Create a Dataflow pipeline to read the data from the bucket. As part of the pipeline, use the Cloud Data Loss Prevention (Cloud DLP) API to remove any PII data. Store the result in BigQuery."
     },
     {
       "key": "D",
-      "text": "Enable code signing and a trusted binary repository integrated with your CI/CD pipeline"
-    },
-    {
-      "key": "E",
-      "text": "Run a vulnerability security scanner as part of your continuous-integration /continuous-delivery (CI/CD) pipeline"
+      "text": "Ask the external partners to import all data in your BigQuery dataset. Create a dataflow pipeline to copy the data into a new table. As part of the Dataflow bucket, skip all data in columns that have PII data"
     }
   ],
   "answers": {
     "platform": [
-      "B",
-      "E"
+      "A"
     ],
     "community": [
-      "B",
-      "E"
+      "A"
     ]
   }
 }

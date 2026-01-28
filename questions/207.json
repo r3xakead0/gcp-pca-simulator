@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56890-exam-professional-cloud-architect-topic-3-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. The HRL development team releases a new version of their predictive capability application every Tuesday evening at 3 a.m. UTC to a repository. The security team at HRL has developed an in-house penetration test Cloud Function called Airwolf. The security team wants to run Airwolf against the predictive capability application as soon as it is released every Tuesday. You need to set up Airwolf to run at the recurring weekly cadence. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/54735-exam-professional-cloud-architect-topic-1-question-47/",
+  "published_iso": "2021-06-06T17:36:00",
+  "number": 47,
+  "question": "Your company is migrating its on-premises data center into the cloud. As part of the migration, you want to integrate Google Kubernetes Engine (GKE) for workload orchestration. Parts of your architecture must also be PCI DSS-compliant. Which of the following is most accurate?",
   "options": [
     {
       "key": "A",
-      "text": "Set up Cloud Tasks and a Cloud Storage bucket that triggers a Cloud Function."
+      "text": "App Engine is the only compute platform on GCP that is certified for PCI DSS hosting."
     },
     {
       "key": "B",
-      "text": "Set up a Cloud Logging sink and a Cloud Storage bucket that triggers a Cloud Function."
+      "text": "GKE cannot be used under PCI DSS because it is considered shared hosting."
     },
     {
       "key": "C",
-      "text": "Configure the deployment job to notify a Pub/Sub queue that triggers a Cloud Function."
+      "text": "GKE and GCP provide the tools you need to build a PCI DSS-compliant environment."
     },
     {
       "key": "D",
-      "text": "Set up Identity and Access Management (IAM) and Confidential Computing to trigger a Cloud Function."
+      "text": "All Google Cloud services are usable because Google Cloud Platform is certified PCI-compliant."
     }
   ],
   "answers": {

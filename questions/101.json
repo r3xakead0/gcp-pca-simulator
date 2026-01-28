@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/10898-exam-professional-cloud-architect-topic-1-question-24/",
-  "published_iso": null,
-  "number": 24,
-  "question": "A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services. You want to know which service takes the longest in those cases. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/11819-exam-professional-cloud-architect-topic-1-question-77/",
+  "published_iso": "2020-01-12T14:48:00",
+  "number": 77,
+  "question": "You want to establish a Compute Engine application in a single VPC across two regions. The application must communicate over VPN to an on-premises network. How should you deploy the VPN?",
   "options": [
     {
       "key": "A",
-      "text": "Set timeouts on your application so that you can fail requests faster"
+      "text": "Use VPC Network Peering between the VPC and the on-premises network."
     },
     {
       "key": "B",
-      "text": "Send custom metrics for each of your requests to Stackdriver Monitoring"
+      "text": "Expose the VPC to the on-premises network using IAM and VPC Sharing."
     },
     {
       "key": "C",
-      "text": "Use Stackdriver Monitoring to look for insights that show when your API latencies are high"
+      "text": "Create a global Cloud VPN Gateway with VPN tunnels from each region to the on-premises peer gateway."
     },
     {
       "key": "D",
-      "text": "Instrument your application with Stackdriver Trace in order to break down the request latencies at each microservice"
+      "text": "Deploy Cloud VPN Gateway in each region. Ensure that each region has at least one VPN tunnel to the on-premises peer gateway."
     }
   ],
   "answers": {

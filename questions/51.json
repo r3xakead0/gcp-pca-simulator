@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80112-exam-professional-cloud-architect-topic-1-question-187/",
-  "published_iso": null,
-  "number": 187,
-  "question": "Your company has a Google Cloud project that uses BigQuery for data warehousing on a pay-per-use basis. You want to monitor queries in real time to discover the most costly queries and which users spend the most. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/80419-exam-professional-cloud-architect-topic-1-question-191/",
+  "published_iso": "2022-09-05T21:38:00",
+  "number": 191,
+  "question": "You are deploying an application to Google Cloud. The application is part of a system. The application in Google Cloud must communicate over a private network with applications in a non-Google Cloud environment. The expected average throughput is 200 kbps. The business requires: ✑ as close to 100% system availability as possible ✑ cost optimization You need to design the connectivity between the locations to meet the business requirements. What should you provision?",
   "options": [
     {
       "key": "A",
-      "text": "1. In the BigQuery dataset that contains all the tables to be queried, add a label for each user that can launch a query. 2. Open the Billing page of the project. 3. Select Reports. 4. Select BigQuery as the product and filter by the user you want to check."
+      "text": "An HA Cloud VPN gateway connected with two tunnels to an on-premises VPN gateway"
     },
     {
       "key": "B",
-      "text": "1. Create a Cloud Logging sink to export BigQuery data access logs to BigQuery. 2. Perform a BigQuery query on the generated table to extract the information you need."
+      "text": "Two Classic Cloud VPN gateways connected to two on-premises VPN gateways Configure each Classic Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways"
     },
     {
       "key": "C",
-      "text": "1. Create a Cloud Logging sink to export BigQuery data access logs to Cloud Storage. 2. Develop a Dataflow pipeline to compute the cost of queries split by users."
+      "text": "Two HA Cloud VPN gateways connected to two on-premises VPN gateways Configure each HA Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways"
     },
     {
       "key": "D",
-      "text": "1. Activate billing export into BigQuery. 2. Perform a BigQuery query on the billing table to extract the information you need."
+      "text": "A single Cloud VPN gateway connected to an on-premises VPN gateway"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60437-exam-professional-cloud-architect-topic-1-question-142/",
-  "published_iso": null,
-  "number": 142,
-  "question": "An application development team has come to you for advice. They are planning to write and deploy an HTTP(S) API using Go 1.12. The API will have a very unpredictable workload and must remain reliable during peaks in traffic. They want to minimize operational overhead for this application. Which approach should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/56798-exam-professional-cloud-architect-topic-7-question-7/",
+  "published_iso": "2021-07-01T15:48:00",
+  "number": 7,
+  "question": "Your development team has created a mobile game app. You want to test the new mobile app on Android and iOS devices with a variety of configurations. You need to ensure that testing is efficient and cost-effective. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Develop the application with containers, and deploy to Google Kubernetes Engine."
+      "text": "Upload your mobile app to the Firebase Test Lab, and test the mobile app on Android and iOS devices."
     },
     {
       "key": "B",
-      "text": "Develop the application for App Engine standard environment."
+      "text": "Create Android and iOS VMs on Google Cloud, install the mobile app on the VMs, and test the mobile app."
     },
     {
       "key": "C",
-      "text": "Use a Managed Instance Group when deploying to Compute Engine."
+      "text": "Create Android and iOS containers on Google Kubernetes Engine (GKE), install the mobile app on the containers, and test the mobile app."
     },
     {
       "key": "D",
-      "text": "Develop the application for App Engine flexible environment, using a custom runtime."
+      "text": "Upload your mobile app with different configurations to Firebase Hosting and test each configuration."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

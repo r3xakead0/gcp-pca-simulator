@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60409-exam-professional-cloud-architect-topic-4-question-7/",
-  "published_iso": null,
-  "number": 7,
-  "question": "For this question, refer to the EHR Healthcare case study. You are responsible for designing the Google Cloud network architecture for Google Kubernetes Engine. You want to follow Google best practices. Considering the EHR Healthcare business and technical requirements, what should you do to reduce the attack surface?",
+  "url": "https://www.examtopics.com/discussions/google/view/60524-exam-professional-cloud-architect-topic-10-question-1/",
+  "published_iso": "2021-08-24T15:56:00",
+  "number": 1,
+  "question": "For this question, refer to the TerramEarth case study. You start to build a new application that uses a few Cloud Functions for the backend. One use case requires a Cloud Function func_display to invoke another Cloud Function func_query. You want func_query only to accept invocations from func_display. You also want to follow Google's recommended best practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use a private cluster with a private endpoint with master authorized networks configured."
+      "text": "Create a token and pass it in as an environment variable to func_display. When invoking func_query, include the token in the request. Pass the same token to func_query and reject the invocation if the tokens are different."
     },
     {
       "key": "B",
-      "text": "Use a public cluster with firewall rules and Virtual Private Cloud (VPC) routes."
+      "text": "Make func_query 'Require authentication.' Create a unique service account and associate it to func_display. Grant the service account invoker role for func_query. Create an id token in func_display and include the token to the request when invoking func_query."
     },
     {
       "key": "C",
-      "text": "Use a private cluster with a public endpoint with master authorized networks configured."
+      "text": "Make func_query 'Require authentication' and only accept internal traffic. Create those two functions in the same VP Create an ingress firewall rule for func_query to only allow traffic from func_display."
     },
     {
       "key": "D",
-      "text": "Use a public cluster with master authorized networks enabled and firewall rules."
+      "text": "Create those two functions in the same project and VPC. Make func_query only accept internal traffic. Create an ingress firewall for func_query to only allow traffic from func_display. Also, make sure both functions use the same service account."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

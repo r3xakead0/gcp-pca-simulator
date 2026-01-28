@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/57128-exam-professional-cloud-architect-topic-9-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "For this question, refer to the TerramEarth case study. TerramEarth has decided to store data files in Cloud Storage. You need to configure Cloud Storage lifecycle rule to store 1 year of data and minimize file storage cost. Which two actions should you take?",
+  "url": "https://www.examtopics.com/discussions/google/view/65937-exam-professional-cloud-architect-topic-3-question-1/",
+  "published_iso": "2021-11-13T14:09:00",
+  "number": 1,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. Your team is in charge of creating a payment card data vault for card numbers used to bill tens of thousands of viewers, merchandise consumers, and season ticket holders. You need to implement a custom card tokenization service that meets the following requirements: *    It must provide low latency at minimal cost. *    It must be able to identify duplicate credit cards and must not store plaintext card numbers. *    It should support annual key rotation. Which storage approach should you adopt for your tokenization service?",
   "options": [
     {
       "key": "A",
-      "text": "Create a Cloud Storage lifecycle rule with Age: ג€30ג€, Storage Class: ג€Standardג€, and Action: ג€Set to Coldlineג€, and create a second GCS life-cycle rule with Age: ג€365ג€, Storage Class: ג€Coldlineג€, and Action: ג€Deleteג€."
+      "text": "Store the card data in Secret Manager after running a query to identify duplicates."
     },
     {
       "key": "B",
-      "text": "Create a Cloud Storage lifecycle rule with Age: ג€30ג€, Storage Class: ג€Coldlineג€, and Action: ג€Set to Nearlineג€, and create a second GCS life-cycle rule with Age: ג€91ג€, Storage Class: ג€Coldlineג€, and Action: ג€Set to Nearlineג€."
+      "text": "Encrypt the card data with a deterministic algorithm stored in Firestore using Datastore mode."
     },
     {
       "key": "C",
-      "text": "Create a Cloud Storage lifecycle rule with Age: ג€90ג€, Storage Class: ג€Standardג€, and Action: ג€Set to Nearlineג€, and create a second GCS life-cycle rule with Age: ג€91ג€, Storage Class: ג€Nearlineג€, and Action: ג€Set to Coldlineג€."
+      "text": "Encrypt the card data with a deterministic algorithm and shard it across multiple Memorystore instances."
     },
     {
       "key": "D",
-      "text": "Create a Cloud Storage lifecycle rule with Age: ג€30ג€, Storage Class: ג€Standardג€, and Action: ג€Set to Coldlineג€, and create a second GCS life-cycle rule with Age: ג€365ג€, Storage Class: ג€Nearlineג€, and Action: ג€Deleteג€."
+      "text": "Use column-level encryption to store the data in Cloud SQL."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

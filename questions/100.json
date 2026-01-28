@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6884-exam-professional-cloud-architect-topic-1-question-28/",
-  "published_iso": null,
-  "number": 28,
-  "question": "Auditors visit your teams every 12 months and ask to review all the Google Cloud Identity and Access Management (Cloud IAM) policy changes in the previous 12 months. You want to streamline and expedite the analysis and audit process. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/80035-exam-professional-cloud-architect-topic-1-question-182/",
+  "published_iso": "2022-09-04T12:41:00",
+  "number": 182,
+  "question": "You are managing several projects on Google Cloud and need to interact on a daily basis with BigQuery, Bigtable, and Kubernetes Engine using the gcloud CL tool. You are travelling a lot and work on different workstations during the week. You want to avoid having to manage the gcloud CLI manually. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create custom Google Stackdriver alerts and send them to the auditor"
+      "text": "Use Google Cloud Shell in the Google Cloud Console to interact with Google Cloud."
     },
     {
       "key": "B",
-      "text": "Enable Logging export to Google BigQuery and use ACLs and views to scope the data shared with the auditor"
+      "text": "Create a Compute Engine instance and install gcloud on the instance. Connect to this instance via SSH to always use the same gcloud installation when interacting with Google Cloud."
     },
     {
       "key": "C",
-      "text": "Use cloud functions to transfer log entries to Google Cloud SQL and use ACLs and views to limit an auditor's view"
+      "text": "Install gcloud on all of your workstations. Run the command gcloud components auto-update on each workstation"
     },
     {
       "key": "D",
-      "text": "Enable Google Cloud Storage (GCS) log export to audit logs into a GCS bucket and delegate access to the bucket"
+      "text": "Use a package manager to install gcloud on your workstations instead of installing it manually."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

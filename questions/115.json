@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/68683-exam-professional-cloud-architect-topic-1-question-172/",
-  "published_iso": null,
-  "number": 172,
-  "question": "Your company has an application running on Compute Engine that allows users to play their favorite music. There are a fixed number of instances. Files are stored in Cloud Storage, and data is streamed directly to users. Users are reporting that they sometimes need to attempt to play popular songs multiple times before they are successful. You need to improve the performance of the application. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56735-exam-professional-cloud-architect-topic-7-question-5/",
+  "published_iso": "2021-07-01T11:44:00",
+  "number": 5,
+  "question": "Your development teams release new versions of games running on Google Kubernetes Engine (GKE) daily. You want to create service level indicators (SLIs) to evaluate the quality of the new versions from the user's perspective. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "1. Mount the Cloud Storage bucket using gcsfuse on all backend Compute Engine instances. 2. Serve music files directly from the backend Compute Engine instance."
+      "text": "Create CPU Utilization and Request Latency as service level indicators."
     },
     {
       "key": "B",
-      "text": "1. Create a Cloud Filestore NFS volume and attach it to the backend Compute Engine instances. 2. Download popular songs in Cloud Filestore. 3. Serve music files directly from the backend Compute Engine instance."
+      "text": "Create GKE CPU Utilization and Memory Utilization as service level indicators."
     },
     {
       "key": "C",
-      "text": "1. Copy popular songs into CloudSQL as a blob. 2. Update application code to retrieve data from CloudSQL when Cloud Storage is overloaded."
+      "text": "Create Request Latency and Error Rate as service level indicators."
     },
     {
       "key": "D",
-      "text": "1. Create a managed instance group with Compute Engine instances. 2. Create a global load balancer and configure it with two backends: ג—‹ Managed instance group ג—‹ Cloud Storage bucket 3. Enable Cloud CDN on the bucket backend."
+      "text": "Create Server Uptime and Error Rate as service level indicators."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

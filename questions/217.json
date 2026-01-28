@@ -1,37 +1,31 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60388-exam-professional-cloud-architect-topic-4-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "For this question, refer to the EHR Healthcare case study. You are responsible for ensuring that EHR's use of Google Cloud will pass an upcoming privacy compliance audit. What should you do? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/20238-exam-professional-cloud-architect-topic-1-question-16/",
+  "published_iso": "2020-05-10T22:18:00",
+  "number": 16,
+  "question": "You have been asked to select the storage system for the click-data of your company's large portfolio of websites. This data is streamed in from a custom website analytics package at a typical rate of 6,000 clicks per minute. With bursts of up to 8,500 clicks per second. It must have been stored for future analysis by your data science and user experience teams. Which storage infrastructure should you choose?",
   "options": [
     {
       "key": "A",
-      "text": "Verify EHR's product usage against the list of compliant products on the Google Cloud compliance page."
+      "text": "Google Cloud SQL"
     },
     {
       "key": "B",
-      "text": "Advise EHR to execute a Business Associate Agreement (BAA) with Google Cloud."
+      "text": "Google Cloud Bigtable"
     },
     {
       "key": "C",
-      "text": "Use Firebase Authentication for EHR's user facing applications."
+      "text": "Google Cloud Storage"
     },
     {
       "key": "D",
-      "text": "Implement Prometheus to detect and prevent security breaches on EHR's web-based applications."
-    },
-    {
-      "key": "E",
-      "text": "Use GKE private clusters for all Kubernetes workloads."
+      "text": "Google Cloud Datastore"
     }
   ],
   "answers": {
     "platform": [
-      "A",
       "B"
     ],
     "community": [
-      "A",
       "B"
     ]
   }

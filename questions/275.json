@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6330-exam-professional-cloud-architect-topic-1-question-61/",
-  "published_iso": null,
-  "number": 61,
-  "question": "The development team has provided you with a Kubernetes Deployment file. You have no infrastructure yet and need to deploy the application. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/11817-exam-professional-cloud-architect-topic-1-question-74/",
+  "published_iso": "2020-01-12T14:42:00",
+  "number": 74,
+  "question": "You are tasked with building an online analytical processing (OLAP) marketing analytics and reporting tool. This requires a relational database that can operate on hundreds of terabytes of data. What is the Google-recommended tool for such applications?",
   "options": [
     {
       "key": "A",
-      "text": "Use gcloud to create a Kubernetes cluster. Use Deployment Manager to create the deployment."
+      "text": "Cloud Spanner, because it is globally distributed"
     },
     {
       "key": "B",
-      "text": "Use gcloud to create a Kubernetes cluster. Use kubectl to create the deployment."
+      "text": "Cloud SQL, because it is a fully managed relational database"
     },
     {
       "key": "C",
-      "text": "Use kubectl to create a Kubernetes cluster. Use Deployment Manager to create the deployment."
+      "text": "Cloud Firestore, because it offers real-time synchronization across devices"
     },
     {
       "key": "D",
-      "text": "Use kubectl to create a Kubernetes cluster. Use kubectl to create the deployment."
+      "text": "BigQuery, because it is designed for large-scale processing of tabular data"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

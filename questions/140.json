@@ -1,38 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56369-exam-professional-cloud-architect-topic-1-question-108/",
-  "published_iso": null,
-  "number": 108,
-  "question": "You are implementing a single Cloud SQL MySQL second-generation database that contains business-critical transaction data. You want to ensure that the minimum amount of data is lost in case of catastrophic failure. Which two features should you implement? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/56751-exam-professional-cloud-architect-topic-1-question-133/",
+  "published_iso": "2021-07-01T12:43:00",
+  "number": 133,
+  "question": "You have deployed several instances on Compute Engine. As a security requirement, instances cannot have a public IP address. There is no VPN connection between Google Cloud and your office, and you need to connect via SSH into a specific machine without violating the security requirements. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Sharding"
+      "text": "Configure Cloud NAT on the subnet where the instance is hosted. Create an SSH connection to the Cloud NAT IP address to reach the instance."
     },
     {
       "key": "B",
-      "text": "Read replicas"
+      "text": "Add all instances to an unmanaged instance group. Configure TCP Proxy Load Balancing with the instance group as a backend. Connect to the instance using the TCP Proxy IP."
     },
     {
       "key": "C",
-      "text": "Binary logging"
+      "text": "Configure Identity-Aware Proxy (IAP) for the instance and ensure that you have the role of IAP-secured Tunnel User. Use the gcloud command line tool to ssh into the instance."
     },
     {
       "key": "D",
-      "text": "Automated backups"
-    },
-    {
-      "key": "E",
-      "text": "Semisynchronous replication"
+      "text": "Create a bastion host in the network to SSH into the bastion host from your office location. From the bastion host, SSH into the desired instance."
     }
   ],
   "answers": {
     "platform": [
-      "C",
-      "D"
+      "C"
     ],
     "community": [
-      "C",
-      "D"
+      "C"
     ]
   }
 }

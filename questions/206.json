@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56326-exam-professional-cloud-architect-topic-3-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. HRL is looking for a cost-effective approach for storing their race data such as telemetry. They want to keep all historical records, train models using only the previous season's data, and plan for data growth in terms of volume and information collected. You need to propose a data solution. Considering HRL business requirements and the goals expressed by CEO S. Hawke, what should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6846-exam-professional-cloud-architect-topic-1-question-49/",
+  "published_iso": "2019-10-20T15:45:00",
+  "number": 49,
+  "question": "Google Cloud Platform resources are managed hierarchically using organization, folders, and projects. When Cloud Identity and Access Management (IAM) policies exist at these different levels, what is the effective policy at a particular node of the hierarchy?",
   "options": [
     {
       "key": "A",
-      "text": "Use Firestore for its scalable and flexible document-based database. Use collections to aggregate race data by season and event."
+      "text": "The effective policy is determined only by the policy set at the node"
     },
     {
       "key": "B",
-      "text": "Use Cloud Spanner for its scalability and ability to version schemas with zero downtime. Split race data using season as a primary key."
+      "text": "The effective policy is the policy set at the node and restricted by the policies of its ancestors"
     },
     {
       "key": "C",
-      "text": "Use BigQuery for its scalability and ability to add columns to a schema. Partition race data based on season."
+      "text": "The effective policy is the union of the policy set at the node and policies inherited from its ancestors"
     },
     {
       "key": "D",
-      "text": "Use Cloud SQL for its ability to automatically manage storage increases and compatibility with MySQL. Use separate database instances for each season."
+      "text": "The effective policy is the intersection of the policy set at the node and policies inherited from its ancestors"
     }
   ],
   "answers": {

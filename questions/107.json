@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6549-exam-professional-cloud-architect-topic-5-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "Mountkirk Games wants to set up a continuous delivery pipeline. Their architecture includes many small services that they want to be able to update and roll back quickly. Mountkirk Games has the following requirements: ✑ Services are deployed redundantly across multiple regions in the US and Europe ✑ Only frontend services are exposed on the public internet ✑ They can provide a single frontend IP for their fleet of services ✑ Deployment artifacts are immutable Which set of products should they use?",
+  "url": "https://www.examtopics.com/discussions/google/view/7265-exam-professional-cloud-architect-topic-12-question-2/",
+  "published_iso": "2019-10-26T14:27:00",
+  "number": 2,
+  "question": "For this question, refer to the Dress4Win case study. Considering the given business requirements, how would you automate the deployment of web and transactional data layers?",
   "options": [
     {
       "key": "A",
-      "text": "Google Cloud Storage, Google Cloud Dataflow, Google Compute Engine"
+      "text": "Deploy Nginx and Tomcat using Cloud Deployment Manager to Compute Engine. Deploy a Cloud SQL server to replace MySQL. Deploy Jenkins using Cloud Deployment Manager."
     },
     {
       "key": "B",
-      "text": "Google Cloud Storage, Google App Engine, Google Network Load Balancer"
+      "text": "Deploy Nginx and Tomcat using Cloud Launcher. Deploy a MySQL server using Cloud Launcher. Deploy Jenkins to Compute Engine using Cloud Deployment Manager scripts."
     },
     {
       "key": "C",
-      "text": "Google Kubernetes Registry, Google Container Engine, Google HTTP(S) Load Balancer"
+      "text": "Migrate Nginx and Tomcat to App Engine. Deploy a Cloud Datastore server to replace the MySQL server in a high-availability configuration. Deploy Jenkins to Compute Engine using Cloud Launcher."
     },
     {
       "key": "D",
-      "text": "Google Cloud Functions, Google Cloud Pub/Sub, Google Cloud Deployment Manager"
+      "text": "Migrate Nginx and Tomcat to App Engine. Deploy a MySQL server using Cloud Launcher. Deploy Jenkins to Compute Engine using Cloud Launcher."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

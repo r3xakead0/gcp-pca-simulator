@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7154-exam-professional-cloud-architect-topic-1-question-18/",
-  "published_iso": null,
-  "number": 18,
-  "question": "Your company is forecasting a sharp increase in the number and size of Apache Spark and Hadoop jobs being run on your local datacenter. You want to utilize the cloud to help you scale this upcoming demand with the least amount of operations work and code change. Which product should you use?",
+  "url": "https://www.examtopics.com/discussions/google/view/6785-exam-professional-cloud-architect-topic-9-question-6/",
+  "published_iso": "2019-10-19T12:07:00",
+  "number": 6,
+  "question": "For this question, refer to the TerramEarth case study. You are asked to design a new architecture for the ingestion of the data of the 200,000 vehicles that are connected to a cellular network. You want to follow Google-recommended practices. Considering the technical requirements, which components should you use for the ingestion of the data?",
   "options": [
     {
       "key": "A",
-      "text": "Google Cloud Dataflow"
+      "text": "Google Kubernetes Engine with an SSL Ingress"
     },
     {
       "key": "B",
-      "text": "Google Cloud Dataproc"
+      "text": "Cloud IoT Core with public/private key pairs"
     },
     {
       "key": "C",
-      "text": "Google Compute Engine"
+      "text": "Compute Engine with project-wide SSH keys"
     },
     {
       "key": "D",
-      "text": "Google Kubernetes Engine"
+      "text": "Compute Engine with specific SSH keys"
     }
   ],
   "answers": {

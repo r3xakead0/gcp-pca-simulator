@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7263-exam-professional-cloud-architect-topic-11-question-7/",
-  "published_iso": null,
-  "number": 7,
-  "question": "Dress4Win has configured a new uptime check with Google Stackdriver for several of their legacy services. The Stackdriver dashboard is not reporting the services as healthy. What should they do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381818-exam-professional-cloud-architect-topic-1-question-216/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 216,
+  "question": "You are designing a new insurance claims processing application that will be deployed on Google Kubernetes Engine (GKE) Your company’s compliance team requires a complete and non-repudiable audit trail for all administrative actions from day one. Your application must capture who deploys a new container image, who modifies the GKE cluster's configuration, and who interacts with running pods or Kubernetes secrets using kubectl. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Install the Stackdriver agent on all of the legacy web servers."
+      "text": "Enable Binary Authorization on the GKE cluster, and create a policy that requires all deployed container images to be signed by a trusted attestor."
     },
     {
       "key": "B",
-      "text": "In the Cloud Platform Console download the list of the uptime servers' IP addresses and create an inbound firewall rule"
+      "text": "Deploy a DaemonSet to every node in the GKE cluster that runs a logging agent to collect and forward all container logs to Cloud Logging."
     },
     {
       "key": "C",
-      "text": "Configure their load balancer to pass through the User-Agent HTTP header when the value matches GoogleStackdriverMonitoring-UptimeChecks (https:// cloud.google.com/monitoring)"
+      "text": "Enable GKE Audit Logging to send Kubernetes API server logs to Cloud Logging, and ensure Cloud Audit Logs are enabled for the project."
     },
     {
       "key": "D",
-      "text": "Configure their legacy web servers to allow requests that contain user-Agent HTTP header when the value matches GoogleStackdriverMonitoring- UptimeChecks (https://cloud.google.com/monitoring)"
+      "text": "Activate the Security Command Center Premium tier to analyze GKE logs and detect threats, vulnerabilities, and misconfigurations in real time."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

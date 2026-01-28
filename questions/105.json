@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7085-exam-professional-cloud-architect-topic-1-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "A news feed web service has the following code running on Google App Engine. During peak load, users report that they can see news articles they already viewed. What is the most likely cause of this problem? [Imagen]: /assets/media/exam-media/04339/0007100001.png",
+  "url": "https://www.examtopics.com/discussions/google/view/54406-exam-professional-cloud-architect-topic-1-question-22/",
+  "published_iso": "2021-06-03T14:08:00",
+  "number": 22,
+  "question": "One of the developers on your team deployed their application in Google Container Engine with the Dockerfile below. They report that their application deployments are taking too long. [Imagen]: /assets/media/exam-media/04339/0008300001.png You want to optimize this Dockerfile for faster deployment times without adversely affecting the app's functionality. Which two actions should you take? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "The session variable is local to just a single instance"
+      "text": "Remove Python after running pip"
     },
     {
       "key": "B",
-      "text": "The session variable is being overwritten in Cloud Datastore"
+      "text": "Remove dependencies from requirements.txt"
     },
     {
       "key": "C",
-      "text": "The URL of the API needs to be modified to prevent caching"
+      "text": "Use a slimmed-down base image like Alpine Linux"
     },
     {
       "key": "D",
-      "text": "The HTTP Expires header needs to be set to -1 stop caching"
+      "text": "Use larger machine types for your Google Container Engine node pools"
+    },
+    {
+      "key": "E",
+      "text": "Copy the source after he package dependencies (Python and pip) are installed"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C",
+      "E"
     ],
     "community": [
-      "A"
+      "C",
+      "E"
     ]
   }
 }

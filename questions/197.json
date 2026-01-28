@@ -1,32 +1,36 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/68718-exam-professional-cloud-architect-topic-1-question-92/",
-  "published_iso": null,
-  "number": 92,
-  "question": "Your customer runs a web service used by e-commerce sites to offer product recommendations to users. The company has begun experimenting with a machine learning model on Google Cloud Platform to improve the quality of results. What should the customer do to improve their model's results over time?",
+  "url": "https://www.examtopics.com/discussions/google/view/7211-exam-professional-cloud-architect-topic-1-question-40/",
+  "published_iso": "2019-10-25T19:17:00",
+  "number": 40,
+  "question": "As part of implementing their disaster recovery plan, your company is trying to replicate their production MySQL database from their private data center to their GCP project using a Google Cloud VPN connection. They are experiencing latency issues and a small amount of packet loss that is disrupting the replication. What should they do?",
   "options": [
     {
       "key": "A",
-      "text": "Export Cloud Machine Learning Engine performance metrics from Stackdriver to BigQuery, to be used to analyze the efficiency of the model."
+      "text": "Configure their replication to use UDP."
     },
     {
       "key": "B",
-      "text": "Build a roadmap to move the machine learning model training from Cloud GPUs to Cloud TPUs, which offer better results."
+      "text": "Configure a Google Cloud Dedicated Interconnect."
     },
     {
       "key": "C",
-      "text": "Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance."
+      "text": "Restore their database daily using Google Cloud SQL."
     },
     {
       "key": "D",
-      "text": "Save a history of recommendations and results of the recommendations in BigQuery, to be used as training data."
+      "text": "Add additional VPN connections and load balance them."
+    },
+    {
+      "key": "E",
+      "text": "Send the replicated transaction to Google Cloud Pub/Sub."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

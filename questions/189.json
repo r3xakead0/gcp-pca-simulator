@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/14735-exam-professional-cloud-architect-topic-11-question-9/",
-  "published_iso": null,
-  "number": 9,
-  "question": "Dress4Win has end-to-end tests covering 100% of their endpoints. They want to ensure that the move to the cloud does not introduce any new bugs. Which additional testing methods should the developers employ to prevent an outage?",
+  "url": "https://www.examtopics.com/discussions/google/view/8500-exam-professional-cloud-architect-topic-6-question-2/",
+  "published_iso": "2019-11-18T22:16:00",
+  "number": 2,
+  "question": "For this question, refer to the Mountkirk Games case study. You need to analyze and define the technical architecture for the compute workloads for your company, Mountkirk Games. Considering the Mountkirk Games business and technical requirements, what should you do?",
   "options": [
     {
       "key": "A",
-      "text": "They should enable Google Stackdriver Debugger on the application code to show errors in the code."
+      "text": "Create network load balancers. Use preemptible Compute Engine instances."
     },
     {
       "key": "B",
-      "text": "They should add additional unit tests and production scale load tests on their cloud staging environment."
+      "text": "Create network load balancers. Use non-preemptible Compute Engine instances."
     },
     {
       "key": "C",
-      "text": "They should run the end-to-end tests in the cloud staging environment to determine if the code is working as intended."
+      "text": "Create a global load balancer with managed instance groups and autoscaling policies. Use preemptible Compute Engine instances."
     },
     {
       "key": "D",
-      "text": "They should add canary tests so developers can measure how much of an impact the new release causes to latency."
+      "text": "Create a global load balancer with managed instance groups and autoscaling policies. Use non-preemptible Compute Engine instances."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

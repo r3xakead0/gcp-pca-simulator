@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11803-exam-professional-cloud-architect-topic-1-question-41/",
-  "published_iso": null,
-  "number": 41,
-  "question": "Your customer support tool logs all email and chat conversations to Cloud Bigtable for retention and analysis. What is the recommended approach for sanitizing this data of personally identifiable information or payment card information before initial storage?",
+  "url": "https://www.examtopics.com/discussions/google/view/60627-exam-professional-cloud-architect-topic-1-question-154/",
+  "published_iso": "2021-08-25T14:58:00",
+  "number": 154,
+  "question": "Your company has a stateless web API that performs scientific calculations. The web API runs on a single Google Kubernetes Engine (GKE) cluster. The cluster is currently deployed in us-central1. Your company has expanded to offer your API to customers in Asia. You want to reduce the latency for users in Asia. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Hash all data using SHA256"
+      "text": "Create a second GKE cluster in asia-southeast1, and expose both APIs using a Service of type LoadBalancer. Add the public IPs to the Cloud DNS zone."
     },
     {
       "key": "B",
-      "text": "Encrypt all data using elliptic curve cryptography"
+      "text": "Use a global HTTP(s) load balancer with Cloud CDN enabled."
     },
     {
       "key": "C",
-      "text": "De-identify the data with the Cloud Data Loss Prevention API"
+      "text": "Create a second GKE cluster in asia-southeast1, and use kubemci to create a global HTTP(s) load balancer."
     },
     {
       "key": "D",
-      "text": "Use regular expressions to find and redact phone numbers, email addresses, and credit card numbers"
+      "text": "Increase the memory and CPU allocated to the application in the cluster."
     }
   ],
   "answers": {

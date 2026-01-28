@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56425-exam-professional-cloud-architect-topic-1-question-122/",
-  "published_iso": null,
-  "number": 122,
-  "question": "You have an application that runs in Google Kubernetes Engine (GKE). Over the last 2 weeks, customers have reported that a specific part of the application returns errors very frequently. You currently have no logging or monitoring solution enabled on your GKE cluster. You want to diagnose the problem, but you have not been able to replicate the issue. You want to cause minimal disruption to the application. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/54389-exam-professional-cloud-architect-topic-1-question-31/",
+  "published_iso": "2021-06-03T12:01:00",
+  "number": 31,
+  "question": "A development manager is building a new application. He asks you to review his requirements and identify what cloud technologies he can use to meet them. The application must: 1. Be based on open-source technology for cloud portability 2. Dynamically scale compute capacity based on demand 3. Support continuous software delivery 4. Run multiple segregated copies of the same application stack 5. Deploy application bundles using dynamic templates 6. Route network traffic to specific services based on URL Which combination of technologies will meet all of his requirements?",
   "options": [
     {
       "key": "A",
-      "text": "1. Update your GKE cluster to use Cloud Operations for GKE. 2. Use the GKE Monitoring dashboard to investigate logs from affected Pods."
+      "text": "Google Kubernetes Engine, Jenkins, and Helm"
     },
     {
       "key": "B",
-      "text": "1. Create a new GKE cluster with Cloud Operations for GKE enabled. 2. Migrate the affected Pods to the new cluster, and redirect traffic for those Pods to the new cluster. 3. Use the GKE Monitoring dashboard to investigate logs from affected Pods."
+      "text": "Google Kubernetes Engine and Cloud Load Balancing"
     },
     {
       "key": "C",
-      "text": "1. Update your GKE cluster to use Cloud Operations for GKE, and deploy Prometheus. 2. Set an alert to trigger whenever the application returns an error."
+      "text": "Google Kubernetes Engine and Cloud Deployment Manager"
     },
     {
       "key": "D",
-      "text": "1. Create a new GKE cluster with Cloud Operations for GKE enabled, and deploy Prometheus. 2. Migrate the affected Pods to the new cluster, and redirect traffic for those Pods to the new cluster. 3. Set an alert to trigger whenever the application returns an error."
+      "text": "Google Kubernetes Engine, Jenkins, and Cloud Load Balancing"
     }
   ],
   "answers": {

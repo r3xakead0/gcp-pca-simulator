@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60415-exam-professional-cloud-architect-topic-1-question-152/",
-  "published_iso": null,
-  "number": 152,
-  "question": "Your company is planning to upload several important files to Cloud Storage. After the upload is completed, they want to verify that the uploaded content is identical to what they have on-premises. You want to minimize the cost and effort of performing this check. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/57009-exam-professional-cloud-architect-topic-1-question-124/",
+  "published_iso": "2021-07-03T12:54:00",
+  "number": 124,
+  "question": "Your company has an application deployed on Anthos clusters (formerly Anthos GKE) that is running multiple microservices. The cluster has both Anthos Service Mesh and Anthos Config Management configured. End users inform you that the application is responding very slowly. You want to identify the microservice that is causing the delay. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "1. Use Linux shasum to compute a digest of files you want to upload. 2. Use gsutil -m to upload all the files to Cloud Storage. 3. Use gsutil cp to download the uploaded files. 4. Use Linux shasum to compute a digest of the downloaded files. 5. Compare the hashes."
+      "text": "Use the Service Mesh visualization in the Cloud Console to inspect the telemetry between the microservices."
     },
     {
       "key": "B",
-      "text": "1. Use gsutil -m to upload the files to Cloud Storage. 2. Develop a custom Java application that computes CRC32C hashes. 3. Use gsutil ls -L gs://[YOUR_BUCKET_NAME] to collect CRC32C hashes of the uploaded files. 4. Compare the hashes."
+      "text": "Use Anthos Config Management to create a ClusterSelector selecting the relevant cluster. On the Google Cloud Console page for Google Kubernetes Engine, view the Workloads and filter on the cluster. Inspect the configurations of the filtered workloads."
     },
     {
       "key": "C",
-      "text": "1. Use gsutil -m to upload all the files to Cloud Storage. 2. Use gsutil cp to download the uploaded files. 3. Use Linux diff to compare the content of the files."
+      "text": "Use Anthos Config Management to create a namespaceSelector selecting the relevant cluster namespace. On the Google Cloud Console page for Google Kubernetes Engine, visit the workloads and filter on the namespace. Inspect the configurations of the filtered workloads."
     },
     {
       "key": "D",
-      "text": "1. Use gsutil -m to upload the files to Cloud Storage. 2. Use gsutil hash -c FILE_NAME to generate CRC32C hashes of all on-premises files. 3. Use gsutil ls -L gs://[YOUR_BUCKET_NAME] to collect CRC32C hashes of the uploaded files. 4. Compare the hashes."
+      "text": "Reinstall istio using the default istio profile in order to collect request latency. Evaluate the telemetry between the microservices in the Cloud Console."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

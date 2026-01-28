@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56384-exam-professional-cloud-architect-topic-1-question-123/",
-  "published_iso": null,
-  "number": 123,
-  "question": "You need to deploy a stateful workload on Google Cloud. The workload can scale horizontally, but each instance needs to read and write to the same POSIX filesystem. At high load, the stateful workload needs to support up to 100 MB/s of writes. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6308-exam-professional-cloud-architect-topic-1-question-65/",
+  "published_iso": "2019-10-09T06:51:00",
+  "number": 65,
+  "question": "You need to upload files from your on-premises environment to Cloud Storage. You want the files to be encrypted on Cloud Storage using customer-supplied encryption keys. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use a persistent disk for each instance."
+      "text": "Supply the encryption key in a .boto configuration file. Use gsutil to upload the files."
     },
     {
       "key": "B",
-      "text": "Use a regional persistent disk for each instance."
+      "text": "Supply the encryption key using gcloud config. Use gsutil to upload the files to that bucket."
     },
     {
       "key": "C",
-      "text": "Create a Cloud Filestore instance and mount it in each instance."
+      "text": "Use gsutil to upload the files, and use the flag --encryption-key to supply the encryption key."
     },
     {
       "key": "D",
-      "text": "Create a Cloud Storage bucket and mount it in each instance using gcsfuse."
+      "text": "Use gsutil to create a bucket, and use the flag --encryption-key to supply the encryption key. Use gsutil to upload the files to that bucket."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

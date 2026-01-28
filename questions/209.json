@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80000-exam-professional-cloud-architect-topic-1-question-188/",
-  "published_iso": null,
-  "number": 188,
-  "question": "Your company and one of its partners each have a Google Cloud project in separate organizations. Your company's project (prj-a) runs in Virtual Private Cloud (vpc-a). The partner's project (prj-b) runs in vpc-b. There are two instances running on vpc-a and one instance running on vpc-b. Subnets defined in both VPCs are not overlapping. You need to ensure that all instances communicate with each other via internal IPs, minimizing latency and maximizing throughput. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7190-exam-professional-cloud-architect-topic-1-question-44/",
+  "published_iso": "2019-10-25T08:49:00",
+  "number": 44,
+  "question": "You are analyzing and defining business processes to support your startup's trial usage of GCP, and you don't yet know what consumer demand for your product will be. Your manager requires you to minimize GCP service costs and adhere to Google best practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Set up a network peering between vpc-a and vpc-b."
+      "text": "Utilize free tier and sustained use discounts. Provision a staff position for service cost management."
     },
     {
       "key": "B",
-      "text": "Set up a VPN between vpc-a and vpc-b using Cloud VPN."
+      "text": "Utilize free tier and sustained use discounts. Provide training to the team about service cost management."
     },
     {
       "key": "C",
-      "text": "Configure IAP TCP forwarding on the instance in vpc-b, and then launch the following gcloud command from one of the instances in vpc-a gcloud: gcloud compute start-iap-tunnel INSTANCE_NAME_IN_VPC_8 22 \\ --local-host-port=localhost:22"
+      "text": "Utilize free tier and committed use discounts. Provision a staff position for service cost management."
     },
     {
       "key": "D",
-      "text": "1. Create an additional instance in vpc-a. 2. Create an additional instance in vpc-b. 3. Install OpenVPN in newly created instances. 4. Configure a VPN tunnel between vpc-a and vpc-b with the help of OpenVPN."
+      "text": "Utilize free tier and committed use discounts. Provide training to the team about service cost management."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

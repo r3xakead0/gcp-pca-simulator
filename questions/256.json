@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80035-exam-professional-cloud-architect-topic-1-question-182/",
-  "published_iso": null,
-  "number": 182,
-  "question": "You are managing several projects on Google Cloud and need to interact on a daily basis with BigQuery, Bigtable, and Kubernetes Engine using the gcloud CL tool. You are travelling a lot and work on different workstations during the week. You want to avoid having to manage the gcloud CLI manually. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6968-exam-professional-cloud-architect-topic-11-question-5/",
+  "published_iso": "2019-10-22T08:56:00",
+  "number": 5,
+  "question": "Dress4Win would like to become familiar with deploying applications to the cloud by successfully deploying some applications quickly, as is. They have asked for your recommendation. What should you advise?",
   "options": [
     {
       "key": "A",
-      "text": "Use Google Cloud Shell in the Google Cloud Console to interact with Google Cloud."
+      "text": "Identify self-contained applications with external dependencies as a first move to the cloud."
     },
     {
       "key": "B",
-      "text": "Create a Compute Engine instance and install gcloud on the instance. Connect to this instance via SSH to always use the same gcloud installation when interacting with Google Cloud."
+      "text": "Identify enterprise applications with internal dependencies and recommend these as a first move to the cloud."
     },
     {
       "key": "C",
-      "text": "Install gcloud on all of your workstations. Run the command gcloud components auto-update on each workstation"
+      "text": "Suggest moving their in-house databases to the cloud and continue serving requests to on-premise applications."
     },
     {
       "key": "D",
-      "text": "Use a package manager to install gcloud on your workstations instead of installing it manually."
+      "text": "Recommend moving their message queuing servers to the cloud and continue handling requests to on-premise applications."
     }
   ],
   "answers": {

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7212-exam-professional-cloud-architect-topic-1-question-42/",
-  "published_iso": null,
-  "number": 42,
-  "question": "You are using Cloud Shell and need to install a custom utility for use in a few weeks. Where can you store the file so it is in the default execution path and persists across sessions?",
+  "url": "https://www.examtopics.com/discussions/google/view/6443-exam-professional-cloud-architect-topic-1-question-60/",
+  "published_iso": "2019-10-11T06:16:00",
+  "number": 60,
+  "question": "You need to set up Microsoft SQL Server on GCP. Management requires that there's no downtime in case of a data center outage in any of the zones within a GCP region. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "~/bin"
+      "text": "Configure a Cloud SQL instance with high availability enabled."
     },
     {
       "key": "B",
-      "text": "Cloud Storage"
+      "text": "Configure a Cloud Spanner instance with a regional instance configuration."
     },
     {
       "key": "C",
-      "text": "/google/scripts"
+      "text": "Set up SQL Server on Compute Engine, using Always On Availability Groups using Windows Failover Clustering. Place nodes in different subnets."
     },
     {
       "key": "D",
-      "text": "/usr/local/bin"
+      "text": "Set up SQL Server Always On Availability Groups using Windows Failover Clustering. Place nodes in different zones."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "D"
     ],
     "community": [
-      "A"
+      "D"
     ]
   }
 }

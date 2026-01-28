@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/65937-exam-professional-cloud-architect-topic-3-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. Your team is in charge of creating a payment card data vault for card numbers used to bill tens of thousands of viewers, merchandise consumers, and season ticket holders. You need to implement a custom card tokenization service that meets the following requirements: *    It must provide low latency at minimal cost. *    It must be able to identify duplicate credit cards and must not store plaintext card numbers. *    It should support annual key rotation. Which storage approach should you adopt for your tokenization service?",
+  "url": "https://www.examtopics.com/discussions/google/view/7238-exam-professional-cloud-architect-topic-6-question-7/",
+  "published_iso": "2019-10-26T11:46:00",
+  "number": 7,
+  "question": "For this question, refer to the Mountkirk Games case study. You are in charge of the new Game Backend Platform architecture. The game communicates with the backend over a REST API. You want to follow Google-recommended practices. How should you design the backend?",
   "options": [
     {
       "key": "A",
-      "text": "Store the card data in Secret Manager after running a query to identify duplicates."
+      "text": "Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L4 load balancer."
     },
     {
       "key": "B",
-      "text": "Encrypt the card data with a deterministic algorithm stored in Firestore using Datastore mode."
+      "text": "Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L4 load balancer."
     },
     {
       "key": "C",
-      "text": "Encrypt the card data with a deterministic algorithm and shard it across multiple Memorystore instances."
+      "text": "Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L7 load balancer."
     },
     {
       "key": "D",
-      "text": "Use column-level encryption to store the data in Cloud SQL."
+      "text": "Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L7 load balancer."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

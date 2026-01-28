@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56684-exam-professional-cloud-architect-topic-1-question-119/",
-  "published_iso": null,
-  "number": 119,
-  "question": "You need to migrate Hadoop jobs for your company's Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/68718-exam-professional-cloud-architect-topic-1-question-92/",
+  "published_iso": "2021-12-28T10:11:00",
+  "number": 92,
+  "question": "Your customer runs a web service used by e-commerce sites to offer product recommendations to users. The company has begun experimenting with a machine learning model on Google Cloud Platform to improve the quality of results. What should the customer do to improve their model's results over time?",
   "options": [
     {
       "key": "A",
-      "text": "Create a Dataproc cluster using standard worker instances."
+      "text": "Export Cloud Machine Learning Engine performance metrics from Stackdriver to BigQuery, to be used to analyze the efficiency of the model."
     },
     {
       "key": "B",
-      "text": "Create a Dataproc cluster using preemptible worker instances."
+      "text": "Build a roadmap to move the machine learning model training from Cloud GPUs to Cloud TPUs, which offer better results."
     },
     {
       "key": "C",
-      "text": "Manually deploy a Hadoop cluster on Compute Engine using standard instances."
+      "text": "Monitor Compute Engine announcements for availability of newer CPU architectures, and deploy the model to them as soon as they are available for additional performance."
     },
     {
       "key": "D",
-      "text": "Manually deploy a Hadoop cluster on Compute Engine using preemptible instances."
+      "text": "Save a history of recommendations and results of the recommendations in BigQuery, to be used as training data."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

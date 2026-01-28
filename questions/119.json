@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8340-exam-professional-cloud-architect-topic-1-question-158/",
-  "published_iso": null,
-  "number": 158,
-  "question": "Your company's test suite is a custom C++ application that runs tests throughout each day on Linux virtual machines. The full test suite takes several hours to complete, running on a limited number of on-premises servers reserved for testing. Your company wants to move the testing infrastructure to the cloud, to reduce the amount of time it takes to fully test a change to the system, while changing the tests as little as possible. Which cloud infrastructure should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/8341-exam-professional-cloud-architect-topic-1-question-159/",
+  "published_iso": "2019-11-16T15:08:00",
+  "number": 159,
+  "question": "A lead software engineer tells you that his new application design uses websockets and HTTP sessions that are not distributed across the web servers. You want to help him ensure his application will run properly on Google Cloud Platform. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Google Compute Engine unmanaged instance groups and Network Load Balancer"
+      "text": "Help the engineer to convert his websocket code to use HTTP streaming"
     },
     {
       "key": "B",
-      "text": "Google Compute Engine managed instance groups with auto-scaling"
+      "text": "Review the encryption requirements for websocket connections with the security team"
     },
     {
       "key": "C",
-      "text": "Google Cloud Dataproc to run Apache Hadoop jobs to process each test"
+      "text": "Meet with the cloud operations team and the engineer to discuss load balancer options"
     },
     {
       "key": "D",
-      "text": "Google App Engine with Google StackDriver for logging"
+      "text": "Help the engineer redesign the application to use a distributed user session service that does not rely on websockets and HTTP sessions."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

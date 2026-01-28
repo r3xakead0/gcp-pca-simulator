@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56376-exam-professional-cloud-architect-topic-1-question-115/",
-  "published_iso": null,
-  "number": 115,
-  "question": "Your company has sensitive data in Cloud Storage buckets. Data analysts have Identity Access Management (IAM) permissions to read the buckets. You want to prevent data analysts from retrieving the data in the buckets from outside the office network. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7134-exam-professional-cloud-architect-topic-1-question-12/",
+  "published_iso": "2019-10-24T15:17:00",
+  "number": 12,
+  "question": "Your company has successfully migrated to the cloud and wants to analyze their data stream to optimize operations. They do not have any existing code for this analysis, so they are exploring all their options. These options include a mix of batch and stream processing, as they are running some hourly jobs and live- processing some data as it comes in. Which technology should they use for this?",
   "options": [
     {
       "key": "A",
-      "text": "1. Create a VPC Service Controls perimeter that includes the projects with the buckets. 2. Create an access level with the CIDR of the office network."
+      "text": "Google Cloud Dataproc"
     },
     {
       "key": "B",
-      "text": "1. Create a firewall rule for all instances in the Virtual Private Cloud (VPC) network for source range. 2. Use the Classless Inter-domain Routing (CIDR) of the office network."
+      "text": "Google Cloud Dataflow"
     },
     {
       "key": "C",
-      "text": "1. Create a Cloud Function to remove IAM permissions from the buckets, and another Cloud Function to add IAM permissions to the buckets. 2. Schedule the Cloud Functions with Cloud Scheduler to add permissions at the start of business and remove permissions at the end of business."
+      "text": "Google Container Engine with Bigtable"
     },
     {
       "key": "D",
-      "text": "1. Create a Cloud VPN to the office network. 2. Configure Private Google Access for on-premises hosts."
+      "text": "Google Compute Engine with Google BigQuery"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

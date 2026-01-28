@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6817-exam-professional-cloud-architect-topic-1-question-91/",
-  "published_iso": null,
-  "number": 91,
-  "question": "All Compute Engine instances in your VPC should be able to connect to an Active Directory server on specific ports. Any other traffic emerging from your instances is not allowed. You want to enforce this using VPC firewall rules. How should you configure the firewall rules?",
+  "url": "https://www.examtopics.com/discussions/google/view/9033-exam-professional-cloud-architect-topic-1-question-33/",
+  "published_iso": "2019-11-25T01:05:00",
+  "number": 33,
+  "question": "Your organization has a 3-tier web application deployed in the same network on Google Cloud Platform. Each tier (web, API, and database) scales independently of the others. Network traffic should flow through the web to the API tier and then on to the database tier. Traffic should not flow between the web and the database tier. How should you configure the network?",
   "options": [
     {
       "key": "A",
-      "text": "Create an egress rule with priority 1000 to deny all traffic for all instances. Create another egress rule with priority 100 to allow the Active Directory traffic for all instances."
+      "text": "Add each tier to a different subnetwork"
     },
     {
       "key": "B",
-      "text": "Create an egress rule with priority 100 to deny all traffic for all instances. Create another egress rule with priority 1000 to allow the Active Directory traffic for all instances."
+      "text": "Set up software based firewalls on individual VMs"
     },
     {
       "key": "C",
-      "text": "Create an egress rule with priority 1000 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 100 to block all traffic for all instances."
+      "text": "Add tags to each tier and set up routes to allow the desired traffic flow"
     },
     {
       "key": "D",
-      "text": "Create an egress rule with priority 100 to allow the Active Directory traffic. Rely on the implied deny egress rule with priority 1000 to block all traffic for all instances."
+      "text": "Add tags to each tier and set up firewall rules to allow the desired traffic flow"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "D"
     ],
     "community": [
-      "A"
+      "D"
     ]
   }
 }

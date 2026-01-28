@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/14731-exam-professional-cloud-architect-topic-11-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "At Dress4Win, an operations engineer wants to create a tow-cost solution to remotely archive copies of database backup files. The database files are compressed tar files stored in their current data center. How should he proceed?",
+  "url": "https://www.examtopics.com/discussions/google/view/381817-exam-professional-cloud-architect-topic-1-question-218/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 218,
+  "question": "You are deploying a critical application with a stateless, containerized frontend on Cloud Run and a Cloud SQL for PostgreSQL backend. The application experiences unpredictable traffic spikes, and the business requires the ability to immediately roll back a failed deployment to the last known good state. You need to apply a deployment strategy that aligns with Site Reliability Engineering (SRE) principles for both the application code and the database schema updates, while meeting the business's requirements. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a cron script using gsutil to copy the files to a Coldline Storage bucket."
+      "text": "Package the database schema migration script within the container to be executed on every container startup before the application process begins."
     },
     {
       "key": "B",
-      "text": "Create a cron script using gsutil to copy the files to a Regional Storage bucket."
+      "text": "Configure the CI/CD pipeline to use the :latest container tag for deployments, with database schema changes applied manually as needed."
     },
     {
       "key": "C",
-      "text": "Create a Cloud Storage Transfer Service Job to copy the files to a Coldline Storage bucket."
+      "text": "Separate CI/CD pipelines for database schema migrations from application deployments. When deploying a new Cloud Run revision, use gradual traffic split."
     },
     {
       "key": "D",
-      "text": "Create a Cloud Storage Transfer Service job to copy the files to a Regional Storage bucket."
+      "text": "Use a single CI/CD pipeline that first applies database schema changes and then deploys the new Cloud Run revision."
     }
   ],
   "answers": {

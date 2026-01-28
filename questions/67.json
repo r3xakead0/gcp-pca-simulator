@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6803-exam-professional-cloud-architect-topic-12-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "For this question, refer to the Dress4Win case study. Dress4Win is expected to grow to 10 times its size in 1 year with a corresponding growth in data and traffic that mirrors the existing patterns of usage. The CIO has set the target of migrating production infrastructure to the cloud within the next 6 months. How will you configure the solution to scale for this growth without making major application changes and still maximize the ROI?",
+  "url": "https://www.examtopics.com/discussions/google/view/56576-exam-professional-cloud-architect-topic-1-question-113/",
+  "published_iso": "2021-07-01T02:45:00",
+  "number": 113,
+  "question": "Your organization has decided to restrict the use of external IP addresses on instances to only approved instances. You want to enforce this requirement across all of your Virtual Private Clouds (VPCs). What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Migrate the web application layer to App Engine, and MySQL to Cloud Datastore, and NAS to Cloud Storage. Deploy RabbitMQ, and deploy Hadoop servers using Deployment Manager."
+      "text": "Remove the default route on all VPCs. Move all approved instances into a new subnet that has a default route to an internet gateway."
     },
     {
       "key": "B",
-      "text": "Migrate RabbitMQ to Cloud Pub/Sub, Hadoop to BigQuery, and NAS to Compute Engine with Persistent Disk storage. Deploy Tomcat, and deploy Nginx using Deployment Manager."
+      "text": "Create a new VPC in custom mode. Create a new subnet for the approved instances, and set a default route to the internet gateway on this new subnet."
     },
     {
       "key": "C",
-      "text": "Implement managed instance groups for Tomcat and Nginx. Migrate MySQL to Cloud SQL, RabbitMQ to Cloud Pub/Sub, Hadoop to Cloud Dataproc, and NAS to Compute Engine with Persistent Disk storage."
+      "text": "Implement a Cloud NAT solution to remove the need for external IP addresses entirely."
     },
     {
       "key": "D",
-      "text": "Implement managed instance groups for the Tomcat and Nginx. Migrate MySQL to Cloud SQL, RabbitMQ to Cloud Pub/Sub, Hadoop to Cloud Dataproc, and NAS to Cloud Storage."
+      "text": "Set an Organization Policy with a constraint on constraints/compute.vmExternalIpAccess. List the approved instances in the allowedValues list."
     }
   ],
   "answers": {

@@ -1,24 +1,28 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7328-exam-professional-cloud-architect-topic-1-question-87/",
-  "published_iso": null,
-  "number": 87,
-  "question": "Your web application uses Google Kubernetes Engine to manage several workloads. One workload requires a consistent set of hostnames even after pod scaling and relaunches. Which feature of Kubernetes should you use to accomplish this?",
+  "url": "https://www.examtopics.com/discussions/google/view/7147-exam-professional-cloud-architect-topic-1-question-15/",
+  "published_iso": "2019-10-24T17:20:00",
+  "number": 15,
+  "question": "Your application needs to process credit card transactions. You want the smallest scope of Payment Card Industry (PCI) compliance without compromising the ability to analyze transactional data and trends relating to which payment methods are used. How should you design your architecture?",
   "options": [
     {
       "key": "A",
-      "text": "StatefulSets"
+      "text": "Create a tokenizer service and store only tokenized data"
     },
     {
       "key": "B",
-      "text": "Role-based access control"
+      "text": "Create separate projects that only process credit card data"
     },
     {
       "key": "C",
-      "text": "Container environment variables"
+      "text": "Create separate subnetworks and isolate the components that process credit card data"
     },
     {
       "key": "D",
-      "text": "Persistent Volumes"
+      "text": "Streamline the audit discovery phase by labeling all of the virtual machines (VMs) that process PCI data"
+    },
+    {
+      "key": "E",
+      "text": "Enable Logging export to Google BigQuery and use ACLs and views to scope the data shared with the auditor"
     }
   ],
   "answers": {

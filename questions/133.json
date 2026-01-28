@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/57043-exam-professional-cloud-architect-topic-1-question-132/",
-  "published_iso": null,
-  "number": 132,
-  "question": "Your company sends all Google Cloud logs to Cloud Logging. Your security team wants to monitor the logs. You want to ensure that the security team can react quickly if an anomaly such as an unwanted firewall change or server breach is detected. You want to follow Google-recommended practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56365-exam-professional-cloud-architect-topic-1-question-107/",
+  "published_iso": "2021-06-30T15:35:00",
+  "number": 107,
+  "question": "You are monitoring Google Kubernetes Engine (GKE) clusters in a Cloud Monitoring workspace. As a Site Reliability Engineer (SRE), you need to triage incidents quickly. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Schedule a cron job with Cloud Scheduler. The scheduled job queries the logs every minute for the relevant events."
+      "text": "Navigate the predefined dashboards in the Cloud Monitoring workspace, and then add metrics and create alert policies."
     },
     {
       "key": "B",
-      "text": "Export logs to BigQuery, and trigger a query in BigQuery to process the log data for the relevant events."
+      "text": "Navigate the predefined dashboards in the Cloud Monitoring workspace, create custom metrics, and install alerting software on a Compute Engine instance."
     },
     {
       "key": "C",
-      "text": "Export logs to a Pub/Sub topic, and trigger Cloud Function with the relevant log events."
+      "text": "Write a shell script that gathers metrics from GKE nodes, publish these metrics to a Pub/Sub topic, export the data to BigQuery, and make a Data Studio dashboard."
     },
     {
       "key": "D",
-      "text": "Export logs to a Cloud Storage bucket, and trigger Cloud Run with the relevant log events."
+      "text": "Create a custom dashboard in the Cloud Monitoring workspace for each incident, and then add metrics and create alert policies."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

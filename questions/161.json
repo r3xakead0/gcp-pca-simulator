@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9190-exam-professional-cloud-architect-topic-5-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "Mountkirk Games has deployed their new backend on Google Cloud Platform (GCP). You want to create a through testing process for new versions of the backend before they are released to the public. You want the testing environment to scale in an economical way. How should you design the process?",
+  "url": "https://www.examtopics.com/discussions/google/view/68684-exam-professional-cloud-architect-topic-1-question-173/",
+  "published_iso": "2021-12-28T03:25:00",
+  "number": 173,
+  "question": "The operations team in your company wants to save Cloud VPN log events for one year. You need to configure the cloud infrastructure to save the logs. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a scalable environment in GCP for simulating production load"
+      "text": "Set up a filter in Cloud Logging and a Cloud Storage bucket as an export target for the logs you want to save."
     },
     {
       "key": "B",
-      "text": "Use the existing infrastructure to test the GCP-based backend at scale"
+      "text": "Enable the Compute Engine API, and then enable logging on the firewall rules that match the traffic you want to save."
     },
     {
       "key": "C",
-      "text": "Build stress tests into each component of your application using resources internal to GCP to simulate load"
+      "text": "Set up a Cloud Logging Dashboard titled Cloud VPN Logs, and then add a chart that queries for the VPN metrics over a one-year time period."
     },
     {
       "key": "D",
-      "text": "Create a set of static environments in GCP to test different levels of load ג€\" for example, high, medium, and low"
+      "text": "Set up a filter in Cloud Logging and a topic in Pub/Sub to publish the logs."
     }
   ],
   "answers": {

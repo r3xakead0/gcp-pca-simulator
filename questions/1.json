@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11819-exam-professional-cloud-architect-topic-1-question-77/",
-  "published_iso": null,
-  "number": 77,
-  "question": "You want to establish a Compute Engine application in a single VPC across two regions. The application must communicate over VPN to an on-premises network. How should you deploy the VPN?",
+  "url": "https://www.examtopics.com/discussions/google/view/56734-exam-professional-cloud-architect-topic-7-question-4/",
+  "published_iso": "2021-07-01T11:41:00",
+  "number": 4,
+  "question": "You need to implement a network ingress for a new game that meets the defined business and technical requirements. Mountkirk Games wants each regional game instance to be located in multiple Google Cloud regions. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use VPC Network Peering between the VPC and the on-premises network."
+      "text": "Configure a global load balancer connected to a managed instance group running Compute Engine instances."
     },
     {
       "key": "B",
-      "text": "Expose the VPC to the on-premises network using IAM and VPC Sharing."
+      "text": "Configure kubemci with a global load balancer and Google Kubernetes Engine."
     },
     {
       "key": "C",
-      "text": "Create a global Cloud VPN Gateway with VPN tunnels from each region to the on-premises peer gateway."
+      "text": "Configure a global load balancer with Google Kubernetes Engine."
     },
     {
       "key": "D",
-      "text": "Deploy Cloud VPN Gateway in each region. Ensure that each region has at least one VPN tunnel to the on-premises peer gateway."
+      "text": "Configure Ingress for Anthos with a global load balancer and Google Kubernetes Engine."
     }
   ],
   "answers": {

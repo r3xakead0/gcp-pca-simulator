@@ -1,38 +1,36 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54374-exam-professional-cloud-architect-topic-1-question-169/",
-  "published_iso": null,
-  "number": 169,
-  "question": "Your company just finished a rapid lift and shift to Google Compute Engine for your compute needs. You have another 9 months to design and deploy a more cloud-native solution. Specifically, you want a system that is no-ops and auto-scaling. Which two compute products should you choose? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/11831-exam-professional-cloud-architect-topic-5-question-6/",
+  "published_iso": "2020-01-12T17:23:00",
+  "number": 6,
+  "question": "Mountkirk Games wants to set up a real-time analytics platform for their new game. The new platform must meet their technical requirements. Which combination of Google technologies will meet all of their requirements?",
   "options": [
     {
       "key": "A",
-      "text": "Compute Engine with containers"
+      "text": "Kubernetes Engine, Cloud Pub/Sub, and Cloud SQL"
     },
     {
       "key": "B",
-      "text": "Google Kubernetes Engine with containers"
+      "text": "Cloud Dataflow, Cloud Storage, Cloud Pub/Sub, and BigQuery"
     },
     {
       "key": "C",
-      "text": "Google App Engine Standard Environment"
+      "text": "Cloud SQL, Cloud Storage, Cloud Pub/Sub, and Cloud Dataflow"
     },
     {
       "key": "D",
-      "text": "Compute Engine with custom instance types"
+      "text": "Cloud Dataproc, Cloud Pub/Sub, Cloud SQL, and Cloud Dataflow"
     },
     {
       "key": "E",
-      "text": "Compute Engine with managed instance groups"
+      "text": "Cloud Pub/Sub, Compute Engine, Cloud Storage, and Cloud Dataproc"
     }
   ],
   "answers": {
     "platform": [
-      "B",
-      "C"
+      "B"
     ],
     "community": [
-      "B",
-      "C"
+      "B"
     ]
   }
 }

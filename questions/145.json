@@ -1,31 +1,37 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60627-exam-professional-cloud-architect-topic-1-question-154/",
-  "published_iso": null,
-  "number": 154,
-  "question": "Your company has a stateless web API that performs scientific calculations. The web API runs on a single Google Kubernetes Engine (GKE) cluster. The cluster is currently deployed in us-central1. Your company has expanded to offer your API to customers in Asia. You want to reduce the latency for users in Asia. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/54374-exam-professional-cloud-architect-topic-1-question-169/",
+  "published_iso": "2021-06-03T09:34:00",
+  "number": 169,
+  "question": "Your company just finished a rapid lift and shift to Google Compute Engine for your compute needs. You have another 9 months to design and deploy a more cloud-native solution. Specifically, you want a system that is no-ops and auto-scaling. Which two compute products should you choose? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Create a second GKE cluster in asia-southeast1, and expose both APIs using a Service of type LoadBalancer. Add the public IPs to the Cloud DNS zone."
+      "text": "Compute Engine with containers"
     },
     {
       "key": "B",
-      "text": "Use a global HTTP(s) load balancer with Cloud CDN enabled."
+      "text": "Google Kubernetes Engine with containers"
     },
     {
       "key": "C",
-      "text": "Create a second GKE cluster in asia-southeast1, and use kubemci to create a global HTTP(s) load balancer."
+      "text": "Google App Engine Standard Environment"
     },
     {
       "key": "D",
-      "text": "Increase the memory and CPU allocated to the application in the cluster."
+      "text": "Compute Engine with custom instance types"
+    },
+    {
+      "key": "E",
+      "text": "Compute Engine with managed instance groups"
     }
   ],
   "answers": {
     "platform": [
+      "B",
       "C"
     ],
     "community": [
+      "B",
       "C"
     ]
   }

@@ -1,44 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54378-exam-professional-cloud-architect-topic-1-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "The operations manager asks you for a list of recommended practices that she should consider when migrating a J2EE application to the cloud. Which three practices should you recommend? (Choose three.)",
+  "url": "https://www.examtopics.com/discussions/google/view/381824-exam-professional-cloud-architect-topic-1-question-217/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 217,
+  "question": "Your product team is building a critical, customer-facing application on Google Cloud. The development team wants to use Spanner for their database to take advantage of its horizontal scalability and low operational overhead However, the FinOps team is concerned about the direct monthly cost of Spanner and proposed using a self-managed PostgreSQL database on Compute Engine VMs instead. You need to resolve this conflict and ensure the project moves forward with an architecturally sound database choice that balances technical requirements with financial constraints. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Port the application code to run on Google App Engine"
+      "text": "Provide the development team with a reference architecture for deploying a highly available PostgreSQL cluster on a regional managed instance group (MIG)."
     },
     {
       "key": "B",
-      "text": "Integrate Cloud Dataflow into the application to capture real-time metrics"
+      "text": "Suggest using Cloud SQL for PostgreSQL as a compromise to get a managed service at a lower cost than Spanner."
     },
     {
       "key": "C",
-      "text": "Instrument the application with a monitoring tool like Stackdriver Debugger"
+      "text": "Develop a total cost of ownership (TCO) analysis that includes operational overhead, and present it in a workshop to facilitate a decision."
     },
     {
       "key": "D",
-      "text": "Select an automation framework to reliably provision the cloud infrastructure"
-    },
-    {
-      "key": "E",
-      "text": "Deploy a continuous integration tool with automated testing in a staging environment"
-    },
-    {
-      "key": "F",
-      "text": "Migrate from MySQL to a managed NoSQL database like Google Cloud Datastore or Bigtable"
+      "text": "Cite the reliability and performance optimization pillars of the Google Cloud Well-Architected Framework to formally justify the use of Spanner."
     }
   ],
   "answers": {
     "platform": [
-      "C",
-      "D",
-      "E"
+      "C"
     ],
     "community": [
-      "C",
-      "D",
-      "E"
+      "C"
     ]
   }
 }

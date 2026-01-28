@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7118-exam-professional-cloud-architect-topic-1-question-25/",
-  "published_iso": null,
-  "number": 25,
-  "question": "During a high traffic portion of the day, one of your relational databases crashes, but the replica is never promoted to a master. You want to avoid this in the future. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6837-exam-professional-cloud-architect-topic-1-question-5/",
+  "published_iso": "2019-10-20T12:19:00",
+  "number": 5,
+  "question": "An application development team believes their current logging tool will not meet their needs for their new cloud-based product. They want a better tool to capture errors and help them analyze their historical log data. You want to help them find a solution that meets their needs. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use a different database"
+      "text": "Direct them to download and install the Google StackDriver logging agent"
     },
     {
       "key": "B",
-      "text": "Choose larger instances for your database"
+      "text": "Send them a list of online resources about logging best practices"
     },
     {
       "key": "C",
-      "text": "Create snapshots of your database more regularly"
+      "text": "Help them define their requirements and assess viable logging tools"
     },
     {
       "key": "D",
-      "text": "Implement routinely scheduled failovers of your databases"
+      "text": "Help them upgrade their current tool to take advantage of any new features"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

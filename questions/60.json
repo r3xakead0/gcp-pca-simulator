@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/146572-exam-professional-cloud-architect-topic-1-question-199/",
-  "published_iso": null,
-  "number": 199,
-  "question": "You have a Compute Engine application that you want to autoscale when total memory usage exceeds 80%. You have installed the Cloud Monitoring agent and configured the autoscaling policy as follows: [Imagen]: https://img.examtopics.com/professional-cloud-architect/image1.png You observe that the application does not scale under high load. You want to resolve this. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56603-exam-professional-cloud-architect-topic-1-question-127/",
+  "published_iso": "2021-07-01T05:27:00",
+  "number": 127,
+  "question": "Your operations team has asked you to help diagnose a performance issue in a production application that runs on Compute Engine. The application is dropping requests that reach it when under heavy load. The process list for affected instances shows a single application process that is consuming all available CPU, and autoscaling has reached the upper limit of instances. There is no abnormal load on any other related systems, including the database. You want to allow production traffic to be served again as quickly as possible. Which action should you recommend?",
   "options": [
     {
       "key": "A",
-      "text": "Change the Target type to DELTA_PER_MINUTE."
+      "text": "Change the autoscaling metric to agent.googleapis.com/memory/percent_used."
     },
     {
       "key": "B",
-      "text": "Change the Metric identifier to agent.googleapis.com/memory/bytes_used."
+      "text": "Restart the affected instances on a staggered schedule."
     },
     {
       "key": "C",
-      "text": "Change the filter to metric.label.state = ‘used’."
+      "text": "SSH to each instance and restart the application process."
     },
     {
       "key": "D",
-      "text": "Change the filter to metric.label.state = ‘free’ and the Target utilization to 20."
+      "text": "Increase the maximum number of instances in the autoscaling group."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "D"
     ],
     "community": [
-      "C"
+      "D"
     ]
   }
 }

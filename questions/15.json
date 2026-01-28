@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8497-exam-professional-cloud-architect-topic-2-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "JencoMart wants to move their User Profiles database to Google Cloud Platform. Which Google Database should they use?",
+  "url": "https://www.examtopics.com/discussions/google/view/381815-exam-professional-cloud-architect-topic-1-question-202/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 202,
+  "question": "Your company uses Salesforce for customer relationship management (CRM). ServiceNow for IT service management, and a Cloud SQL database to store customer transaction data You need to seamlessly connect, map. and transform data between these systems to ensure data consistency and enable real-time reporting. You want to follow Google-recommended practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Cloud Spanner"
+      "text": "Leverage Workflows to connect the services and transform the data."
     },
     {
       "key": "B",
-      "text": "Google BigQuery"
+      "text": "Leverage Application Integration to connect the services and transform the data."
     },
     {
       "key": "C",
-      "text": "Google Cloud SQL"
+      "text": "Leverage Pub/Sub and BigQuery to connect the services and transform the data."
     },
     {
       "key": "D",
-      "text": "Google Cloud Datastore"
+      "text": "Leverage Pub/Sub and Datastream to connect the services and transform the data."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

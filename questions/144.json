@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56322-exam-professional-cloud-architect-topic-3-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. HRL wants better prediction accuracy from their ML prediction models. They want you to use Google's AI Platform so HRL can understand and interpret the predictions. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7267-exam-professional-cloud-architect-topic-1-question-48/",
+  "published_iso": "2019-10-26T14:31:00",
+  "number": 48,
+  "question": "Your company has multiple on-premises systems that serve as sources for reporting. The data has not been maintained well and has become degraded over time. You want to use Google-recommended practices to detect anomalies in your company data. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use Explainable AI."
+      "text": "Upload your files into Cloud Storage. Use Cloud Datalab to explore and clean your data."
     },
     {
       "key": "B",
-      "text": "Use Vision AI."
+      "text": "Upload your files into Cloud Storage. Use Cloud Dataprep to explore and clean your data."
     },
     {
       "key": "C",
-      "text": "Use Google Cloud's operations suite."
+      "text": "Connect Cloud Datalab to your on-premises systems. Use Cloud Datalab to explore and clean your data."
     },
     {
       "key": "D",
-      "text": "Use Jupyter Notebooks."
+      "text": "Connect Cloud Dataprep to your on-premises systems. Use Cloud Dataprep to explore and clean your data."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80034-exam-professional-cloud-architect-topic-1-question-181/",
-  "published_iso": null,
-  "number": 181,
-  "question": "You have a Compute Engine managed instance group that adds and removes Compute Engine instances from the group in response to the load on your application. The instances have a shutdown script that removes REDIS database entries associated with the instance. You see that many database entries have not been removed, and you suspect that the shutdown script is the problem. You need to ensure that the commands in the shutdown script are run reliably every time an instance is shut down. You create a Cloud Function to remove the database entries. What should you do next?",
+  "url": "https://www.examtopics.com/discussions/google/view/6889-exam-professional-cloud-architect-topic-1-question-58/",
+  "published_iso": "2019-10-21T15:21:00",
+  "number": 58,
+  "question": "You have developed an application using Cloud ML Engine that recognizes famous paintings from uploaded images. You want to test the application and allow specific people to upload images for the next 24 hours. Not all users have a Google Account. How should you have users upload images?",
   "options": [
     {
       "key": "A",
-      "text": "Modify the shutdown script to wait for 30 seconds before triggering the Cloud Function."
+      "text": "Have users upload the images to Cloud Storage. Protect the bucket with a password that expires after 24 hours."
     },
     {
       "key": "B",
-      "text": "Do not use the Cloud Function. Modify the shutdown script to restart if it has not completed in 30 seconds."
+      "text": "Have users upload the images to Cloud Storage using a signed URL that expires after 24 hours."
     },
     {
       "key": "C",
-      "text": "Set up a Cloud Monitoring sink that triggers the Cloud Function after an instance removal log message arrives in Cloud Logging."
+      "text": "Create an App Engine web application where users can upload images. Configure App Engine to disable the application after 24 hours. Authenticate users via Cloud Identity."
     },
     {
       "key": "D",
-      "text": "Modify the shutdown script to wait for 30 seconds and then publish a message to a Pub/Sub queue."
+      "text": "Create an App Engine web application where users can upload images for the next 24 hours. Authenticate users via Cloud Identity."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

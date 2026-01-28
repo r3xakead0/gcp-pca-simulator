@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56576-exam-professional-cloud-architect-topic-1-question-113/",
-  "published_iso": null,
-  "number": 113,
-  "question": "Your organization has decided to restrict the use of external IP addresses on instances to only approved instances. You want to enforce this requirement across all of your Virtual Private Clouds (VPCs). What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56686-exam-professional-cloud-architect-topic-1-question-111/",
+  "published_iso": "2021-07-01T08:48:00",
+  "number": 111,
+  "question": "Your company is running its application workloads on Compute Engine. The applications have been deployed in production, acceptance, and development environments. The production environment is business-critical and is used 24/7, while the acceptance and development environments are only critical during office hours. Your CFO has asked you to optimize these environments to achieve cost savings during idle times. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Remove the default route on all VPCs. Move all approved instances into a new subnet that has a default route to an internet gateway."
+      "text": "Create a shell script that uses the gcloud command to change the machine type of the development and acceptance instances to a smaller machine type outside of office hours. Schedule the shell script on one of the production instances to automate the task."
     },
     {
       "key": "B",
-      "text": "Create a new VPC in custom mode. Create a new subnet for the approved instances, and set a default route to the internet gateway on this new subnet."
+      "text": "Use Cloud Scheduler to trigger a Cloud Function that will stop the development and acceptance environments after office hours and start them just before office hours."
     },
     {
       "key": "C",
-      "text": "Implement a Cloud NAT solution to remove the need for external IP addresses entirely."
+      "text": "Deploy the development and acceptance applications on a managed instance group and enable autoscaling."
     },
     {
       "key": "D",
-      "text": "Set an Organization Policy with a constraint on constraints/compute.vmExternalIpAccess. List the approved instances in the allowedValues list."
+      "text": "Use regular Compute Engine instances for the production environment, and use preemptible VMs for the acceptance and development environments."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6489-exam-professional-cloud-architect-topic-9-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "For this question, refer to the TerramEarth case study. To be compliant with European GDPR regulation, TerramEarth is required to delete data generated from its European customers after a period of 36 months when it contains personal data. In the new architecture, this data will be stored in both Cloud Storage and BigQuery. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/9199-exam-professional-cloud-architect-topic-11-question-10/",
+  "published_iso": "2019-11-27T04:50:00",
+  "number": 10,
+  "question": "You want to ensure Dress4Win's sales and tax records remain available for infrequent viewing by auditors for at least 10 years. Cost optimization is your top priority. Which cloud services should you choose?",
   "options": [
     {
       "key": "A",
-      "text": "Create a BigQuery table for the European data, and set the table retention period to 36 months. For Cloud Storage, use gsutil to enable lifecycle management using a DELETE action with an Age condition of 36 months."
+      "text": "Google Cloud Storage Coldline to store the data, and gsutil to access the data."
     },
     {
       "key": "B",
-      "text": "Create a BigQuery table for the European data, and set the table retention period to 36 months. For Cloud Storage, use gsutil to create a SetStorageClass to NONE action when with an Age condition of 36 months."
+      "text": "Google Cloud Storage Nearline to store the data, and gsutil to access the data."
     },
     {
       "key": "C",
-      "text": "Create a BigQuery time-partitioned table for the European data, and set the partition expiration period to 36 months. For Cloud Storage, use gsutil to enable lifecycle management using a DELETE action with an Age condition of 36 months."
+      "text": "Google Bigtabte with US or EU as location to store the data, and gcloud to access the data."
     },
     {
       "key": "D",
-      "text": "Create a BigQuery time-partitioned table for the European data, and set the partition expiration  period to 36 months. For Cloud Storage, use gsutil to create a SetStorageClass to NONE action with an Age condition of 36 months."
+      "text": "BigQuery to store the data, and a web server cluster in a managed instance group to access the data. Google Cloud SQL mirrored across two distinct regions to store the data, and a Redis cluster in a managed instance group to access the data."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

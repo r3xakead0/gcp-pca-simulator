@@ -1,28 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11831-exam-professional-cloud-architect-topic-5-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "Mountkirk Games wants to set up a real-time analytics platform for their new game. The new platform must meet their technical requirements. Which combination of Google technologies will meet all of their requirements?",
+  "url": "https://www.examtopics.com/discussions/google/view/9222-exam-professional-cloud-architect-topic-1-question-66/",
+  "published_iso": "2019-11-27T16:57:00",
+  "number": 66,
+  "question": "Your customer wants to capture multiple GBs of aggregate real-time key performance indicators (KPIs) from their game servers running on Google Cloud Platform and monitor the KPIs with low latency. How should they capture the KPIs?",
   "options": [
     {
       "key": "A",
-      "text": "Kubernetes Engine, Cloud Pub/Sub, and Cloud SQL"
+      "text": "Store time-series data from the game servers in Google Bigtable, and view it using Google Data Studio."
     },
     {
       "key": "B",
-      "text": "Cloud Dataflow, Cloud Storage, Cloud Pub/Sub, and BigQuery"
+      "text": "Output custom metrics to Stackdriver from the game servers, and create a Dashboard in Stackdriver Monitoring Console to view them."
     },
     {
       "key": "C",
-      "text": "Cloud SQL, Cloud Storage, Cloud Pub/Sub, and Cloud Dataflow"
+      "text": "Schedule BigQuery load jobs to ingest analytics files uploaded to Cloud Storage every ten minutes, and visualize the results in Google Data Studio."
     },
     {
       "key": "D",
-      "text": "Cloud Dataproc, Cloud Pub/Sub, Cloud SQL, and Cloud Dataflow"
-    },
-    {
-      "key": "E",
-      "text": "Cloud Pub/Sub, Compute Engine, Cloud Storage, and Cloud Dataproc"
+      "text": "Insert the KPIs into Cloud Datastore entities, and run ad hoc analysis and visualizations of them in Cloud Datalab."
     }
   ],
   "answers": {

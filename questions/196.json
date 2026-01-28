@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7231-exam-professional-cloud-architect-topic-1-question-51/",
-  "published_iso": null,
-  "number": 51,
-  "question": "You have found an error in your App Engine application caused by missing Cloud Datastore indexes. You have created a YAML file with the required indexes and want to deploy these new indexes to Cloud Datastore. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/12793-exam-professional-cloud-architect-topic-2-question-3/",
+  "published_iso": "2020-01-26T19:38:00",
+  "number": 3,
+  "question": "JencoMart has decided to migrate user profile storage to Google Cloud Datastore and the application servers to Google Compute Engine (GCE). During the migration, the existing infrastructure will need access to Datastore to upload the data. What service account key-management strategy should you recommend?",
   "options": [
     {
       "key": "A",
-      "text": "Point gcloud datastore create-indexes to your configuration file"
+      "text": "Provision service account keys for the on-premises infrastructure and for the GCE virtual machines (VMs)"
     },
     {
       "key": "B",
-      "text": "Upload the configuration file to App Engine's default Cloud Storage bucket, and have App Engine detect the new indexes"
+      "text": "Authenticate the on-premises infrastructure with a user account and provision service account keys for the VMs"
     },
     {
       "key": "C",
-      "text": "In the GCP Console, use Datastore Admin to delete the current indexes and upload the new configuration file"
+      "text": "Provision service account keys for the on-premises infrastructure and use Google Cloud Platform (GCP) managed keys for the VMs"
     },
     {
       "key": "D",
-      "text": "Create an HTTP request to the built-in python module to send the index configuration file to your application"
+      "text": "Deploy a custom authentication service on GCE/Google Kubernetes Engine (GKE) for the on-premises infrastructure and use GCP managed keys for the VMs"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9222-exam-professional-cloud-architect-topic-1-question-66/",
-  "published_iso": null,
-  "number": 66,
-  "question": "Your customer wants to capture multiple GBs of aggregate real-time key performance indicators (KPIs) from their game servers running on Google Cloud Platform and monitor the KPIs with low latency. How should they capture the KPIs?",
+  "url": "https://www.examtopics.com/discussions/google/view/54534-exam-professional-cloud-architect-topic-1-question-35/",
+  "published_iso": "2021-06-04T16:16:00",
+  "number": 35,
+  "question": "Your company wants to try out the cloud with low risk. They want to archive approximately 100 TB of their log data to the cloud and test the analytics features available to them there, while also retaining that data as a long-term disaster recovery backup. Which two steps should you take? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Store time-series data from the game servers in Google Bigtable, and view it using Google Data Studio."
+      "text": "Load logs into Google BigQuery"
     },
     {
       "key": "B",
-      "text": "Output custom metrics to Stackdriver from the game servers, and create a Dashboard in Stackdriver Monitoring Console to view them."
+      "text": "Load logs into Google Cloud SQL"
     },
     {
       "key": "C",
-      "text": "Schedule BigQuery load jobs to ingest analytics files uploaded to Cloud Storage every ten minutes, and visualize the results in Google Data Studio."
+      "text": "Import logs into Google Stackdriver"
     },
     {
       "key": "D",
-      "text": "Insert the KPIs into Cloud Datastore entities, and run ad hoc analysis and visualizations of them in Cloud Datalab."
+      "text": "Insert logs into Google Cloud Bigtable"
+    },
+    {
+      "key": "E",
+      "text": "Upload log files into Google Cloud Storage"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A",
+      "E"
     ],
     "community": [
-      "B"
+      "A",
+      "E"
     ]
   }
 }

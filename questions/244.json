@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9199-exam-professional-cloud-architect-topic-11-question-10/",
-  "published_iso": null,
-  "number": 10,
-  "question": "You want to ensure Dress4Win's sales and tax records remain available for infrequent viewing by auditors for at least 10 years. Cost optimization is your top priority. Which cloud services should you choose?",
+  "url": "https://www.examtopics.com/discussions/google/view/6892-exam-professional-cloud-architect-topic-1-question-69/",
+  "published_iso": "2019-10-21T16:05:00",
+  "number": 69,
+  "question": "You are running a cluster on Kubernetes Engine (GKE) to serve a web application. Users are reporting that a specific part of the application is not responding anymore. You notice that all pods of your deployment keep restarting after 2 seconds. The application writes logs to standard output. You want to inspect the logs to find the cause of the issue. Which approach can you take?",
   "options": [
     {
       "key": "A",
-      "text": "Google Cloud Storage Coldline to store the data, and gsutil to access the data."
+      "text": "Review the Stackdriver logs for each Compute Engine instance that is serving as a node in the cluster."
     },
     {
       "key": "B",
-      "text": "Google Cloud Storage Nearline to store the data, and gsutil to access the data."
+      "text": "Review the Stackdriver logs for the specific GKE  container that is serving the unresponsive part of the application."
     },
     {
       "key": "C",
-      "text": "Google Bigtabte with US or EU as location to store the data, and gcloud to access the data."
+      "text": "Connect to the cluster using gcloud credentials and connect to a container in one of the pods to read the logs."
     },
     {
       "key": "D",
-      "text": "BigQuery to store the data, and a web server cluster in a managed instance group to access the data. Google Cloud SQL mirrored across two distinct regions to store the data, and a Redis cluster in a managed instance group to access the data."
+      "text": "Review the Serial Port logs for each Compute Engine instance that is serving as a node in the cluster."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

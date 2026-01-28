@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7041-exam-professional-cloud-architect-topic-1-question-10/",
-  "published_iso": null,
-  "number": 10,
-  "question": "You write a Python script to connect to Google BigQuery from a Google Compute Engine virtual machine. The script is printing errors that it cannot connect to BigQuery. What should you do to fix the script?",
+  "url": "https://www.examtopics.com/discussions/google/view/381827-exam-professional-cloud-architect-topic-1-question-207/",
+  "published_iso": "2025-12-22T03:07:00",
+  "number": 207,
+  "question": "Your team is running applications on a Google Kubernetes Engine (GKE) cluster with a private endpoint. You've set up a Cloud Deploy pipeline, but deployments to the GKE cluster are failing. You need to resolve the issue. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Install the latest BigQuery API client library for Python"
+      "text": "Use VPC Service Controls with Cloud Build Update the Cloud pipeline to use Cloud Build as its execution environment."
     },
     {
       "key": "B",
-      "text": "Run your script on a new virtual machine with the BigQuery access scope enabled"
+      "text": "Create a Cloud Build private pool in the default VPC. Use Cloud Build to deploy the applications to the GKE cluster."
     },
     {
       "key": "C",
-      "text": "Create a new service account with BigQuery access and execute your script with that user"
+      "text": "Create a Cloud Build private pool that is peered with the same VPC network as your GKE cluster. Update the Cloud Deploy pipeline to use this private pool as its execution environment."
     },
     {
       "key": "D",
-      "text": "Install the bq component for gcloud with the command gcloud components install bq."
+      "text": "Create a custom target in Cloud Deploy Update the deploy pipeline to use the custom target for the application deployment."
     }
   ],
   "answers": {

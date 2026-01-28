@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54735-exam-professional-cloud-architect-topic-1-question-47/",
-  "published_iso": null,
-  "number": 47,
-  "question": "Your company is migrating its on-premises data center into the cloud. As part of the migration, you want to integrate Google Kubernetes Engine (GKE) for workload orchestration. Parts of your architecture must also be PCI DSS-compliant. Which of the following is most accurate?",
+  "url": "https://www.examtopics.com/discussions/google/view/56369-exam-professional-cloud-architect-topic-1-question-108/",
+  "published_iso": "2021-06-30T15:39:00",
+  "number": 108,
+  "question": "You are implementing a single Cloud SQL MySQL second-generation database that contains business-critical transaction data. You want to ensure that the minimum amount of data is lost in case of catastrophic failure. Which two features should you implement? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "App Engine is the only compute platform on GCP that is certified for PCI DSS hosting."
+      "text": "Sharding"
     },
     {
       "key": "B",
-      "text": "GKE cannot be used under PCI DSS because it is considered shared hosting."
+      "text": "Read replicas"
     },
     {
       "key": "C",
-      "text": "GKE and GCP provide the tools you need to build a PCI DSS-compliant environment."
+      "text": "Binary logging"
     },
     {
       "key": "D",
-      "text": "All Google Cloud services are usable because Google Cloud Platform is certified PCI-compliant."
+      "text": "Automated backups"
+    },
+    {
+      "key": "E",
+      "text": "Semisynchronous replication"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "C",
+      "D"
     ],
     "community": [
-      "C"
+      "C",
+      "D"
     ]
   }
 }

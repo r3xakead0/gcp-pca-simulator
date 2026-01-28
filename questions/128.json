@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60682-exam-professional-cloud-architect-topic-1-question-143/",
-  "published_iso": null,
-  "number": 143,
-  "question": "Your company is designing its data lake on Google Cloud and wants to develop different ingestion pipelines to collect unstructured data from different sources. After the data is stored in Google Cloud, it will be processed in several data pipelines to build a recommendation engine for end users on the website. The structure of the data retrieved from the source systems can change at any time. The data must be stored exactly as it was retrieved for reprocessing purposes in case the data structure is incompatible with the current processing pipelines. You need to design an architecture to support the use case after you retrieve the data. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56645-exam-professional-cloud-architect-topic-7-question-6/",
+  "published_iso": "2021-07-01T06:49:00",
+  "number": 6,
+  "question": "Mountkirk Games wants you to secure the connectivity from the new gaming application platform to Google Cloud. You want to streamline the process and follow Google-recommended practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Send the data through the processing pipeline, and then store the processed data in a BigQuery table for reprocessing."
+      "text": "Configure Workload Identity and service accounts to be used by the application platform."
     },
     {
       "key": "B",
-      "text": "Store the data in a BigQuery table. Design the processing pipelines to retrieve the data from the table."
+      "text": "Use Kubernetes Secrets, which are obfuscated by default. Configure these Secrets to be used by the application platform."
     },
     {
       "key": "C",
-      "text": "Send the data through the processing pipeline, and then store the processed data in a Cloud Storage bucket for reprocessing."
+      "text": "Configure Kubernetes Secrets to store the secret, enable Application-Layer Secrets Encryption, and use Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform."
     },
     {
       "key": "D",
-      "text": "Store the data in a Cloud Storage bucket. Design the processing pipelines to retrieve the data from the bucket."
+      "text": "Configure HashiCorp Vault on Compute Engine, and use customer managed encryption keys and Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

@@ -1,37 +1,31 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60557-exam-professional-cloud-architect-topic-10-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "For this question, refer to the TerramEarth case study. You are migrating a Linux-based application from your private data center to Google Cloud. The TerramEarth security team sent you several recent Linux vulnerabilities published by Common Vulnerabilities and Exposures (CVE). You need assistance in understanding how these vulnerabilities could impact your migration. What should you do? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/56975-exam-professional-cloud-architect-topic-1-question-134/",
+  "published_iso": "2021-07-03T03:14:00",
+  "number": 134,
+  "question": "Your company is using Google Cloud. You have two folders under the Organization: Finance and Shopping. The members of the development team are in a Google Group. The development team group has been assigned the Project Owner role on the Organization. You want to prevent the development team from creating resources in projects in the Finance folder. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Open a support case regarding the CVE and chat with the support engineer."
+      "text": "Assign the development team group the Project Viewer role on the Finance folder, and assign the development team group the Project Owner role on the Shopping folder."
     },
     {
       "key": "B",
-      "text": "Read the CVEs from the Google Cloud Status Dashboard to understand the impact."
+      "text": "Assign the development team group only the Project Viewer role on the Finance folder."
     },
     {
       "key": "C",
-      "text": "Read the CVEs from the Google Cloud Platform Security Bulletins to understand the impact."
+      "text": "Assign the development team group the Project Owner role on the Shopping folder, and remove the development team group Project Owner role from the Organization."
     },
     {
       "key": "D",
-      "text": "Post a question regarding the CVE in Stack Overflow to get an explanation."
-    },
-    {
-      "key": "E",
-      "text": "Post a question regarding the CVE in a Google Cloud discussion group to get an explanation."
+      "text": "Assign the development team group only the Project Owner role on the Shopping folder."
     }
   ],
   "answers": {
     "platform": [
-      "A",
       "C"
     ],
     "community": [
-      "A",
       "C"
     ]
   }

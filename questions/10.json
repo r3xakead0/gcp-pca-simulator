@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6709-exam-professional-cloud-architect-topic-1-question-82/",
-  "published_iso": null,
-  "number": 82,
-  "question": "Your customer wants to do resilience testing of their authentication layer. This consists of a regional managed instance group serving a public REST API that reads from and writes to a Cloud SQL instance. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7167-exam-professional-cloud-architect-topic-1-question-23/",
+  "published_iso": "2019-10-24T23:44:00",
+  "number": 23,
+  "question": "Your solution is producing performance bugs in production that you did not see in staging and test environments. You want to adjust your test and deployment procedures to avoid this problem in the future. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Engage with a security company to run web scrapers that look your for users' authentication data om malicious websites and notify you if any is found."
+      "text": "Deploy fewer changes to production"
     },
     {
       "key": "B",
-      "text": "Deploy intrusion detection software to your virtual machines to detect and log unauthorized access."
+      "text": "Deploy smaller changes to production"
     },
     {
       "key": "C",
-      "text": "Schedule a disaster simulation exercise during which you can shut off all VMs in a zone to see how your application behaves."
+      "text": "Increase the load on your test and staging environments"
     },
     {
       "key": "D",
-      "text": "Configure a read replica for your Cloud SQL instance in a different zone than the master, and then manually trigger a failover while monitoring KPIs for our REST API."
+      "text": "Deploy changes to a small subset of users before rolling out to production"
     }
   ],
   "answers": {

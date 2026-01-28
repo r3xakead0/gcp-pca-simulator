@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8197-exam-professional-cloud-architect-topic-1-question-45/",
-  "published_iso": null,
-  "number": 45,
-  "question": "You are building a continuous deployment pipeline for a project stored in a Git source repository and want to ensure that code changes can be verified before deploying to production. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381820-exam-professional-cloud-architect-topic-1-question-213/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 213,
+  "question": "Your organization uses separate Google Cloud projects for shared services, development, testing, and production. •\tThe shared services project hosts your private CI/CD runners and a central Artifact Registry •\tThe development, testing, and production projects host the GKE clusters where applications are deployed. You need to design an architecture that allows the CI/CD runners to connect to the GKE clusters and the clusters to pull images from Artifact Registry, all using private IP addresses. However, direct network traffic between the development, testing, and production environments must be strictly prohibited. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use Spinnaker to deploy builds to production using the red/black deployment strategy so that changes can easily be rolled back."
+      "text": "Create a separate VPC in each of the four projects. Connect each environment's VPC to the shared services VPC through VPC Network Peering."
     },
     {
       "key": "B",
-      "text": "Use Spinnaker to deploy builds to production and run tests on production deployments."
+      "text": "Expose the resources in the shared services project using an external load balancer. Implement a firewall rule to limit access."
     },
     {
       "key": "C",
-      "text": "Use Jenkins to build the staging branches and the master branch. Build and deploy changes to production for 10% of users before doing a complete rollout."
+      "text": "Create a separate VPC in each project. Use VPC Network Peering to create a full mesh, connecting every VPC directly to every other VP"
     },
     {
       "key": "D",
-      "text": "Use Jenkins to monitor tags in the repository. Deploy staging tags to a staging environment for testing. After testing, tag the repository for production and deploy that to the production environment."
+      "text": "Configure the shared services project as a Shared VPC host. Create a single VPC in this host project and attach the environment projects as service projects."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

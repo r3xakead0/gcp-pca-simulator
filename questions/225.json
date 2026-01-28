@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56360-exam-professional-cloud-architect-topic-1-question-104/",
-  "published_iso": null,
-  "number": 104,
-  "question": "You need to deploy an application to Google Cloud. The application receives traffic via TCP and reads and writes data to the filesystem. The application does not support horizontal scaling. The application process requires full control over the data on the file system because concurrent access causes corruption. The business is willing to accept a downtime when an incident occurs, but the application must be available 24/7 to support their business operations. You need to design the architecture of this application on Google Cloud. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/60563-exam-professional-cloud-architect-topic-10-question-5/",
+  "published_iso": "2021-08-25T02:20:00",
+  "number": 5,
+  "question": "For this question, refer to the TerramEarth case study. You are building a microservice-based application for TerramEarth. The application is based on Docker containers. You want to follow Google-recommended practices to build the application continuously and store the build artifacts. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use a managed instance group with instances in multiple zones, use Cloud Filestore, and use an HTTP load balancer in front of the instances."
+      "text": "Configure a trigger in Cloud Build for new source changes. Invoke Cloud Build to build container images for each microservice, and tag them using the code commit hash. Push the images to the Container Registry."
     },
     {
       "key": "B",
-      "text": "Use a managed instance group with instances in multiple zones, use Cloud Filestore, and use a network load balancer in front of the instances."
+      "text": "Configure a trigger in Cloud Build for new source changes. The trigger invokes build jobs and build container images for the microservices. Tag the images with a version number, and push them to Cloud Storage."
     },
     {
       "key": "C",
-      "text": "Use an unmanaged instance group with an active and standby instance in different zones, use a regional persistent disk, and use an HTTP load balancer in front of the instances."
+      "text": "Create a Scheduler job to check the repo every minute. For any new change, invoke Cloud Build to build container images for the microservices. Tag the images using the current timestamp, and push them to the Container Registry."
     },
     {
       "key": "D",
-      "text": "Use an unmanaged instance group with an active and standby instance in different zones, use a regional persistent disk, and use a network load balancer in front of the instances."
+      "text": "Configure a trigger in Cloud Build for new source changes. Invoke Cloud Build to build one container image, and tag the image with the label 'latest.' Push the image to the Container Registry."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

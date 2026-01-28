@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/13467-exam-professional-cloud-architect-topic-9-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "For this question, refer to the TerramEarth case study. A new architecture that writes all incoming data to BigQuery has been introduced. You notice that the data is dirty, and want to ensure data quality on an automated daily basis while managing cost. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7082-exam-professional-cloud-architect-topic-1-question-170/",
+  "published_iso": "2019-10-23T18:53:00",
+  "number": 170,
+  "question": "One of your primary business objectives is being able to trust the data stored in your application. You want to log all changes to the application data. How can you design your logging system to verify authenticity of your logs?",
   "options": [
     {
       "key": "A",
-      "text": "Set up a streaming Cloud Dataflow job, receiving data by the ingestion process. Clean the data in a Cloud Dataflow pipeline."
+      "text": "Write the log concurrently in the cloud and on premises"
     },
     {
       "key": "B",
-      "text": "Create a Cloud Function that reads data from BigQuery and cleans it. Trigger the Cloud Function from a Compute Engine instance."
+      "text": "Use a SQL database and limit who can modify the log table"
     },
     {
       "key": "C",
-      "text": "Create a SQL statement on the data in BigQuery, and save it as a view. Run the view daily, and save the result to a new table."
+      "text": "Digitally sign each timestamp and log entry and store the signature"
     },
     {
       "key": "D",
-      "text": "Use Cloud Dataprep and configure the BigQuery tables as the source. Schedule a daily job to clean the data."
+      "text": "Create a JSON dump of each log entry and store it in Google Cloud Storage"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60440-exam-professional-cloud-architect-topic-1-question-149/",
-  "published_iso": null,
-  "number": 149,
-  "question": "Your organization has stored sensitive data in a Cloud Storage bucket. For regulatory reasons, your company must be able to rotate the encryption key used to encrypt the data in the bucket. The data will be processed in Dataproc. You want to follow Google-recommended practices for security. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/79736-exam-professional-cloud-architect-topic-1-question-186/",
+  "published_iso": "2022-09-03T11:50:00",
+  "number": 186,
+  "question": "Your company uses Google Kubernetes Engine (GKE) as a platform for all workloads. Your company has a single large GKE cluster that contains batch, stateful, and stateless workloads. The GKE cluster is configured with a single node pool with 200 nodes. Your company needs to reduce the cost of this cluster but does not want to compromise availability. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a key with Cloud Key Management Service (KMS). Encrypt the data using the encrypt method of Cloud KMS."
+      "text": "Create a second GKE cluster for the batch workloads only. Allocate the 200 original nodes across both clusters."
     },
     {
       "key": "B",
-      "text": "Create a key with Cloud Key Management Service (KMS). Set the encryption key on the bucket to the Cloud KMS key."
+      "text": "Configure CPU and memory limits on the namespaces in the cluster. Configure all Pods to have a CPU and memory limits."
     },
     {
       "key": "C",
-      "text": "Generate a GPG key pair. Encrypt the data using the GPG key. Upload the encrypted data to the bucket."
+      "text": "Configure a HorizontalPodAutoscaler for all stateless workloads and for all compatible stateful workloads. Configure the cluster to use node auto scaling."
     },
     {
       "key": "D",
-      "text": "Generate an AES-256 encryption key. Encrypt the data in the bucket using the customer-supplied encryption keys feature."
+      "text": "Change the node pool to use preemptible VMs."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

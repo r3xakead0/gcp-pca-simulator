@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7202-exam-professional-cloud-architect-topic-1-question-32/",
-  "published_iso": null,
-  "number": 32,
-  "question": "You have created several pre-emptible Linux virtual machine instances using Google Compute Engine. You want to properly shut down your application before the virtual machines are preempted. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/60403-exam-professional-cloud-architect-topic-4-question-3/",
+  "published_iso": "2021-08-23T18:02:00",
+  "number": 3,
+  "question": "You need to upgrade the EHR connection to comply with their requirements. The new connection design must support business-critical needs and meet the same network and security policy requirements. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a shutdown script named k99.shutdown in the /etc/rc.6.d/ directory"
+      "text": "Add a new Dedicated Interconnect connection."
     },
     {
       "key": "B",
-      "text": "Create a shutdown script registered as a xinetd service in Linux and configure a Stackdriver endpoint check to call the service"
+      "text": "Upgrade the bandwidth on the Dedicated Interconnect connection to 100 G."
     },
     {
       "key": "C",
-      "text": "Create a shutdown script and use it as the value for a new metadata entry with the key shutdown-script in the Cloud Platform Console when you create the new virtual machine instance"
+      "text": "Add three new Cloud VPN connections."
     },
     {
       "key": "D",
-      "text": "Create a shutdown script, registered as a xinetd service in Linux, and use the gcloud compute instances add-metadata command to specify the service URL as the value for a new metadata entry with the key shutdown-script-url"
+      "text": "Add a new Carrier Peering connection."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

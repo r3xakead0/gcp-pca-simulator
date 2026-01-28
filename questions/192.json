@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7200-exam-professional-cloud-architect-topic-1-question-29/",
-  "published_iso": null,
-  "number": 29,
-  "question": "You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely. Where should you store the credentials?",
+  "url": "https://www.examtopics.com/discussions/google/view/13467-exam-professional-cloud-architect-topic-9-question-4/",
+  "published_iso": "2020-02-05T20:39:00",
+  "number": 4,
+  "question": "For this question, refer to the TerramEarth case study. A new architecture that writes all incoming data to BigQuery has been introduced. You notice that the data is dirty, and want to ensure data quality on an automated daily basis while managing cost. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "In the source code"
+      "text": "Set up a streaming Cloud Dataflow job, receiving data by the ingestion process. Clean the data in a Cloud Dataflow pipeline."
     },
     {
       "key": "B",
-      "text": "In an environment variable"
+      "text": "Create a Cloud Function that reads data from BigQuery and cleans it. Trigger the Cloud Function from a Compute Engine instance."
     },
     {
       "key": "C",
-      "text": "In a secret management system"
+      "text": "Create a SQL statement on the data in BigQuery, and save it as a view. Run the view daily, and save the result to a new table."
     },
     {
       "key": "D",
-      "text": "In a config file that has restricted access through ACLs"
+      "text": "Use Cloud Dataprep and configure the BigQuery tables as the source. Schedule a daily job to clean the data."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "D"
     ],
     "community": [
-      "C"
+      "D"
     ]
   }
 }

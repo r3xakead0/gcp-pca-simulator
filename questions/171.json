@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7233-exam-professional-cloud-architect-topic-1-question-100/",
-  "published_iso": null,
-  "number": 100,
-  "question": "You need to ensure reliability for your application and operations by supporting reliable task scheduling for compute on GCP. Leveraging Google best practices, what should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/60396-exam-professional-cloud-architect-topic-1-question-140/",
+  "published_iso": "2021-08-23T15:13:00",
+  "number": 140,
+  "question": "Your company has a Kubernetes application that pulls messages from Pub/Sub and stores them in Filestore. Because the application is simple, it was deployed as a single pod. The infrastructure team has analyzed Pub/Sub metrics and discovered that the application cannot process the messages in real time. Most of them wait for minutes before being processed. You need to scale the elaboration process that is I/O-intensive. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Using the Cron service provided by App Engine, publish messages directly to a message-processing utility service running on Compute Engine instances."
+      "text": "Use kubectl autoscale deployment APP_NAME --max 6 --min 2 --cpu-percent 50 to configure Kubernetes autoscaling deployment."
     },
     {
       "key": "B",
-      "text": "Using the Cron service provided by App Engine, publish messages to a Cloud Pub/Sub topic. Subscribe to that topic using a message-processing utility service running on Compute Engine instances."
+      "text": "Configure a Kubernetes autoscaling deployment based on the subscription/push_request_latencies metric."
     },
     {
       "key": "C",
-      "text": "Using the Cron service provided by Google Kubernetes Engine (GKE), publish messages directly to a message-processing utility service running on Compute Engine instances."
+      "text": "Use the --enable-autoscaling flag when you create the Kubernetes cluster."
     },
     {
       "key": "D",
-      "text": "Using the Cron service provided by GKE, publish messages to a Cloud Pub/Sub topic. Subscribe to that topic using a message-processing utility service running on Compute Engine instances."
+      "text": "Configure a Kubernetes autoscaling deployment based on the subscription/num_undelivered_messages metric."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

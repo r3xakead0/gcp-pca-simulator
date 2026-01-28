@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60495-exam-professional-cloud-architect-topic-1-question-157/",
-  "published_iso": null,
-  "number": 157,
-  "question": "You are working at an institution that processes medical data. You are migrating several workloads onto Google Cloud. Company policies require all workloads to run on physically separated hardware, and workloads from different clients must also be separated. You created a sole-tenant node group and added a node for each client. You need to deploy the workloads on these dedicated hosts. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7184-exam-professional-cloud-architect-topic-1-question-56/",
+  "published_iso": "2019-10-25T06:28:00",
+  "number": 56,
+  "question": "You have an application deployed on Google Kubernetes Engine using a Deployment named echo-deployment. The deployment is exposed using a Service called echo-service. You need to perform an update to the application with minimal downtime to the application. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Add the node group name as a network tag when creating Compute Engine instances in order to host each workload on the correct node group."
+      "text": "Use kubectl set image deployment/echo-deployment <new-image>"
     },
     {
       "key": "B",
-      "text": "Add the node name as a network tag when creating Compute Engine instances in order to host each workload on the correct node."
+      "text": "Use the rolling update functionality of the Instance Group behind the Kubernetes cluster"
     },
     {
       "key": "C",
-      "text": "Use node affinity labels based on the node group name when creating Compute Engine instances in order to host each workload on the correct node group."
+      "text": "Update the deployment yaml file with the new container image. Use kubectl delete deployment/echo-deployment and kubectl create ג€\"f <yaml-file>"
     },
     {
       "key": "D",
-      "text": "Use node affinity labels based on the node name when creating Compute Engine instances in order to host each workload on the correct node."
+      "text": "Update the service yaml file which the new container image. Use kubectl delete service/echo-service and kubectl create ג€\"f <yaml-file>"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

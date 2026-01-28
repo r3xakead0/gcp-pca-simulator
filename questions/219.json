@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7238-exam-professional-cloud-architect-topic-6-question-7/",
-  "published_iso": null,
-  "number": 7,
-  "question": "For this question, refer to the Mountkirk Games case study. You are in charge of the new Game Backend Platform architecture. The game communicates with the backend over a REST API. You want to follow Google-recommended practices. How should you design the backend?",
+  "url": "https://www.examtopics.com/discussions/google/view/7200-exam-professional-cloud-architect-topic-1-question-29/",
+  "published_iso": "2019-10-25T14:54:00",
+  "number": 29,
+  "question": "You are designing a large distributed application with 30 microservices. Each of your distributed microservices needs to connect to a database back-end. You want to store the credentials securely. Where should you store the credentials?",
   "options": [
     {
       "key": "A",
-      "text": "Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L4 load balancer."
+      "text": "In the source code"
     },
     {
       "key": "B",
-      "text": "Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L4 load balancer."
+      "text": "In an environment variable"
     },
     {
       "key": "C",
-      "text": "Create an instance template for the backend. For every region, deploy it on a multi-zone managed instance group. Use an L7 load balancer."
+      "text": "In a secret management system"
     },
     {
       "key": "D",
-      "text": "Create an instance template for the backend. For every region, deploy it on a single-zone managed instance group. Use an L7 load balancer."
+      "text": "In a config file that has restricted access through ACLs"
     }
   ],
   "answers": {

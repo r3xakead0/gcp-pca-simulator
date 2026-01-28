@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7285-exam-professional-cloud-architect-topic-1-question-59/",
-  "published_iso": null,
-  "number": 59,
-  "question": "Your web application must comply with the requirements of the European Union's General Data Protection Regulation (GDPR). You are responsible for the technical architecture of your web application. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6549-exam-professional-cloud-architect-topic-5-question-3/",
+  "published_iso": "2019-10-14T02:53:00",
+  "number": 3,
+  "question": "Mountkirk Games wants to set up a continuous delivery pipeline. Their architecture includes many small services that they want to be able to update and roll back quickly. Mountkirk Games has the following requirements: ✑ Services are deployed redundantly across multiple regions in the US and Europe ✑ Only frontend services are exposed on the public internet ✑ They can provide a single frontend IP for their fleet of services ✑ Deployment artifacts are immutable Which set of products should they use?",
   "options": [
     {
       "key": "A",
-      "text": "Ensure that your web application only uses native features and services of Google Cloud Platform, because Google already has various certifications and provides ג€pass-onג€ compliance when you use native features."
+      "text": "Google Cloud Storage, Google Cloud Dataflow, Google Compute Engine"
     },
     {
       "key": "B",
-      "text": "Enable the relevant GDPR compliance setting within the GCPConsole for each of the services in use within your application."
+      "text": "Google Cloud Storage, Google App Engine, Google Network Load Balancer"
     },
     {
       "key": "C",
-      "text": "Ensure that Cloud Security Scanner is part of your test planning strategy in order to pick up any compliance gaps."
+      "text": "Google Kubernetes Registry, Google Container Engine, Google HTTP(S) Load Balancer"
     },
     {
       "key": "D",
-      "text": "Define a design for the security of data in your web application that meets GDPR requirements."
+      "text": "Google Cloud Functions, Google Cloud Pub/Sub, Google Cloud Deployment Manager"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

@@ -1,32 +1,44 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/68688-exam-professional-cloud-architect-topic-1-question-176/",
-  "published_iso": null,
-  "number": 176,
-  "question": "Your company has an application that is running on multiple instances of Compute Engine. It generates 1 TB per day of logs. For compliance reasons, the logs need to be kept for at least two years. The logs need to be available for active query for 30 days. After that, they just need to be retained for audit purposes. You want to implement a storage solution that is compliant, minimizes costs, and follows Google-recommended practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/54371-exam-professional-cloud-architect-topic-1-question-164/",
+  "published_iso": "2021-06-03T09:23:00",
+  "number": 164,
+  "question": "You are helping the QA team to roll out a new load-testing tool to test the scalability of your primary cloud services that run on Google Compute Engine with Cloud Bigtable. Which three requirements should they include? (Choose three.)",
   "options": [
     {
       "key": "A",
-      "text": "1. Install a Cloud Logging agent on all instances. 2. Create a sink to export logs into a regional Cloud Storage bucket. 3. Create an Object Lifecycle rule to move files into a Coldline Cloud Storage bucket after one month. 4. Configure a retention policy at the bucket level using bucket lock."
+      "text": "Ensure that the load tests validate the performance of Cloud Bigtable"
     },
     {
       "key": "B",
-      "text": "1. Write a daily cron job, running on all instances, that uploads logs into a Cloud Storage bucket. 2. Create a sink to export logs into a regional Cloud Storage bucket. 3. Create an Object Lifecycle rule to move files into a Coldline Cloud Storage bucket after one month."
+      "text": "Create a separate Google Cloud project to use for the load-testing environment"
     },
     {
       "key": "C",
-      "text": "1. Install a Cloud Logging agent on all instances. 2. Create a sink to export logs into a partitioned BigQuery table. 3. Set a time_partitioning_expiration of 30 days."
+      "text": "Schedule the load-testing tool to regularly run against the production environment"
     },
     {
       "key": "D",
-      "text": "1. Create a daily cron job, running on all instances, that uploads logs into a partitioned BigQuery table. 2. Set a time_partitioning_expiration of 30 days."
+      "text": "Ensure all third-party systems your services use is capable of handling high load"
+    },
+    {
+      "key": "E",
+      "text": "Instrument the production services to record every transaction for replay by the load-testing tool"
+    },
+    {
+      "key": "F",
+      "text": "Instrument the load-testing tool and the target services with detailed logging and metrics collection"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "A",
+      "B",
+      "F"
     ],
     "community": [
-      "A"
+      "A",
+      "B",
+      "F"
     ]
   }
 }

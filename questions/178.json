@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9188-exam-professional-cloud-architect-topic-1-question-88/",
-  "published_iso": null,
-  "number": 88,
-  "question": "You are using Cloud CDN to deliver static HTTP(S) website content hosted on a Compute Engine instance group. You want to improve the cache hit ratio. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56416-exam-professional-cloud-architect-topic-1-question-120/",
+  "published_iso": "2021-06-30T17:57:00",
+  "number": 120,
+  "question": "Your company has a project in Google Cloud with three Virtual Private Clouds (VPCs). There is a Compute Engine instance on each VPC. Network subnets do not overlap and must remain separated. The network configuration is shown below. [Imagen]: /assets/media/exam-media/04339/0013300001.jpg Instance #1 is an exception and must communicate directly with both Instance #2 and Instance #3 via internal IPs. How should you accomplish this?",
   "options": [
     {
       "key": "A",
-      "text": "Customize the cache keys to omit the protocol from the key."
+      "text": "Create a cloud router to advertise subnet #2 and subnet #3 to subnet #1."
     },
     {
       "key": "B",
-      "text": "Shorten the expiration time of the cached objects."
+      "text": "Add two additional NICs to Instance #1 with the following configuration: ג€¢ NIC1 ג—‹ VPC: VPC #2 ג—‹ SUBNETWORK: subnet #2 ג€¢ NIC2 ג—‹ VPC: VPC #3 ג—‹ SUBNETWORK: subnet #3 Update firewall rules to enable traffic between instances."
     },
     {
       "key": "C",
-      "text": "Make sure the HTTP(S) header ג€Cache-Regionג€ points to the closest region of your users."
+      "text": "Create two VPN tunnels via CloudVPN: ג€¢ 1 between VPC #1 and VPC #2. ג€¢ 1 between VPC #2 and VPC #3. Update firewall rules to enable traffic between the instances."
     },
     {
       "key": "D",
-      "text": "Replicate the static content in a Cloud Storage bucket. Point CloudCDN toward a load balancer on that bucket."
+      "text": "Peer all three VPCs: ג€¢ Peer VPC #1 with VPC #2. ג€¢ Peer VPC #2 with VPC #3. Update firewall rules to enable traffic between the instances."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

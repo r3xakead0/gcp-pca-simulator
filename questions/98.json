@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80040-exam-professional-cloud-architect-topic-1-question-190/",
-  "published_iso": null,
-  "number": 190,
-  "question": "You have a Compute Engine application that you want to autoscale when total memory usage exceeds 80%. You have installed the Cloud Monitoring agent and configured the autoscaling policy as follows: ✑ Metric identifier: agent.googleapis.com/memory/percent_used ✑ Filter: metric.label.state = 'used' ✑ Target utilization level: 80 ✑ Target type: GAUGE You observe that the application does not scale under high load. You want to resolve this. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7018-exam-professional-cloud-architect-topic-1-question-162/",
+  "published_iso": "2019-10-22T18:55:00",
+  "number": 162,
+  "question": "You want to make a copy of a production Linux virtual machine in the US-Central region. You want to manage and replace the copy easily if there are changes on the production virtual machine. You will deploy the copy as a new instance in a different project in the US-East region. What steps must you take?",
   "options": [
     {
       "key": "A",
-      "text": "Change the Target type to DELTA_PER_MINUTE."
+      "text": "Use the Linux dd and netcat commands to copy and stream the root disk contents to a new virtual machine instance in the US-East region."
     },
     {
       "key": "B",
-      "text": "Change the Metric identifier to agent.googleapis.com/memory/bytes_used."
+      "text": "Create a snapshot of the root disk and select the snapshot as the root disk when you create a new virtual machine instance in the US-East region."
     },
     {
       "key": "C",
-      "text": "Change the filter to metric.label.state = 'used' AND metric.label.state = 'buffered' AND metric.label.state = 'cached' AND metric.label.state = 'slab'."
+      "text": "Create an image file from the root disk with Linux dd command, create a new virtual machine instance in the US-East region"
     },
     {
       "key": "D",
-      "text": "Change the filter to metric.label.state = 'free' and the Target utilization to 20."
+      "text": "Create a snapshot of the root disk, create an image file in Google Cloud Storage from the snapshot, and create a new virtual machine instance in the US-East region using the image file the root disk."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "D"
     ],
     "community": [
-      "C"
+      "D"
     ]
   }
 }

@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8248-exam-professional-cloud-architect-topic-8-question-8/",
-  "published_iso": null,
-  "number": 8,
-  "question": "TerramEarth's 20 million vehicles are scattered around the world. Based on the vehicle's location, its telemetry data is stored in a Google Cloud Storage (GCS) regional bucket (US, Europe, or Asia). The CTO has asked you to run a report on the raw telemetry data to determine why vehicles are breaking down after 100 K miles. You want to run this job on all the data. What is the most cost-effective way to run this job?",
+  "url": "https://www.examtopics.com/discussions/google/view/60682-exam-professional-cloud-architect-topic-1-question-143/",
+  "published_iso": "2021-08-26T07:43:00",
+  "number": 143,
+  "question": "Your company is designing its data lake on Google Cloud and wants to develop different ingestion pipelines to collect unstructured data from different sources. After the data is stored in Google Cloud, it will be processed in several data pipelines to build a recommendation engine for end users on the website. The structure of the data retrieved from the source systems can change at any time. The data must be stored exactly as it was retrieved for reprocessing purposes in case the data structure is incompatible with the current processing pipelines. You need to design an architecture to support the use case after you retrieve the data. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Move all the data into 1 zone, then launch a Cloud Dataproc cluster to run the job"
+      "text": "Send the data through the processing pipeline, and then store the processed data in a BigQuery table for reprocessing."
     },
     {
       "key": "B",
-      "text": "Move all the data into 1 region, then launch a Google Cloud Dataproc cluster to run the job"
+      "text": "Store the data in a BigQuery table. Design the processing pipelines to retrieve the data from the table."
     },
     {
       "key": "C",
-      "text": "Launch a cluster in each region to preprocess and compress the raw data, then move the data into a multi-region bucket and use a Dataproc cluster to finish the job"
+      "text": "Send the data through the processing pipeline, and then store the processed data in a Cloud Storage bucket for reprocessing."
     },
     {
       "key": "D",
-      "text": "Launch a cluster in each region to preprocess and compress the raw data, then move the data into a region bucket and use a Cloud Dataproc cluster to finish the job"
+      "text": "Store the data in a Cloud Storage bucket. Design the processing pipelines to retrieve the data from the bucket."
     }
   ],
   "answers": {

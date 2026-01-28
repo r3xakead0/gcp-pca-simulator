@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56735-exam-professional-cloud-architect-topic-7-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "Your development teams release new versions of games running on Google Kubernetes Engine (GKE) daily. You want to create service level indicators (SLIs) to evaluate the quality of the new versions from the user's perspective. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/14731-exam-professional-cloud-architect-topic-11-question-2/",
+  "published_iso": "2020-02-23T15:25:00",
+  "number": 2,
+  "question": "At Dress4Win, an operations engineer wants to create a tow-cost solution to remotely archive copies of database backup files. The database files are compressed tar files stored in their current data center. How should he proceed?",
   "options": [
     {
       "key": "A",
-      "text": "Create CPU Utilization and Request Latency as service level indicators."
+      "text": "Create a cron script using gsutil to copy the files to a Coldline Storage bucket."
     },
     {
       "key": "B",
-      "text": "Create GKE CPU Utilization and Memory Utilization as service level indicators."
+      "text": "Create a cron script using gsutil to copy the files to a Regional Storage bucket."
     },
     {
       "key": "C",
-      "text": "Create Request Latency and Error Rate as service level indicators."
+      "text": "Create a Cloud Storage Transfer Service Job to copy the files to a Coldline Storage bucket."
     },
     {
       "key": "D",
-      "text": "Create Server Uptime and Error Rate as service level indicators."
+      "text": "Create a Cloud Storage Transfer Service job to copy the files to a Regional Storage bucket."
     }
   ],
   "answers": {

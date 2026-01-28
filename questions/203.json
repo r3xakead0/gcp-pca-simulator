@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56977-exam-professional-cloud-architect-topic-7-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "You need to optimize batch file transfers into Cloud Storage for Mountkirk Games' new Google Cloud solution. The batch files contain game statistics that need to be staged in Cloud Storage and be processed by an extract transform load (ETL) tool. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7208-exam-professional-cloud-architect-topic-1-question-37/",
+  "published_iso": "2019-10-25T18:48:00",
+  "number": 37,
+  "question": "Your organization wants to control IAM policies for different departments independently, but centrally. Which approach should you take?",
   "options": [
     {
       "key": "A",
-      "text": "Use gsutil to batch move files in sequence."
+      "text": "Multiple Organizations with multiple Folders"
     },
     {
       "key": "B",
-      "text": "Use gsutil to batch copy the files in parallel."
+      "text": "Multiple Organizations, one for each department"
     },
     {
       "key": "C",
-      "text": "Use gsutil to extract the files as the first part of ETL."
+      "text": "A single Organization with Folders for each department"
     },
     {
       "key": "D",
-      "text": "Use gsutil to load the files as the last part of ETL."
+      "text": "A single Organization with multiple projects, each with a central owner"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6452-exam-professional-cloud-architect-topic-1-question-75/",
-  "published_iso": null,
-  "number": 75,
-  "question": "You have deployed an application to Google Kubernetes Engine (GKE), and are using the Cloud SQL proxy container to make the Cloud SQL database available to the services running on Kubernetes. You are notified that the application is reporting database connection issues. Your company policies require a post- mortem. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56640-exam-professional-cloud-architect-topic-1-question-135/",
+  "published_iso": "2021-07-01T06:40:00",
+  "number": 135,
+  "question": "You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use gcloud sql instances restart."
+      "text": "Add a taint to one of the nodes of the Kubernetes cluster. For the specific microservice, configure a pod anti-affinity label that has the name of the tainted node as a value."
     },
     {
       "key": "B",
-      "text": "Validate that the Service Account used by the Cloud SQL proxy container still has the Cloud Build Editor role."
+      "text": "Use Istio's fault injection on the particular microservice whose faulty behavior you want to simulate."
     },
     {
       "key": "C",
-      "text": "In the GCP Console, navigate to Stackdriver Logging. Consult logs for (GKE) and Cloud SQL."
+      "text": "Destroy one of the nodes of the Kubernetes cluster to observe the behavior."
     },
     {
       "key": "D",
-      "text": "In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kubectl to restart all pods."
+      "text": "Configure Istio's traffic management features to steer the traffic away from a crashing microservice."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

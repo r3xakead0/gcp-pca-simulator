@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7261-exam-professional-cloud-architect-topic-11-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "Dress4Win has asked you to recommend machine types they should deploy their application servers to. How should you proceed?",
+  "url": "https://www.examtopics.com/discussions/google/view/60439-exam-professional-cloud-architect-topic-1-question-148/",
+  "published_iso": "2021-08-24T05:15:00",
+  "number": 148,
+  "question": "You are designing a Data Warehouse on Google Cloud and want to store sensitive data in BigQuery. Your company requires you to generate the encryption keys outside of Google Cloud. You need to implement a solution. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Perform a mapping of the on-premises physical hardware cores and RAM to the nearest machine types in the cloud."
+      "text": "Generate a new key in Cloud Key Management Service (Cloud KMS). Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset."
     },
     {
       "key": "B",
-      "text": "Recommend that Dress4Win deploy application servers to machine types that offer the highest RAM to CPU ratio available."
+      "text": "Generate a new key in Cloud KMS. Create a dataset in BigQuery using the customer-managed key option and select the created key."
     },
     {
       "key": "C",
-      "text": "Recommend that Dress4Win deploy into production with the smallest instances available, monitor them over time, and scale the machine type up until the desired performance is reached."
+      "text": "Import a key in Cloud KMS. Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset."
     },
     {
       "key": "D",
-      "text": "Identify the number of virtual cores and RAM associated with the application server virtual machines align them to a custom machine type in the cloud, monitor performance, and scale the machine types up until the desired performance is reached."
+      "text": "Import a key in Cloud KMS. Create a dataset in BigQuery using the customer-supplied key option and select the created key."
     }
   ],
   "answers": {

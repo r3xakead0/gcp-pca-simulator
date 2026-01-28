@@ -58,7 +58,23 @@ function createQuestionList() {
         questionList.appendChild(btn);
     });
 }
+// Add this function to script.js to update meta tags based on current question
+function updateMetaTags() {
+    const title = document.title.split('|')[0].trim(); // Get base title
+    const currentQ = currentQuestionIndex + 1;
+    const totalQ = questions.length;
+    
+    // Update page title
+    document.title = `${title} | Question ${currentQ} of ${totalQ} - Cloud Architect Practice Test`;
+    
+    // Update meta description (if needed, though this won't affect indexing once loaded)
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+        metaDesc.content = `Practice question ${currentQ} of ${totalQ} for Professional Cloud Architect certification. ${metaDesc.content}`;
+    }
+}
 
+// Call this function when showing a new question
 function showQuestion(index) {
     if (index < 0 || index >= questions.length) return;
     
@@ -93,6 +109,7 @@ function showQuestion(index) {
     updateQuestionButtonStates();
     updateProgress();
     updateNavigationButtons();
+    updateMetaTags(); // Add this line to update meta tags
 }
 
 function selectOption(optionKey) {

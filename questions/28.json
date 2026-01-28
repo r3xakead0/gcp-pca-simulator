@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6802-exam-professional-cloud-architect-topic-11-question-11/",
-  "published_iso": null,
-  "number": 11,
-  "question": "The current Dress4Win system architecture has high latency to some customers because it is located in one data center. As of a future evaluation and optimizing for performance in the cloud, Dresss4Win wants to distribute its system architecture to multiple locations when Google cloud platform. Which approach should they use?",
+  "url": "https://www.examtopics.com/discussions/google/view/381814-exam-professional-cloud-architect-topic-1-question-209/",
+  "published_iso": "2025-12-22T03:05:00",
+  "number": 209,
+  "question": "Your organization has a significant amount of log data stored in Cloud Logging. The data engineering team is accustomed to using SQL for analysis and wants the ability to create insightful dashboards for visualizing log trends and patterns. You want to follow the recommendations of the Google Cloud Well-Architected Framework to provide a solution for the data engineering team. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use regional managed instance groups and a global load balancer to increase performance because the regional managed instance group can grow instances in each region separately based on traffic."
+      "text": "Create a log sink, and export the data to BigQuery using Pub/Sub. Run queries and visualize the data with Cloud Monitoring dashboards."
     },
     {
       "key": "B",
-      "text": "Use a global load balancer with a set of virtual machines that forward the requests to a closer group of virtual machines managed by your operations team."
+      "text": "Enable log analytics and run queries in Cloud Monitoring. Visualize the data using Vertex AI workbench."
     },
     {
       "key": "C",
-      "text": "Use regional managed instance groups and a global load balancer to increase reliability by providing automatic failover between zones in different regions."
+      "text": "Enable log analytics and run queries in the linked log dataset in BigQuery. Visualize the data with Looker Studio dashboards."
     },
     {
       "key": "D",
-      "text": "Use a global load balancer with a set of virtual machines that forward the requests to a closer group of virtual machines as part of a separate managed instance groups."
+      "text": "Create a log sink, and export the data to a storage bucket. Create an external table in BigQuery for the data in the bucket. Run queries and visualize the data with Cloud Monitoring dashboards."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

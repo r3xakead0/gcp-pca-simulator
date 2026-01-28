@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6846-exam-professional-cloud-architect-topic-1-question-49/",
-  "published_iso": null,
-  "number": 49,
-  "question": "Google Cloud Platform resources are managed hierarchically using organization, folders, and projects. When Cloud Identity and Access Management (IAM) policies exist at these different levels, what is the effective policy at a particular node of the hierarchy?",
+  "url": "https://www.examtopics.com/discussions/google/view/56375-exam-professional-cloud-architect-topic-1-question-114/",
+  "published_iso": "2021-06-30T15:50:00",
+  "number": 114,
+  "question": "Your company uses the Firewall Insights feature in the Google Network Intelligence Center. You have several firewall rules applied to Compute Engine instances. You need to evaluate the efficiency of the applied firewall ruleset. When you bring up the Firewall Insights page in the Google Cloud Console, you notice that there are no log rows to display. What should you do to troubleshoot the issue?",
   "options": [
     {
       "key": "A",
-      "text": "The effective policy is determined only by the policy set at the node"
+      "text": "Enable Virtual Private Cloud (VPC) flow logging."
     },
     {
       "key": "B",
-      "text": "The effective policy is the policy set at the node and restricted by the policies of its ancestors"
+      "text": "Enable Firewall Rules Logging for the firewall rules you want to monitor."
     },
     {
       "key": "C",
-      "text": "The effective policy is the union of the policy set at the node and policies inherited from its ancestors"
+      "text": "Verify that your user account is assigned the compute.networkAdmin Identity and Access Management (IAM) role."
     },
     {
       "key": "D",
-      "text": "The effective policy is the intersection of the policy set at the node and policies inherited from its ancestors"
+      "text": "Install the Google Cloud SDK, and verify that there are no Firewall logs in the command line output."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6747-exam-professional-cloud-architect-topic-1-question-102/",
-  "published_iso": null,
-  "number": 102,
-  "question": "You are developing a globally scaled frontend for a legacy streaming backend data API. This API expects events in strict chronological order with no repeat data for proper processing. Which products should you deploy to ensure guaranteed-once FIFO (first-in, first-out) delivery of data?",
+  "url": "https://www.examtopics.com/discussions/google/view/56615-exam-professional-cloud-architect-topic-1-question-131/",
+  "published_iso": "2021-07-01T05:55:00",
+  "number": 131,
+  "question": "Your company wants you to build a highly reliable web application with a few public APIs as the backend. You don't expect a lot of user traffic, but traffic could spike occasionally. You want to leverage Cloud Load Balancing, and the solution must be cost-effective for users. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Cloud Pub/Sub alone"
+      "text": "Store static content such as HTML and images in Cloud CDN. Host the APIs on App Engine and store the user data in Cloud SQL."
     },
     {
       "key": "B",
-      "text": "Cloud Pub/Sub to Cloud Dataflow"
+      "text": "Store static content such as HTML and images in a Cloud Storage bucket. Host the APIs on a zonal Google Kubernetes Engine cluster with worker nodes in multiple zones, and save the user data in Cloud Spanner."
     },
     {
       "key": "C",
-      "text": "Cloud Pub/Sub to Stackdriver"
+      "text": "Store static content such as HTML and images in Cloud CDN. Use Cloud Run to host the APIs and save the user data in Cloud SQL."
     },
     {
       "key": "D",
-      "text": "Cloud Pub/Sub to Cloud SQL"
+      "text": "Store static content such as HTML and images in a Cloud Storage bucket. Use Cloud Functions to host the APIs and save the user data in Firestore."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

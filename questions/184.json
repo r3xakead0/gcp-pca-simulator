@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11804-exam-professional-cloud-architect-topic-1-question-43/",
-  "published_iso": null,
-  "number": 43,
-  "question": "You want to create a private connection between your instances on Compute Engine and your on-premises data center. You require a connection of at least 20 Gbps. You want to follow Google-recommended practices. How should you set up the connection?",
+  "url": "https://www.examtopics.com/discussions/google/view/56322-exam-professional-cloud-architect-topic-3-question-4/",
+  "published_iso": "2021-06-30T14:04:00",
+  "number": 4,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. HRL wants better prediction accuracy from their ML prediction models. They want you to use Google's AI Platform so HRL can understand and interpret the predictions. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a VPC and connect it to your on-premises data center using Dedicated Interconnect."
+      "text": "Use Explainable AI."
     },
     {
       "key": "B",
-      "text": "Create a VPC and connect it to your on-premises data center using a single Cloud VPN."
+      "text": "Use Vision AI."
     },
     {
       "key": "C",
-      "text": "Create a Cloud Content Delivery Network (Cloud CDN) and connect it to your on-premises data center using Dedicated Interconnect."
+      "text": "Use Google Cloud's operations suite."
     },
     {
       "key": "D",
-      "text": "Create a Cloud Content Delivery Network (Cloud CDN) and connect it to your on-premises datacenter using a single Cloud VPN."
+      "text": "Use Jupyter Notebooks."
     }
   ],
   "answers": {

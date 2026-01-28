@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6953-exam-professional-cloud-architect-topic-1-question-46/",
-  "published_iso": null,
-  "number": 46,
-  "question": "You have an outage in your Compute Engine managed instance group: all instances keep restarting after 5 seconds. You have a health check configured, but autoscaling is disabled. Your colleague, who is a Linux expert, offered to look into the issue. You need to make sure that he can access the VMs. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/68708-exam-professional-cloud-architect-topic-1-question-57/",
+  "published_iso": "2021-12-28T08:08:00",
+  "number": 57,
+  "question": "Your company is using BigQuery as its enterprise data warehouse. Data is distributed over several Google Cloud projects. All queries on BigQuery need to be billed on a single project. You want to make sure that no query costs are incurred on the projects that contain the data. Users should be able to query the datasets, but not edit them. How should you configure users' access roles?",
   "options": [
     {
       "key": "A",
-      "text": "Grant your colleague the IAM role of project Viewer"
+      "text": "Add all users to a group. Grant the group the role of BigQuery user on the billing project and BigQuery dataViewer on the projects that contain the data."
     },
     {
       "key": "B",
-      "text": "Perform a rolling restart on the instance group"
+      "text": "Add all users to a group. Grant the group the roles of BigQuery dataViewer on the billing project and BigQuery user on the projects that contain the data."
     },
     {
       "key": "C",
-      "text": "Disable the health check for the instance group. Add his SSH key to the project-wide SSH Keys"
+      "text": "Add all users to a group. Grant the group the roles of BigQuery jobUser on the billing project and BigQuery dataViewer on the projects that contain the data."
     },
     {
       "key": "D",
-      "text": "Disable autoscaling for the instance group. Add his SSH key to the project-wide SSH Keys"
+      "text": "Add all users to a group. Grant the group the roles of BigQuery dataViewer on the billing project and BigQuery jobUser on the projects that contain the data."
     }
   ],
   "answers": {

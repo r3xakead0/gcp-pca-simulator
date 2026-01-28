@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7133-exam-professional-cloud-architect-topic-1-question-11/",
-  "published_iso": null,
-  "number": 11,
-  "question": "Your customer is moving an existing corporate application to Google Cloud Platform from an on-premises data center. The business owners require minimal user disruption. There are strict security team requirements for storing passwords. What authentication strategy should they use?",
+  "url": "https://www.examtopics.com/discussions/google/view/60436-exam-professional-cloud-architect-topic-1-question-151/",
+  "published_iso": "2021-08-24T05:04:00",
+  "number": 151,
+  "question": "Your company has a support ticketing solution that uses App Engine Standard. The project that contains the App Engine application already has a Virtual Private Cloud (VPC) network fully connected to the company's on-premises environment through a Cloud VPN tunnel. You want to enable the App Engine application to communicate with a database that is running in the company's on-premises environment. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use G Suite Password Sync to replicate passwords into Google"
+      "text": "Configure private Google access for on-premises hosts only."
     },
     {
       "key": "B",
-      "text": "Federate authentication via SAML 2.0 to the existing Identity Provider"
+      "text": "Configure private Google access."
     },
     {
       "key": "C",
-      "text": "Provision users in Google using the Google Cloud Directory Sync tool"
+      "text": "Configure private services access."
     },
     {
       "key": "D",
-      "text": "Ask users to set their Google password to match their corporate password"
+      "text": "Configure serverless VPC access."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

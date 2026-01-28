@@ -1,32 +1,36 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/10396-exam-professional-cloud-architect-topic-2-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "The JencoMart security team requires that all Google Cloud Platform infrastructure is deployed using a least privilege model with separation of duties for administration between production and development resources. What Google domain and project structure should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/7142-exam-professional-cloud-architect-topic-1-question-14/",
+  "published_iso": "2019-10-24T16:43:00",
+  "number": 14,
+  "question": "A production database virtual machine on Google Compute Engine has an ext4-formatted persistent disk for data files. The database is about to run out of storage space. How can you remediate the problem with the least amount of downtime?",
   "options": [
     {
       "key": "A",
-      "text": "Create two G Suite accounts to manage users: one for development/test/staging and one for production. Each account should contain one project for every application"
+      "text": "In the Cloud Platform Console, increase the size of the persistent disk and use the resize2fs command in Linux."
     },
     {
       "key": "B",
-      "text": "Create two G Suite accounts to manage users: one with a single project for all development applications and one with a single project for all production applications"
+      "text": "Shut down the virtual machine, use the Cloud Platform Console to increase the persistent disk size, then restart the virtual machine"
     },
     {
       "key": "C",
-      "text": "Create a single G Suite account to manage users with each stage of each application in its own project"
+      "text": "In the Cloud Platform Console, increase the size of the persistent disk and verify the new space is ready to use with the fdisk command in Linux"
     },
     {
       "key": "D",
-      "text": "Create a single G Suite account to manage users with one project for the development/test/staging environment and one project for the production environment"
+      "text": "In the Cloud Platform Console, create a new persistent disk attached to the virtual machine, format and mount it, and configure the database service to move the files to the new disk"
+    },
+    {
+      "key": "E",
+      "text": "In the Cloud Platform Console, create a snapshot of the persistent disk restore the snapshot to a new larger disk, unmount the old disk, mount the new disk and restart the database service"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

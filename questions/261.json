@@ -1,28 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11085-exam-professional-cloud-architect-topic-8-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "The TerramEarth development team wants to create an API to meet the company's business requirements. You want the development team to focus their development effort on business value versus creating a custom framework. Which method should they use?",
+  "url": "https://www.examtopics.com/discussions/google/view/7323-exam-professional-cloud-architect-topic-1-question-79/",
+  "published_iso": "2019-10-27T17:01:00",
+  "number": 79,
+  "question": "You want your Google Kubernetes Engine cluster to automatically add or remove nodes based on CPU load. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use Google App Engine with Google Cloud Endpoints. Focus on an API for dealers and partners"
+      "text": "Configure a HorizontalPodAutoscaler with a target CPU usage. Enable the Cluster Autoscaler from the GCP Console."
     },
     {
       "key": "B",
-      "text": "Use Google App Engine with a JAX-RS Jersey Java-based framework. Focus on an API for the public"
+      "text": "Configure a HorizontalPodAutoscaler with a target CPU usage. Enable autoscaling on the managed instance group for the cluster using the gcloud command."
     },
     {
       "key": "C",
-      "text": "Use Google App Engine with the Swagger (Open API Specification) framework. Focus on an API for the public"
+      "text": "Create a deployment and set the maxUnavailable and maxSurge properties. Enable the Cluster Autoscaler using the gcloud command."
     },
     {
       "key": "D",
-      "text": "Use Google Container Engine with a Django Python container. Focus on an API for the public"
-    },
-    {
-      "key": "E",
-      "text": "Use Google Container Engine with a Tomcat container with the Swagger (Open API Specification) framework. Focus on an API for dealers and partners"
+      "text": "Create a deployment and set the maxUnavailable and maxSurge properties. Enable autoscaling on the cluster managed instance group from the GCP Console."
     }
   ],
   "answers": {

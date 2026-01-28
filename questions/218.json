@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/79702-exam-professional-cloud-architect-topic-1-question-185/",
-  "published_iso": null,
-  "number": 185,
-  "question": "Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. When releasing new versions of the application via a rolling deployment, the team has been causing outages. The root cause of the outages is misconfigurations with parameters that are only used in production. You want to put preventive measures for this in the platform to prevent outages. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/11888-exam-professional-cloud-architect-topic-6-question-1/",
+  "published_iso": "2020-01-13T13:36:00",
+  "number": 1,
+  "question": "For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to migrate from their current analytics and statistics reporting model to one that meets their technical requirements on Google Cloud Platform. Which two steps should be part of their migration plan? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Configure liveness and readiness probes in the Pod specification."
+      "text": "Evaluate the impact of migrating their current batch ETL code to Cloud Dataflow."
     },
     {
       "key": "B",
-      "text": "Configure health checks on the managed instance group."
+      "text": "Write a schema migration plan to denormalize data for better performance in BigQuery."
     },
     {
       "key": "C",
-      "text": "Create a Scheduled Task to check whether the application is available."
+      "text": "Draw an architecture diagram that shows how to move from a single MySQL database to a MySQL cluster."
     },
     {
       "key": "D",
-      "text": "Configure an uptime alert in Cloud Monitoring."
+      "text": "Load 10 TB of analytics data from a previous game into a Cloud SQL instance, and run test queries against the full dataset to confirm that they complete successfully."
+    },
+    {
+      "key": "E",
+      "text": "Integrate Cloud Armor to defend against possible SQL injection attacks in analytics files uploaded to Cloud Storage."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "A",
+      "B"
     ],
     "community": [
-      "A"
+      "A",
+      "B"
     ]
   }
 }

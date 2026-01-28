@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/57270-exam-professional-cloud-architect-topic-1-question-121/",
-  "published_iso": null,
-  "number": 121,
-  "question": "You need to deploy an application on Google Cloud that must run on a Debian Linux environment. The application requires extensive configuration in order to operate correctly. You want to ensure that you can install Debian distribution updates with minimal manual intervention whenever they become available. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7016-exam-professional-cloud-architect-topic-1-question-161/",
+  "published_iso": "2019-10-22T18:26:00",
+  "number": 161,
+  "question": "A recent audit revealed that a new network was created in your GCP project. In this network, a GCE instance has an SSH port open to the world. You want to discover this network's origin. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a Compute Engine instance template using the most recent Debian image. Create an instance from this template, and install and configure the application as part of the startup script. Repeat this process whenever a new Google-managed Debian image becomes available."
+      "text": "Search for Create VM entry in the Stackdriver alerting console"
     },
     {
       "key": "B",
-      "text": "Create a Debian-based Compute Engine instance, install and configure the application, and use OS patch management to install available updates."
+      "text": "Navigate to the Activity page in the Home section. Set category to Data Access and search for Create VM entry"
     },
     {
       "key": "C",
-      "text": "Create an instance with the latest available Debian image. Connect to the instance via SSH, and install and configure the application on the instance. Repeat this process whenever a new Google-managed Debian image becomes available."
+      "text": "In the Logging section of the console, specify GCE Network as the logging section. Search for the Create Insert entry"
     },
     {
       "key": "D",
-      "text": "Create a Docker container with Debian as the base image. Install and configure the application as part of the Docker image creation process. Host the container on Google Kubernetes Engine and restart the container whenever a new update is available."
+      "text": "Connect to the GCE instance using project SSH keys. Identify previous logins in system logs, and match these with the project owners list"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

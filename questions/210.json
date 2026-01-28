@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/10722-exam-professional-cloud-architect-topic-5-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "Mountkirk Games wants you to design their new testing strategy. How should the test coverage differ from their existing backends on the other platforms?",
+  "url": "https://www.examtopics.com/discussions/google/view/11804-exam-professional-cloud-architect-topic-1-question-43/",
+  "published_iso": "2020-01-12T13:13:00",
+  "number": 43,
+  "question": "You want to create a private connection between your instances on Compute Engine and your on-premises data center. You require a connection of at least 20 Gbps. You want to follow Google-recommended practices. How should you set up the connection?",
   "options": [
     {
       "key": "A",
-      "text": "Tests should scale well beyond the prior approaches"
+      "text": "Create a VPC and connect it to your on-premises data center using Dedicated Interconnect."
     },
     {
       "key": "B",
-      "text": "Unit tests are no longer required, only end-to-end tests"
+      "text": "Create a VPC and connect it to your on-premises data center using a single Cloud VPN."
     },
     {
       "key": "C",
-      "text": "Tests should be applied after the release is in the production environment"
+      "text": "Create a Cloud Content Delivery Network (Cloud CDN) and connect it to your on-premises data center using Dedicated Interconnect."
     },
     {
       "key": "D",
-      "text": "Tests should include directly testing the Google Cloud Platform (GCP) infrastructure"
+      "text": "Create a Cloud Content Delivery Network (Cloud CDN) and connect it to your on-premises datacenter using a single Cloud VPN."
     }
   ],
   "answers": {

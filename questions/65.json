@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6443-exam-professional-cloud-architect-topic-1-question-60/",
-  "published_iso": null,
-  "number": 60,
-  "question": "You need to set up Microsoft SQL Server on GCP. Management requires that there's no downtime in case of a data center outage in any of the zones within a GCP region. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56684-exam-professional-cloud-architect-topic-1-question-119/",
+  "published_iso": "2021-07-01T08:47:00",
+  "number": 119,
+  "question": "You need to migrate Hadoop jobs for your company's Data Science team without modifying the underlying infrastructure. You want to minimize costs and infrastructure management effort. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Configure a Cloud SQL instance with high availability enabled."
+      "text": "Create a Dataproc cluster using standard worker instances."
     },
     {
       "key": "B",
-      "text": "Configure a Cloud Spanner instance with a regional instance configuration."
+      "text": "Create a Dataproc cluster using preemptible worker instances."
     },
     {
       "key": "C",
-      "text": "Set up SQL Server on Compute Engine, using Always On Availability Groups using Windows Failover Clustering. Place nodes in different subnets."
+      "text": "Manually deploy a Hadoop cluster on Compute Engine using standard instances."
     },
     {
       "key": "D",
-      "text": "Set up SQL Server Always On Availability Groups using Windows Failover Clustering. Place nodes in different zones."
+      "text": "Manually deploy a Hadoop cluster on Compute Engine using preemptible instances."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7172-exam-professional-cloud-architect-topic-1-question-26/",
-  "published_iso": null,
-  "number": 26,
-  "question": "Your organization requires that metrics from all applications be retained for 5 years for future analysis in possible legal proceedings. Which approach should you use?",
+  "url": "https://www.examtopics.com/discussions/google/view/7126-exam-professional-cloud-architect-topic-1-question-8/",
+  "published_iso": "2019-10-24T13:39:00",
+  "number": 8,
+  "question": "Your company wants to track whether someone is present in a meeting room reserved for a scheduled meeting. There are 1000 meeting rooms across 5 offices on 3 continents. Each room is equipped with a motion sensor that reports its status every second. The data from the motion detector includes only a sensor ID and several different discrete items of information. Analysts will use this data, together with information about account owners and office locations. Which database type should you use?",
   "options": [
     {
       "key": "A",
-      "text": "Grant the security team access to the logs in each Project"
+      "text": "Flat file"
     },
     {
       "key": "B",
-      "text": "Configure Stackdriver Monitoring for all Projects, and export to BigQuery"
+      "text": "NoSQL"
     },
     {
       "key": "C",
-      "text": "Configure Stackdriver Monitoring for all Projects with the default retention policies"
+      "text": "Relational"
     },
     {
       "key": "D",
-      "text": "Configure Stackdriver Monitoring for all Projects, and export to Google Cloud Storage"
+      "text": "Blobstore"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

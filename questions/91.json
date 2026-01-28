@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6896-exam-professional-cloud-architect-topic-1-question-81/",
-  "published_iso": null,
-  "number": 81,
-  "question": "Your company operates nationally and plans to use GCP for multiple batch workloads, including some that are not time-critical. You also need to use GCP services that are HIPAA-certified and manage service costs. How should you design to meet Google best practices?",
+  "url": "https://www.examtopics.com/discussions/google/view/121324-exam-professional-cloud-architect-topic-1-question-196/",
+  "published_iso": "2023-09-24T18:12:00",
+  "number": 196,
+  "question": "Your company wants to migrate their 10-TB on-premises database export into Cloud Storage. You want to minimize the time it takes to complete this activity and the overall cost. The bandwidth between the on-premises environment and Google Cloud is 1 Gbps. You want to follow Google-recommended practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Provision preemptible VMs to reduce cost. Discontinue use of all GCP services and APIs that are not HIPAA-compliant."
+      "text": "Develop a Dataflow job to read data directly from the database and write it into Cloud Storage."
     },
     {
       "key": "B",
-      "text": "Provision preemptible VMs to reduce cost. Disable and then discontinue use of all GCP services and APIs that are not HIPAA-compliant."
+      "text": "Use the Data Transfer appliance to perform an offline migration."
     },
     {
       "key": "C",
-      "text": "Provision standard VMs in the same region to reduce cost. Discontinue use of all GCP services and APIs that are not HIPAA-compliant."
+      "text": "Use a commercial partner ETL solution to extract the data from the on-premises database and upload it into Cloud Storage."
     },
     {
       "key": "D",
-      "text": "Provision standard VMs to the same region to reduce cost. Disable and then discontinue use of all GCP services and APIs that are not HIPAA-compliant."
+      "text": "Upload the data with gcloud storage cp."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56399-exam-professional-cloud-architect-topic-1-question-116/",
-  "published_iso": null,
-  "number": 116,
-  "question": "You have developed a non-critical update to your application that is running in a managed instance group, and have created a new instance template with the update that you want to release. To prevent any possible impact to the application, you don't want to update any running instances. You want any new instances that are created by the managed instance group to contain the new update. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/9449-exam-professional-cloud-architect-topic-8-question-3/",
+  "published_iso": "2019-11-30T22:01:00",
+  "number": 3,
+  "question": "Your development team has created a structured API to retrieve vehicle data. They want to allow third parties to develop tools for dealerships that use this vehicle event data. You want to support delegated authorization against this data. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Start a new rolling restart operation."
+      "text": "Build or leverage an OAuth-compatible access control system"
     },
     {
       "key": "B",
-      "text": "Start a new rolling replace operation."
+      "text": "Build SAML 2.0 SSO compatibility into your authentication system"
     },
     {
       "key": "C",
-      "text": "Start a new rolling update. Select the Proactive update mode."
+      "text": "Restrict data access based on the source IP address of the partner systems"
     },
     {
       "key": "D",
-      "text": "Start a new rolling update. Select the Opportunistic update mode."
+      "text": "Create secondary credentials for each dealer that can be given to the trusted third party"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

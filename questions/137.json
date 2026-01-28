@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56403-exam-professional-cloud-architect-topic-1-question-117/",
-  "published_iso": null,
-  "number": 117,
-  "question": "Your company is designing its application landscape on Compute Engine. Whenever a zonal outage occurs, the application should be restored in another zone as quickly as possible with the latest application data. You need to design the solution to meet this requirement. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7290-exam-professional-cloud-architect-topic-1-question-64/",
+  "published_iso": "2019-10-26T18:05:00",
+  "number": 64,
+  "question": "You are creating an App Engine application that uses Cloud Datastore as its persistence layer. You need to retrieve several root entities for which you have the identifiers. You want to minimize the overhead in operations performed by Cloud Datastore. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a snapshot schedule for the disk containing the application data. Whenever a zonal outage occurs, use the latest snapshot to restore the disk in the same zone."
+      "text": "Create the Key object for each Entity and run a batch get operation"
     },
     {
       "key": "B",
-      "text": "Configure the Compute Engine instances with an instance template for the application, and use a regional persistent disk for the application data. Whenever a zonal outage occurs, use the instance template to spin up the application in another zone in the same region. Use the regional persistent disk for the application data."
+      "text": "Create the Key object for each Entity and run multiple get operations, one operation for each entity"
     },
     {
       "key": "C",
-      "text": "Create a snapshot schedule for the disk containing the application data. Whenever a zonal outage occurs, use the latest snapshot to restore the disk in another zone within the same region."
+      "text": "Use the identifiers to create a query filter and run a batch query operation"
     },
     {
       "key": "D",
-      "text": "Configure the Compute Engine instances with an instance template for the application, and use a regional persistent disk for the application data. Whenever a zonal outage occurs, use the instance template to spin up the application in another region. Use the regional persistent disk for the application data."
+      "text": "Use the identifiers to create a query filter and run multiple query operations, one operation for each entity"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

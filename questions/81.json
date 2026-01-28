@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7290-exam-professional-cloud-architect-topic-1-question-64/",
-  "published_iso": null,
-  "number": 64,
-  "question": "You are creating an App Engine application that uses Cloud Datastore as its persistence layer. You need to retrieve several root entities for which you have the identifiers. You want to minimize the overhead in operations performed by Cloud Datastore. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/9188-exam-professional-cloud-architect-topic-1-question-88/",
+  "published_iso": "2019-11-27T01:00:00",
+  "number": 88,
+  "question": "You are using Cloud CDN to deliver static HTTP(S) website content hosted on a Compute Engine instance group. You want to improve the cache hit ratio. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create the Key object for each Entity and run a batch get operation"
+      "text": "Customize the cache keys to omit the protocol from the key."
     },
     {
       "key": "B",
-      "text": "Create the Key object for each Entity and run multiple get operations, one operation for each entity"
+      "text": "Shorten the expiration time of the cached objects."
     },
     {
       "key": "C",
-      "text": "Use the identifiers to create a query filter and run a batch query operation"
+      "text": "Make sure the HTTP(S) header ג€Cache-Regionג€ points to the closest region of your users."
     },
     {
       "key": "D",
-      "text": "Use the identifiers to create a query filter and run multiple query operations, one operation for each entity"
+      "text": "Replicate the static content in a Cloud Storage bucket. Point CloudCDN toward a load balancer on that bucket."
     }
   ],
   "answers": {

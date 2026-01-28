@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9253-exam-professional-cloud-architect-topic-5-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "Mountkirk Games' gaming servers are not automatically scaling properly. Last month, they rolled out a new feature, which suddenly became very popular. A record number of users are trying to use the service, but many of them are getting 503 errors and very slow response times. What should they investigate first?",
+  "url": "https://www.examtopics.com/discussions/google/view/7080-exam-professional-cloud-architect-topic-1-question-2/",
+  "published_iso": "2019-10-23T18:44:00",
+  "number": 2,
+  "question": "Your company plans to migrate a multi-petabyte data set to the cloud. The data set must be available 24hrs a day. Your business analysts have experience only with using a SQL interface. How should you store the data to optimize it for ease of analysis?",
   "options": [
     {
       "key": "A",
-      "text": "Verify that the database is online"
+      "text": "Load data into Google BigQuery"
     },
     {
       "key": "B",
-      "text": "Verify that the project quota hasn't been exceeded"
+      "text": "Insert data into Google Cloud SQL"
     },
     {
       "key": "C",
-      "text": "Verify that the new feature code did not introduce any performance bugs"
+      "text": "Put flat files into Google Cloud Storage"
     },
     {
       "key": "D",
-      "text": "Verify that the load-testing team is not running their tool against production"
+      "text": "Stream data into Google Cloud Datastore"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

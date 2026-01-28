@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6873-exam-professional-cloud-architect-topic-1-question-84/",
-  "published_iso": null,
-  "number": 84,
-  "question": "You want to automate the creation of a managed instance group. The VMs have many OS package dependencies. You want to minimize the startup time for new VMs in the instance group. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7237-exam-professional-cloud-architect-topic-6-question-6/",
+  "published_iso": "2019-10-26T11:42:00",
+  "number": 6,
+  "question": "For this question, refer to the Mountkirk Games case study. Which managed storage option meets Mountkirk's technical requirement for storing game activity in a time series database service?",
   "options": [
     {
       "key": "A",
-      "text": "Use Terraform to create the managed instance group and a startup script to install the OS package dependencies."
+      "text": "Cloud Bigtable"
     },
     {
       "key": "B",
-      "text": "Create a custom VM image with all OS package dependencies. Use Deployment Manager to create the managed instance group with the VM image."
+      "text": "Cloud Spanner"
     },
     {
       "key": "C",
-      "text": "Use Puppet to create the managed instance group and install the OS package dependencies."
+      "text": "BigQuery"
     },
     {
       "key": "D",
-      "text": "Use Deployment Manager to create the managed instance group and Ansible to install the OS package dependencies."
+      "text": "Cloud Datastore"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

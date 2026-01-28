@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/11815-exam-professional-cloud-architect-topic-1-question-70/",
-  "published_iso": null,
-  "number": 70,
-  "question": "You are using a single Cloud SQL instance to serve your application from a specific zone. You want to introduce high availability. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/68693-exam-professional-cloud-architect-topic-1-question-180/",
+  "published_iso": "2021-12-28T04:00:00",
+  "number": 180,
+  "question": "Your operations team currently stores 10 TB of data in an object storage service from a third-party provider. They want to move this data to a Cloud Storage bucket as quickly as possible, following Google-recommended practices. They want to minimize the cost of this data migration. Which approach should they use?",
   "options": [
     {
       "key": "A",
-      "text": "Create a read replica instance in a different region"
+      "text": "Use the gsutil mv command to move the data."
     },
     {
       "key": "B",
-      "text": "Create a failover replica instance in a different region"
+      "text": "Use the Storage Transfer Service to move the data."
     },
     {
       "key": "C",
-      "text": "Create a read replica instance in the same region, but in a different zone"
+      "text": "Download the data to a Transfer Appliance, and ship it to Google."
     },
     {
       "key": "D",
-      "text": "Create a failover replica instance in the same region, but in a different zone"
+      "text": "Download the data to the on-premises data center, and upload it to the Cloud Storage bucket."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

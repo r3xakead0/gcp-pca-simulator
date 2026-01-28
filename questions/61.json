@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/79736-exam-professional-cloud-architect-topic-1-question-186/",
-  "published_iso": null,
-  "number": 186,
-  "question": "Your company uses Google Kubernetes Engine (GKE) as a platform for all workloads. Your company has a single large GKE cluster that contains batch, stateful, and stateless workloads. The GKE cluster is configured with a single node pool with 200 nodes. Your company needs to reduce the cost of this cluster but does not want to compromise availability. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/54372-exam-professional-cloud-architect-topic-1-question-166/",
+  "published_iso": "2021-06-03T09:28:00",
+  "number": 166,
+  "question": "Your company places a high value on being responsive and meeting customer needs quickly. Their primary business objectives are release speed and agility. You want to reduce the chance of security errors being accidentally introduced. Which two actions can you take? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Create a second GKE cluster for the batch workloads only. Allocate the 200 original nodes across both clusters."
+      "text": "Ensure every code check-in is peer reviewed by a security SME"
     },
     {
       "key": "B",
-      "text": "Configure CPU and memory limits on the namespaces in the cluster. Configure all Pods to have a CPU and memory limits."
+      "text": "Use source code security analyzers as part of the CI/CD pipeline"
     },
     {
       "key": "C",
-      "text": "Configure a HorizontalPodAutoscaler for all stateless workloads and for all compatible stateful workloads. Configure the cluster to use node auto scaling."
+      "text": "Ensure you have stubs to unit test all interfaces between components"
     },
     {
       "key": "D",
-      "text": "Change the node pool to use preemptible VMs."
+      "text": "Enable code signing and a trusted binary repository integrated with your CI/CD pipeline"
+    },
+    {
+      "key": "E",
+      "text": "Run a vulnerability security scanner as part of your continuous-integration /continuous-delivery (CI/CD) pipeline"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B",
+      "E"
     ],
     "community": [
-      "C"
+      "B",
+      "E"
     ]
   }
 }

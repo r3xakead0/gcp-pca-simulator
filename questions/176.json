@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6805-exam-professional-cloud-architect-topic-12-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "For this question, refer to the Dress4Win case study. To be legally compliant during an audit, Dress4Win must be able to give insights in all administrative actions that modify the configuration or metadata of resources on Google Cloud. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/57424-exam-professional-cloud-architect-topic-1-question-129/",
+  "published_iso": "2021-07-08T05:11:00",
+  "number": 129,
+  "question": "You are developing an application using different microservices that should remain internal to the cluster. You want to be able to configure each microservice with a specific number of replicas. You also want to be able to address a specific microservice from any other microservice in a uniform way, regardless of the number of replicas the microservice scales to. You need to implement this solution on Google Kubernetes Engine. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use Stackdriver Trace to create a Trace list analysis."
+      "text": "Deploy each microservice as a Deployment. Expose the Deployment in the cluster using a Service, and use the Service DNS name to address it from other microservices within the cluster."
     },
     {
       "key": "B",
-      "text": "Use Stackdriver Monitoring to create a dashboard on the project's activity."
+      "text": "Deploy each microservice as a Deployment. Expose the Deployment in the cluster using an Ingress, and use the Ingress IP address to address the Deployment from other microservices within the cluster."
     },
     {
       "key": "C",
-      "text": "Enable Cloud Identity-Aware Proxy in all projects, and add the group of Administrators as a member."
+      "text": "Deploy each microservice as a Pod. Expose the Pod in the cluster using a Service, and use the Service DNS name to address the microservice from other microservices within the cluster."
     },
     {
       "key": "D",
-      "text": "Use the Activity page in the GCP Console and Stackdriver Logging to provide the required insight."
+      "text": "Deploy each microservice as a Pod. Expose the Pod in the cluster using an Ingress, and use the Ingress IP address name to address the Pod from other microservices within the cluster."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

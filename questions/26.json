@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8249-exam-professional-cloud-architect-topic-8-question-9/",
-  "published_iso": null,
-  "number": 9,
-  "question": "TerramEarth has equipped all connected trucks with servers and sensors to collect telemetry data. Next year they want to use the data to train machine learning models. They want to store this data in the cloud while reducing costs. What should they do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381821-exam-professional-cloud-architect-topic-1-question-214/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 214,
+  "question": "You are designing the network architecture for a public-facing, containerized web application deployed on Cloud Run. All incoming traffic must be inspected by a Cloud Armor web application firewall (WAF) before reaching the application You plan to use an Application Load Balancer, which will have the Cloud Armor policy attached. You must ensure that all public requests pass through the load balancer and any attempt to access the Cloud Run service directly through its default *.run.app URL is blocked. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Have the vehicle's computer compress the data in hourly snapshots, and store it in a Google Cloud Storage (GCS) Nearline bucket"
+      "text": "Enable Identity-Aware Proxy (IAP) directly on the Cloud Run service to intercept and validate all incoming requests"
     },
     {
       "key": "B",
-      "text": "Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Google BigQuery"
+      "text": "Create a DNS entry to route traffic to Cloud Armor. Configure Cloud Armor to deny traffic from unknown IP addresses"
     },
     {
       "key": "C",
-      "text": "Push the telemetry data in real-time to a streaming dataflow job that compresses the data, and store it in Cloud Bigtable"
+      "text": "Set the Cloud Run ingress to Allow internal traffic and Cloud Load Balancing, and use a serverless NEG backend on the load balancer"
     },
     {
       "key": "D",
-      "text": "Have the vehicle's computer compress the data in hourly snapshots, and store it in a GCS Coldline bucket"
+      "text": "Configure a VPC firewall rule with a high priority to deny all traffic that does not originate from the load balancer"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

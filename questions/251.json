@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7468-exam-professional-cloud-architect-topic-1-question-86/",
-  "published_iso": null,
-  "number": 86,
-  "question": "You have been engaged by your client to lead the migration of their application infrastructure to GCP. One of their current problems is that the on-premises high performance SAN is requiring frequent and expensive upgrades to keep up with the variety of workloads that are identified as follows: 20 TB of log archives retained for legal reasons; 500 GB of VM boot/data volumes and templates; 500 GB of image thumbnails; 200 GB of customer session state data that allows customers to restart sessions even if off-line for several days. Which of the following best reflects your recommendations for a cost-effective storage allocation?",
+  "url": "https://www.examtopics.com/discussions/google/view/60437-exam-professional-cloud-architect-topic-1-question-142/",
+  "published_iso": "2021-08-24T05:07:00",
+  "number": 142,
+  "question": "An application development team has come to you for advice. They are planning to write and deploy an HTTP(S) API using Go 1.12. The API will have a very unpredictable workload and must remain reliable during peaks in traffic. They want to minimize operational overhead for this application. Which approach should you recommend?",
   "options": [
     {
       "key": "A",
-      "text": "Local SSD for customer session state data. Lifecycle-managed Cloud Storage for log archives, thumbnails, and VM boot/data volumes."
+      "text": "Develop the application with containers, and deploy to Google Kubernetes Engine."
     },
     {
       "key": "B",
-      "text": "Memcache backed by Cloud Datastore for the customer session state data. Lifecycle-managed Cloud Storage for log archives, thumbnails, and VM boot/data volumes."
+      "text": "Develop the application for App Engine standard environment."
     },
     {
       "key": "C",
-      "text": "Memcache backed by Cloud SQL for customer session state data. Assorted local SSD-backed instances for VM boot/data volumes. Cloud Storage for log archives and thumbnails."
+      "text": "Use a Managed Instance Group when deploying to Compute Engine."
     },
     {
       "key": "D",
-      "text": "Memcache backed by Persistent Disk SSD storage for customer session state data. Assorted local SSD-backed instances for VM boot/data volumes. Cloud Storage for log archives and thumbnails."
+      "text": "Develop the application for App Engine flexible environment, using a custom runtime."
     }
   ],
   "answers": {

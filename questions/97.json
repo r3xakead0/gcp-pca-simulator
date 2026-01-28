@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6657-exam-professional-cloud-architect-topic-8-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "TerramEarth plans to connect all 20 million vehicles in the field to the cloud. This increases the volume to 20 million 600 byte records a second for 40 TB an hour. How should you design the data ingestion?",
+  "url": "https://www.examtopics.com/discussions/google/view/8687-exam-professional-cloud-architect-topic-8-question-5/",
+  "published_iso": "2019-11-20T13:43:00",
+  "number": 5,
+  "question": "You analyzed TerramEarth's business requirement to reduce downtime, and found that they can achieve a majority of time saving by reducing customer's wait time for parts. You decided to focus on reduction of the 3 weeks aggregate reporting time. Which modifications to the company's processes should you recommend?",
   "options": [
     {
       "key": "A",
-      "text": "Vehicles write data directly to GCS"
+      "text": "Migrate from CSV to binary format, migrate from FTP to SFTP transport, and develop machine learning analysis of metrics"
     },
     {
       "key": "B",
-      "text": "Vehicles write data directly to Google Cloud Pub/Sub"
+      "text": "Migrate from FTP to streaming transport, migrate from CSV to binary format, and develop machine learning analysis of metrics"
     },
     {
       "key": "C",
-      "text": "Vehicles stream data directly to Google BigQuery"
+      "text": "Increase fleet cellular connectivity to 80%, migrate from FTP to streaming transport, and develop machine learning analysis of metrics"
     },
     {
       "key": "D",
-      "text": "Vehicles continue to write data using the existing system (FTP)"
+      "text": "Migrate from FTP to SFTP transport, develop machine learning analysis of metrics, and increase dealer local inventory by a fixed factor"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

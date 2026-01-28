@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7082-exam-professional-cloud-architect-topic-1-question-170/",
-  "published_iso": null,
-  "number": 170,
-  "question": "One of your primary business objectives is being able to trust the data stored in your application. You want to log all changes to the application data. How can you design your logging system to verify authenticity of your logs?",
+  "url": "https://www.examtopics.com/discussions/google/view/7212-exam-professional-cloud-architect-topic-1-question-42/",
+  "published_iso": "2019-10-25T19:34:00",
+  "number": 42,
+  "question": "You are using Cloud Shell and need to install a custom utility for use in a few weeks. Where can you store the file so it is in the default execution path and persists across sessions?",
   "options": [
     {
       "key": "A",
-      "text": "Write the log concurrently in the cloud and on premises"
+      "text": "~/bin"
     },
     {
       "key": "B",
-      "text": "Use a SQL database and limit who can modify the log table"
+      "text": "Cloud Storage"
     },
     {
       "key": "C",
-      "text": "Digitally sign each timestamp and log entry and store the signature"
+      "text": "/google/scripts"
     },
     {
       "key": "D",
-      "text": "Create a JSON dump of each log entry and store it in Google Cloud Storage"
+      "text": "/usr/local/bin"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

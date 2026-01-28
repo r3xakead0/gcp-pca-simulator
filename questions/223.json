@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8250-exam-professional-cloud-architect-topic-8-question-11/",
-  "published_iso": null,
-  "number": 11,
-  "question": "Operational parameters such as oil pressure are adjustable on each of TerramEarth's vehicles to increase their efficiency, depending on their environmental conditions. Your primary goal is to increase the operating efficiency of all 20 million cellular and unconnected vehicles in the field. How can you accomplish this goal?",
+  "url": "https://www.examtopics.com/discussions/google/view/7231-exam-professional-cloud-architect-topic-1-question-51/",
+  "published_iso": "2019-10-26T09:02:00",
+  "number": 51,
+  "question": "You have found an error in your App Engine application caused by missing Cloud Datastore indexes. You have created a YAML file with the required indexes and want to deploy these new indexes to Cloud Datastore. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Have you engineers inspect the data for patterns, and then create an algorithm with rules that make operational adjustments automatically"
+      "text": "Point gcloud datastore create-indexes to your configuration file"
     },
     {
       "key": "B",
-      "text": "Capture all operating data, train machine learning models that identify ideal operations, and run locally to make operational adjustments automatically"
+      "text": "Upload the configuration file to App Engine's default Cloud Storage bucket, and have App Engine detect the new indexes"
     },
     {
       "key": "C",
-      "text": "Implement a Google Cloud Dataflow streaming job with a sliding window, and use Google Cloud Messaging (GCM) to make operational adjustments automatically"
+      "text": "In the GCP Console, use Datastore Admin to delete the current indexes and upload the new configuration file"
     },
     {
       "key": "D",
-      "text": "Capture all operating data, train machine learning models that identify ideal operations, and host in Google Cloud Machine Learning (ML) Platform to make operational adjustments automatically"
+      "text": "Create an HTTP request to the built-in python module to send the index configuration file to your application"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

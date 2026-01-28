@@ -1,32 +1,34 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9033-exam-professional-cloud-architect-topic-1-question-33/",
-  "published_iso": null,
-  "number": 33,
-  "question": "Your organization has a 3-tier web application deployed in the same network on Google Cloud Platform. Each tier (web, API, and database) scales independently of the others. Network traffic should flow through the web to the API tier and then on to the database tier. Traffic should not flow between the web and the database tier. How should you configure the network?",
+  "url": "https://www.examtopics.com/discussions/google/view/54373-exam-professional-cloud-architect-topic-1-question-168/",
+  "published_iso": "2021-06-03T09:32:00",
+  "number": 168,
+  "question": "Your marketing department wants to send out a promotional email campaign. The development team wants to minimize direct operation management. They project a wide range of possible customer responses, from 100 to 500,000 click-through per day. The link leads to a simple website that explains the promotion and collects user information and preferences. Which infrastructure should you recommend? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Add each tier to a different subnetwork"
+      "text": "Use Google App Engine to serve the website and Google Cloud Datastore to store user data."
     },
     {
       "key": "B",
-      "text": "Set up software based firewalls on individual VMs"
+      "text": "Use a Google Container Engine cluster to serve the website and store data to persistent disk."
     },
     {
       "key": "C",
-      "text": "Add tags to each tier and set up routes to allow the desired traffic flow"
+      "text": "Use a managed instance group to serve the website and Google Cloud Bigtable to store user data."
     },
     {
       "key": "D",
-      "text": "Add tags to each tier and set up firewall rules to allow the desired traffic flow"
+      "text": "Use a single Compute Engine virtual machine (VM) to host a web server, backend by Google Cloud SQL."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A",
+      "C"
     ],
     "community": [
-      "D"
+      "A",
+      "C"
     ]
   }
 }

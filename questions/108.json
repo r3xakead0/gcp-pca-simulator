@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60525-exam-professional-cloud-architect-topic-10-question-2/",
-  "published_iso": null,
-  "number": 2,
-  "question": "For this question, refer to the TerramEarth case study. You have broken down a legacy monolithic application into a few containerized RESTful microservices. You want to run those microservices on Cloud Run. You also want to make sure the services are highly available with low latency to your customers. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6802-exam-professional-cloud-architect-topic-11-question-11/",
+  "published_iso": "2019-10-19T18:11:00",
+  "number": 11,
+  "question": "The current Dress4Win system architecture has high latency to some customers because it is located in one data center. As of a future evaluation and optimizing for performance in the cloud, Dresss4Win wants to distribute its system architecture to multiple locations when Google cloud platform. Which approach should they use?",
   "options": [
     {
       "key": "A",
-      "text": "Deploy Cloud Run services to multiple availability zones. Create Cloud Endpoints that point to the services. Create a global HTTP(S) Load Balancing instance and attach the Cloud Endpoints to its backend."
+      "text": "Use regional managed instance groups and a global load balancer to increase performance because the regional managed instance group can grow instances in each region separately based on traffic."
     },
     {
       "key": "B",
-      "text": "Deploy Cloud Run services to multiple regions. Create serverless network endpoint groups pointing to the services. Add the serverless NEGs to a backend service that is used by a global HTTP(S) Load Balancing instance."
+      "text": "Use a global load balancer with a set of virtual machines that forward the requests to a closer group of virtual machines managed by your operations team."
     },
     {
       "key": "C",
-      "text": "Deploy Cloud Run services to multiple regions. In Cloud DNS, create a latency-based DNS name that points to the services."
+      "text": "Use regional managed instance groups and a global load balancer to increase reliability by providing automatic failover between zones in different regions."
     },
     {
       "key": "D",
-      "text": "Deploy Cloud Run services to multiple availability zones. Create a TCP/IP global load balancer. Add the Cloud Run Endpoints to its backend service."
+      "text": "Use a global load balancer with a set of virtual machines that forward the requests to a closer group of virtual machines as part of a separate managed instance groups."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

@@ -1,33 +1,31 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54373-exam-professional-cloud-architect-topic-1-question-168/",
-  "published_iso": null,
-  "number": 168,
-  "question": "Your marketing department wants to send out a promotional email campaign. The development team wants to minimize direct operation management. They project a wide range of possible customer responses, from 100 to 500,000 click-through per day. The link leads to a simple website that explains the promotion and collects user information and preferences. Which infrastructure should you recommend? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/6844-exam-professional-cloud-architect-topic-1-question-39/",
+  "published_iso": "2019-10-20T15:03:00",
+  "number": 39,
+  "question": "You are designing a mobile chat application. You want to ensure people cannot spoof chat messages, by providing a message were sent by a specific user. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Use Google App Engine to serve the website and Google Cloud Datastore to store user data."
+      "text": "Tag messages client side with the originating user identifier and the destination user."
     },
     {
       "key": "B",
-      "text": "Use a Google Container Engine cluster to serve the website and store data to persistent disk."
+      "text": "Encrypt the message client side using block-based encryption with a shared key."
     },
     {
       "key": "C",
-      "text": "Use a managed instance group to serve the website and Google Cloud Bigtable to store user data."
+      "text": "Use public key infrastructure (PKI) to encrypt the message client side using the originating user's private key."
     },
     {
       "key": "D",
-      "text": "Use a single Compute Engine virtual machine (VM) to host a web server, backend by Google Cloud SQL."
+      "text": "Use a trusted certificate authority to enable SSL connectivity between the client application and the server."
     }
   ],
   "answers": {
     "platform": [
-      "A",
       "C"
     ],
     "community": [
-      "A",
       "C"
     ]
   }

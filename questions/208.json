@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80419-exam-professional-cloud-architect-topic-1-question-191/",
-  "published_iso": null,
-  "number": 191,
-  "question": "You are deploying an application to Google Cloud. The application is part of a system. The application in Google Cloud must communicate over a private network with applications in a non-Google Cloud environment. The expected average throughput is 200 kbps. The business requires: ✑ as close to 100% system availability as possible ✑ cost optimization You need to design the connectivity between the locations to meet the business requirements. What should you provision?",
+  "url": "https://www.examtopics.com/discussions/google/view/6953-exam-professional-cloud-architect-topic-1-question-46/",
+  "published_iso": "2019-10-22T08:36:00",
+  "number": 46,
+  "question": "You have an outage in your Compute Engine managed instance group: all instances keep restarting after 5 seconds. You have a health check configured, but autoscaling is disabled. Your colleague, who is a Linux expert, offered to look into the issue. You need to make sure that he can access the VMs. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "An HA Cloud VPN gateway connected with two tunnels to an on-premises VPN gateway"
+      "text": "Grant your colleague the IAM role of project Viewer"
     },
     {
       "key": "B",
-      "text": "Two Classic Cloud VPN gateways connected to two on-premises VPN gateways Configure each Classic Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways"
+      "text": "Perform a rolling restart on the instance group"
     },
     {
       "key": "C",
-      "text": "Two HA Cloud VPN gateways connected to two on-premises VPN gateways Configure each HA Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways"
+      "text": "Disable the health check for the instance group. Add his SSH key to the project-wide SSH Keys"
     },
     {
       "key": "D",
-      "text": "A single Cloud VPN gateway connected to an on-premises VPN gateway"
+      "text": "Disable autoscaling for the instance group. Add his SSH key to the project-wide SSH Keys"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

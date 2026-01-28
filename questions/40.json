@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56615-exam-professional-cloud-architect-topic-1-question-131/",
-  "published_iso": null,
-  "number": 131,
-  "question": "Your company wants you to build a highly reliable web application with a few public APIs as the backend. You don't expect a lot of user traffic, but traffic could spike occasionally. You want to leverage Cloud Load Balancing, and the solution must be cost-effective for users. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381822-exam-professional-cloud-architect-topic-1-question-203/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 203,
+  "question": "You are designing the architecture for a global social media site on Google Cloud. The site serves dynamic API content, static assets such as CSS. JS. images, and user-uploaded videos for streaming. You need to minimize latency for all content types for users worldwide. What should you do? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Store static content such as HTML and images in Cloud CDN. Host the APIs on App Engine and store the user data in Cloud SQL."
+      "text": "Use an external Application Load Balancer to serve your application APIs."
     },
     {
       "key": "B",
-      "text": "Store static content such as HTML and images in a Cloud Storage bucket. Host the APIs on a zonal Google Kubernetes Engine cluster with worker nodes in multiple zones, and save the user data in Cloud Spanner."
+      "text": "Use Cloud CDN to serve static assets of your application."
     },
     {
       "key": "C",
-      "text": "Store static content such as HTML and images in Cloud CDN. Use Cloud Run to host the APIs and save the user data in Cloud SQL."
+      "text": "Use Media CDN to serve static assets of your application"
     },
     {
       "key": "D",
-      "text": "Store static content such as HTML and images in a Cloud Storage bucket. Use Cloud Functions to host the APIs and save the user data in Firestore."
+      "text": "Use Memorystore to serve your web application."
+    },
+    {
+      "key": "E",
+      "text": "Use a multi-region Cloud Storage bucket to serve your entire web application."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A",
+      "B"
     ],
     "community": [
-      "D"
+      "A",
+      "B"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56686-exam-professional-cloud-architect-topic-1-question-111/",
-  "published_iso": null,
-  "number": 111,
-  "question": "Your company is running its application workloads on Compute Engine. The applications have been deployed in production, acceptance, and development environments. The production environment is business-critical and is used 24/7, while the acceptance and development environments are only critical during office hours. Your CFO has asked you to optimize these environments to achieve cost savings during idle times. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6709-exam-professional-cloud-architect-topic-1-question-82/",
+  "published_iso": "2019-10-17T12:42:00",
+  "number": 82,
+  "question": "Your customer wants to do resilience testing of their authentication layer. This consists of a regional managed instance group serving a public REST API that reads from and writes to a Cloud SQL instance. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a shell script that uses the gcloud command to change the machine type of the development and acceptance instances to a smaller machine type outside of office hours. Schedule the shell script on one of the production instances to automate the task."
+      "text": "Engage with a security company to run web scrapers that look your for users' authentication data om malicious websites and notify you if any is found."
     },
     {
       "key": "B",
-      "text": "Use Cloud Scheduler to trigger a Cloud Function that will stop the development and acceptance environments after office hours and start them just before office hours."
+      "text": "Deploy intrusion detection software to your virtual machines to detect and log unauthorized access."
     },
     {
       "key": "C",
-      "text": "Deploy the development and acceptance applications on a managed instance group and enable autoscaling."
+      "text": "Schedule a disaster simulation exercise during which you can shut off all VMs in a zone to see how your application behaves."
     },
     {
       "key": "D",
-      "text": "Use regular Compute Engine instances for the production environment, and use preemptible VMs for the acceptance and development environments."
+      "text": "Configure a read replica for your Cloud SQL instance in a different zone than the master, and then manually trigger a failover while monitoring KPIs for our REST API."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

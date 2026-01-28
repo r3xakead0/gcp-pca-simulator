@@ -1,38 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54383-exam-professional-cloud-architect-topic-1-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "You need to reduce the number of unplanned rollbacks of erroneous production deployments in your company's web hosting platform. Improvement to the QA/ Test processes accomplished an 80% reduction. Which additional two approaches can you take to further reduce the rollbacks? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/381828-exam-professional-cloud-architect-topic-1-question-208/",
+  "published_iso": "2025-12-22T03:07:00",
+  "number": 208,
+  "question": "You are planning to migrate your on-premises compute and SAP workloads to Google Cloud. You want to follow Google-recommended practices to quickly create a cost estimate for running these workloads in Google Cloud. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Introduce a green-blue deployment model"
+      "text": "Leverage Cloud Asset Inventory to gather data and generate a cost estimate."
     },
     {
       "key": "B",
-      "text": "Replace the QA environment with canary releases"
+      "text": "Use the Google Cloud pricing calculator, and input the estimated resource to generate a cost estimate."
     },
     {
       "key": "C",
-      "text": "Fragment the monolithic platform into microservices"
+      "text": "Engage with a Google Cloud partner to perform a comprehensive assessment and provide a customized cost estimate."
     },
     {
       "key": "D",
-      "text": "Reduce the platform's dependency on relational database systems"
-    },
-    {
-      "key": "E",
-      "text": "Replace the platform's relational database systems with a NoSQL database"
+      "text": "Gather data about your current environment, and leverage Google Cloud Migration Center to generate a cost estimate."
     }
   ],
   "answers": {
     "platform": [
-      "A",
-      "C"
+      "D"
     ],
     "community": [
-      "A",
-      "C"
+      "D"
     ]
   }
 }

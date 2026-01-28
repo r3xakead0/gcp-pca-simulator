@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/80075-exam-professional-cloud-architect-topic-1-question-183/",
-  "published_iso": null,
-  "number": 183,
-  "question": "Your company recently acquired a company that has infrastructure in Google Cloud. Each company has its own Google Cloud organization. Each company is using a Shared Virtual Private Cloud (VPC) to provide network connectivity for its applications. Some of the subnets used by both companies overlap. In order for both businesses to integrate, the applications need to have private network connectivity. These applications are not on overlapping subnets. You want to provide connectivity with minimal re-engineering. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/8250-exam-professional-cloud-architect-topic-8-question-11/",
+  "published_iso": "2019-11-15T10:31:00",
+  "number": 11,
+  "question": "Operational parameters such as oil pressure are adjustable on each of TerramEarth's vehicles to increase their efficiency, depending on their environmental conditions. Your primary goal is to increase the operating efficiency of all 20 million cellular and unconnected vehicles in the field. How can you accomplish this goal?",
   "options": [
     {
       "key": "A",
-      "text": "Set up VPC peering and peer each Shared VPC together."
+      "text": "Have you engineers inspect the data for patterns, and then create an algorithm with rules that make operational adjustments automatically"
     },
     {
       "key": "B",
-      "text": "Migrate the projects from the acquired company into your company's Google Cloud organization. Re-launch the instances in your companies Shared VPC."
+      "text": "Capture all operating data, train machine learning models that identify ideal operations, and run locally to make operational adjustments automatically"
     },
     {
       "key": "C",
-      "text": "Set up a Cloud VPN gateway in each Shared VPC and peer Cloud VPNs."
+      "text": "Implement a Google Cloud Dataflow streaming job with a sliding window, and use Google Cloud Messaging (GCM) to make operational adjustments automatically"
     },
     {
       "key": "D",
-      "text": "Configure SSH port forwarding on each application to provide connectivity between applications in the different Shared VPCs."
+      "text": "Capture all operating data, train machine learning models that identify ideal operations, and host in Google Cloud Machine Learning (ML) Platform to make operational adjustments automatically"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

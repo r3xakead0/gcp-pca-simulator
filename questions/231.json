@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6968-exam-professional-cloud-architect-topic-11-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "Dress4Win would like to become familiar with deploying applications to the cloud by successfully deploying some applications quickly, as is. They have asked for your recommendation. What should you advise?",
+  "url": "https://www.examtopics.com/discussions/google/view/56328-exam-professional-cloud-architect-topic-3-question-6/",
+  "published_iso": "2021-06-30T14:13:00",
+  "number": 6,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. A recent finance audit of cloud infrastructure noted an exceptionally high number of Compute Engine instances are allocated to do video encoding and transcoding. You suspect that these Virtual Machines are zombie machines that were not deleted after their workloads completed. You need to quickly get a list of which VM instances are idle. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Identify self-contained applications with external dependencies as a first move to the cloud."
+      "text": "Log into each Compute Engine instance and collect disk, CPU, memory, and network usage statistics for analysis."
     },
     {
       "key": "B",
-      "text": "Identify enterprise applications with internal dependencies and recommend these as a first move to the cloud."
+      "text": "Use the gcloud compute instances list to list the virtual machine instances that have the idle: true label set."
     },
     {
       "key": "C",
-      "text": "Suggest moving their in-house databases to the cloud and continue serving requests to on-premise applications."
+      "text": "Use the gcloud recommender command to list the idle virtual machine instances."
     },
     {
       "key": "D",
-      "text": "Recommend moving their message queuing servers to the cloud and continue handling requests to on-premise applications."
+      "text": "From the Google Console, identify which Compute Engine instances in the managed instance groups are no longer responding to health check probes."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

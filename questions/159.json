@@ -1,38 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8501-exam-professional-cloud-architect-topic-6-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to design their solution for the future in order to take advantage of cloud and technology improvements as they become available. Which two steps should they take? (Choose two.)",
+  "url": "https://www.examtopics.com/discussions/google/view/68686-exam-professional-cloud-architect-topic-1-question-175/",
+  "published_iso": "2021-12-28T03:33:00",
+  "number": 175,
+  "question": "You want to allow your operations team to store logs from all the production projects in your Organization, without including logs from other projects. All of the production projects are contained in a folder. You want to ensure that all logs for existing and new production projects are captured automatically. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Store as much analytics and game activity data as financially feasible today so it can be used to train machine learning models to predict user behavior in the future."
+      "text": "Create an aggregated export on the Production folder. Set the log sink to be a Cloud Storage bucket in an operations project."
     },
     {
       "key": "B",
-      "text": "Begin packaging their game backend artifacts in container images and running them on Google  Kubernetes Engine to improve the ability to scale up or down based on game activity."
+      "text": "Create an aggregated export on the Organization resource. Set the log sink to be a Cloud Storage bucket in an operations project."
     },
     {
       "key": "C",
-      "text": "Set up a CI/CD pipeline using Jenkins and Spinnaker to automate canary deployments and improve development velocity."
+      "text": "Create log exports in the production projects. Set the log sinks to be a Cloud Storage bucket in an operations project."
     },
     {
       "key": "D",
-      "text": "Adopt a schema versioning tool to reduce downtime when adding new game features that require storing additional player data in the database."
-    },
-    {
-      "key": "E",
-      "text": "Implement a weekly rolling maintenance process for the Linux virtual machines so they can apply critical kernel patches and package updates and reduce the risk of 0-day vulnerabilities."
+      "text": "Create log exports in the production projects. Set the log sinks to be BigQuery datasets in the production projects, and grant IAM access to the operations team to run queries on the datasets."
     }
   ],
   "answers": {
     "platform": [
-      "A",
-      "B"
+      "A"
     ],
     "community": [
-      "A",
-      "B"
+      "A"
     ]
   }
 }

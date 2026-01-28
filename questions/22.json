@@ -1,32 +1,12 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6306-exam-professional-cloud-architect-topic-1-question-101/",
-  "published_iso": null,
-  "number": 101,
-  "question": "Your company is building a new architecture to support its data-centric business focus. You are responsible for setting up the network. Your company's mobile and web-facing applications will be deployed on-premises, and all data analysis will be conducted in GCP. The plan is to process and load 7 years of archived .csv files totaling 900 TB of data and then continue loading 10 TB of data daily. You currently have an existing 100-MB internet connection. What actions will meet your company's needs?",
-  "options": [
-    {
-      "key": "A",
-      "text": "Compress and upload both archived  files and files uploaded daily using the gsutil ג€\"m option."
-    },
-    {
-      "key": "B",
-      "text": "Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish a connection with Google using a Dedicated Interconnect or Direct Peering connection and use it to upload files daily."
-    },
-    {
-      "key": "C",
-      "text": "Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish one Cloud VPN Tunnel to VPC networks over the public internet, and compress and upload files daily using the gsutil ג€\"m option."
-    },
-    {
-      "key": "D",
-      "text": "Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish a Cloud VPN Tunnel to VPC networks over the public internet, and compress and upload files daily."
-    }
-  ],
+  "url": "https://www.examtopics.com/discussions/google/view/68709-exam-professional-cloud-architect-topic-3-question-2/",
+  "published_iso": "2021-12-28T08:14:00",
+  "number": 2,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. Recently HRL started a new regional racing league in Cape Town, South Africa. In an effort to give customers in Cape Town a better user experience, HRL has partnered with the Content Delivery Network provider, Fastly. HRL needs to allow traffic coming from all of the Fastly IP address ranges into their Virtual Private Cloud network (VPC network). You are a member of the HRL security team and you need to configure the update that will allow only the Fastly IP address ranges through the External HTTP(S) load balancer. Which command should you use? A. [Imagen]: /assets/media/exam-media/04339/0006100001.png B. [Imagen]: /assets/media/exam-media/04339/0006100002.png C. [Imagen]: /assets/media/exam-media/04339/0006100003.png D. [Imagen]: /assets/media/exam-media/04339/0006100004.png",
+  "options": [],
   "answers": {
     "platform": [
-      "B"
-    ],
-    "community": [
-      "B"
+      "A"
     ]
   }
 }

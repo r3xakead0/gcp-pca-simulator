@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60524-exam-professional-cloud-architect-topic-10-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "For this question, refer to the TerramEarth case study. You start to build a new application that uses a few Cloud Functions for the backend. One use case requires a Cloud Function func_display to invoke another Cloud Function func_query. You want func_query only to accept invocations from func_display. You also want to follow Google's recommended best practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6452-exam-professional-cloud-architect-topic-1-question-75/",
+  "published_iso": "2019-10-11T11:49:00",
+  "number": 75,
+  "question": "You have deployed an application to Google Kubernetes Engine (GKE), and are using the Cloud SQL proxy container to make the Cloud SQL database available to the services running on Kubernetes. You are notified that the application is reporting database connection issues. Your company policies require a post- mortem. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a token and pass it in as an environment variable to func_display. When invoking func_query, include the token in the request. Pass the same token to func_query and reject the invocation if the tokens are different."
+      "text": "Use gcloud sql instances restart."
     },
     {
       "key": "B",
-      "text": "Make func_query 'Require authentication.' Create a unique service account and associate it to func_display. Grant the service account invoker role for func_query. Create an id token in func_display and include the token to the request when invoking func_query."
+      "text": "Validate that the Service Account used by the Cloud SQL proxy container still has the Cloud Build Editor role."
     },
     {
       "key": "C",
-      "text": "Make func_query 'Require authentication' and only accept internal traffic. Create those two functions in the same VPCreate an ingress firewall rule for func_query to only allow traffic from func_display."
+      "text": "In the GCP Console, navigate to Stackdriver Logging. Consult logs for (GKE) and Cloud SQL."
     },
     {
       "key": "D",
-      "text": "Create those two functions in the same project and VPC. Make func_query only accept internal traffic. Create an ingress firewall for func_query to only allow traffic from func_display. Also, make sure both functions use the same service account."
+      "text": "In the GCP Console, navigate to Cloud SQL. Restore the latest backup. Use kubectl to restart all pods."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

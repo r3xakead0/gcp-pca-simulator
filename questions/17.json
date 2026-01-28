@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8378-exam-professional-cloud-architect-topic-1-question-83/",
-  "published_iso": null,
-  "number": 83,
-  "question": "Your BigQuery project has several users. For audit purposes, you need to see how many queries each user ran in the last month. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381816-exam-professional-cloud-architect-topic-1-question-206/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 206,
+  "question": "Your company is building containerized applications as part of their CI/CD pipeline. To improve the security and maintainability of the build process, you need to: •\tIdentify potential vulnerabilities within your container images. •\tGenerate verifiable metadata about the builds for auditing and compliance. •\tCreate a comprehensive inventory of your application’s dependencies What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Connect Google Data Studio to BigQuery. Create a dimension for the users and a metric for the amount of queries per user."
+      "text": "Use Cloud Build to build container images, and then trigger Artifact Analysis on images pushed to Artifact Registry."
     },
     {
       "key": "B",
-      "text": "In the BigQuery interface, execute a query on the JOBS table to get the required information."
+      "text": "Use Cloud Build to build container images, trigger Binary Authorization, and use Cloud Asset Inventory for tracking and analysis."
     },
     {
       "key": "C",
-      "text": "Use 'bq show' to list all jobs. Per job, use 'bq ls' to list job information and get the required information."
+      "text": "Use Cloud Build to build container images, push the images to Artifact Registry, and use Security Command Center for tracking and analysis."
     },
     {
       "key": "D",
-      "text": "Use Cloud Audit Logging to view Cloud Audit Logs, and create a filter on the query operation to get the required information."
+      "text": "Use Cloud Build to build container images, trigger Binary Authorization, and use Security Command Center for tracking and analysis."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

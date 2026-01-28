@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7267-exam-professional-cloud-architect-topic-1-question-48/",
-  "published_iso": null,
-  "number": 48,
-  "question": "Your company has multiple on-premises systems that serve as sources for reporting. The data has not been maintained well and has become degraded over time. You want to use Google-recommended practices to detect anomalies in your company data. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/8248-exam-professional-cloud-architect-topic-8-question-8/",
+  "published_iso": "2019-11-15T10:29:00",
+  "number": 8,
+  "question": "TerramEarth's 20 million vehicles are scattered around the world. Based on the vehicle's location, its telemetry data is stored in a Google Cloud Storage (GCS) regional bucket (US, Europe, or Asia). The CTO has asked you to run a report on the raw telemetry data to determine why vehicles are breaking down after 100 K miles. You want to run this job on all the data. What is the most cost-effective way to run this job?",
   "options": [
     {
       "key": "A",
-      "text": "Upload your files into Cloud Storage. Use Cloud Datalab to explore and clean your data."
+      "text": "Move all the data into 1 zone, then launch a Cloud Dataproc cluster to run the job"
     },
     {
       "key": "B",
-      "text": "Upload your files into Cloud Storage. Use Cloud Dataprep to explore and clean your data."
+      "text": "Move all the data into 1 region, then launch a Google Cloud Dataproc cluster to run the job"
     },
     {
       "key": "C",
-      "text": "Connect Cloud Datalab to your on-premises systems. Use Cloud Datalab to explore and clean your data."
+      "text": "Launch a cluster in each region to preprocess and compress the raw data, then move the data into a multi-region bucket and use a Dataproc cluster to finish the job"
     },
     {
       "key": "D",
-      "text": "Connect Cloud Dataprep to your on-premises systems. Use Cloud Dataprep to explore and clean your data."
+      "text": "Launch a cluster in each region to preprocess and compress the raw data, then move the data into a region bucket and use a Cloud Dataproc cluster to finish the job"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

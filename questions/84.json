@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56751-exam-professional-cloud-architect-topic-1-question-133/",
-  "published_iso": null,
-  "number": 133,
-  "question": "You have deployed several instances on Compute Engine. As a security requirement, instances cannot have a public IP address. There is no VPN connection between Google Cloud and your office, and you need to connect via SSH into a specific machine without violating the security requirements. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6896-exam-professional-cloud-architect-topic-1-question-81/",
+  "published_iso": "2019-10-21T16:31:00",
+  "number": 81,
+  "question": "Your company operates nationally and plans to use GCP for multiple batch workloads, including some that are not time-critical. You also need to use GCP services that are HIPAA-certified and manage service costs. How should you design to meet Google best practices?",
   "options": [
     {
       "key": "A",
-      "text": "Configure Cloud NAT on the subnet where the instance is hosted. Create an SSH connection to the Cloud NAT IP address to reach the instance."
+      "text": "Provision preemptible VMs to reduce cost. Discontinue use of all GCP services and APIs that are not HIPAA-compliant."
     },
     {
       "key": "B",
-      "text": "Add all instances to an unmanaged instance group. Configure TCP Proxy Load Balancing with the instance group as a backend. Connect to the instance using the TCP Proxy IP."
+      "text": "Provision preemptible VMs to reduce cost. Disable and then discontinue use of all GCP services and APIs that are not HIPAA-compliant."
     },
     {
       "key": "C",
-      "text": "Configure Identity-Aware Proxy (IAP) for the instance and ensure that you have the role of IAP-secured Tunnel User. Use the gcloud command line tool to ssh into the instance."
+      "text": "Provision standard VMs in the same region to reduce cost. Discontinue use of all GCP services and APIs that are not HIPAA-compliant."
     },
     {
       "key": "D",
-      "text": "Create a bastion host in the network to SSH into the bastion host from your office location. From the bastion host, SSH into the desired instance."
+      "text": "Provision standard VMs to the same region to reduce cost. Disable and then discontinue use of all GCP services and APIs that are not HIPAA-compliant."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

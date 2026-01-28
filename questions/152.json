@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/10289-exam-professional-cloud-architect-topic-1-question-94/",
-  "published_iso": null,
-  "number": 94,
-  "question": "You need to design a solution for global load balancing based on the URL path being requested. You need to ensure operations reliability and end-to-end in- transit encryption based on Google best practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/10898-exam-professional-cloud-architect-topic-1-question-24/",
+  "published_iso": "2019-12-25T07:18:00",
+  "number": 24,
+  "question": "A small number of API requests to your microservices-based application take a very long time. You know that each request to the API can traverse many services. You want to know which service takes the longest in those cases. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a cross-region load balancer with URL Maps."
+      "text": "Set timeouts on your application so that you can fail requests faster"
     },
     {
       "key": "B",
-      "text": "Create an HTTPS load balancer with URL Maps."
+      "text": "Send custom metrics for each of your requests to Stackdriver Monitoring"
     },
     {
       "key": "C",
-      "text": "Create appropriate instance groups and instances. Configure SSL proxy load balancing."
+      "text": "Use Stackdriver Monitoring to look for insights that show when your API latencies are high"
     },
     {
       "key": "D",
-      "text": "Create a global forwarding rule. Configure SSL proxy load balancing."
+      "text": "Instrument your application with Stackdriver Trace in order to break down the request latencies at each microservice"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7020-exam-professional-cloud-architect-topic-1-question-163/",
-  "published_iso": null,
-  "number": 163,
-  "question": "Your company runs several databases on a single MySQL instance. They need to take backups of a specific database at regular intervals. The backup activity needs to complete as quickly as possible and cannot be allowed to impact disk performance. How should you configure the storage?",
+  "url": "https://www.examtopics.com/discussions/google/view/6306-exam-professional-cloud-architect-topic-1-question-101/",
+  "published_iso": "2019-10-09T06:42:00",
+  "number": 101,
+  "question": "Your company is building a new architecture to support its data-centric business focus. You are responsible for setting up the network. Your company's mobile and web-facing applications will be deployed on-premises, and all data analysis will be conducted in GCP. The plan is to process and load 7 years of archived .csv files totaling 900 TB of data and then continue loading 10 TB of data daily. You currently have an existing 100-MB internet connection. What actions will meet your company's needs?",
   "options": [
     {
       "key": "A",
-      "text": "Configure a cron job to use the gcloud tool to take regular backups using persistent disk snapshots."
+      "text": "Compress and upload both archived  files and files uploaded daily using the gsutil ג€\"m option."
     },
     {
       "key": "B",
-      "text": "Mount a Local SSD volume as the backup location. After the backup is complete, use gsutil to move the backup to Google Cloud Storage."
+      "text": "Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish a connection with Google using a Dedicated Interconnect or Direct Peering connection and use it to upload files daily."
     },
     {
       "key": "C",
-      "text": "Use gcsfise to mount a Google Cloud Storage bucket as a volume directly on the instance and write backups to the mounted location using mysqldump."
+      "text": "Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish one Cloud VPN Tunnel to VPC networks over the public internet, and compress and upload files daily using the gsutil ג€\"m option."
     },
     {
       "key": "D",
-      "text": "Mount additional persistent disk volumes onto each virtual machine (VM) instance in a RAID10 array and use LVM to create snapshots to send to Cloud Storage"
+      "text": "Lease a Transfer Appliance, upload archived files to it, and send it to Google to transfer archived data to Cloud Storage. Establish a Cloud VPN Tunnel to VPC networks over the public internet, and compress and upload files daily."
     }
   ],
   "answers": {

@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/12793-exam-professional-cloud-architect-topic-2-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "JencoMart has decided to migrate user profile storage to Google Cloud Datastore and the application servers to Google Compute Engine (GCE). During the migration, the existing infrastructure will need access to Datastore to upload the data. What service account key-management strategy should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/60583-exam-professional-cloud-architect-topic-1-question-147/",
+  "published_iso": "2021-08-25T08:25:00",
+  "number": 147,
+  "question": "Your company has an enterprise application running on Compute Engine that requires high availability and high performance. The application has been deployed on two instances in two zones in the same region in active-passive mode. The application writes data to a persistent disk. In the case of a single zone outage, that data should be immediately made available to the other instance in the other zone. You want to maximize performance while minimizing downtime and data loss. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Provision service account keys for the on-premises infrastructure and for the GCE virtual machines (VMs)"
+      "text": "1. Attach a persistent SSD disk to the first instance. 2. Create a snapshot every hour. 3. In case of a zone outage, recreate a persistent SSD disk in the second instance where data is coming from the created snapshot."
     },
     {
       "key": "B",
-      "text": "Authenticate the on-premises infrastructure with a user account and provision service account keys for the VMs"
+      "text": "1. Create a Cloud Storage bucket. 2. Mount the bucket into the first instance with gcs-fuse. 3. In case of a zone outage, mount the Cloud Storage bucket to the second instance with gcs-fuse."
     },
     {
       "key": "C",
-      "text": "Provision service account keys for the on-premises infrastructure and use Google Cloud Platform (GCP) managed keys for the VMs"
+      "text": "1. Attach a regional SSD persistent disk to the first instance. 2. In case of a zone outage, force-attach the disk to the other instance."
     },
     {
       "key": "D",
-      "text": "Deploy a custom authentication service on GCE/Google Kubernetes Engine (GKE) for the on-premises infrastructure and use GCP managed keys for the VMs"
+      "text": "1. Attach a local SSD to the first instance disk. 2. Execute an rsync command every hour where the target is a persistent SSD disk attached to the second instance. 3. In case of a zone outage, use the second instance."
     }
   ],
   "answers": {

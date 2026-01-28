@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7068-exam-professional-cloud-architect-topic-1-question-165/",
-  "published_iso": null,
-  "number": 165,
-  "question": "Your customer is moving their corporate applications to Google Cloud Platform. The security team wants detailed visibility of all projects in the organization. You provision the Google Cloud Resource Manager and set up yourself as the org admin. What Google Cloud Identity and Access Management (Cloud IAM) roles should you give to the security team?",
+  "url": "https://www.examtopics.com/discussions/google/view/381823-exam-professional-cloud-architect-topic-1-question-211/",
+  "published_iso": "2025-12-22T03:06:00",
+  "number": 211,
+  "question": "You are architecting a new application feature for a healthcare provider based in Qatar. The feature needs to summarize sensitive patient notes that are submitted by clinicians. A critical requirement is that the content of these patient notes must never be processed outside of Qatar's borders. You want to use a powerful, pre-trained generative model for the summarization task while strictly adhering to the data residency constraint. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Org viewer, project owner"
+      "text": "Write application code that sends the patient notes explicitly to the Gemini API endpoint in Qatar for summarization. Protect the API by VPC-Service Controls."
     },
     {
       "key": "B",
-      "text": "Org viewer, project viewer"
+      "text": "Use Vertex AI Model Garden to select a Gemma model. Deploy this model to a Vertex AI Endpoint within a Google Cloud region located in Qatar."
     },
     {
       "key": "C",
-      "text": "Org admin, project browser"
+      "text": "Use the Cloud Natural Language API to analyze the text and configure it to generate a summary of the patient notes."
     },
     {
       "key": "D",
-      "text": "Project owner, network admin"
+      "text": "Gather a large, anonymized dataset of medical notes. Use Vertex AI Training to train a custom summarization model from scratch, deploying it in a Qatar region."
     }
   ],
   "answers": {

@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60441-exam-professional-cloud-architect-topic-1-question-150/",
-  "published_iso": null,
-  "number": 150,
-  "question": "Your team needs to create a Google Kubernetes Engine (GKE) cluster to host a newly built application that requires access to third-party services on the internet. Your company does not allow any Compute Engine instance to have a public IP address on Google Cloud. You need to create a deployment strategy that adheres to these guidelines. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/57007-exam-professional-cloud-architect-topic-1-question-125/",
+  "published_iso": "2021-07-03T12:23:00",
+  "number": 125,
+  "question": "You are working at a financial institution that stores mortgage loan approval documents on Cloud Storage. Any change to these approval documents must be uploaded as a separate approval file, so you want to ensure that these documents cannot be deleted or overwritten for the next 5 years. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Configure the GKE cluster as a private cluster, and configure Cloud NAT Gateway for the cluster subnet."
+      "text": "Create a retention policy on the bucket for the duration of 5 years. Create a lock on the retention policy."
     },
     {
       "key": "B",
-      "text": "Configure the GKE cluster as a private cluster. Configure Private Google Access on the Virtual Private Cloud (VPC)."
+      "text": "Create the bucket with uniform bucket-level access, and grant a service account the role of Object Writer. Use the service account to upload new files."
     },
     {
       "key": "C",
-      "text": "Configure the GKE cluster as a route-based cluster. Configure Private Google Access on the Virtual Private Cloud (VPC)."
+      "text": "Use a customer-managed key for the encryption of the bucket. Rotate the key after 5 years."
     },
     {
       "key": "D",
-      "text": "Create a Compute Engine instance, and install a NAT Proxy on the instance. Configure all workloads on GKE to pass through this proxy to access third-party services on the Internet."
+      "text": "Create the bucket with fine-grained access control, and grant a service account the role of Object Writer. Use the service account to upload new files."
     }
   ],
   "answers": {

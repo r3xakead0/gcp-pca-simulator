@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6528-exam-professional-cloud-architect-topic-1-question-68/",
-  "published_iso": null,
-  "number": 68,
-  "question": "Your company wants to start using Google Cloud resources but wants to retain their on-premises Active Directory domain controller for identity management. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/22386-exam-professional-cloud-architect-topic-1-question-20/",
+  "published_iso": "2020-06-07T00:32:00",
+  "number": 20,
+  "question": "You want to optimize the performance of an accurate, real-time, weather-charting application. The data comes from 50,000 sensors sending 10 readings a second, in the format of a timestamp and sensor reading. Where should you store the data?",
   "options": [
     {
       "key": "A",
-      "text": "Use the Admin Directory API to authenticate against the Active Directory domain controller."
+      "text": "Google BigQuery"
     },
     {
       "key": "B",
-      "text": "Use Google Cloud Directory Sync to synchronize Active Directory usernames with cloud identities and configure SAML SSO."
+      "text": "Google Cloud SQL"
     },
     {
       "key": "C",
-      "text": "Use Cloud Identity-Aware Proxy configured to use the on-premises Active Directory domain controller as an identity provider."
+      "text": "Google Cloud Bigtable"
     },
     {
       "key": "D",
-      "text": "Use Compute Engine to create an Active Directory (AD) domain controller that is a replica of the on-premises AD domain controller using Google Cloud Directory Sync."
+      "text": "Google Cloud Storage"
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "C"
     ],
     "community": [
-      "B"
+      "C"
     ]
   }
 }

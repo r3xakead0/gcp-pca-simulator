@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9449-exam-professional-cloud-architect-topic-8-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "Your development team has created a structured API to retrieve vehicle data. They want to allow third parties to develop tools for dealerships that use this vehicle event data. You want to support delegated authorization against this data. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7233-exam-professional-cloud-architect-topic-1-question-100/",
+  "published_iso": "2019-10-26T10:57:00",
+  "number": 100,
+  "question": "You need to ensure reliability for your application and operations by supporting reliable task scheduling for compute on GCP. Leveraging Google best practices, what should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Build or leverage an OAuth-compatible access control system"
+      "text": "Using the Cron service provided by App Engine, publish messages directly to a message-processing utility service running on Compute Engine instances."
     },
     {
       "key": "B",
-      "text": "Build SAML 2.0 SSO compatibility into your authentication system"
+      "text": "Using the Cron service provided by App Engine, publish messages to a Cloud Pub/Sub topic. Subscribe to that topic using a message-processing utility service running on Compute Engine instances."
     },
     {
       "key": "C",
-      "text": "Restrict data access based on the source IP address of the partner systems"
+      "text": "Using the Cron service provided by Google Kubernetes Engine (GKE), publish messages directly to a message-processing utility service running on Compute Engine instances."
     },
     {
       "key": "D",
-      "text": "Create secondary credentials for each dealer that can be given to the trusted third party"
+      "text": "Using the Cron service provided by GKE, publish messages to a Cloud Pub/Sub topic. Subscribe to that topic using a message-processing utility service running on Compute Engine instances."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

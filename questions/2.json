@@ -1,32 +1,38 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8687-exam-professional-cloud-architect-topic-8-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "You analyzed TerramEarth's business requirement to reduce downtime, and found that they can achieve a majority of time saving by reducing customer's wait time for parts. You decided to focus on reduction of the 3 weeks aggregate reporting time. Which modifications to the company's processes should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/8501-exam-professional-cloud-architect-topic-6-question-3/",
+  "published_iso": "2019-11-18T22:20:00",
+  "number": 3,
+  "question": "For this question, refer to the Mountkirk Games case study. Mountkirk Games wants to design their solution for the future in order to take advantage of cloud and technology improvements as they become available. Which two steps should they take? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Migrate from CSV to binary format, migrate from FTP to SFTP transport, and develop machine learning analysis of metrics"
+      "text": "Store as much analytics and game activity data as financially feasible today so it can be used to train machine learning models to predict user behavior in the future."
     },
     {
       "key": "B",
-      "text": "Migrate from FTP to streaming transport, migrate from CSV to binary format, and develop machine learning analysis of metrics"
+      "text": "Begin packaging their game backend artifacts in container images and running them on Google  Kubernetes Engine to improve the ability to scale up or down based on game activity."
     },
     {
       "key": "C",
-      "text": "Increase fleet cellular connectivity to 80%, migrate from FTP to streaming transport, and develop machine learning analysis of metrics"
+      "text": "Set up a CI/CD pipeline using Jenkins and Spinnaker to automate canary deployments and improve development velocity."
     },
     {
       "key": "D",
-      "text": "Migrate from FTP to SFTP transport, develop machine learning analysis of metrics, and increase dealer local inventory by a fixed factor"
+      "text": "Adopt a schema versioning tool to reduce downtime when adding new game features that require storing additional player data in the database."
+    },
+    {
+      "key": "E",
+      "text": "Implement a weekly rolling maintenance process for the Linux virtual machines so they can apply critical kernel patches and package updates and reduce the risk of 0-day vulnerabilities."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A",
+      "B"
     ],
     "community": [
-      "C"
+      "A",
+      "B"
     ]
   }
 }

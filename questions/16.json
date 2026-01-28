@@ -1,31 +1,37 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60439-exam-professional-cloud-architect-topic-1-question-148/",
-  "published_iso": null,
-  "number": 148,
-  "question": "You are designing a Data Warehouse on Google Cloud and want to store sensitive data in BigQuery. Your company requires you to generate the encryption keys outside of Google Cloud. You need to implement a solution. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381813-exam-professional-cloud-architect-topic-1-question-204/",
+  "published_iso": "2025-12-21T19:57:00",
+  "number": 204,
+  "question": "You are creating a migration plan to move your organization’s infrastructure from on-premises to Google Cloud. You want to understand and manage costs effectively after the migration is complete. Which strategies should you include in the migration plan? (Choose two.)",
   "options": [
     {
       "key": "A",
-      "text": "Generate a new key in Cloud Key Management Service (Cloud KMS). Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset."
+      "text": "Enable Backup and DR Service."
     },
     {
       "key": "B",
-      "text": "Generate a new key in Cloud KMS. Create a dataset in BigQuery using the customer-managed key option and select the created key."
+      "text": "Configure labels and tags for the resources provisioned in Google Cloud."
     },
     {
       "key": "C",
-      "text": "Import a key in Cloud KMS. Store all data in Cloud Storage using the customer-managed key option and select the created key. Set up a Dataflow pipeline to decrypt the data and to store it in a new BigQuery dataset."
+      "text": "Create a Cloud Scheduler job to export billing data to Cloud SQL."
     },
     {
       "key": "D",
-      "text": "Import a key in Cloud KMS. Create a dataset in BigQuery using the customer-supplied key option and select the created key."
+      "text": "Create service alerts using Cloud Monitoring."
+    },
+    {
+      "key": "E",
+      "text": "Adopt infrastructure as code (IaC) for the cloud resources."
     }
   ],
   "answers": {
     "platform": [
+      "B",
       "D"
     ],
     "community": [
+      "B",
       "D"
     ]
   }

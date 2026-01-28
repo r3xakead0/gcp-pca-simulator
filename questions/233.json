@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6660-exam-professional-cloud-architect-topic-11-question-1/",
-  "published_iso": null,
-  "number": 1,
-  "question": "The Dress4Win security team has disabled external SSH access into production virtual machines (VMs) on Google Cloud Platform (GCP). The operations team needs to remotely manage the VMs, build and push Docker containers, and manage Google Cloud Storage objects. What can they do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56890-exam-professional-cloud-architect-topic-3-question-3/",
+  "published_iso": "2021-07-02T10:10:00",
+  "number": 3,
+  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. The HRL development team releases a new version of their predictive capability application every Tuesday evening at 3 a.m. UTC to a repository. The security team at HRL has developed an in-house penetration test Cloud Function called Airwolf. The security team wants to run Airwolf against the predictive capability application as soon as it is released every Tuesday. You need to set up Airwolf to run at the recurring weekly cadence. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Grant the operations engineer access to use Google Cloud Shell."
+      "text": "Set up Cloud Tasks and a Cloud Storage bucket that triggers a Cloud Function."
     },
     {
       "key": "B",
-      "text": "Configure a VPN connection to GCP to allow SSH access to the cloud VMs."
+      "text": "Set up a Cloud Logging sink and a Cloud Storage bucket that triggers a Cloud Function."
     },
     {
       "key": "C",
-      "text": "Develop a new access request process that grants temporary SSH access to cloud VMs when an operations engineer needs to perform a task."
+      "text": "Configure the deployment job to notify a Pub/Sub queue that triggers a Cloud Function."
     },
     {
       "key": "D",
-      "text": "Have the development team build an API service that allows the operations team to execute specific remote procedure calls to accomplish their tasks."
+      "text": "Set up Identity and Access Management (IAM) and Confidential Computing to trigger a Cloud Function."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

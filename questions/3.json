@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56734-exam-professional-cloud-architect-topic-7-question-4/",
-  "published_iso": null,
-  "number": 4,
-  "question": "You need to implement a network ingress for a new game that meets the defined business and technical requirements. Mountkirk Games wants each regional game instance to be located in multiple Google Cloud regions. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7041-exam-professional-cloud-architect-topic-1-question-10/",
+  "published_iso": "2019-10-23T08:00:00",
+  "number": 10,
+  "question": "You write a Python script to connect to Google BigQuery from a Google Compute Engine virtual machine. The script is printing errors that it cannot connect to BigQuery. What should you do to fix the script?",
   "options": [
     {
       "key": "A",
-      "text": "Configure a global load balancer connected to a managed instance group running Compute Engine instances."
+      "text": "Install the latest BigQuery API client library for Python"
     },
     {
       "key": "B",
-      "text": "Configure kubemci with a global load balancer and Google Kubernetes Engine."
+      "text": "Run your script on a new virtual machine with the BigQuery access scope enabled"
     },
     {
       "key": "C",
-      "text": "Configure a global load balancer with Google Kubernetes Engine."
+      "text": "Create a new service account with BigQuery access and execute your script with that user"
     },
     {
       "key": "D",
-      "text": "Configure Ingress for Anthos with a global load balancer and Google Kubernetes Engine."
+      "text": "Install the bq component for gcloud with the command gcloud components install bq."
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "C"
     ],
     "community": [
-      "D"
+      "C"
     ]
   }
 }

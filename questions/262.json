@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56603-exam-professional-cloud-architect-topic-1-question-127/",
-  "published_iso": null,
-  "number": 127,
-  "question": "Your operations team has asked you to help diagnose a performance issue in a production application that runs on Compute Engine. The application is dropping requests that reach it when under heavy load. The process list for affected instances shows a single application process that is consuming all available CPU, and autoscaling has reached the upper limit of instances. There is no abnormal load on any other related systems, including the database. You want to allow production traffic to be served again as quickly as possible. Which action should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/12205-exam-professional-cloud-architect-topic-8-question-6/",
+  "published_iso": "2020-01-17T08:07:00",
+  "number": 6,
+  "question": "Which of TerramEarth's legacy enterprise processes will experience significant change as a result of increased Google Cloud Platform adoption?",
   "options": [
     {
       "key": "A",
-      "text": "Change the autoscaling metric to agent.googleapis.com/memory/percent_used."
+      "text": "Opex/capex allocation, LAN changes, capacity planning"
     },
     {
       "key": "B",
-      "text": "Restart the affected instances on a staggered schedule."
+      "text": "Capacity planning, TCO calculations, opex/capex allocation"
     },
     {
       "key": "C",
-      "text": "SSH to each instance and restart the application process."
+      "text": "Capacity planning, utilization measurement, data center expansion"
     },
     {
       "key": "D",
-      "text": "Increase the maximum number of instances in the autoscaling group."
+      "text": "Data Center expansion, TCO calculations, utilization measurement"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "B"
     ],
     "community": [
-      "D"
+      "B"
     ]
   }
 }

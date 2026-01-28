@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56798-exam-professional-cloud-architect-topic-7-question-7/",
-  "published_iso": null,
-  "number": 7,
-  "question": "Your development team has created a mobile game app. You want to test the new mobile app on Android and iOS devices with a variety of configurations. You need to ensure that testing is efficient and cost-effective. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56754-exam-professional-cloud-architect-topic-1-question-136/",
+  "published_iso": "2021-07-01T12:54:00",
+  "number": 136,
+  "question": "Your company is developing a new application that will allow globally distributed users to upload pictures and share them with other selected users. The application will support millions of concurrent users. You want to allow developers to focus on just building code without having to create and maintain the underlying infrastructure. Which service should you use to deploy the application?",
   "options": [
     {
       "key": "A",
-      "text": "Upload your mobile app to the Firebase Test Lab, and test the mobile app on Android and iOS devices."
+      "text": "App Engine"
     },
     {
       "key": "B",
-      "text": "Create Android and iOS VMs on Google Cloud, install the mobile app on the VMs, and test the mobile app."
+      "text": "Cloud Endpoints"
     },
     {
       "key": "C",
-      "text": "Create Android and iOS containers on Google Kubernetes Engine (GKE), install the mobile app on the containers, and test the mobile app."
+      "text": "Compute Engine"
     },
     {
       "key": "D",
-      "text": "Upload your mobile app with different configurations to Firebase Hosting and test each configuration."
+      "text": "Google Kubernetes Engine"
     }
   ],
   "answers": {

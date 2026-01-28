@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7376-exam-professional-cloud-architect-topic-1-question-98/",
-  "published_iso": null,
-  "number": 98,
-  "question": "Your company acquired a healthcare startup and must retain its customers' medical information for up to 4 more years, depending on when it was created. Your corporate policy is to securely retain this data, and then delete it as soon as regulations allow. Which approach should you take?",
+  "url": "https://www.examtopics.com/discussions/google/view/80112-exam-professional-cloud-architect-topic-1-question-187/",
+  "published_iso": "2022-09-04T19:11:00",
+  "number": 187,
+  "question": "Your company has a Google Cloud project that uses BigQuery for data warehousing on a pay-per-use basis. You want to monitor queries in real time to discover the most costly queries and which users spend the most. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Store the data in Google Drive and manually delete records as they expire."
+      "text": "1. In the BigQuery dataset that contains all the tables to be queried, add a label for each user that can launch a query. 2. Open the Billing page of the project. 3. Select Reports. 4. Select BigQuery as the product and filter by the user you want to check."
     },
     {
       "key": "B",
-      "text": "Anonymize the data using the Cloud Data Loss Prevention API and store it indefinitely."
+      "text": "1. Create a Cloud Logging sink to export BigQuery data access logs to BigQuery. 2. Perform a BigQuery query on the generated table to extract the information you need."
     },
     {
       "key": "C",
-      "text": "Store the data in Cloud Storage and use lifecycle management to delete files when they expire."
+      "text": "1. Create a Cloud Logging sink to export BigQuery data access logs to Cloud Storage. 2. Develop a Dataflow pipeline to compute the cost of queries split by users."
     },
     {
       "key": "D",
-      "text": "Store the data in Cloud Storage and run a nightly batch script that deletes all expired data."
+      "text": "1. Activate billing export into BigQuery. 2. Perform a BigQuery query on the billing table to extract the information you need."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

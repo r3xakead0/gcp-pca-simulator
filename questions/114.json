@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/68684-exam-professional-cloud-architect-topic-1-question-173/",
-  "published_iso": null,
-  "number": 173,
-  "question": "The operations team in your company wants to save Cloud VPN log events for one year. You need to configure the cloud infrastructure to save the logs. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/57301-exam-professional-cloud-architect-topic-1-question-130/",
+  "published_iso": "2021-07-06T17:13:00",
+  "number": 130,
+  "question": "Your company has a networking team and a development team. The development team runs applications on Compute Engine instances that contain sensitive data. The development team requires administrative permissions for Compute Engine. Your company requires all network resources to be managed by the networking team. The development team does not want the networking team to have access to the sensitive data on the instances. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Set up a filter in Cloud Logging and a Cloud Storage bucket as an export target for the logs you want to save."
+      "text": "1. Create a project with a standalone VPC and assign the Network Admin role to the networking team. 2. Create a second project with a standalone VPC and assign the Compute Admin role to the development team. 3. Use Cloud VPN to join the two VPCs."
     },
     {
       "key": "B",
-      "text": "Enable the Compute Engine API, and then enable logging on the firewall rules that match the traffic you want to save."
+      "text": "1. Create a project with a standalone Virtual Private Cloud (VPC), assign the Network Admin role to the networking team, and assign the Compute Admin role to the development team."
     },
     {
       "key": "C",
-      "text": "Set up a Cloud Logging Dashboard titled Cloud VPN Logs, and then add a chart that queries for the VPN metrics over a one-year time period."
+      "text": "1. Create a project with a Shared VPC and assign the Network Admin role to the networking team. 2. Create a second project without a VPC, configure it as a Shared VPC service project, and assign the Compute Admin role to the development team."
     },
     {
       "key": "D",
-      "text": "Set up a filter in Cloud Logging and a topic in Pub/Sub to publish the logs."
+      "text": "1. Create a project with a standalone VPC and assign the Network Admin role to the networking team. 2. Create a second project with a standalone VPC and assign the Compute Admin role to the development team. 3. Use VPC Peering to join the two VPCs."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

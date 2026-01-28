@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8373-exam-professional-cloud-architect-topic-1-question-62/",
-  "published_iso": null,
-  "number": 62,
-  "question": "You need to evaluate your team readiness for a new GCP project. You must perform the evaluation and create a skills gap plan which incorporates the business goal of cost optimization. Your team has deployed two GCP projects successfully to date. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/60407-exam-professional-cloud-architect-topic-4-question-6/",
+  "published_iso": "2021-08-23T18:24:00",
+  "number": 6,
+  "question": "For this question, refer to the EHR Healthcare case study. In the past, configuration errors put public IP addresses on backend servers that should not have been accessible from the Internet. You need to ensure that no one can put external IP addresses on backend Compute Engine instances and that external IP addresses can only be configured on frontend Compute Engine instances. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Allocate budget for team training. Set a deadline for the new GCP project."
+      "text": "Create an Organizational Policy with a constraint to allow external IP addresses only on the frontend Compute Engine instances."
     },
     {
       "key": "B",
-      "text": "Allocate budget for team training. Create a roadmap for your team to achieve Google Cloud certification based on job role."
+      "text": "Revoke the compute.networkAdmin role from all users in the project with front end instances."
     },
     {
       "key": "C",
-      "text": "Allocate budget to hire skilled external consultants. Set a deadline for the new GCP project."
+      "text": "Create an Identity and Access Management (IAM) policy that maps the IT staff to the compute.networkAdmin role for the organization."
     },
     {
       "key": "D",
-      "text": "Allocate budget to hire skilled external consultants. Create a roadmap for your team to achieve Google Cloud certification based on job role."
+      "text": "Create a custom Identity and Access Management (IAM) role named GCE_FRONTEND with the compute.addresses.create permission."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

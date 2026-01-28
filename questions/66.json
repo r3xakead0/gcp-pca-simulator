@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56645-exam-professional-cloud-architect-topic-7-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "Mountkirk Games wants you to secure the connectivity from the new gaming application platform to Google Cloud. You want to streamline the process and follow Google-recommended practices. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56376-exam-professional-cloud-architect-topic-1-question-115/",
+  "published_iso": "2021-06-30T15:58:00",
+  "number": 115,
+  "question": "Your company has sensitive data in Cloud Storage buckets. Data analysts have Identity Access Management (IAM) permissions to read the buckets. You want to prevent data analysts from retrieving the data in the buckets from outside the office network. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Configure Workload Identity and service accounts to be used by the application platform."
+      "text": "1. Create a VPC Service Controls perimeter that includes the projects with the buckets. 2. Create an access level with the CIDR of the office network."
     },
     {
       "key": "B",
-      "text": "Use Kubernetes Secrets, which are obfuscated by default. Configure these Secrets to be used by the application platform."
+      "text": "1. Create a firewall rule for all instances in the Virtual Private Cloud (VPC) network for source range. 2. Use the Classless Inter-domain Routing (CIDR) of the office network."
     },
     {
       "key": "C",
-      "text": "Configure Kubernetes Secrets to store the secret, enable Application-Layer Secrets Encryption, and use Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform."
+      "text": "1. Create a Cloud Function to remove IAM permissions from the buckets, and another Cloud Function to add IAM permissions to the buckets. 2. Schedule the Cloud Functions with Cloud Scheduler to add permissions at the start of business and remove permissions at the end of business."
     },
     {
       "key": "D",
-      "text": "Configure HashiCorp Vault on Compute Engine, and use customer managed encryption keys and Cloud Key Management Service (Cloud KMS) to manage the encryption keys. Configure these Secrets to be used by the application platform."
+      "text": "1. Create a Cloud VPN to the office network. 2. Configure Private Google Access for on-premises hosts."
     }
   ],
   "answers": {

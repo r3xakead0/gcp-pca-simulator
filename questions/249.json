@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9198-exam-professional-cloud-architect-topic-11-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "Dress4Win has asked you for advice on how to migrate their on-premises MySQL deployment to the cloud. They want to minimize downtime and performance impact to their on-premises solution during the migration. Which approach should you recommend?",
+  "url": "https://www.examtopics.com/discussions/google/view/56360-exam-professional-cloud-architect-topic-1-question-104/",
+  "published_iso": "2021-06-30T15:24:00",
+  "number": 104,
+  "question": "You need to deploy an application to Google Cloud. The application receives traffic via TCP and reads and writes data to the filesystem. The application does not support horizontal scaling. The application process requires full control over the data on the file system because concurrent access causes corruption. The business is willing to accept a downtime when an incident occurs, but the application must be available 24/7 to support their business operations. You need to design the architecture of this application on Google Cloud. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a dump of the on-premises MySQL master server, and then shut it down, upload it to the cloud environment, and load into a new MySQL cluster."
+      "text": "Use a managed instance group with instances in multiple zones, use Cloud Filestore, and use an HTTP load balancer in front of the instances."
     },
     {
       "key": "B",
-      "text": "Setup a MySQL replica server/slave in the cloud environment, and configure it for asynchronous replication from the MySQL master server on-premises until cutover."
+      "text": "Use a managed instance group with instances in multiple zones, use Cloud Filestore, and use a network load balancer in front of the instances."
     },
     {
       "key": "C",
-      "text": "Create a new MySQL cluster in the cloud, configure applications to begin writing to both on premises and cloud MySQL masters, and destroy the original cluster at cutover."
+      "text": "Use an unmanaged instance group with an active and standby instance in different zones, use a regional persistent disk, and use an HTTP load balancer in front of the instances."
     },
     {
       "key": "D",
-      "text": "Create a dump of the MySQL replica server into the cloud environment, load it into: Google Cloud Datastore, and configure applications to read/write to Cloud Datastore at cutover."
+      "text": "Use an unmanaged instance group with an active and standby instance in different zones, use a regional persistent disk, and use a network load balancer in front of the instances."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

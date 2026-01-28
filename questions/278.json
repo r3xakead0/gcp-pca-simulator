@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/8252-exam-professional-cloud-architect-topic-12-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "For this question, refer to the Dress4Win case study. You are responsible for the security of data stored in Cloud Storage for your company, Dress4Win. You have already created a set of Google Groups and assigned the appropriate users to those groups. You should use Google best practices and implement the simplest design to meet the requirements. Considering Dress4Win's business and technical requirements, what should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/10289-exam-professional-cloud-architect-topic-1-question-94/",
+  "published_iso": "2019-12-13T15:23:00",
+  "number": 94,
+  "question": "You need to design a solution for global load balancing based on the URL path being requested. You need to ensure operations reliability and end-to-end in- transit encryption based on Google best practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Assign custom IAM roles to the Google Groups you created in order to enforce security requirements. Encrypt data with a customer-supplied encryption key when storing files in Cloud Storage."
+      "text": "Create a cross-region load balancer with URL Maps."
     },
     {
       "key": "B",
-      "text": "Assign custom IAM roles to the Google Groups you created in order to enforce security requirements. Enable default storage encryption before storing files in Cloud Storage."
+      "text": "Create an HTTPS load balancer with URL Maps."
     },
     {
       "key": "C",
-      "text": "Assign predefined IAM roles to the Google Groups you created in order to enforce security requirements. Utilize Google's default encryption at rest when storing files in Cloud Storage."
+      "text": "Create appropriate instance groups and instances. Configure SSL proxy load balancing."
     },
     {
       "key": "D",
-      "text": "Assign predefined IAM roles to the Google Groups you created in order to enforce security requirements. Ensure that the default Cloud KMS key is set before storing files in Cloud Storage."
+      "text": "Create a global forwarding rule. Configure SSL proxy load balancing."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

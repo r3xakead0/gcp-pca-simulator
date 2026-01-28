@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/138677-exam-professional-cloud-architect-topic-1-question-197/",
-  "published_iso": null,
-  "number": 197,
-  "question": "You are working at a financial institution that stores mortgage loan approval documents on Cloud Storage. Any change to these approval documents must be uploaded as a separate approval file. You need to ensure that these documents cannot be deleted or overwritten for the next 5 years. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/68691-exam-professional-cloud-architect-topic-1-question-178/",
+  "published_iso": "2021-12-28T03:44:00",
+  "number": 178,
+  "question": "Your company has an application running on Google Cloud that is collecting data from thousands of physical devices that are globally distributed. Data is published to Pub/Sub and streamed in real time into an SSD Cloud Bigtable cluster via a Dataflow pipeline. The operations team informs you that your Cloud Bigtable cluster has a hotspot, and queries are taking longer than expected. You need to resolve the problem and prevent it from happening in the future. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Create a retention policy on the bucket for the duration of 5 years. Create a lock on the retention policy."
+      "text": "Advise your clients to use HBase APIs instead of NodeJS APIs."
     },
     {
       "key": "B",
-      "text": "Create a retention policy organizational constraint constraints/storage.retentionPolicySeconds at the organization level. Set the duration to 5 years."
+      "text": "Delete records older than 30 days."
     },
     {
       "key": "C",
-      "text": "Use a customer-managed key for the encryption of the bucket. Rotate the key after 5 years."
+      "text": "Review your RowKey strategy and ensure that keys are evenly spread across the alphabet."
     },
     {
       "key": "D",
-      "text": "Create a retention policy organizational constraint constraints/storage.retentionPolicySeconds at the project level. Set the duration to 5 years."
+      "text": "Double the number of nodes you currently have."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

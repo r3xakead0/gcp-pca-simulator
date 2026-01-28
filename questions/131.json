@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56640-exam-professional-cloud-architect-topic-1-question-135/",
-  "published_iso": null,
-  "number": 135,
-  "question": "You are developing your microservices application on Google Kubernetes Engine. During testing, you want to validate the behavior of your application in case a specific microservice should suddenly crash. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/7133-exam-professional-cloud-architect-topic-1-question-11/",
+  "published_iso": "2019-10-24T14:52:00",
+  "number": 11,
+  "question": "Your customer is moving an existing corporate application to Google Cloud Platform from an on-premises data center. The business owners require minimal user disruption. There are strict security team requirements for storing passwords. What authentication strategy should they use?",
   "options": [
     {
       "key": "A",
-      "text": "Add a taint to one of the nodes of the Kubernetes cluster. For the specific microservice, configure a pod anti-affinity label that has the name of the tainted node as a value."
+      "text": "Use G Suite Password Sync to replicate passwords into Google"
     },
     {
       "key": "B",
-      "text": "Use Istio's fault injection on the particular microservice whose faulty behavior you want to simulate."
+      "text": "Federate authentication via SAML 2.0 to the existing Identity Provider"
     },
     {
       "key": "C",
-      "text": "Destroy one of the nodes of the Kubernetes cluster to observe the behavior."
+      "text": "Provision users in Google using the Google Cloud Directory Sync tool"
     },
     {
       "key": "D",
-      "text": "Configure Istio's traffic management features to steer the traffic away from a crashing microservice."
+      "text": "Ask users to set their Google password to match their corporate password"
     }
   ],
   "answers": {

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60403-exam-professional-cloud-architect-topic-4-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "You need to upgrade the EHR connection to comply with their requirements. The new connection design must support business-critical needs and meet the same network and security policy requirements. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/60405-exam-professional-cloud-architect-topic-4-question-5/",
+  "published_iso": "2021-08-23T18:11:00",
+  "number": 5,
+  "question": "For this question, refer to the EHR Healthcare case study. You are a developer on the EHR customer portal team. Your team recently migrated the customer portal application to Google Cloud. The load has increased on the application servers, and now the application is logging many timeout errors. You recently incorporated Pub/Sub into the application architecture, and the application is not logging any Pub/Sub publishing errors. You want to improve publishing latency. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Add a new Dedicated Interconnect connection."
+      "text": "Increase the Pub/Sub Total Timeout retry value."
     },
     {
       "key": "B",
-      "text": "Upgrade the bandwidth on the Dedicated Interconnect connection to 100 G."
+      "text": "Move from a Pub/Sub subscriber pull model to a push model."
     },
     {
       "key": "C",
-      "text": "Add three new Cloud VPN connections."
+      "text": "Turn off Pub/Sub message batching."
     },
     {
       "key": "D",
-      "text": "Add a new Carrier Peering connection."
+      "text": "Create a backup Pub/Sub message queue."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

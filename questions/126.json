@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/60438-exam-professional-cloud-architect-topic-1-question-145/",
-  "published_iso": null,
-  "number": 145,
-  "question": "Your company has an application running as a Deployment in a Google Kubernetes Engine (GKE) cluster. You have separate clusters for development, staging, and production. You have discovered that the team is able to deploy a Docker image to the production cluster without first testing the deployment in development and then staging. You want to allow the team to have autonomy but want to prevent this from happening. You want a Google Cloud solution that can be implemented quickly with minimal effort. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/121313-exam-professional-cloud-architect-topic-1-question-195/",
+  "published_iso": "2023-09-24T13:12:00",
+  "number": 195,
+  "question": "You are deploying an application to Google Cloud. The application is part of a system. The application in Google Cloud must communicate over a private network with applications in a non-Google Cloud environment. The expected average throughput is 200 kbps. The business requires: •\t99.99% system availability •\tcost optimization You need to design the connectivity between the locations to meet the business requirements. What should you provision?",
   "options": [
     {
       "key": "A",
-      "text": "Configure a Kubernetes lifecycle hook to prevent the container from starting if it is not approved for usage in the given environment."
+      "text": "An HA Cloud VPN gateway connected with two tunnels to an on-premises VPN gateway."
     },
     {
       "key": "B",
-      "text": "Implement a corporate policy to prevent teams from deploying Docker images to an environment unless the Docker image was tested in an earlier environment."
+      "text": "A Classic Cloud VPN gateway connected with two tunnels to an on-premises VPN gateway."
     },
     {
       "key": "C",
-      "text": "Configure binary authorization policies for the development, staging, and production clusters. Create attestations as part of the continuous integration pipeline."
+      "text": "Two HA Cloud VPN gateways connected to two on-premises VPN gateways. Configure each HA Cloud VPN gateway to have two tunnels, each connected to different on-premises VPN gateways."
     },
     {
       "key": "D",
-      "text": "Create a Kubernetes admissions controller to prevent the container from starting if it is not approved for usage in the given environment."
+      "text": "A Classic Cloud VPN gateway connected with one tunnel to an on-premises VPN gateway."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "A"
     ],
     "community": [
-      "C"
+      "A"
     ]
   }
 }

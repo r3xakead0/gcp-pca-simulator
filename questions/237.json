@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7323-exam-professional-cloud-architect-topic-1-question-79/",
-  "published_iso": null,
-  "number": 79,
-  "question": "You want your Google Kubernetes Engine cluster to automatically add or remove nodes based on CPU load. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/11301-exam-professional-cloud-architect-topic-1-question-71/",
+  "published_iso": "2020-01-03T06:10:00",
+  "number": 71,
+  "question": "Your company is running a stateless application on a Compute Engine instance. The application is used heavily during regular business hours and lightly outside of business hours. Users are reporting that the application is slow during peak hours. You need to optimize the application's performance. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Configure a HorizontalPodAutoscaler with a target CPU usage. Enable the Cluster Autoscaler from the GCP Console."
+      "text": "Create a snapshot of the existing disk. Create an instance template from the snapshot. Create an autoscaled managed instance group from the instance template."
     },
     {
       "key": "B",
-      "text": "Configure a HorizontalPodAutoscaler with a target CPU usage. Enable autoscaling on the managed instance group for the cluster using the gcloud command."
+      "text": "Create a snapshot of the existing disk. Create a custom image from the snapshot. Create an autoscaled managed instance group from the custom image."
     },
     {
       "key": "C",
-      "text": "Create a deployment and set the maxUnavailable and maxSurge properties. Enable the Cluster Autoscaler using the gcloud command."
+      "text": "Create a custom image from the existing disk. Create an instance template from the custom image. Create an autoscaled managed instance group from the instance template."
     },
     {
       "key": "D",
-      "text": "Create a deployment and set the maxUnavailable and maxSurge properties. Enable autoscaling on the cluster managed instance group from the GCP Console."
+      "text": "Create an instance template from the existing disk. Create a custom image from the instance template. Create an autoscaled managed instance group from the custom image."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }

@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7134-exam-professional-cloud-architect-topic-1-question-12/",
-  "published_iso": null,
-  "number": 12,
-  "question": "Your company has successfully migrated to the cloud and wants to analyze their data stream to optimize operations. They do not have any existing code for this analysis, so they are exploring all their options. These options include a mix of batch and stream processing, as they are running some hourly jobs and live- processing some data as it comes in. Which technology should they use for this?",
+  "url": "https://www.examtopics.com/discussions/google/view/60415-exam-professional-cloud-architect-topic-1-question-152/",
+  "published_iso": "2021-08-23T19:56:00",
+  "number": 152,
+  "question": "Your company is planning to upload several important files to Cloud Storage. After the upload is completed, they want to verify that the uploaded content is identical to what they have on-premises. You want to minimize the cost and effort of performing this check. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Google Cloud Dataproc"
+      "text": "1. Use Linux shasum to compute a digest of files you want to upload. 2. Use gsutil -m to upload all the files to Cloud Storage. 3. Use gsutil cp to download the uploaded files. 4. Use Linux shasum to compute a digest of the downloaded files. 5. Compare the hashes."
     },
     {
       "key": "B",
-      "text": "Google Cloud Dataflow"
+      "text": "1. Use gsutil -m to upload the files to Cloud Storage. 2. Develop a custom Java application that computes CRC32C hashes. 3. Use gsutil ls -L gs://[YOUR_BUCKET_NAME] to collect CRC32C hashes of the uploaded files. 4. Compare the hashes."
     },
     {
       "key": "C",
-      "text": "Google Container Engine with Bigtable"
+      "text": "1. Use gsutil -m to upload all the files to Cloud Storage. 2. Use gsutil cp to download the uploaded files. 3. Use Linux diff to compare the content of the files."
     },
     {
       "key": "D",
-      "text": "Google Compute Engine with Google BigQuery"
+      "text": "1. Use gsutil -m to upload the files to Cloud Storage. 2. Use gsutil hash -c FILE_NAME to generate CRC32C hashes of all on-premises files. 3. Use gsutil ls -L gs://[YOUR_BUCKET_NAME] to collect CRC32C hashes of the uploaded files. 4. Compare the hashes."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "D"
     ],
     "community": [
-      "B"
+      "D"
     ]
   }
 }

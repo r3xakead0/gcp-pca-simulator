@@ -1,44 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/54371-exam-professional-cloud-architect-topic-1-question-164/",
-  "published_iso": null,
-  "number": 164,
-  "question": "You are helping the QA team to roll out a new load-testing tool to test the scalability of your primary cloud services that run on Google Compute Engine with Cloud Bigtable. Which three requirements should they include? (Choose three.)",
+  "url": "https://www.examtopics.com/discussions/google/view/381826-exam-professional-cloud-architect-topic-1-question-215/",
+  "published_iso": "2025-12-22T03:07:00",
+  "number": 215,
+  "question": "To improve governance and security, your organization has structured the Google Cloud environment using folders for different business units. Each business unit folder has subfolders for development, staging, and production environments, which must comply with internal security controls: •\tProduction workloads must be protected from direct internet ingress by default unless explicitly tagged. •\tThe application must be accessible to customers over HTTPS. You need to design a scalable and enforceable model that blocks internet ingress traffic to the production folders while selectively allowing direct HTTPS traffic to the necessary virtual machines. You must also ensure that individual project teams cannot overwrite these controls once they are implemented for all current and future production projects. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Ensure that the load tests validate the performance of Cloud Bigtable"
+      "text": "At each production folder, apply a hierarchical firewall policy to deny all ingress except for HTTPS to tagged VMs."
     },
     {
       "key": "B",
-      "text": "Create a separate Google Cloud project to use for the load-testing environment"
+      "text": "Mandate the application teams to deploy a Terraform module to create VPC firewall rules in each project that deny ingress and allow HTTPS."
     },
     {
       "key": "C",
-      "text": "Schedule the load-testing tool to regularly run against the production environment"
+      "text": "At the organization root, apply a hierarchical firewall policy to deny all ingress except for HTTPS to tagged VMs."
     },
     {
       "key": "D",
-      "text": "Ensure all third-party systems your services use is capable of handling high load"
-    },
-    {
-      "key": "E",
-      "text": "Instrument the production services to record every transaction for replay by the load-testing tool"
-    },
-    {
-      "key": "F",
-      "text": "Instrument the load-testing tool and the target services with detailed logging and metrics collection"
+      "text": "At each production folder, use an organization policy to block all external IPs and require teams to use external HTTPS load balancers."
     }
   ],
   "answers": {
     "platform": [
-      "A",
-      "B",
-      "F"
+      "A"
     ],
     "community": [
-      "A",
-      "B",
-      "F"
+      "A"
     ]
   }
 }

@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6308-exam-professional-cloud-architect-topic-1-question-65/",
-  "published_iso": null,
-  "number": 65,
-  "question": "You need to upload files from your on-premises environment to Cloud Storage. You want the files to be encrypted on Cloud Storage using customer-supplied encryption keys. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/68690-exam-professional-cloud-architect-topic-1-question-177/",
+  "published_iso": "2021-12-28T03:38:00",
+  "number": 177,
+  "question": "Your company has just recently activated Cloud Identity to manage users. The Google Cloud Organization has been configured as well. The security team needs to secure projects that will be part of the Organization. They want to prohibit IAM users outside the domain from gaining permissions from now on. What should they do?",
   "options": [
     {
       "key": "A",
-      "text": "Supply the encryption key in a .boto configuration file. Use gsutil to upload the files."
+      "text": "Configure an organization policy to restrict identities by domain."
     },
     {
       "key": "B",
-      "text": "Supply the encryption key using gcloud config. Use gsutil to upload the files to that bucket."
+      "text": "Configure an organization policy to block creation of service accounts."
     },
     {
       "key": "C",
-      "text": "Use gsutil to upload the files, and use the flag --encryption-key to supply the encryption key."
+      "text": "Configure Cloud Scheduler to trigger a Cloud Function every hour that removes all users that don't belong to the Cloud Identity domain from all projects."
     },
     {
       "key": "D",
-      "text": "Use gsutil to create a bucket, and use the flag --encryption-key to supply the encryption key. Use gsutil to upload the files to that bucket."
+      "text": "Create a technical user (e.g., [email protected] ), and give it the project owner role at root organization level. Write a bash script that: ג€¢ Lists all the IAM rules of all projects within the organization. ג€¢ Deletes all users that do not belong to the company domain. Create a Compute Engine instance in a project within the Organization and configure gcloud to be executed with technical user credentials. Configure a cron job that executes the bash script every hour."
     }
   ],
   "answers": {

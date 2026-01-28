@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/79697-exam-professional-cloud-architect-topic-1-question-184/",
-  "published_iso": null,
-  "number": 184,
-  "question": "You are managing several internal applications that are deployed on Compute Engine. Business users inform you that an application has become very slow over the past few days. You want to find the underlying cause in order to solve the problem. What should you do first?",
+  "url": "https://www.examtopics.com/discussions/google/view/9253-exam-professional-cloud-architect-topic-5-question-4/",
+  "published_iso": "2019-11-28T09:09:00",
+  "number": 4,
+  "question": "Mountkirk Games' gaming servers are not automatically scaling properly. Last month, they rolled out a new feature, which suddenly became very popular. A record number of users are trying to use the service, but many of them are getting 503 errors and very slow response times. What should they investigate first?",
   "options": [
     {
       "key": "A",
-      "text": "Inspect the logs and metrics from the instances in Cloud Logging and Cloud Monitoring."
+      "text": "Verify that the database is online"
     },
     {
       "key": "B",
-      "text": "Change the Compute Engine Instances behind the application to a machine type with more CPU and memory."
+      "text": "Verify that the project quota hasn't been exceeded"
     },
     {
       "key": "C",
-      "text": "Restore a backup of the application database from a time before the application became slow."
+      "text": "Verify that the new feature code did not introduce any performance bugs"
     },
     {
       "key": "D",
-      "text": "Deploy the applications on a managed instance group with autoscaling enabled. Add a load balancer in front of the managed instance group, and have the users connect to the IP of the load balancer."
+      "text": "Verify that the load-testing team is not running their tool against production"
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "B"
     ],
     "community": [
-      "A"
+      "B"
     ]
   }
 }

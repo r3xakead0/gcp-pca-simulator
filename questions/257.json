@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56976-exam-professional-cloud-architect-topic-1-question-138/",
-  "published_iso": null,
-  "number": 138,
-  "question": "Your company has developed a monolithic, 3-tier application to allow external users to upload and share files. The solution cannot be easily enhanced and lacks reliability. The development team would like to re-architect the application to adopt microservices and a fully managed service approach, but they need to convince their leadership that the effort is worthwhile. Which advantage(s) should they highlight to leadership?",
+  "url": "https://www.examtopics.com/discussions/google/view/6617-exam-professional-cloud-architect-topic-11-question-4/",
+  "published_iso": "2019-10-15T08:59:00",
+  "number": 4,
+  "question": "As part of Dress4Win's plans to migrate to the cloud, they want to be able to set up a managed logging and monitoring system so they can handle spikes in their traffic load. They want to ensure that: * The infrastructure can be notified when it needs to scale up and down to handle the ebb and flow of usage throughout the day * Their administrators are notified automatically when their application reports errors. * They can filter their aggregated logs down in order to debug one piece of the application across many hosts Which Google StackDriver features should they use?",
   "options": [
     {
       "key": "A",
-      "text": "The new approach will be significantly less costly, make it easier to manage the underlying infrastructure, and automatically manage the CI/CD pipelines."
+      "text": "Logging, Alerts, Insights, Debug"
     },
     {
       "key": "B",
-      "text": "The monolithic solution can be converted to a container with Docker. The generated container can then be deployed into a Kubernetes cluster."
+      "text": "Monitoring, Trace, Debug, Logging"
     },
     {
       "key": "C",
-      "text": "The new approach will make it easier to decouple infrastructure from application, develop and release new features, manage the underlying infrastructure, manage CI/CD pipelines and perform A/B testing, and scale the solution if necessary."
+      "text": "Monitoring, Logging, Alerts, Error Reporting"
     },
     {
       "key": "D",
-      "text": "The process can be automated with Migrate for Compute Engine."
+      "text": "Monitoring, Logging, Debug, Error Report"
     }
   ],
   "answers": {

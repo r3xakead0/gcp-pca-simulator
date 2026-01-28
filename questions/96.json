@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6844-exam-professional-cloud-architect-topic-1-question-39/",
-  "published_iso": null,
-  "number": 39,
-  "question": "You are designing a mobile chat application. You want to ensure people cannot spoof chat messages, by providing a message were sent by a specific user. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6747-exam-professional-cloud-architect-topic-1-question-102/",
+  "published_iso": "2019-10-18T11:45:00",
+  "number": 102,
+  "question": "You are developing a globally scaled frontend for a legacy streaming backend data API. This API expects events in strict chronological order with no repeat data for proper processing. Which products should you deploy to ensure guaranteed-once FIFO (first-in, first-out) delivery of data?",
   "options": [
     {
       "key": "A",
-      "text": "Tag messages client side with the originating user identifier and the destination user."
+      "text": "Cloud Pub/Sub alone"
     },
     {
       "key": "B",
-      "text": "Encrypt the message client side using block-based encryption with a shared key."
+      "text": "Cloud Pub/Sub to Cloud Dataflow"
     },
     {
       "key": "C",
-      "text": "Use public key infrastructure (PKI) to encrypt the message client side using the originating user's private key."
+      "text": "Cloud Pub/Sub to Stackdriver"
     },
     {
       "key": "D",
-      "text": "Use a trusted certificate authority to enable SSL connectivity between the client application and the server."
+      "text": "Cloud Pub/Sub to Cloud SQL"
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

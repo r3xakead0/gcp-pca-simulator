@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/6314-exam-professional-cloud-architect-topic-1-question-53/",
-  "published_iso": null,
-  "number": 53,
-  "question": "You are deploying an application on App Engine that needs to integrate with an on-premises database. For security purposes, your on-premises database must not be accessible through the public internet. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/381829-exam-professional-cloud-architect-topic-1-question-201/",
+  "published_iso": "2025-12-22T03:07:00",
+  "number": 201,
+  "question": "You are managing a few hundred Ubuntu and Red Hat Enterprise Linux virtual machines running on Google Compute Engine (GCE). You need to patch the operating systems for those VMs periodically in a secure and scalable way. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Deploy your application on App Engine standard environment and use App Engine firewall rules to limit access to the open on-premises database."
+      "text": "Create a Cloud Scheduler job to run a Bash script that securely connects to each VM and applies the patches."
     },
     {
       "key": "B",
-      "text": "Deploy your application on App Engine standard environment and use Cloud VPN to limit access to the on-premises database."
+      "text": "Configure Config Sync, and install the Ops Agent on each VM. Schedule a patch job to apply patches on each VM."
     },
     {
       "key": "C",
-      "text": "Deploy your application on App Engine flexible environment and use App Engine firewall rules to limit access to the on-premises database."
+      "text": "Schedule a Cloud Build job, and use Cloud Deploy to run a patch job that applies patches on each VM."
     },
     {
       "key": "D",
-      "text": "Deploy your application on App Engine flexible environment and use Cloud VPN to limit access to the on-premises database."
+      "text": "Set up VM Manager, and install the OS Config agent on each VM. Schedule a patch job to apply patches on each VM."
     }
   ],
   "answers": {

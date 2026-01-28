@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56328-exam-professional-cloud-architect-topic-3-question-6/",
-  "published_iso": null,
-  "number": 6,
-  "question": "For this question, refer to the Helicopter Racing League (HRL) case study. A recent finance audit of cloud infrastructure noted an exceptionally high number of Compute Engine instances are allocated to do video encoding and transcoding. You suspect that these Virtual Machines are zombie machines that were not deleted after their workloads completed. You need to quickly get a list of which VM instances are idle. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6528-exam-professional-cloud-architect-topic-1-question-68/",
+  "published_iso": "2019-10-13T12:46:00",
+  "number": 68,
+  "question": "Your company wants to start using Google Cloud resources but wants to retain their on-premises Active Directory domain controller for identity management. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Log into each Compute Engine instance and collect disk, CPU, memory, and network usage statistics for analysis."
+      "text": "Use the Admin Directory API to authenticate against the Active Directory domain controller."
     },
     {
       "key": "B",
-      "text": "Use the gcloud compute instances list to list the virtual machine instances that have the idle: true label set."
+      "text": "Use Google Cloud Directory Sync to synchronize Active Directory usernames with cloud identities and configure SAML SSO."
     },
     {
       "key": "C",
-      "text": "Use the gcloud recommender command to list the idle virtual machine instances."
+      "text": "Use Cloud Identity-Aware Proxy configured to use the on-premises Active Directory domain controller as an identity provider."
     },
     {
       "key": "D",
-      "text": "From the Google Console, identify which Compute Engine instances in the managed instance groups are no longer responding to health check probes."
+      "text": "Use Compute Engine to create an Active Directory (AD) domain controller that is a replica of the on-premises AD domain controller using Google Cloud Directory Sync."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "B"
     ],
     "community": [
-      "C"
+      "B"
     ]
   }
 }

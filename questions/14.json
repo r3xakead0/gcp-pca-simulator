@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7126-exam-professional-cloud-architect-topic-1-question-8/",
-  "published_iso": null,
-  "number": 8,
-  "question": "Your company wants to track whether someone is present in a meeting room reserved for a scheduled meeting. There are 1000 meeting rooms across 5 offices on 3 continents. Each room is equipped with a motion sensor that reports its status every second. The data from the motion detector includes only a sensor ID and several different discrete items of information. Analysts will use this data, together with information about account owners and office locations. Which database type should you use?",
+  "url": "https://www.examtopics.com/discussions/google/view/7123-exam-professional-cloud-architect-topic-1-question-93/",
+  "published_iso": "2019-10-24T13:11:00",
+  "number": 93,
+  "question": "A development team at your company has created a dockerized HTTPS web application. You need to deploy the application on Google Kubernetes Engine (GKE) and make sure that the application scales automatically. How should you deploy to GKE?",
   "options": [
     {
       "key": "A",
-      "text": "Flat file"
+      "text": "Use the Horizontal Pod Autoscaler and enable cluster autoscaling. Use an Ingress resource to load-balance the HTTPS traffic."
     },
     {
       "key": "B",
-      "text": "NoSQL"
+      "text": "Use the Horizontal Pod Autoscaler and enable cluster autoscaling on the Kubernetes cluster. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic."
     },
     {
       "key": "C",
-      "text": "Relational"
+      "text": "Enable autoscaling on the Compute Engine instance group. Use an Ingress resource to load-balance the HTTPS traffic."
     },
     {
       "key": "D",
-      "text": "Blobstore"
+      "text": "Enable autoscaling on the Compute Engine instance group. Use a Service resource of type LoadBalancer to load-balance the HTTPS traffic."
     }
   ],
   "answers": {
     "platform": [
-      "B"
+      "A"
     ],
     "community": [
-      "B"
+      "A"
     ]
   }
 }

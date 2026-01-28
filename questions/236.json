@@ -1,24 +1,24 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/7260-exam-professional-cloud-architect-topic-9-question-3/",
-  "published_iso": null,
-  "number": 3,
-  "question": "For this question, refer to the TerramEarth case study. You need to implement a reliable, scalable GCP solution for the data warehouse for your company, TerramEarth. Considering the TerramEarth business and technical requirements, what should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/6529-exam-professional-cloud-architect-topic-1-question-73/",
+  "published_iso": "2019-10-13T13:31:00",
+  "number": 73,
+  "question": "You are using Cloud SQL as the database backend for a large CRM deployment. You want to scale as usage increases and ensure that you don't run out of storage, maintain 75% CPU usage cores, and keep replication lag below 60 seconds. What are the correct steps to meet your requirements?",
   "options": [
     {
       "key": "A",
-      "text": "Replace the existing data warehouse with BigQuery. Use table partitioning."
+      "text": "1. Enable automatic storage increase for the instance. 2. Create a Stackdriver alert when CPU usage exceeds 75%, and change the instance type to reduce CPU usage. 3. Create a Stackdriver alert for replication lag, and shard the database to reduce replication time."
     },
     {
       "key": "B",
-      "text": "Replace the existing data warehouse with a Compute Engine instance with 96 CPUs."
+      "text": "1. Enable automatic storage increase for the instance. 2. Change the instance type to a 32-core machine type to keep CPU usage below 75%. 3. Create a Stackdriver alert for replication lag, and deploy memcache to reduce load on the master."
     },
     {
       "key": "C",
-      "text": "Replace the existing data warehouse with BigQuery. Use federated data sources."
+      "text": "1. Create a Stackdriver alert when storage exceeds 75%, and increase the available storage on the instance to create more space. 2. Deploy memcached to reduce CPU load. 3. Change the instance type to a 32-core machine type to reduce replication lag."
     },
     {
       "key": "D",
-      "text": "Replace the existing data warehouse with a Compute Engine instance with 96 CPUs. Add an additional Compute Engine preemptible instance with 32 CPUs."
+      "text": "1. Create a Stackdriver alert when storage exceeds 75%, and increase the available storage on the instance to create more space. 2. Deploy memcached to reduce CPU load. 3. Create a Stackdriver alert for replication lag, and change the instance type to a 32-core machine type to reduce replication lag."
     }
   ],
   "answers": {

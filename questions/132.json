@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56975-exam-professional-cloud-architect-topic-1-question-134/",
-  "published_iso": null,
-  "number": 134,
-  "question": "Your company is using Google Cloud. You have two folders under the Organization: Finance and Shopping. The members of the development team are in a Google Group. The development team group has been assigned the Project Owner role on the Organization. You want to prevent the development team from creating resources in projects in the Finance folder. What should you do?",
+  "url": "https://www.examtopics.com/discussions/google/view/56368-exam-professional-cloud-architect-topic-1-question-105/",
+  "published_iso": "2021-06-30T15:39:00",
+  "number": 105,
+  "question": "Your company has an application running on multiple Compute Engine instances. You need to ensure that the application can communicate with an on-premises service that requires high throughput via internal IPs, while minimizing latency. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "Assign the development team group the Project Viewer role on the Finance folder, and assign the development team group the Project Owner role on the Shopping folder."
+      "text": "Use OpenVPN to configure a VPN tunnel between the on-premises environment and Google Cloud."
     },
     {
       "key": "B",
-      "text": "Assign the development team group only the Project Viewer role on the Finance folder."
+      "text": "Configure a direct peering connection between the on-premises environment and Google Cloud."
     },
     {
       "key": "C",
-      "text": "Assign the development team group the Project Owner role on the Shopping folder, and remove the development team group Project Owner role from the Organization."
+      "text": "Use Cloud VPN to configure a VPN tunnel between the on-premises environment and Google Cloud."
     },
     {
       "key": "D",
-      "text": "Assign the development team group only the Project Owner role on the Shopping folder."
+      "text": "Configure a Cloud Dedicated Interconnect connection between the on-premises environment and Google Cloud."
     }
   ],
   "answers": {
     "platform": [
-      "C"
+      "D"
     ],
     "community": [
-      "C"
+      "D"
     ]
   }
 }

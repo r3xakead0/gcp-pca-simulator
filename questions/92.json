@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/9191-exam-professional-cloud-architect-topic-5-question-5/",
-  "published_iso": null,
-  "number": 5,
-  "question": "Mountkirk Games needs to create a repeatable and configurable mechanism for deploying isolated application environments. Developers and testers can access each other's environments and resources, but they cannot access staging or production resources. The staging environment needs access to some services from production. What should you do to isolate development environments from staging and production?",
+  "url": "https://www.examtopics.com/discussions/google/view/7085-exam-professional-cloud-architect-topic-1-question-4/",
+  "published_iso": "2019-10-23T19:30:00",
+  "number": 4,
+  "question": "A news feed web service has the following code running on Google App Engine. During peak load, users report that they can see news articles they already viewed. What is the most likely cause of this problem? [Imagen]: /assets/media/exam-media/04339/0007100001.png",
   "options": [
     {
       "key": "A",
-      "text": "Create a project for development and test and another for staging and production"
+      "text": "The session variable is local to just a single instance"
     },
     {
       "key": "B",
-      "text": "Create a network for development and test and another for staging and production"
+      "text": "The session variable is being overwritten in Cloud Datastore"
     },
     {
       "key": "C",
-      "text": "Create one subnetwork for development and another for staging and production"
+      "text": "The URL of the API needs to be modified to prevent caching"
     },
     {
       "key": "D",
-      "text": "Create one project for development, a second for staging and a third for production"
+      "text": "The HTTP Expires header needs to be set to -1 stop caching"
     }
   ],
   "answers": {
     "platform": [
-      "D"
+      "A"
     ],
     "community": [
-      "D"
+      "A"
     ]
   }
 }

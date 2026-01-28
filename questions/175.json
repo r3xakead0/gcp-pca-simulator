@@ -1,32 +1,32 @@
 {
-  "url": "https://www.examtopics.com/discussions/google/view/56754-exam-professional-cloud-architect-topic-1-question-136/",
-  "published_iso": null,
-  "number": 136,
-  "question": "Your company is developing a new application that will allow globally distributed users to upload pictures and share them with other selected users. The application will support millions of concurrent users. You want to allow developers to focus on just building code without having to create and maintain the underlying infrastructure. Which service should you use to deploy the application?",
+  "url": "https://www.examtopics.com/discussions/google/view/57043-exam-professional-cloud-architect-topic-1-question-132/",
+  "published_iso": "2021-07-03T23:24:00",
+  "number": 132,
+  "question": "Your company sends all Google Cloud logs to Cloud Logging. Your security team wants to monitor the logs. You want to ensure that the security team can react quickly if an anomaly such as an unwanted firewall change or server breach is detected. You want to follow Google-recommended practices. What should you do?",
   "options": [
     {
       "key": "A",
-      "text": "App Engine"
+      "text": "Schedule a cron job with Cloud Scheduler. The scheduled job queries the logs every minute for the relevant events."
     },
     {
       "key": "B",
-      "text": "Cloud Endpoints"
+      "text": "Export logs to BigQuery, and trigger a query in BigQuery to process the log data for the relevant events."
     },
     {
       "key": "C",
-      "text": "Compute Engine"
+      "text": "Export logs to a Pub/Sub topic, and trigger Cloud Function with the relevant log events."
     },
     {
       "key": "D",
-      "text": "Google Kubernetes Engine"
+      "text": "Export logs to a Cloud Storage bucket, and trigger Cloud Run with the relevant log events."
     }
   ],
   "answers": {
     "platform": [
-      "A"
+      "C"
     ],
     "community": [
-      "A"
+      "C"
     ]
   }
 }
